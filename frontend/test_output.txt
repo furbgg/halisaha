@@ -1,0 +1,74 @@
+﻿
+[1m[46m RUN [49m[22m [36mv4.0.18 [39m[90mC:/Users/furbg/Desktop/halisaha/frontend[39m
+
+ [31mÔØ»[39m src/__tests__/pages/AGB.test.tsx [2m([22m[2m1 test[22m[2m | [22m[31m1 failed[39m[2m)[22m[32m 70[2mms[22m[39m
+[31m     [31m├ù[31m shouldRenderAGBContent[39m[32m 68[2mms[22m[39m
+ [31mÔØ»[39m src/__tests__/pages/admin/AdminLogin.test.tsx [2m([22m[2m3 tests[22m[2m | [22m[31m3 failed[39m[2m)[22m[32m 45[2mms[22m[39m
+[31m     [31m├ù[31m shouldRenderEmailAndPasswordInputs[39m[32m 32[2mms[22m[39m
+[31m     [31m├ù[31m shouldHandleLoginError[39m[32m 5[2mms[22m[39m
+[31m     [31m├ù[31m shouldProceedToTotpIfRequired[39m[32m 6[2mms[22m[39m
+ [32mÔ£ô[39m src/__tests__/pages/BookingFailure.test.tsx [2m([22m[2m2 tests[22m[2m)[22m[33m 343[2mms[22m[39m
+ [31mÔØ»[39m src/__tests__/pages/Datenschutz.test.tsx [2m([22m[2m1 test[22m[2m | [22m[31m1 failed[39m[2m)[22m[32m 273[2mms[22m[39m
+[31m     [31m├ù[31m shouldRenderDatenschutzContent[39m[32m 271[2mms[22m[39m
+ [31mÔØ»[39m src/__tests__/components/Navbar.test.tsx [2m([22m[2m4 tests[22m[2m | [22m[31m1 failed[39m[2m)[22m[32m 240[2mms[22m[39m
+     [32mÔ£ô[39m shouldRenderLogoAndBrandText[32m 102[2mms[22m[39m
+[31m     [31m├ù[31m shouldShowNavigationLinks_whenShowLinksIsTrue[39m[32m 64[2mms[22m[39m
+     [32mÔ£ô[39m shouldShowBookingCTA_whenShowLinksIsTrue[32m 25[2mms[22m[39m
+     [32mÔ£ô[39m shouldOpenMobileMenu_onClick[32m 46[2mms[22m[39m
+ [32mÔ£ô[39m src/__tests__/pages/NotFound.test.tsx [2m([22m[2m1 test[22m[2m)[22m[33m 614[2mms[22m[39m
+     [33m[2mÔ£ô[22m[39m shouldRender404Message [33m 612[2mms[22m[39m
+ [32mÔ£ô[39m src/__tests__/pages/Login.test.tsx [2m([22m[2m4 tests[22m[2m)[22m[33m 897[2mms[22m[39m
+     [33m[2mÔ£ô[22m[39m renders login form inputs [33m 486[2mms[22m[39m
+ [31mÔØ»[39m src/__tests__/pages/admin/AdminDashboard.test.tsx [2m([22m[2m3 tests[22m[2m | [22m[31m1 failed[39m[2m)[22m[33m 1348[2mms[22m[39m
+     [32mÔ£ô[39m renders loading state initially[32m 203[2mms[22m[39m
+     [32mÔ£ô[39m renders an error message on failure[32m 76[2mms[22m[39m
+[31m     [31m├ù[31m renders dashboard data correctly[39m[33m 1067[2mms[22m[39m
+ [31mÔØ»[39m src/__tests__/pages/admin/AdminReservierungen.test.tsx [2m([22m[2m3 tests[22m[2m | [22m[31m1 failed[39m[2m)[22m[33m 1143[2mms[22m[39m
+     [32mÔ£ô[39m renders loading initially and fetches data[32m 83[2mms[22m[39m
+[31m     [31m├ù[31m renders reservations and stats[39m[33m 1037[2mms[22m[39m
+     [32mÔ£ô[39m renders error state on fetch failure[32m 19[2mms[22m[39m
+ [31mÔØ»[39m src/__tests__/pages/Contact.test.tsx [2m([22m[2m3 tests[22m[2m | [22m[31m1 failed[39m[2m)[22m[33m 1559[2mms[22m[39m
+     [32mÔ£ô[39m shouldRenderContactFormAndDetails[32m 104[2mms[22m[39m
+     [32mÔ£ô[39m shouldSubmitContactFormAndShowSuccess[32m 292[2mms[22m[39m
+[31m     [31m├ù[31m shouldShowErrorOnSubmissionFailure[39m[33m 1160[2mms[22m[39m
+ [32mÔ£ô[39m src/__tests__/components/ErrorBoundary.test.tsx [2m([22m[2m3 tests[22m[2m)[22m[32m 269[2mms[22m[39m
+ [32mÔ£ô[39m src/__tests__/components/Logo.test.tsx [2m([22m[2m4 tests[22m[2m)[22m[33m 392[2mms[22m[39m
+     [33m[2mÔ£ô[22m[39m shouldWrapInLink_whenWithLinkIsTrue [33m 310[2mms[22m[39m
+ [32mÔ£ô[39m src/__tests__/components/SEO.test.tsx [2m([22m[2m3 tests[22m[2m)[22m[32m 166[2mms[22m[39m
+ [32mÔ£ô[39m src/__tests__/pages/BookingManage.test.tsx [2m([22m[2m3 tests[22m[2m)[22m[33m 453[2mms[22m[39m
+     [33m[2mÔ£ô[22m[39m shouldNavigateOnSubmit [33m 313[2mms[22m[39m
+ [32mÔ£ô[39m src/__tests__/pages/FAQ.test.tsx [2m([22m[2m2 tests[22m[2m)[22m[32m 164[2mms[22m[39m
+ [32mÔ£ô[39m src/__tests__/components/Footer.test.tsx [2m([22m[2m4 tests[22m[2m)[22m[32m 169[2mms[22m[39m
+ [32mÔ£ô[39m src/__tests__/components/HappyHourBadge.test.tsx [2m([22m[2m2 tests[22m[2m)[22m[32m 105[2mms[22m[39m
+ [32mÔ£ô[39m src/__tests__/pages/Home.test.tsx [2m([22m[2m1 test[22m[2m)[22m[32m 42[2mms[22m[39m
+ [32mÔ£ô[39m src/__tests__/components/ProtectedRoute.test.tsx [2m([22m[2m5 tests[22m[2m)[22m[32m 118[2mms[22m[39m
+ [32mÔ£ô[39m src/__tests__/services/authService.test.ts [2m([22m[2m7 tests[22m[2m)[22m[32m 8[2mms[22m[39m
+ [32mÔ£ô[39m src/__tests__/services/contactService.test.ts [2m([22m[2m7 tests[22m[2m)[22m[32m 9[2mms[22m[39m
+ [32mÔ£ô[39m src/__tests__/services/reservationService.test.ts [2m([22m[2m7 tests[22m[2m)[22m[32m 9[2mms[22m[39m
+ [32mÔ£ô[39m src/__tests__/store/themeStore.test.ts [2m([22m[2m2 tests[22m[2m)[22m[32m 7[2mms[22m[39m
+ [32mÔ£ô[39m src/__tests__/store/authStore.test.ts [2m([22m[2m6 tests[22m[2m)[22m[32m 7[2mms[22m[39m
+ [31mÔØ»[39m src/__tests__/pages/BookingCheckout.test.tsx [2m([22m[2m2 tests[22m[2m | [22m[31m2 failed[39m[2m)[22m[32m 173[2mms[22m[39m
+[31m     [31m├ù[31m shouldRenderPaymentMethodSelection[39m[32m 151[2mms[22m[39m
+[31m     [31m├ù[31m shouldHandlePaymentSubmission_andNavigateToSuccess[39m[32m 20[2mms[22m[39m
+ [32mÔ£ô[39m src/__tests__/services/adminService.test.ts [2m([22m[2m5 tests[22m[2m)[22m[32m 8[2mms[22m[39m
+ [32mÔ£ô[39m src/__tests__/services/fieldService.test.ts [2m([22m[2m3 tests[22m[2m)[22m[32m 6[2mms[22m[39m
+ [31mÔØ»[39m src/__tests__/pages/BookingDetails.test.tsx [2m([22m[2m2 tests[22m[2m | [22m[31m2 failed[39m[2m)[22m[32m 80[2mms[22m[39m
+[31m     [31m├ù[31m shouldRenderFormAndOrderSummary[39m[32m 65[2mms[22m[39m
+[31m     [31m├ù[31m shouldSubmitHoldAndNavigateToCheckout[39m[32m 13[2mms[22m[39m
+ [32mÔ£ô[39m src/__tests__/services/settingsService.test.ts [2m([22m[2m2 tests[22m[2m)[22m[32m 4[2mms[22m[39m
+ [32mÔ£ô[39m src/__tests__/pages/BookingCancel.test.tsx [2m([22m[2m3 tests[22m[2m)[22m[33m 1189[2mms[22m[39m
+     [33m[2mÔ£ô[22m[39m shouldShowSuccessModalAfterCancellation [33m 882[2mms[22m[39m
+ [31mÔØ»[39m src/__tests__/pages/Booking.test.tsx [2m([22m[2m3 tests[22m[2m | [22m[31m1 failed[39m[2m)[22m[33m 1315[2mms[22m[39m
+     [32mÔ£ô[39m shouldFetchFieldsAndSelectFirstFootballField[32m 226[2mms[22m[39m
+[31m     [31m├ù[31m shouldFetchWeeklyAvailabilityWhenFieldChanges[39m[33m 1054[2mms[22m[39m
+     [32mÔ£ô[39m shouldShowNoAvailabilityMessageWhenSlotsEmpty[32m 32[2mms[22m[39m
+ [32mÔ£ô[39m src/__tests__/pages/BookingSuccess.test.tsx [2m([22m[2m1 test[22m[2m)[22m[32m 56[2mms[22m[39m
+ [31mÔØ»[39m src/__tests__/components/HoldTimer.test.tsx [2m([22m[2m2 tests[22m[2m | [22m[31m2 failed[39m[2m)[22m[33m 10025[2mms[22m[39m
+[31m     [31m├ù[31m shouldShowRemainingTime[39m[33m 5012[2mms[22m[39m
+[31m     [31m├ù[31m shouldCallOnExpire_whenTimerReachesZero[39m[33m 5012[2mms[22m[39m
+
+[2m Test Files [22m [1m[31m11 failed[39m[22m[2m | [22m[1m[32m22 passed[39m[22m[90m (33)[39m
+[2m      Tests [22m [1m[31m16 failed[39m[22m[2m | [22m[1m[32m88 passed[39m[22m[90m (104)[39m
+[2m   Start at [22m 15:45:15
+[2m   Duration [22m 13.75s[2m (transform 8.20s, setup 6.40s, import 43.15s, tests 21.31s, environment 48.92s)[22m
+

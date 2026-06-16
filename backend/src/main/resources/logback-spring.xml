@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+
+    <!-- Dev profile: human-readable console output -->
+    <springProfile name="dev">
+        <include resource="org/springframework/boot/logging/logback/defaults.xml"/>
+        <include resource="org/springframework/boot/logging/logback/console-appender.xml"/>
+
+        <root level="INFO">
+            <appender-ref ref="CONSOLE"/>
+        </root>
+
+        <!-- Reduce Hibernate SQL noise in dev -->
+        <logger name="org.hibernate.SQL" level="WARN"/>
+        <logger name="org.hibernate.type.descriptor.sql" level="WARN"/>
+    </springProfile>
+
+    <!-- Production profile: structured JSON logging -->
+    <springProfile name="prod">
+        <appender name="JSON_CONSOLE" class="ch.qos.logback.core.ConsoleAppender">
+            <encoder class="net.logstash.logback.encoder.LogstashEncoder">
+                <fieldNames>
+                    <timestamp>timestamp</timestamp>
+                    <version>[ignore]</version>
+                </fieldNames>
+                <customFields>{"service":"halisaha-backend"}</customFields>
+            </encoder>
+        </appender>
+
+        <root level="INFO">
+            <appender-ref ref="JSON_CONSOLE"/>
+        </root>
+
+        <logger name="org.hibernate.SQL" level="WARN"/>
+        <logger name="org.springframework.security" level="WARN"/>
+    </springProfile>
+
+</configuration>

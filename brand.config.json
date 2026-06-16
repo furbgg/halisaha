@@ -1,0 +1,42 @@
+{
+    "company":  {
+                    "name":  "SALAMANDA SOCCER ARENA",
+                    "legalName":  "SALAMANDA SOCCER ARENA OG",
+                    "legalForm":  "Offene Gesellschaft (OG)",
+                    "owners":  "Atakan Candan, Murat Aksoy",
+                    "slogan":  "Die erste Adresse für Fußballbegeisterte"
+                },
+    "contact":  {
+                    "email":  "salamanda@soccer-arena.at",
+                    "phone":  [
+                                  "+43 678 1289937",
+                                  "+43 660 2253259"
+                              ],
+                    "website":  "https://www.salamandasoccerarena.com"
+                },
+    "address":  {
+                    "street":  "Friedhofstraße 15",
+                    "zip":  "4651",
+                    "city":  "Stadl-Paura",
+                    "country":  "Österreich",
+                    "googleMapsQuery":  "Friedhofstraße+15,+4651+Stadl-Paura,+Österreich",
+                    "coordinates":  {
+                                        "lat":  48.0833,
+                                        "lng":  13.8833
+                                    }
+                },
+    "legal":  {
+                  "uidNumber":  "ATU82522879",
+                  "court":  "Landesgericht Wels",
+                  "jurisdiction":  "Wels",
+                  "chamberMembership":  "Wirtschaftskammer Österreich (WKO)"
+              },
+    "social":  {
+                   "instagram":  "https://www.instagram.com/salamanda.soccerarena"
+               },
+    "branding":  {
+                     "primaryColor":  "#ff4400",
+                     "adminPortalPath":  "/portal-salamanda-soccer-arena-portal",
+                     "logoPath":  "/images/logo.png"
+                 }
+}

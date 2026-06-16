@@ -1,0 +1,56 @@
+services:
+  postgres:
+    image: ${POSTGRES_IMAGE:-postgres:16}
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB: ${DB_NAME:-halisaha}
+      POSTGRES_USER: ${DB_USERNAME:-halisaha_user}
+      POSTGRES_PASSWORD: ${DB_PASSWORD?DB_PASSWORD is required}
+    ports:
+      - "${DB_EXPOSE_PORT:-5800}:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ${DB_USERNAME:-halisaha_user} -d ${DB_NAME:-halisaha}"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+
+  backend:
+    build: ./backend
+    image: halisaha-backend:latest
+    restart: unless-stopped
+    ports:
+      - "${BACKEND_PORT:-8080}:8080"
+    environment:
+      SPRING_PROFILES_ACTIVE: ${SPRING_PROFILES_ACTIVE:-prod}
+      DB_HOST: postgres
+      DB_PORT: 5432
+      DB_NAME: ${DB_NAME:-halisaha}
+      DB_USERNAME: ${DB_USERNAME:-halisaha_user}
+      DB_PASSWORD: ${DB_PASSWORD?DB_PASSWORD is required}
+      DATABASE_URL: jdbc:postgresql://postgres:5432/${DB_NAME:-halisaha}
+      JWT_SECRET: ${JWT_SECRET?JWT_SECRET is required}
+      TOTP_ENCRYPTION_KEY: ${TOTP_ENCRYPTION_KEY:-}
+      TOTP_ISSUER: ${TOTP_ISSUER:-HalisahaApp}
+      CORS_ALLOWED_ORIGINS: ${CORS_ALLOWED_ORIGINS:-http://localhost:3000,http://localhost:3001,http://localhost:4173,http://localhost:5173,http://127.0.0.1:3000,http://127.0.0.1:3001,http://127.0.0.1:4173,http://127.0.0.1:5173}
+      APP_BASE_URL: ${APP_BASE_URL:-http://localhost:3000}
+      STRIPE_SECRET_KEY: ${STRIPE_SECRET_KEY?STRIPE_SECRET_KEY is required}
+      STRIPE_PUBLISHABLE_KEY: ${STRIPE_PUBLISHABLE_KEY?STRIPE_PUBLISHABLE_KEY is required}
+      STRIPE_WEBHOOK_SECRET: ${STRIPE_WEBHOOK_SECRET?STRIPE_WEBHOOK_SECRET is required}
+      MAIL_HOST: ${MAIL_HOST:-localhost}
+      MAIL_PORT: ${MAIL_PORT:-1025}
+      MAIL_USERNAME: ${MAIL_USERNAME:-}
+      MAIL_PASSWORD: ${MAIL_PASSWORD:-}
+    healthcheck:
+      test: ["CMD-SHELL", "wget -q -O - http://localhost:8080/api/fields | grep -q '\"success\":true' || exit 1"]
+      interval: 10s
+      timeout: 5s
+      retries: 10
+      start_period: 40s
+    depends_on:
+      postgres:
+        condition: service_healthy
+
+volumes:
+  postgres_data:

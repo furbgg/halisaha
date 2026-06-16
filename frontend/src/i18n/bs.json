@@ -1,0 +1,1733 @@
+{
+  "nav": {
+    "home": "Početna stranica",
+    "reservation": "rezervacija",
+    "manage": "Upravljajte rezervacijom",
+    "login": "Registrirajte se",
+    "register": "Registrirajte se",
+    "logout": "Odjavite se",
+    "profile": "Moj nalog",
+    "admin": {
+      "dashboard": "Dashboard",
+      "reservations": "Rezervacije",
+      "equipment": "Spisak materijala",
+      "staff": "Lista osoblja",
+      "settings": "Postavke",
+      "payments": "Plaćanja",
+      "communication": "komunikacija",
+      "contactRequests": "Kontaktirajte upite",
+      "management": "Administracija",
+      "logout": "Odjavite se",
+      "openSidebar": "Otvori bočnu traku",
+      "closeSidebar": "Zatvori bočnu traku"
+    },
+    "bookNow": "Rezervišite odmah",
+    "tournaments": "Turniri",
+    "manageBooking": "Upravljajte rezervacijom",
+    "designedFor": "Dizajnirano za"
+  },
+  "common": {
+    "loading": "Učitaj...",
+    "error": "Došlo je do greške",
+    "save": "Sačuvaj",
+    "cancel": "Otkaži",
+    "delete": "Izbriši",
+    "edit": "Uredi",
+    "back": "Nazad",
+    "next": "Dalje",
+    "confirm": "Potvrdi",
+    "close": "Zatvori"
+  },
+  "footer": {
+    "privacy": "Zaštita podataka",
+    "imprint": "otisak",
+    "refundPolicy": "Politika povrata novca",
+    "accessibility": "Pristupačnost",
+    "contact": "kontakt",
+    "terms": "Odredbe i uslovi",
+    "faq": "FAQ",
+    "allRightsReserved": "Sva prava pridržana."
+  },
+  "theme": {
+    "dark": "Tamni mod",
+    "light": "Lagani način rada"
+  },
+  "home": {
+    "seo": {
+      "title": "Football & Bubble Soccer Hall",
+      "description": "Rezervišite svoju premium fudbalsku ili balon salu u Gornjoj Austriji. Savršeno za rođendane i društvene događaje u okolini Linza i Velsa."
+    },
+    "hero": {
+      "badge": "Sada dostupan u 4651 Stadl-Paura",
+      "title1": "Tvoja igra.",
+      "title2": "Tvoje mjesto.",
+      "subtitle": "Dva savršeno održavana zatvorena terena očekuju vas u Salamanda Soccer Areni, koja svakoj utakmici daju nešto.<br/><br/>Doživite fudbal bez kompromisa - bez obzira na vremenske prilike, dinamičan i sa pravim osjećajem takmičenja i zajednice.",
+      "bookNow": "REZERVIRAJ SADA",
+      "manageBooking": "MANAGE BOOKING",
+      "stats": {
+        "courts": "mjesta",
+        "players": "igrač",
+        "rating": "Evaluacija"
+      }
+    },
+    "features": {
+      "subtitle": "naš asortiman",
+      "title": "Odaberite svoje iskustvo",
+      "bubble": {
+        "badge": "POPULAR",
+        "title": "Bubble fudbal",
+        "description": "Zabava puna akcije u ogromnim mjehurićima za vaš tim. Savršeno za rođendane, team building ili jednostavno ispuštanje pare.",
+        "feature1": "Uključuje opremu i instrukcije",
+        "feature2": "60 do 120 minuta igranja",
+        "button": "Rezervišite odmah"
+      },
+      "soccer": {
+        "badge": "PROFESIONALNO",
+        "title": "Fudbal",
+        "description": "Doživite fudbal u Stadl-Pauri.<br/>Najbolja lokacija za igrače iz cijele regije.",
+        "feature1": "Sistem LED reflektora",
+        "feature2": "Svlačionice i tuševi uključeni",
+        "button": "Rezervišite svoje mesto"
+      }
+    }
+  },
+  "booking": {
+    "step1": {
+      "title": "1. Igralište i datum",
+      "selection": "Odabir",
+      "sportType": "Odaberite sport",
+      "football": "fudbal",
+      "bubbleSoccer": "Bubble fudbal",
+      "chooseField": "Odaberite mjesto",
+      "duration": "Vrijeme igranja",
+      "minutes": "minuta",
+      "date": "Datum",
+      "datePassed": "Odabrani datum je u prošlosti.",
+      "dateTooFar": "Rezervacije su moguće maksimalno 3 mjeseca unaprijed.",
+      "availableTimes": "Dostupna vremena za {{date}}",
+      "noTimes": "Nema slobodnih vremena",
+      "noTimesDesc": "Nažalost, ovog dana su sva mjesta zauzeta ili se vrijeme igranja ne uklapa u raspoložive praznine.",
+      "chooseOtherDate": "Odaberite drugi datum",
+      "selectedSlot": "Odabrani datum:",
+      "oclock": "Sat",
+      "continueBooking": "Nastavak rezervacije",
+      "chooseTimeFirst": "Prvo odaberite vrijeme",
+      "status": {
+        "free": "Besplatno",
+        "booked": "Dokazano"
+      },
+      "happyHourTooltip": "U ovom periodu važi Happy Hour!",
+      "cancellation": {
+        "title": "otkazivanje",
+        "desc": "Besplatno do 48 sati prije početka utakmice."
+      },
+      "equipment": {
+        "title": "opreme",
+        "desc": "Tuševi i svlačionice uključeni."
+      },
+      "happyHour": {
+        "title": "Happy hour",
+        "active": "Happy Hour Active!",
+        "discount": "Popust"
+      },
+      "chooseTime": "ODABERITE VRIJEME",
+      "timezone": "Vremenska zona",
+      "selected": "Odabrano",
+      "unavailable": "Nije dostupno",
+      "occupied": "Dokazano",
+      "yourAppointment": "Vaš termin",
+      "total": "Ukupno",
+      "continue": "Nastavite sa rezervacijom"
+    },
+    "step2": {
+      "flow": {
+        "step1": "1. Odaberite datum",
+        "step2": "2. Unesite podatke",
+        "step3": "3. Potvrda"
+      },
+      "error": {
+        "fillRequired": "Molimo popunite sva obavezna polja.",
+        "unavailable": "Nažalost, odabrani datum više nije dostupan."
+      },
+      "title": "Vaše informacije",
+      "subtitle": "Unesite svoje podatke kako biste dovršili rezervaciju.",
+      "form": {
+        "firstName": "Ime",
+        "lastName": "Prezime",
+        "email": "E-mail adresa",
+        "phone": "Broj telefona"
+      },
+      "equipment": {
+        "title": "Iznajmljivanje materijala",
+        "subtitle": "Opciono — iznajmite Krampon direktno na licu mesta",
+        "chooseSize": "Odaberite veličinu",
+        "available": "Dostupan",
+        "outOfStock": "Out of stock",
+        "addSize": "Dodajte veličinu {{size}} (+€{{cijena}})",
+        "addSizeFallback": "Dodajte veličinu",
+        "selectSizeFirst": "Odaberite veličinu...",
+        "selected": "Odabrano",
+        "pair": "Par"
+      },
+      "buttons": {
+        "back": "Povratak na izbor",
+        "loading": "LOADING...",
+        "continue": "NASTAVITE PLAĆANJE"
+      },
+      "summary": {
+        "title": "Rezime",
+        "soccer": "Fudbal",
+        "bubbleSoccer": "Bubble fudbal",
+        "date": "Datum",
+        "time": "vrijeme",
+        "location": "Lokacija",
+        "fieldRental": "Iznajmljivanje mjesta",
+        "krampon": "Krampon",
+        "total": "Ukupan iznos",
+        "vatIncluded": "PDV uključen.",
+        "cancellation": "Besplatno otkazivanje moguće do 48 sati prije početka utakmice."
+      }
+    },
+    "step3": {
+      "processing": {
+        "title": "Sigurno plaćanje se obrađuje...",
+        "subtitle": "Pričekajte, bit ćete preusmjereni na 3D Secure verifikaciju vaše banke.",
+        "tls": "TLS šifrovana veza"
+      },
+      "flow": {
+        "step1": "1. Odaberite datum",
+        "step2": "2. Unesite podatke",
+        "step3": "3. Odaberite način plaćanja"
+      },
+      "payment": {
+        "title": "Odaberite način plaćanja",
+        "subtitle": "Odaberite željeni način plaćanja za rezervaciju.",
+        "googlePay": "Google Pay",
+        "fastSecure": "Brzo i sigurno",
+        "applePay": "Apple Pay",
+        "convenient": "Plaćajte povoljno",
+        "creditCard": "Kreditna kartica",
+        "cardTypes": "Visa, Mastercard, Amex",
+        "cardNumber": "Broj kartice",
+        "expiry": "Vrijedi do (MM/GG)",
+        "cvc": "CVC/CVV"
+      },
+      "coupon": {
+        "title": "Kod kupona",
+        "placeholder": "Unesite kod vaučera",
+        "apply": "Prijavite se",
+        "remove": "Ukloni",
+        "applied": "Primijenjeno",
+        "discountTextPercentage": "{{value}}% popusta — uštedite €{{amount}}",
+        "discountTextFixed": "€{{value}} popust — uštedite €{{amount}}",
+        "errorInvalid": "Nevažeći kod vaučera",
+        "errorCheck": "Greška pri provjeri vaučera"
+      },
+      "buttons": {
+        "back": "Nazad na podatke",
+        "pay": "Platite i rezervišite sada"
+      },
+      "summary": {
+        "title": "Rezime",
+        "soccer": "Fudbal",
+        "bubbleSoccer": "Bubble fudbal",
+        "fieldRental": "Iznajmljivanje mjesta",
+        "krampon": "Krampon",
+        "pair": "Par",
+        "hours": "Sati",
+        "serviceFee": "Naknada za uslugu",
+        "discount": "Popust",
+        "couponDiscount": "Popust na vaučer",
+        "total": "Ukupan iznos",
+        "vatIncluded": "PDV uključen.",
+        "ssl": "Sigurno SSL enkripcija"
+      },
+      "error": {
+        "transactionFailed": "Naš server nije mogao obraditi transakciju."
+      }
+    },
+    "success": {
+      "confirmed": "Rezervacija potvrđena",
+      "thankYou": "hvala ti",
+      "gameReady": "Vaša igra je gotova!",
+      "description": "Vaša rezervacija je uspješno potvrđena. Poslali smo vam sažetak putem e-pošte. Pripremite se za utakmicu!",
+      "manageBtn": "MANAGE BOOKING",
+      "homeBtn": "Početna stranica",
+      "needHelp": "Trebate li pomoć? Tu smo za vas.",
+      "contactSupport": "Kontaktirajte podršku",
+      "bookingId": "ID rezervacije",
+      "date": "Datum",
+      "time": "Vrijeme",
+      "field": "Mjesto",
+      "price": "Cijena",
+      "checkIn": "Kod za prijavu",
+      "qrDesc": "Pokažite ovaj QR kod na recepciji da pristupite terenu.",
+      "planRoute": "Planirajte rutu",
+      "paidStatus": "Plaćeno"
+    },
+    "cancel": {
+      "error": "Greška pri otkazivanju.",
+      "successTitle": "Vaša rezervacija je uspješno otkazana.",
+      "successDesc": "Potvrda je poslana na Vašu email adresu. Povrat novca će biti obrađen u roku od 3-5 radnih dana.",
+      "cancelledBooking": "Otkazana rezervacija",
+      "backHome": "NAZAD NA POČETNU STRANICU",
+      "needHelp": "Trebate li pomoć?",
+      "contactSupport": "Kontaktirajte našu podršku",
+      "backButton": "Povratak na pregled",
+      "confirmTitle": "Da li zaista želite da otkažete?",
+      "confirmDesc": "Molimo potvrdite otkazivanje vaše rezervacije.",
+      "bookingId": "Rezervacija br.",
+      "policyTitle": "Politika otkazivanja",
+      "policyDesc": "Otkazivanje je besplatno do 48 sati prije početka utakmice. Nakon toga će biti zadržana naknada od 50%.",
+      "confirmPaidBtn": "OTKAŽITE SADA UZ NAPLATE",
+      "abortBtn": "NEMOJTE OTKAZATI",
+      "haveQuestions": "Imate li pitanja?"
+    }
+  },
+  "contact": {
+    "title1": "Kontakt",
+    "title2": "ti nas",
+    "subtitle": "Imate li pitanja o vašoj rezervaciji ili našem mjestu? Tu smo za vas. Jednostavno popunite formular.",
+    "form": {
+      "nameLabel": "ime",
+      "namePlaceholder": "Vaše ime",
+      "emailLabel": "E-mail adresa",
+      "emailPlaceholder": "ime@primjer.at",
+      "subjectLabel": "U vezi",
+      "subjectPlaceholder": "o čemu se radi?",
+      "messageLabel": "svoju poruku",
+      "messagePlaceholder": "Napišite nam svoju poruku...",
+      "successData": "Hvala vam na poruci. Kontaktiraćemo vas uskoro.",
+      "sendingBtn": "Biće poslano...",
+      "sendBtn": "Pošalji poruku",
+      "errorFallback": "Došlo je do greške. Molimo pokušajte ponovo."
+    },
+    "info": {
+      "address": "adresa",
+      "phone": "telefon",
+      "email": "e-mail",
+      "hoursTitle": "Radno vrijeme",
+      "hoursLine1": "Pon - Čet: 16:30 - 12:00 sati",
+      "hoursLine2": "Pet - Ned: 12:00 sati. - 1:30 ujutro",
+      "planRoute": "Planirajte rutu",
+      "mapAustria": "Austrija"
+    }
+  },
+  "impressum": {
+    "tag": "Pravni",
+    "title": "otisak",
+    "subtitle": "Informacije u skladu sa Odjeljkom 5 Zakona o e-trgovini (ECG) i obaveza otkrivanja u skladu s Odjeljkom 25 Zakona o medijima.",
+    "companyDetails": "Podaci o kompaniji",
+    "companyName": "Naziv kompanije",
+    "legalForm": "Pravna forma",
+    "headquarters": "sjedište",
+    "owners": "dioničar",
+    "addressTitle": "Adresa",
+    "registerEntryTitle": "Upis u registar",
+    "registeredCourt": "Upisan u trgovački registar",
+    "uid": "UID broj:",
+    "contactTitle": "kontakt",
+    "chamberTitle": "Nadzor i komora",
+    "chamberMembership": "Pripadnost komori",
+    "chamberMember": "Član Austrijske privredne komore (WKO)",
+    "tradeRegulations": "Trgovinski propisi",
+    "liabilityTitle": "Odgovornost za sadržaj i linkove",
+    "liabilityDesc1": "Sadržaj ove web stranice pažljivo je kreiran, ali ne preuzimamo nikakvu odgovornost za točnost, potpunost ili aktuelnost sadržaja. Kao pružalac usluga, odgovorni smo za sopstveni sadržaj na ovim stranicama u skladu sa opštim zakonima.",
+    "liabilityDesc2": "Naša ponuda sadrži linkove ka vanjskim web stranicama trećih strana na čiji sadržaj nemamo utjecaja. Stoga ne možemo preuzeti nikakvu odgovornost za ovaj vanjski sadržaj. Odgovarajući provajder ili operater stranica je uvijek odgovoran za sadržaj povezanih stranica.",
+    "copyrightTitle": "autorsko pravo",
+    "copyrightDesc": "Sadržaj i radovi na ovim stranicama kreirani od strane operatera stranice podliježu austrijskom zakonu o autorskim pravima. Reprodukcija, obrada, distribucija i bilo koja vrsta iskorišćavanja van granica zakona o autorskim pravima zahtijevaju pismenu saglasnost odgovarajućeg autora ili kreatora. Preuzimanja i kopije ove stranice dozvoljeni su samo za privatnu, nekomercijalnu upotrebu.",
+    "backHome": "Povratak na početnu stranicu"
+  },
+  "faq": {
+    "titlePart1": "Frequently Asked",
+    "titlePart2": "Pitanja",
+    "subtitle": "Sve što trebate znati o svom udarcu kod nas. Ako još nešto nije jasno, samo nas kontaktirajte!",
+    "contactTitle": "Kontakt i upute",
+    "contactTel": "Tel:",
+    "contactEmail": "E-mail:",
+    "planRoute": "Planirajte rutu",
+    "items": {
+      "0": {
+        "q": "Možete li igrati bez rezervacije?",
+        "a": "Spontana igra je moguća ako postoji slobodan prostor. Ipak, toplo preporučujemo da unaprijed rezervirate online ili telefonom."
+      },
+      "1": {
+        "q": "Koliko unaprijed možete rezervirati mjesto?",
+        "a": "Mjesto se može rezervisati do 90 dana unaprijed korištenjem našeg sistema online rezervacija. Ukoliko želite da igrate u kratkom roku, odnosno nekoliko sati unaprijed, preporučujemo da nas kontaktirate telefonom kako biste provjerili trenutnu dostupnost."
+      },
+      "2": {
+        "q": "Mogu li uzeti redovnu pretplatu ili ponavljajuću rezervaciju?",
+        "a": "Da, ako želite da igrate redovno - na primer svake nedelje ili svake dve nedelje u isto vreme - to nije problem. U tom slučaju, kontaktirajte nas direktno putem naše kontakt stranice ili telefonom kako bismo zajedno napravili individualnu stalnu rezervaciju za vas."
+      },
+      "3": {
+        "q": "Na kom terenu se igra?",
+        "a": "Igra se na visokokvalitetnoj polytan umjetnoj travi koja nudi optimalan osjećaj igre i maksimalnu sigurnost."
+      },
+      "4": {
+        "q": "Sa kojim cipelama se možete igrati?",
+        "a": "Može se igrati sa svim standardnim sportskim cipelama - cipele s klinovima nisu dozvoljene iz sigurnosnih razloga."
+      },
+      "5": {
+        "q": "Ima li tuševa i svlačionica?",
+        "a": "Da, za naše goste na raspolaganju su besplatni tuševi i svlačionice. Napominjemo da trenutno nema ormarića za dragocjenosti."
+      },
+      "6": {
+        "q": "Ima li parking dostupan na licu mjesta?",
+        "a": "Da, ima dosta besplatnih parking mesta direktno ispred fudbalske arene."
+      }
+    }
+  },
+  "datenschutz": {
+    "tag": "Pravo i zaštita podataka",
+    "title": "Politika privatnosti",
+    "subtitle": "Zaštitu vaših ličnih podataka shvatamo veoma ozbiljno. Ovdje možete transparentno saznati kako obrađujemo i štitimo vaše podatke u {company}.",
+    "sections": {
+      "0": {
+        "title": "1. Odgovorno lice",
+        "content": "Odgovoran za obradu podataka na ovoj web stranici u smislu Opće uredbe o zaštiti podataka (GDPR) je:",
+        "representedBy": "Predstavlja:",
+        "email": "E-mail:"
+      },
+      "1": {
+        "title": "2. Prikupljanje i obrada podataka",
+        "content": "Obrađujemo lične podatke koje dobijemo od vas kao dio našeg poslovnog odnosa. Podaci koji se obrađuju posebno uključuju:",
+        "items": {
+          "0": "Ime Ime",
+          "1": "Broj telefona",
+          "2": "E-mail adresa",
+          "3": "Detalji rezervacije",
+          "4": "Detalji plaćanja",
+          "5": "Tehnički podaci (IP, kolačići)"
+        }
+      },
+      "2": {
+        "title": "3. Svrha obrade",
+        "content": "Vaše lične podatke obrađujemo u skladu s odredbama Opće uredbe EU o zaštiti podataka (GDPR) i Zakona o zaštiti podataka (DSG) u sljedeće svrhe:",
+        "items": {
+          "0": {
+            "t": "Obrada rezervacije i plaćanja:",
+            "c": "Za upravljanje vašim rezervacijama sjedišta i povezanim transakcijama."
+          },
+          "1": {
+            "t": "Ispunjenje ugovora:",
+            "c": "Za pružanje naših usluga u okviru korisničkog ugovora."
+          },
+          "2": {
+            "t": "komunikacija:",
+            "c": "Da nas kontaktirate ako imate bilo kakvih pitanja ili promijenite svoju rezervaciju."
+          },
+          "3": {
+            "t": "Poboljšanje usluge:",
+            "c": "Analiza za optimizaciju naše ponude i web stranice."
+          }
+        }
+      },
+      "3": {
+        "title": "4. Pravna osnova",
+        "content": "Vaši podaci će se obrađivati ​​na osnovu sljedećih pravnih osnova u skladu sa čl. 6 st. 1 GDPR:",
+        "items": {
+          "0": {
+            "t": "Lit. a",
+            "c": "Pristanak (npr. bilten, kolačići)"
+          },
+          "1": {
+            "t": "Lit. b",
+            "c": "Ispunjenje ugovora (rezervacije)"
+          },
+          "2": {
+            "t": "Lit. c",
+            "c": "Pravna obaveza (poresko pravo)"
+          },
+          "3": {
+            "t": "Lit. f",
+            "c": "Legitimni interes (sigurnost, analiza)"
+          }
+        }
+      },
+      "4": {
+        "title": "5. Dijeljenje podataka",
+        "content": "Vaši lični podaci neće se prenositi trećim licima u svrhe osim onih navedenih u nastavku. Vaše lične podatke prosljeđujemo trećim licima samo ako je to neophodno za izvršenje ugovora, kao što je kreditna institucija ili pružatelj platnih usluga odgovornih za obradu plaćanja."
+      },
+      "5": {
+        "title": "6. Kolačići i praćenje",
+        "content": "Naša web stranica koristi kolačiće. Ovo su male tekstualne datoteke koje vaš web pretraživač pohranjuje na vašem uređaju. Kolačići nam pomažu da našu ponudu učinimo jednostavnijom, efikasnijom i sigurnijom. Koristimo alate za analizu i marketing samo na osnovu vašeg izričitog pristanka. Možete konfigurirati svoj pretraživač tako da budete obaviješteni o postavljanju kolačića i dozvoliti kolačiće samo u pojedinačnim slučajevima."
+      },
+      "6": {
+        "title": "7. Period skladištenja",
+        "content": "Vaše lične podatke čuvamo samo onoliko dugo koliko je potrebno za ispunjavanje ugovornih ili zakonskih obaveza. Ako podaci više nisu potrebni za ispunjavanje ugovornih ili zakonskih obaveza, oni će se redovno brisati."
+      },
+      "7": {
+        "title": "8. Prava pogođenih",
+        "items": {
+          "0": {
+            "t": "Informacije",
+            "c": "Možete zatražiti informacije o vašim obrađenim podacima."
+          },
+          "1": {
+            "t": "Ispravka",
+            "c": "Možete zatražiti ispravku netačnih podataka."
+          },
+          "2": {
+            "t": "brisanje",
+            "c": "Možete zatražiti brisanje vaših podataka."
+          },
+          "3": {
+            "t": "Ograničenje",
+            "c": "Možete zatražiti ograničenje obrade."
+          },
+          "4": {
+            "t": "Prenosivost",
+            "c": "Imate pravo na prenosivost podataka."
+          },
+          "5": {
+            "t": "kontradikcija",
+            "c": "Možete prigovoriti na obradu."
+          },
+          "6": {
+            "t": "Opoziv",
+            "c": "Mnoge operacije obrade podataka moguće su samo uz vaš izričiti pristanak. Možete opozvati bilo koju saglasnost koju ste već dali u bilo koje vrijeme."
+          }
+        }
+      },
+      "8": {
+        "title": "9. Sigurnost",
+        "content": "Koristimo tehničke i organizacijske sigurnosne mjere kako bismo zaštitili podatke kojima upravljamo od slučajne ili namjerne manipulacije, gubitka, uništenja ili pristupa od strane neovlaštenih osoba. Naše sigurnosne mjere se kontinuirano poboljšavaju u skladu s tehnološkim razvojem."
+      },
+      "9": {
+        "title": "10. Promjene",
+        "content": "Zadržavamo pravo da povremeno prilagodimo ovu izjavu o zaštiti podataka tako da uvijek bude u skladu s važećim zakonskim zahtjevima ili da implementiramo izmjene naših usluga u izjavi o zaštiti podataka, npr. prilikom uvođenja novih usluga. Nova izjava o zaštiti podataka tada će se primijeniti na vašu sljedeću posjetu."
+      }
+    },
+    "footer": {
+      "q": "Imate li još pitanja o zaštiti podataka?",
+      "btn": "Obratite se svom službeniku za zaštitu podataka"
+    },
+    "backHome": "Povratak na početnu stranicu"
+  },
+  "errorPages": {
+    "notFound": {
+      "seoTitle": "404 - Stranica nije pronađena",
+      "seoDesc": "Ups! Nažalost, ova stranica ne postoji. Vratite se na početnu stranicu {company}.",
+      "titlePart1": "Ups!",
+      "titlePart2": "Ofsajd.",
+      "desc": "Nažalost ova stranica ne postoji ili je premještena. Možda se lopta otkotrljala izvan igrališta?",
+      "backHome": "NAZAD NA POČETNU STRANICU",
+      "bookNow": "REZERVIRAJ SADA",
+      "contact": "KONTAKT"
+    },
+    "forbidden": {
+      "seoTitle": "403 - Nema pristupa",
+      "seoDesc": "Pristup odbijen.",
+      "titlePart1": "Stani!",
+      "titlePart2": "Crveni karton.",
+      "desc": "Nemate dovoljno ovlaštenja za ulazak u ovo područje. Vratite se na početnu stranicu ili se prijavite.",
+      "backHome": "NAZAD NA POČETNU STRANICU",
+      "loginInfo": "Ili se prijavite sa potrebnim pravima:"
+    },
+    "unauthorized": {
+      "seoTitle": "401 - Nisam prijavljen",
+      "seoDesc": "Molimo prijavite se.",
+      "titlePart1": "Stani!",
+      "titlePart2": "Kontrola ulaska.",
+      "desc": "Molimo prijavite se da pristupite ovoj oblasti. Potrebna je karta.",
+      "loginBtn": "TO LOGIN"
+    },
+    "serverError": {
+      "seoTitle": "500 - Greška servera",
+      "seoDesc": "Došlo je do neočekivane greške.",
+      "titlePart1": "Uf!",
+      "titlePart2": "Faul igra u kodu.",
+      "desc": "Naš server je iznenadio. Naš tehnički tim je već na terenu. Molimo pokušajte ponovo kasnije.",
+      "backHome": "NAZAD NA POČETNU STRANICU"
+    },
+    "maintenance": {
+      "seoTitle": "Održavanje sistema",
+      "seoDesc": "Trenutno je u pripremi teren za igru.",
+      "titlePart1": "Kratka pauza!",
+      "titlePart2": "Njega travnjaka.",
+      "desc": "Trenutno obavljamo neophodne radove na održavanju kako bismo teren doveli u vrhunsku formu za vas. Vraćamo se uskoro.",
+      "statusText": "Čeka se nastavak igre..."
+    }
+  },
+  "login": {
+    "seoTitle": "Prijava | {kompanija}",
+    "seoDesc": "Prijavite se da upravljate svojim rezervacijama.",
+    "title": "Registrirajte se",
+    "subtitle": "Prijavite se da upravljate svojim rezervacijama.",
+    "errors": {
+      "authFailed": "Prijava nije uspjela. Molimo pokušajte ponovo.",
+      "tooManyRequests": "Previše pokušaja prijave. Pričekajte 15 minuta.",
+      "invalidCredentials": "Nevažeći podaci za prijavu."
+    },
+    "form": {
+      "emailLabel": "e-mail adresa",
+      "emailPlaceholder": "vaš@email.com",
+      "passwordLabel": "lozinka",
+      "passwordPlaceholder": "••••••••",
+      "totpDesc": "Unesite 6-cifreni kod iz vaše aplikacije za autentifikaciju.",
+      "totpLabel": "2FA kod",
+      "totpPlaceholder": "000000",
+      "backToLogin": "Nazad na registraciju",
+      "submitLogin": "Registrirajte se",
+      "submitVerify": "Verify"
+    },
+    "footer": "Sistem rezervacije sportskih objekata"
+  },
+  "bookingManage": {
+    "title": "Upravljajte svojom rezervacijom",
+    "desc": "Unesite svoj ID rezervacije i adresu e-pošte da vidite ili promijenite svoju rezervaciju.",
+    "form": {
+      "idLabel": "ID rezervacije",
+      "idPlaceholder": "RH-2026-X982",
+      "emailLabel": "E-mail adresa",
+      "emailPlaceholder": "vaš@email.com",
+      "submit": "PRONAĐITE REZERVACIJU"
+    },
+    "help": {
+      "text": "Zaboravili ste svoj ID rezervacije? Provjerite svoju e-poštu ili",
+      "link": "kontaktirajte našu podršku"
+    }
+  },
+  "bookingManageDetail": {
+    "back": "Povratak na pregled",
+    "status": {
+      "confirmed": "Potvrđeno",
+      "bookedOn": "Rezervisano na"
+    },
+    "title": "Vaša rezervacija",
+    "desc": "Ovdje ćete pronaći sve detalje o vašoj predstojećoj rezervaciji. Termin možete odgoditi ili otkazati.",
+    "actions": {
+      "print": "Pritisnite",
+      "share": "Split",
+      "copied": "Link i detalji kopirani u međuspremnik!",
+      "copyFailed": "Kopiranje nije uspjelo.",
+      "shareText": "⚽ Hej! Rezervirao sam mjesto kod kompanije {company}!\\n🏟️ Mjesto: {field}\\n📅 Datum: {datum}\\n🔗 Evo detalja:",
+      "shareTitle": "Rezervacija kod {company}"
+    },
+    "details": {
+      "fieldLabel": "Rezervirano mjesto",
+      "fieldTags": "Vanjski • Osvijetljen",
+      "dateTimeLabel": "Datum i vrijeme",
+      "amountLabel": "Ukupan iznos",
+      "paid": "Plaćeno",
+      "pending": "Na čekanju",
+      "qrCode": "PROVJERI KOD",
+      "qrCodeSub": "Pokažite na recepciji",
+      "route": "Planirajte rutu"
+    },
+    "management": {
+      "title": "Administracija",
+      "reschedule": {
+        "title": "zakazati termin",
+        "desc": "Promijenite datum ili vrijeme vaše rezervacije. Ovisno o dostupnosti."
+      },
+      "refund": {
+        "title": "povrat novca",
+        "badge": "info",
+        "desc": "Ako otkažete do 48 sati prije početka igre, automatski ćete dobiti puni povrat novca putem Stripea."
+      },
+      "cancel": {
+        "title": "Otkažite rezervaciju",
+        "badge": "Opasnost",
+        "desc": "Otkazivanje je besplatno do 48 sati prije početka utakmice. Nakon toga se primjenjuju naknade."
+      },
+      "help": {
+        "title": "Trebate li pomoć?",
+        "link": "Kontaktirajte podršku"
+      }
+    }
+  },
+  "bookingReschedule": {
+    "title": "zakazati termin",
+    "subtitle": "Upravljajte rezervacijom",
+    "desc": "Odaberite novi datum i vrijeme za svoju igru. Promjene su besplatne do 48 sati prije početka igre.",
+    "success": {
+      "title": "Uspješno premješteno!",
+      "desc": "Vaš novi termin za <1>{date}</1> je potvrđen. Poslali smo vam novi email za potvrdu.",
+      "btn": "NAZAD NA PREGLED"
+    },
+    "current": {
+      "title": "Trenutni termin",
+      "duration": "Dužina vremena",
+      "price": "Cijena",
+      "tag": "STARI"
+    },
+    "calendar": {
+      "title": "Odaberite novi datum",
+      "days": {
+        "0": "Mo",
+        "1": "uto",
+        "2": "Wed",
+        "3": "uradi",
+        "4": "gđa",
+        "5": "Sat",
+        "6": "Dakle"
+      }
+    },
+    "slots": {
+      "title": "Dostupna vremena",
+      "available": "Dostupan",
+      "selected": "Izabrani",
+      "loading": "Učitavanje termina...",
+      "empty": "Nažalost, za ovaj datum (više) nema odgovarajućih datuma."
+    },
+    "summary": {
+      "title": "Rezime",
+      "old": "Stari termin",
+      "new": "Novi termin",
+      "fee": "Promjena naknade",
+      "submit": "Promijenite termin odmah",
+      "cancel": "Otkaži i vrati",
+      "secure": "Sigurna veza i obrada podataka"
+    },
+    "error": "Greška pri ponovnom zakazivanju termina."
+  },
+  "bookingFailure": {
+    "title": "Ups! Nešto je pošlo po zlu.",
+    "desc": "Vaša uplata ili rezervacija nije mogla biti obrađena.",
+    "idLabel": "ID rezervacije",
+    "failedLabel": "Nije uspjelo",
+    "fieldLabel": "Mjesto",
+    "priceLabel": "Cijena",
+    "reasonLabel": "Razlog za odbijanje",
+    "retryBtn": "POKUŠAJTE PONOVO",
+    "helpBtn": "POTRAŽITE POMOĆ"
+  },
+  "bookingTicketPrint": {
+    "actions": {
+      "print": "PDF Print/Save",
+      "close": "Zatvori"
+    },
+    "header": {
+      "title": "Potvrda rezervacije",
+      "issuedAt": "Izdato:"
+    },
+    "reference": {
+      "title": "Referenca rezervacije",
+      "id": "ID rezervacije:"
+    },
+    "details": {
+      "customer": "kupac",
+      "field": "Mjesto",
+      "date": "Datum",
+      "time": "Vrijeme",
+      "status": "status",
+      "paid": "Plaćeno",
+      "total": "Ukupan iznos",
+      "tax": "PDV uključen.",
+      "paymentMethod": "Način plaćanja",
+      "creditCard": "Kreditna kartica"
+    },
+    "qrCode": {
+      "title": "Kod za prijavu",
+      "desc": "Pokažite na recepciji"
+    },
+    "footer": {
+      "tel": "Tel:",
+      "web": "Web:",
+      "email": "E-mail:",
+      "thanks": "Hvala vam na rezervaciji! Radujemo se vašoj posjeti."
+    }
+  },
+  "adminLogin": {
+    "nav": {
+      "home": "Početna stranica",
+      "contact": "kontakt"
+    },
+    "status": "Status sistema: Online",
+    "error": {
+      "title": "Prijava nije uspjela",
+      "desc": "Provjerite svoj unos i pokušajte ponovo.",
+      "invalid": "Nevažeći podaci za prijavu.",
+      "tooMany": "Previše pokušaja prijave. Pričekajte 15 minuta."
+    },
+    "welcome": {
+      "title": "Admin area",
+      "desc": "Dobrodošli nazad! Molimo prijavite se<br/> da upravljate svojim sportskim objektom."
+    },
+    "form": {
+      "email": "e-mail adresa",
+      "emailPlaceholder": "admin@example.com",
+      "password": "lozinka",
+      "passwordPlaceholder": "••••••••",
+      "remember": "ostanite prijavljeni",
+      "forgot": "Zaboravili ste lozinku?",
+      "submit": "Registrirajte se"
+    },
+    "footer": "Portal za upravljanje profesionalnim<br/> sportskim objektima i sistemima za rezervacije",
+    "mfa": {
+      "tag": "Sigurnosna provjera",
+      "title": "Dvofaktorska autentifikacija",
+      "desc": "Unesite kod iz aplikacije Google Authenticator.",
+      "submit": "Verify",
+      "issues": "Problemi sa prijavom?",
+      "backup": "Koristite rezervni kod",
+      "check": "Sigurnosna provjera za administrativnu oblast • SSL šifrovana"
+    },
+    "support": "Tehnička podrška",
+    "copyright": "© 2026 Randevu Halı Saha"
+  },
+  "adminAuth": {
+    "forgot": {
+      "support": "Podrška",
+      "contact": "kontakt",
+      "successTitle": "E-mail je poslan!",
+      "successDesc": "Poslali smo link za poništavanje vaše lozinke na <span className=\"text-white font-medium\">{{email}}</span>. Molimo provjerite i vaš spam folder.",
+      "backToLogin": "NAZAD NA LOGIN",
+      "sending": "Pošalji...",
+      "resendNotReceived": "Niste primili e-poštu? Ponovo pošalji",
+      "title": "Zaboravili ste lozinku?",
+      "desc": "Unesite svoju email adresu. Poslat ćemo vam link za resetiranje vaše lozinke.",
+      "emailLabel": "e-mail adresa",
+      "emailPlaceholder": "admin@soccerarena.at",
+      "submit": "POŠALJI LINK",
+      "back": "Povratak na prijavu",
+      "techSupport": "Tehnička podrška",
+      "copyright": "© 2026 Randevu Halı Saha",
+      "resendTitle": "Link je ogorčen!",
+      "resendDesc": "Poslali smo novu vezu za poništavanje lozinke na vašu adresu e-pošte. Molimo provjerite i vaš spam folder.",
+      "resendOk": "RAZUMIJENO",
+      "errorGeneric": "Došlo je do greške. Molimo pokušajte ponovo kasnije.",
+      "errorTooMany": "Previše pokušaja. Pričekajte 15 minuta."
+    },
+    "reset": {
+      "errInvalidToken": "Token je nevažeći ili nedostaje. Zatražite novi link.",
+      "errMismatch": "Lozinke se ne poklapaju.",
+      "errWeak": "Lozinka ne ispunjava sigurnosne zahtjeve.",
+      "errFailed": "Lozinka se nije mogla poništiti. Link je možda istekao.",
+      "support": "Podrška",
+      "contact": "kontakt",
+      "successTitle": "Lozinka promijenjena!",
+      "successDesc": "Vaša nova lozinka je uspješno sačuvana. Uskoro ćete biti preusmjereni na registraciju...",
+      "title": "Postavite novu lozinku",
+      "desc": "Unesite novu lozinku i potvrdite je.",
+      "newLabel": "Nova lozinka",
+      "placeholder": "••••••••",
+      "confirmLabel": "Potvrdite lozinku",
+      "info": "Min. 8 znakova, velika, mala slova, broj i specijalni znakovi",
+      "submit": "SAČUVAJ LOZINKU",
+      "cancel": "Otkaži",
+      "techSupport": "Tehnička podrška",
+      "copyright": "© 2026 Randevu Halı Saha"
+    }
+  },
+  "adminDashboard": {
+    "status": {
+      "confirmed": "Potvrđeno",
+      "cancelled": "Otkazano",
+      "modified": "Promijenjeno",
+      "completed": "Završeno",
+      "noShow": "Nema emisije"
+    },
+    "payment": {
+      "applePay": "Apple Pay",
+      "googlePay": "Google Pay",
+      "card": "Mapa",
+      "onSite": "On site"
+    },
+    "days": {
+      "mo": "Mo",
+      "di": "uto",
+      "mi": "Wed",
+      "do": "uradi",
+      "fr": "gđa",
+      "sa": "Sat",
+      "so": "Dakle"
+    },
+    "badges": {
+      "strong": "Jaka",
+      "good": "Dobro",
+      "normal": "Normalno"
+    },
+    "errors": {
+      "loadError": "Nije moguće učitati podatke kontrolne table."
+    },
+    "vsYesterday": {
+      "noData": "Nema podataka",
+      "vsYesterdayLabel": "vs jučer"
+    },
+    "loadingContent": {
+      "title": "Dashboard",
+      "errorTitle": "Greška na kontrolnoj tabli",
+      "errorMsg": "Greška pri učitavanju",
+      "retry": "Pokušajte ponovo"
+    },
+    "page": {
+      "title": "Advanced Admin Dashboard"
+    },
+    "cards": {
+      "today": {
+        "title": "Danas",
+        "tooltipCompare": "Poređenje",
+        "yesterdayLabel": "jučer:",
+        "bookings": "Rezervacije"
+      },
+      "revenueLive": {
+        "title": "U realnom vremenu (plaćeno)",
+        "lastBooking": "Najnovija rezervacija:",
+        "emptyLast": "—",
+        "tooltipLive": "Live Earnings",
+        "tooltipWeek": "sedmica:"
+      },
+      "monthlyRev": {
+        "title": "Mjesečna prodaja",
+        "bookings": "Rezervacije",
+        "tooltipPerf": "performanse"
+      },
+      "utilization": {
+        "title": "korišćenje",
+        "tooltipDetails": "Detalji o mjestu",
+        "bookings": "Rezervacije"
+      },
+      "refunded": {
+        "title": "Refundirano",
+        "cancellations": "Otkazivanje",
+        "tooltipReversals": "Povraćaj sredstava",
+        "totalRefund": "Ukupan povrat novca:"
+      },
+      "errorsCard": {
+        "title": "Greška",
+        "rejected": "Plaćanje je odbijeno",
+        "tooltipSysWarn": "Sistemska upozorenja",
+        "actionNeeded": "Potrebna akcija",
+        "failedMsg": "neuspjeli pokušaji plaćanja"
+      }
+    },
+    "timeline": {
+      "title": "Današnji raspored",
+      "active": "Aktivan",
+      "funZone": "Fun zona",
+      "noBookingsText": "Nema rezervacija",
+      "timeLabel": "vrijeme:",
+      "statusLabel": "Status:",
+      "noBookingsToday": "Nema rezervacija za danas"
+    },
+    "weeklyChart": {
+      "title": "Sedmična prodaja",
+      "current": "trenutno:"
+    },
+    "paymentDonut": {
+      "title": "Način plaćanja",
+      "total": "Ukupno",
+      "details": "Detalji transakcije",
+      "transactions": "Trans."
+    },
+    "aiInsights": {
+      "badge": "Mjesečna analiza",
+      "totalBookings": "Ukupno rezervacija",
+      "bookings": "Rezervacije",
+      "weakestDays": "Najslabiji dani",
+      "avgOther": "Ø ostali:",
+      "weakestSlots": "Najslabiji vremenski prozori",
+      "happyHourAct": "Aktivirati happy hour za ovo vrijeme?",
+      "noData": "Još nema dostupnih podataka za analizu."
+    },
+    "topMaterials": {
+      "title": "Većina iznajmljenih materijala",
+      "viewAll": "Pogledaj sve",
+      "rentals": "Lend",
+      "noData": "Nema podataka"
+    },
+    "trend": {
+      "title": "Mjesečni trend",
+      "last6mo": "Poslednjih 6 meseci",
+      "revenue": "Obim prodaje"
+    },
+    "hourlyOccupancy": {
+      "title": "Korištenje po satu",
+      "avg": "Prosjek",
+      "occupancy": "Korištenje:"
+    }
+  },
+  "adminRes": {
+    "title": "Rezervacije",
+    "errorTitle": "Rezervacije — Greška",
+    "loadError": "Greška pri učitavanju",
+    "retry": "Pokušajte ponovo",
+    "headerTitle": "Sve rezervacije",
+    "headerDesc": "Upravljajte svim rezervacijama, otkazivanjima i zahtjevima na jednom mjestu.",
+    "export": "Izvoz",
+    "newBooking": "Nova rezervacija",
+    "filters": {
+      "all": "Sve",
+      "today": "Danas",
+      "tomorrow": "Jutro",
+      "week": "Ove sedmice",
+      "cancelled": "Otkazano"
+    },
+    "status": {
+      "confirmed": "Potvrđeno",
+      "modified": "Promijenjeno",
+      "completed": "Završeno",
+      "cancelled": "Otkazano",
+      "noShow": "nepojavljivanje"
+    },
+    "payment": {
+      "pending": "Na čekanju",
+      "paid": "Plaćeno",
+      "failed": "Nije uspjelo",
+      "refunded": "Refundirano",
+      "onSite": "On site"
+    },
+    "duration": {
+      "m60": "1 sat",
+      "m90": "1,5 sati",
+      "m120": "2 sata",
+      "m150": "2,5 sata",
+      "m180": "3 sata",
+      "min": "Min."
+    },
+    "csvHeader": "ID rezervacije;Datum;Vrijeme;Kupac;Telefon;Sjedište;Trajanje (min);Status;Cijena",
+    "stats": {
+      "total": "Totalne rezervacije",
+      "vsPrevMonth": "u odnosu na prethodni mjesec",
+      "cancelRate": "Stopa otkazivanja",
+      "popularTime": "Najpopularnije vrijeme",
+      "primetime": "Primetime iskorišćenje",
+      "revenueProg": "Prognoza prodaje",
+      "target": "Gol"
+    },
+    "charts": {
+      "bookingTrends": "Trendovi rezervacija",
+      "resPeriod": "Rezervacije u tekućem periodu",
+      "week": "Sedmica",
+      "month": "Mjesec",
+      "occCompare": "Poređenje upotrebe",
+      "bookedHours": "Rezervisano satima",
+      "vsPrevWeek": "u odnosu na prethodnu sedmicu",
+      "noFields": "Nema polja"
+    },
+    "search": {
+      "placeholder": "Traži po ID-u, imenu ili telefonu...",
+      "foundText": "pronađeno",
+      "booking": "booking",
+      "bookings": "Rezervacije"
+    },
+    "table": {
+      "id": "ID rezervacije",
+      "date": "Datum i vrijeme",
+      "customer": "kupac",
+      "field": "Mjesto",
+      "duration": "Dužina vremena",
+      "status": "status",
+      "payment": "plaćanje",
+      "price": "Cijena",
+      "actions": "Akcije",
+      "noResults": "Nisu pronađene rezervacije",
+      "showing": "Pokaži",
+      "of": "od",
+      "page": "Stranica"
+    },
+    "modals": {
+      "cancelTitle": "Otkazati rezervaciju?",
+      "cancelDesc": "Ova radnja se ne može poništiti.",
+      "booking": "Rezervacija:",
+      "customer": "Kupac:",
+      "period": "Period:",
+      "field": "mjesto:",
+      "cancelBtn": "Otkaži",
+      "cancelAction": "Otkaži",
+      "refundTitle": "Iznos povrata novca?",
+      "refundDesc": "Iznos će biti vraćen putem Stripea.",
+      "paymentLabel": "Plaćanje:",
+      "refundAmount": "Iznos povrata novca:",
+      "refundAction": "Povrat novca"
+    },
+    "newBookingModal": {
+      "title": "Kreirajte novu rezervaciju",
+      "desc": "Ručni unos rezervacije",
+      "successTitle": "Rezervacija kreirana!",
+      "successDesc": "Sačuvano...",
+      "customerData": "Podaci o kupcima",
+      "customerName": "Ime kupca *",
+      "email": "e-mail adresa",
+      "phone": "Broj telefona",
+      "fieldDetails": "Prostor i detalji",
+      "fieldSelect": "Odabir mjesta",
+      "dateSelect": "Odaberite datum",
+      "durationLabel": "Dužina vremena",
+      "timeSelect": "Odaberite vrijeme početka",
+      "chooseDateFirst": "Molimo prvo odaberite datum",
+      "loadingAvail": "Učitavanje dostupnosti...",
+      "noSlots": "Nema slobodnih vremena na ovaj dan",
+      "paymentTitle": "platiti",
+      "onSiteLabel": "Plaćanje: na licu mjesta",
+      "onSiteDesc": "Kupac plaća gotovinom ili karticom direktno na šalteru.",
+      "estPrice": "Procijenjena cijena",
+      "fillRequired": "Molimo popunite sva obavezna polja.",
+      "saveBooking": "Sačuvaj rezervaciju",
+      "saveError": "Nije moguće kreirati rezervaciju."
+    },
+    "details": {
+      "title": "Detalji rezervacije",
+      "emailLabel": "e-mail",
+      "endLabel": "Kraj",
+      "priceLabel": "Cijena",
+      "paymentStatusLabel": "Status plaćanja",
+      "paymentMethodLabel": "Način plaćanja",
+      "card": "Mapa",
+      "apple": "Apple Pay",
+      "google": "Google Pay",
+      "rentalsTitle": "Iznajmljeni materijal",
+      "created": "Kreirano:"
+    }
+  },
+  "adminSettings": {
+    "title": "Postavke",
+    "desc": "Upravljajte radnim vremenom, cijenama i pravilima rezervacije.",
+    "online": "Sistem online",
+    "tabs": {
+      "fields": "Saha postavke",
+      "staff": "Personal Settings",
+      "company": "Podaci o kompaniji",
+      "security": "Sigurnost",
+      "notifications": "Obavještenja",
+      "coupons": "Vaučeri"
+    },
+    "days": {
+      "monday": "ponedjeljak",
+      "tuesday": "utorak",
+      "wednesday": "srijeda",
+      "thursday": "četvrtak",
+      "friday": "petak",
+      "saturday": "Subota",
+      "sunday": "Nedjelja"
+    },
+    "fields": {
+      "hoursTitle": "Radno vrijeme i dostupnost",
+      "table": {
+        "day": "dan",
+        "open": "Otvara se u",
+        "close": "Zatvara se okolo",
+        "status": "status"
+      },
+      "sports": {
+        "football": "Fudbal (po satu)",
+        "bubbleSoccer": "Bubble Soccer (po satu)",
+        "tennis": "Tenis (po satu)",
+        "basketball": "Košarka (po satu)",
+        "volleyball": "Odbojka (po satu)"
+      },
+      "pricingTitle": "Saha cijene",
+      "active": "Aktivan",
+      "inactive": "Neaktivan",
+      "hourlyStandard": "Standardna satnica",
+      "happyHourTitle": "Happy hour konfiguracija",
+      "happyHourDesc": "Postavite vremena kada se popust automatski primjenjuje na sva mjesta.",
+      "happyHourEnable": "Aktivirajte happy hour",
+      "startTime": "Vrijeme početka",
+      "endTime": "Vremena završetka",
+      "discount": "Popust (%)",
+      "rulesTitle": "Postavke rezervacije",
+      "holdDuration": "Trajanje čekanja",
+      "holdDesc": "Period tokom kojeg rezervacija ostaje rezervirana prije nego što se mora platiti.",
+      "cancelDeadline": "Rok za otkazivanje",
+      "cancelDesc": "Možete besplatno otkazati do koliko sati prije početka igre.",
+      "notifications": "Obavještenja",
+      "notifDesc": "Šaljite automatske podsjetnike kupcima.",
+      "reminders": "SMS podsjetnik/e-mail (24h)"
+    },
+    "coupons": {
+      "title": "Voucher management",
+      "newBtn": "Novi vaučer",
+      "table": {
+        "code": "Kod kupona",
+        "discount": "Popust",
+        "minOrder": "Minimalna prodaja",
+        "validity": "valjanost",
+        "uses": "Koristi",
+        "status": "status"
+      },
+      "noCoupons": "Nema dostupnih vaučera.",
+      "expired": "Istekao",
+      "active": "Aktivan",
+      "inactive": "Neaktivan",
+      "edit": "Uredi",
+      "delete": "Izbriši",
+      "deleteConfirm": "Stvarno izbrisati vaučer?",
+      "modal": {
+        "editTitle": "Uredi vaučer",
+        "newTitle": "Novi vaučer",
+        "code": "Kod kupona",
+        "discountType": "Vrsta popusta",
+        "percent": "postotak (%)",
+        "fixed": "Fiksni iznos (€)",
+        "discountValue": "Vrijednost popusta",
+        "maxUses": "Max. koristi",
+        "unlimited": "0 = neograničeno",
+        "minOrder": "Minimalna vrijednost narudžbe",
+        "noMinOrder": "0 = nema minimalnog iznosa",
+        "validFrom": "Vrijedi od",
+        "validUntil": "Vrijedi do",
+        "activateNow": "Aktivirajte odmah",
+        "cancel": "Otkaži",
+        "save": "Sačuvaj",
+        "create": "Kreiraj"
+      }
+    },
+    "notifications": {
+      "clientTitle": "Obavještenja kupaca",
+      "emailSettings": "Obavještenja putem e-pošte",
+      "emailDesc": "Omogućite/onemogućite sva obavještenja klijentima putem e-pošte.",
+      "emailConfirm": "Potvrda rezervacije putem emaila",
+      "emailConfirmDesc": "Automatski šalje potvrdu kupcu nakon uspješne rezervacije.",
+      "emailReminder": "Podsjetnik za termin (24 sata unaprijed)",
+      "emailReminderDesc": "Podsjeća kupce na njihov termin 24 sata prije početka utakmice.",
+      "emailCancel": "Potvrda otkazivanja",
+      "emailCancelDesc": "Obavještava kupca kada je rezervacija otkazana.",
+      "waTitle": "WhatsApp integracija",
+      "waEnable": "Aktivirajte WhatsApp poruke",
+      "waDesc": "Omogućava vam slanje detalja rezervacije direktno putem WhatsApp-a.",
+      "waKey": "WhatsApp API ključ",
+      "waKeyDesc": "Ovaj ključ možete pronaći na svojoj Meta Business Dashboard.",
+      "waPhoneId": "ID broja telefona",
+      "waPhoneDesc": "ID broja telefona iz vašeg podešavanja WhatsApp Business API-ja.",
+      "templates": "Šabloni poruka",
+      "placeholders": "zamjenski znak:",
+      "confirmTpl": "Potvrda rezervacije",
+      "cancelTpl": "otkazivanje",
+      "modTpl": "Rebooking",
+      "couponTpl": "Informacije o vaučeru",
+      "adminReports": "Admin izvještaji",
+      "dailyRev": "Dnevni izvještaj o prodaji",
+      "dailyRevDesc": "Sažetak poslat e-poštom u 23:59.",
+      "newBooking": "Obavijest o novim rezervacijama",
+      "newBookingDesc": "Trenutne informacije za svaku novu rezervaciju.",
+      "sysAlerts": "Sistemska obavještenja",
+      "secAlerts": "Sigurnosna upozorenja",
+      "secAlertsDesc": "Upozorenje o sumnjivim pokušajima prijave.",
+      "maintAlerts": "Poruke održavanja",
+      "maintAlertsDesc": "Informacije o planiranim ažuriranjima sistema."
+    },
+    "security": {
+      "adminSec": "Sigurnost administratora",
+      "changePw": "Promijeni lozinku",
+      "currentPw": "Trenutna lozinka",
+      "newPw": "Nova lozinka",
+      "pwHint": "Najmanje 8 znakova, uključujući posebne znakove",
+      "confirmPw": "Potvrdite lozinku",
+      "updatePw": "Ažurirajte lozinku",
+      "twoFactor": "2-faktorska autentifikacija (2FA)",
+      "twoFactorDesc": "Dodatni nivo sigurnosti za vaš nalog",
+      "twoFactorSetup": "Postavite 2FA",
+      "scanQr": "Skenirajte QR kod pomoću Google Authenticator-a ili kompatibilne aplikacije:",
+      "manualEntry": "Ili unesite ručno:",
+      "sixDigitCode": "6-cifreni kod",
+      "cancel": "Otkaži",
+      "activate": "Aktiviraj",
+      "sessions": "Upravljanje sesijama",
+      "revokeAll": "Ukinite sve ostale",
+      "activeSessions": "Aktivne sesije",
+      "noSessions": "Nema aktivnih sesija",
+      "unknownDevice": "Nepoznati uređaj",
+      "current": "Current",
+      "revoke": "Završi sesiju",
+      "justNow": "Upravo sada",
+      "lastActivity": "Zadnja aktivnost:",
+      "sessionWarning": "Ako ne prepoznate sesiju, odmah promijenite lozinku i završite sve sesije."
+    },
+    "saveBar": {
+      "lastChange": "Posljednje ažurirano:",
+      "notSaved": "Još nije sačuvano",
+      "cancel": "Otkaži",
+      "save": "Sačuvaj postavke",
+      "successMsg": "Postavke su uspješno sačuvane!",
+      "saveError": "Greška pri spremanju.",
+      "saving": "Sačuvano..."
+    },
+    "placeholder": {
+      "soon": "Ovaj dio će uskoro biti implementiran."
+    },
+    "errors": {
+      "pwFillAll": "Molimo popunite sva polja.",
+      "pwLength": "Nova lozinka mora imati najmanje 8 znakova.",
+      "pwMismatch": "Lozinke se ne podudaraju.",
+      "pwSuccess": "Lozinka je uspješno promijenjena!",
+      "twoFAError": "2FA nije bilo moguće postaviti.",
+      "twoFAInvalid": "Nevažeći kod. Molimo pokušajte ponovo.",
+      "couponSaveError": "Greška pri spremanju"
+    }
+  },
+  "adminMaterial": {
+    "title": "Materijal i inventar",
+    "allCategories": "Sve",
+    "exportBtn": "Izvoz",
+    "newBtn": "Novi materijal",
+    "loadError": "Greška pri učitavanju liste materijala.",
+    "stats": {
+      "total": "Ukupan inventar",
+      "rentable": "Iznajmljivanje",
+      "defect": "Kvar / održavanje",
+      "actionNeeded": "Potreba za akcijom",
+      "allGood": "Sve je OK",
+      "itemsActive": "Članak aktivan",
+      "items": "Članak"
+    },
+    "categories": {
+      "title": "Kategorije",
+      "empty": "Nema dostupnih kategorija",
+      "rentableParams": "Komad • {{profitable}} dostupan za iznajmljivanje"
+    },
+    "table": {
+      "article": "Članak",
+      "sizeType": "Veličina/Tip",
+      "available": "Dostupan",
+      "status": "status",
+      "rentalFee": "Naknada za iznajmljivanje",
+      "actions": "Akcije",
+      "empty": "Nije pronađen nijedan materijal u ovoj kategoriji.",
+      "pieces": "Komad",
+      "oneSize": "Jedna veličina odgovara svima",
+      "showing": "Prikaži {{count}} od {{total}} članaka"
+    },
+    "conditions": {
+      "new": "Novo",
+      "good": "Dobro",
+      "damaged": "Oštećen",
+      "retired": "Penzionisan"
+    },
+    "actions": {
+      "edit": "Uredi",
+      "delete": "Izbriši",
+      "deleteTitle": "Izbriši materijal",
+      "deleteConfirm": "Jeste li sigurni da želite ukloniti '{{name}}' iz iznajmljivanja?",
+      "deactivateBtn": "Onemogući"
+    },
+    "modal": {
+      "editTitle": "Uredite materijal",
+      "newTitle": "Novi materijal",
+      "name": "Ime *",
+      "category": "kategorija *",
+      "quantity": "gužva *",
+      "condition": "stanje *",
+      "rentable": "Dostupno za iznajmljivanje",
+      "rentableDesc": "Materijal mogu naručiti kupci.",
+      "pricePerHour": "Cijena po satu (€)",
+      "sizes": "Dostupne veličine",
+      "sizesHint": "(odvojeno zarezom)",
+      "notes": "Bilješke",
+      "notesPH": "Opcionalne napomene...",
+      "cancel": "Otkaži",
+      "save": "Sačuvaj"
+    }
+  },
+  "adminStaff": {
+    "title": "Upravljanje ljudskim resursima",
+    "adminPanel": "Admin panel",
+    "subtitle": "Upravljajte svojim timom, rasporedom smjena i podacima o učinku za sportsku sezonu.",
+    "adminInviteSuccess": "Admin korisnik kreiran. Podaci za prijavu su poslani putem e-pošte.",
+    "adminInviteError": "Greška pri kreiranju administratorskog korisnika.",
+    "time": {
+      "minsAgo": "prije {{min}} min",
+      "hoursAgo": "Prije {{hours}} sati",
+      "daysAgo": "prije {{days}} dana",
+      "yesterday": "Jučer"
+    },
+    "stats": {
+      "total": "Ukupno osoblje",
+      "activeTitle": "Aktivan",
+      "activeDesc": "Zaposleni aktivni",
+      "inactive": "Neaktivan"
+    },
+    "search": {
+      "placeholder": "Traži po imenu ili poziciji...",
+      "allRoles": "Sve uloge"
+    },
+    "buttons": {
+      "newStaff": "Novo osoblje",
+      "newAdmin": "New Admin"
+    },
+    "table": {
+      "staff": "Zaposleni",
+      "role": "uloga",
+      "status": "status",
+      "contact": "kontakt",
+      "created": "Created",
+      "actions": "Akcije",
+      "empty": "Nisu pronađeni zaposleni.",
+      "activeStr": "Aktivan",
+      "inactiveStr": "Neaktivan",
+      "showing": "Prikaži {{count}} od {{total}} zaposlenih"
+    },
+    "actions": {
+      "editProfile": "Uredi profil",
+      "deactivate": "Onemogući"
+    },
+    "modal": {
+      "editTitle": "Uredite zaposlene",
+      "newTitle": "Novo osoblje",
+      "name": "Ime *",
+      "namePH": "Ime i prezime",
+      "role": "Uloga *",
+      "rolePH": "Odaberite ulogu...",
+      "roles": {
+        "Manager": "menadžer",
+        "Trainer": "trener",
+        "Platzwart": "zemljoradnik",
+        "Rezeption": "prijem",
+        "Reinigung": "čišćenje",
+        "Security": "Sigurnost"
+      },
+      "email": "e-mail",
+      "emailPH": "email@example.com",
+      "phone": "telefon",
+      "phonePH": "+43 ...",
+      "notes": "Bilješke",
+      "notesPH": "Interne napomene...",
+      "cancel": "Otkaži",
+      "updateBtn": "Ažuriraj",
+      "createBtn": "Kreiraj"
+    },
+    "adminModal": {
+      "title": "Pozovite administratora",
+      "desc": "Novi korisnik administrator je kreiran i prima podatke za prijavu putem e-pošte.",
+      "name": "Ime *",
+      "email": "Email *",
+      "emailPH": "admin@soccerarena.at",
+      "inviteBtn": "Pozovite administratora",
+      "cancel": "Otkaži"
+    }
+  },
+  "adminPayments": {
+    "title": "Plaćanja",
+    "titleError": "Plaćanja — Greška",
+    "header": "Historija plaćanja i povrati novca",
+    "subtitle": "Upravljajte svim platnim transakcijama na jednom mjestu.",
+    "secureEnv": "Sigurno okruženje",
+    "exportBtn": "Izvoz",
+    "loadError": "Nije moguće učitati detalje plaćanja.",
+    "errorTitle": "Greška pri učitavanju",
+    "retry": "Pokušajte ponovo",
+    "timeFmt": "{{vrijeme}} sat",
+    "statuses": {
+      "PAID": "Uspjeh",
+      "PENDING": "Na čekanju",
+      "REFUNDED": "Refundirano",
+      "FAILED": "Nije uspjelo",
+      "ON_SITE": "On site"
+    },
+    "methods": {
+      "CARD": "Mapa",
+      "APPLE_PAY": "Apple Pay",
+      "GOOGLE_PAY": "GPay",
+      "ON_SITE": "Plaćanje u gotovini"
+    },
+    "filters": {
+      "all": "Sve"
+    },
+    "stats": {
+      "todayRev": "Rasprodaja danas",
+      "vsYesterday": "U poređenju sa juče",
+      "pending": "Otvorena plaćanja",
+      "attention": "Zahteva pažnju",
+      "pendingSub": "Ausstehende Zahlungen",
+      "refundedM": "Ukupno nadoknađeno (mjesec)",
+      "transactions": "transakcija",
+      "transactionsPlural": "Transakcije"
+    },
+    "search": "Traži po ID-u ili imenu...",
+    "foundText": "plaćanje",
+    "foundTextPlural": "Plaćanja",
+    "foundSuffix": "pronađeno",
+    "table": {
+      "id": "ID transakcije",
+      "date": "Datum",
+      "customer": "kupac",
+      "method": "metoda",
+      "amount": "Iznos",
+      "status": "status",
+      "actions": "Akcije",
+      "empty": "Nisu pronađene uplate",
+      "showing": "Prikaži {{start}}-{{end}} od {{total}} unosa",
+      "pageOf": "Stranica {{current}} od {{total}}"
+    },
+    "refundModal": {
+      "title": "Povrat novca",
+      "transaction": "transakcija",
+      "origAmount": "Originalni iznos",
+      "type": "Vrsta nadoknade",
+      "partial": "Djelomični povrat novca",
+      "full": "Potpuni povrat novca",
+      "amountEur": "Iznos (EUR)",
+      "maxRefundable": "Maksimalni povrat novca:",
+      "reason": "Obrazloženje (opciono)",
+      "reasonPH": "Razlog za povrat novca...",
+      "cancel": "Otkaži",
+      "refundBtn": "Povrat novca",
+      "refundError": "Povrat novca nije uspio."
+    }
+  },
+  "adminContact": {
+    "title": "Zahtjevi za kontakt administratora",
+    "header": "Upravljajte zahtjevima za kontakt",
+    "subtitle": "Pregled svih poruka iz kontakt forme",
+    "exportBtn": "Izvoz",
+    "statuses": {
+      "NEW": "Novo",
+      "READ": "Čitaj",
+      "REPLIED": "Odgovoreno",
+      "ARCHIVED": "Arhivirano"
+    },
+    "time": {
+      "today": "Danas",
+      "yesterday": "Jučer"
+    },
+    "stats": {
+      "all": "Sve novosti",
+      "new": "Nove vijesti",
+      "unread": "Nepročitano",
+      "replied": "Odgovoreno",
+      "total": "Ukupno"
+    },
+    "search": "Pretražite po imenu, emailu ili predmetu...",
+    "filters": {
+      "all": "Svi statusi"
+    },
+    "table": {
+      "id": "ID",
+      "date": "Datum",
+      "name": "Ime & Prezime",
+      "email": "E-mail adresa",
+      "subject": "U vezi",
+      "status": "status",
+      "actions": "Akcije",
+      "empty": "Nije pronađena nijedna poruka.",
+      "showing": "Prikaži {{count}} od {{total}} rezultata"
+    },
+    "actions": {
+      "view": "Pogled",
+      "delete": "Izbriši"
+    },
+    "drawer": {
+      "title": "Detalji poruke",
+      "tel": "Tel:",
+      "date": "Datum",
+      "status": "status",
+      "subject": "U vezi",
+      "noSubject": "Nema predmeta",
+      "message": "Vijesti",
+      "reply": "Odgovorite direktno",
+      "markDone": "Označi kao gotovo",
+      "delete": "Izbriši",
+      "replySubject": "Vaš upit u SALAMANDA SOCCER ARENI"
+    }
+  },
+  "tournaments": {
+    "hero": {
+      "season": "Sezona 2026",
+      "title1": "Dolazim",
+      "title2": "Turniri",
+      "desc": "Takmičite se sa najboljim timovima u Austriji. Registrujte svoj tim već danas i borite se za slavu, čast i novčanu nagradu."
+    },
+    "badges": {
+      "open": "Registracija otvorena",
+      "few": "Nekoliko mjesta",
+      "full": "Fully booked",
+      "new": "Novo"
+    },
+    "details": {
+      "players": "{{count}} vs {{count}}",
+      "price": "{{price}}€ po timu"
+    },
+    "actions": {
+      "register": "REGISTER TIM",
+      "waitlist": "LISTA ČEKANJA"
+    },
+    "hallOfFame": {
+      "subtitle": "Najbolji od najboljih",
+      "title": "Hall of Fame",
+      "winner": "{{year}} pobjednik"
+    },
+    "list": {
+      "t1": {
+        "title": "Salamanda kup 2026",
+        "desc": "Klasika u srcu Stadl-Paura.",
+        "date": "12. juna 2026"
+      },
+      "t2": {
+        "title": "Salzburg Summer League",
+        "desc": "Najveći događaj na otvorenom u godini.",
+        "date": "15. jula 2026"
+      },
+      "t3": {
+        "title": "Graz Indoor Cup",
+        "desc": "Intenzivni dvoranski turnir zimi.",
+        "date": "20. februar 2026"
+      },
+      "t4": {
+        "title": "Alpski kup u Innsbrucku",
+        "desc": "Fudbal ispred pozadine koja oduzima dah.",
+        "date": "05. avgusta 2026"
+      }
+    }
+  },
+  "barrierefreiheit": {
+    "titlePart1": "Pristupačnost",
+    "titlePart2": "objašnjenje",
+    "desc": "Informacije o dostupnosti ove web stranice. {{company}} nastoji da svoju web stranicu učini dostupnom bez prepreka u skladu sa Federalnim zakonom o ravnopravnosti osoba sa invaliditetom (BGStG).",
+    "scope": "Ova izjava o pristupačnosti odnosi se na web stranicu <1>{{website}}</1>.",
+    "backHome": "Povratak na početnu stranicu",
+    "sections": {
+      "1": {
+        "title": "Status kompatibilnosti sa zahtjevima",
+        "desc": "Ova web stranica je djelimično usklađena sa nivoom usklađenosti AA „Smjernice za pristupačnost web sadržaja Web – WCAG 2.1” zbog sljedećih nekompatibilnosti i izuzetaka."
+      },
+      "2": {
+        "title": "Nepristupačan sadržaj",
+        "desc": "Dolje navedeni sadržaj nije dostupan iz sljedećih razloga:",
+        "a": {
+          "title": "a) Nekompatibilnost sa propisima o pristupačnosti",
+          "i1": "Neke slike još nemaju alternativni tekst, što ove informacije čini nedostupnim korisnicima čitača ekrana. Radimo na kontinuiranom dodavanju ovih tekstova.",
+          "i2": "Kontrasti u nekim elementima navigacije još uvijek ne zadovoljavaju u potpunosti traženi standard. Planirana je revizija sheme boja."
+        },
+        "b": {
+          "title": "b) Nesrazmjerno opterećenje",
+          "desc": "Naši video zapisi trenutno nemaju titlove. Radimo na rješenju za implementaciju ovog standarda za nove videozapise."
+        }
+      },
+      "3": {
+        "title": "Priprema deklaracije",
+        "desc": "Ova izjava je data <1>15. Oktobar 2023</1> kreiran. Procjena kompatibilnosti web stranice sa WZG za implementaciju zahtjeva Direktive (EU) 2016/2102 izvršena je u obliku samotestiranja prema WCAG 2.1 na nivou usklađenosti AA."
+      },
+      "4": {
+        "title": "Povratne informacije i kontakt detalji",
+        "p1": "Ponude i usluge na ovoj web stranici se stalno poboljšavaju, razmjenjuju i proširuju. Upotrebljivost i pristupačnost su nam veoma važni.",
+        "p2": "Ako primijetite prepreke koje vas sprečavaju da koristite našu web stranicu - probleme koji nisu opisani u ovoj izjavi, nedostatke u ispunjavanju zahtjeva za pristupačnost - molimo vas da nas obavijestite putem e-pošte."
+      },
+      "5": {
+        "title": "Procedure izvršenja",
+        "p1": "Ako ne dobijete zadovoljavajuće odgovore od gore navedene kontakt opcije, možete se žaliti Austrijskoj agenciji za promicanje istraživanja (FFG).",
+        "p2": "FFG prima reklamacije elektronskim putem putem kontakt forme.",
+        "link": "Kontakt obrazac ureda za žalbe"
+      }
+    }
+  },
+  "ruckerstattung": {
+    "titlePart1": "povrat novca",
+    "titlePart2": "politika",
+    "desc": "Informacije o otkazivanjima, ponovnim rezervacijama i povratima novca na {{company}}. Težimo poštenju i transparentnosti za sve naše igrače.",
+    "scope": "Ova se pravila primjenjuju na sve rezervacije mjesta, događaja i usluga putem web stranice <1>{{website}}</1> ili direktno na licu mjesta.",
+    "backHome": "Povratak na početnu stranicu",
+    "sections": {
+      "1": {
+        "title": "1. General",
+        "desc": "Razumijemo da se planovi mogu promijeniti. Naša politika povrata novca osmišljena je tako da bude fleksibilna, a istovremeno osigurava da naša mjesta ostaju dostupna svim fudbalskim entuzijastima. Rezervacijom mjesta prihvatate sljedeće uslove."
+      },
+      "2": {
+        "title": "2. Otkazivanja od strane kupaca",
+        "desc": "Otkazivanje se mora izvršiti pismenim putem ili putem korisničkog računa na našoj web stranici. Iznos povrata zavisi od vremena otkazivanja:",
+        "mehr": {
+          "title": "Više od 48 sati prije početka utakmice",
+          "desc": "Primit ćete puni povrat iznosa rezervacije. Alternativno, iznos se može upisati kao kredit za buduće rezervacije."
+        },
+        "weniger": {
+          "title": "Manje od 48 sati prije početka utakmice",
+          "desc": "Nažalost, povrat novca nije moguć jer često više nismo u mogućnosti iznajmiti prostor u tako kratkom roku."
+        }
+      },
+      "3": {
+        "title": "3. Prebukiranja",
+        "desc": "Želite li pomjeriti termin umjesto da ga otkažete? Rezervacije su moguće pod sledećim uslovima:",
+        "i1": "Rezervacije su moguće besplatno do 48 sati prije prvobitnog termina.",
+        "i2": "Novi datum mora biti unutar 30 dana od prvobitnog datuma rezervacije.",
+        "i3": "Razlike u cijenama (npr. promjena sa vanvršnog na vršno vrijeme) se moraju platiti."
+      },
+      "4": {
+        "title": "4. Povrat novca u slučaju kvara od strane operatera",
+        "desc": "Ako {{company}} ne može osigurati rezervirani prostor zbog tehničkih problema, radova na održavanju ili više sile (npr. oštećenje vode, nestanak struje), naravno dobit ćete <1>100% povrat</1> uplaćenog iznosa.",
+        "note": "* U takvim slučajevima bit ćete odmah kontaktirani putem e-pošte ili telefona."
+      },
+      "5": {
+        "title": "5. Posebne ponude i vaučeri",
+        "desc": "Imajte na umu da rezervacije napravljene kao dio posebnih promocija ili plaćene promotivnim vaučerima mogu biti isključene iz redovnog povrata novca. Kupljeni vaučeri se ne mogu zamijeniti za gotovinu, ali ostaju važeći u slučaju otkazivanja (kredit na račun korisnika)."
+      },
+      "6": {
+        "title": "6. Vrijeme obrade",
+        "desc": "Trudimo se da sve zahtjeve za povrat novca obradimo što je brže moguće. Molimo vas da nam dozvolite vrijeme obrade od <1>7-10 radnih dana</1> za iznos koji će biti knjižen na vaš originalni način plaćanja."
+      },
+      "7": {
+        "title": "7. Kontaktirajte za povrat novca",
+        "desc": "Imate li pitanja o svom računu ili konkretnom povratu novca? Naš tim za podršku vam stoji na raspolaganju."
+      }
+    }
+  },
+  "agb": {
+    "tag": "Pravni",
+    "titlePart1": "Generale",
+    "titlePart2": "Odredbe i uslovi",
+    "subtitle": "Molimo pažljivo pročitajte ove Uslove prije korištenja naših usluga. Transparentnost i pravičnost su nam važni.",
+    "date": "Od: maja 2024",
+    "sections": {
+      "0": {
+        "title": "Obim",
+        "p1": "Ovi Opšti uslovi poslovanja (u daljem tekstu „Uslovi i odredbe“) regulišu korišćenje sportskog objekta {{kompanija}} (u daljem tekstu „Operator“) od strane kupaca i posetilaca (u daljem tekstu „Korisnici“).",
+        "p2": "Rezervacijom igrališta ili ulaskom u objekat, korisnik prihvata ove uslove i odredbe u njihovoj trenutno važećoj verziji. Različiti uslovi korisnika ne postaju dio ugovora osim ako operater izričito pismeno ne pristane na njihovu valjanost."
+      },
+      "1": {
+        "title": "Rezervacija i zaključivanje ugovora",
+        "p1": "Rezervacija igrališta se prvenstveno vrši putem online rezervacijskog sistema na našoj web stranici.",
+        "i1": "Ugovor između korisnika i operatera je sklopljen čim korisnik završi proces rezervacije i dobije potvrdu rezervacije putem e-pošte.",
+        "i2": "Potvrda rezervacije sadrži sve relevantne detalje o rezervaciji (datum, vrijeme, broj sjedišta, cijena).",
+        "i3": "Korisnik je dužan odmah provjeriti tačnost podataka u potvrdi rezervacije i odmah prijaviti eventualne greške."
+      },
+      "2": {
+        "title": "Uslovi plaćanja",
+        "p1": "Cijene korištenja igrališta su bazirane na trenutnom cjeniku na web stranici. Sve cijene su u eurima (EUR).",
+        "i1": "Načini plaćanja: Plaćanje se vrši online korištenjem ponuđenih načina plaćanja (kreditna kartica, Apple Pay, Google Pay).",
+        "i2": "Datum dospijeća: Potpuni iznos fakture dospijeva odmah nakon rezervacije ili najkasnije prije početka utakmice.",
+        "i3": "Korišćenje prostora bez prethodne pune uplate nije dozvoljeno."
+      },
+      "3": {
+        "title": "Otkazivanje i povrat novca",
+        "p1": "Otkazivanje se mora izvršiti pismenim putem (e-mailom) ili putem korisničkog naloga u sistemu za online rezervacije.",
+        "b1Title": "Do 48 sati prije početka utakmice",
+        "b1Desc": "Mogućnost besplatnog otkazivanja. Već uplaćeni iznos će biti u potpunosti vraćen.",
+        "b2Title": "U roku od 48 sati",
+        "b2Desc": "Nema povrata novca. U slučaju kasnog otkazivanja ili nepojavljivanja, cijeli iznos će biti zadržan."
+      },
+      "4": {
+        "title": "Korištenje objekta i kućni red",
+        "p1": "Korištenje objekta je dozvoljeno samo u rezerviranom terminu.",
+        "i1": "Korisnici moraju odmah napustiti objekat na kraju vremena za rezervaciju kako bi omogućili da sljedeće grupe počnu na vrijeme.",
+        "i2": "Primjenjuju se kućni red u prilogu i upute osoblja.",
+        "i3": "Ulazak na terene za igru ​​je dozvoljen samo sa odgovarajućom sportskom obućom (bez bitvi na zavrtanje).",
+        "i4": "Na sportskim površinama zabranjeno je pušenje i konzumiranje alkohola."
+      },
+      "5": {
+        "title": "Odgovornost",
+        "p1": "Korištenje {{company}} i njegovih objekata je na vlastitu odgovornost.",
+        "i1": "Operater nije odgovoran za štetu ili povrede nastale upotrebom sistema, osim ako su nastale usled grubog nemara ili namjere operatera.",
+        "i2": "Ne prihvatamo nikakvu odgovornost za dragocjenosti, odjeću i opremu ponesene sa sobom. Preporučujemo da ne ostavljate dragocjenosti u svlačionicama.",
+        "i3": "Odgovorna osoba ili osoba koja je izvršila rezervaciju je u potpunosti odgovorna za bilo kakvu namjernu štetu na objektu."
+      },
+      "6": {
+        "title": "Otkazivanje od strane operatera",
+        "p1": "Operater zadržava pravo da otkaže rezervacije iz važnih razloga (npr. tehnički problemi, nemogućnost igranja kursa, viša sila). U ovom slučaju, već uplaćeni iznos će biti u potpunosti vraćen. Dalji zahtjevi za naknadu štete su isključeni."
+      },
+      "7": {
+        "title": "Zaštita podataka",
+        "p1": "Zaštita vaših ličnih podataka nam je važna. Informacije o prikupljanju, obradi i korištenju vaših podataka možete pronaći u našoj zasebnoj izjavi o zaštiti podataka."
+      },
+      "8": {
+        "title": "Promjene odredbi i uslova",
+        "p1": "Operater zadržava pravo izmjene ovih uvjeta u bilo kojem trenutku. Promjene će biti objavljene na web stranici i primjenjivat će se na sve rezervacije napravljene nakon objave."
+      },
+      "9": {
+        "title": "Mjesto jurisdikcije i zakon",
+        "p1": "Primjenjuje se austrijski zakon. Wels je ugovoreno mjesto nadležnosti za sve sporove koji proizlaze iz ugovornog odnosa ako je kupac poduzetnik ili nema opću nadležnost u Austriji."
+      }
+    },
+    "footer": {
+      "title": "Imate li pitanja o našim uslovima i odredbama?",
+      "subtitle": "Naš tim za podršku vam stoji na raspolaganju.",
+      "button": "uspostaviti kontakt"
+    },
+    "backHome": "Povratak na početnu stranicu"
+  },
+  "admin": {
+    "settings": {
+      "save": "SAČUVAJ POSTAVKE",
+      "cancel": "Otkaži"
+    }
+  }
+}

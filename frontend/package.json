@@ -1,0 +1,57 @@
+{
+  "name": "frontend",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "seo:generate": "node ../ops/generate-seo-assets.mjs",
+    "prebuild": "npm run seo:generate",
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "test": "vitest",
+    "test:run": "vitest run",
+    "test:coverage": "vitest run --coverage"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "^4.2.0",
+    "@testing-library/dom": "^10.4.1",
+    "@testing-library/jest-dom": "^6.9.1",
+    "@testing-library/react": "^16.3.2",
+    "@testing-library/user-event": "^14.6.1",
+    "@types/react": "^19.2.14",
+    "@types/react-dom": "^19.2.3",
+    "@types/testing-library__jest-dom": "^5.14.9",
+    "@vitejs/plugin-react": "^5.1.4",
+    "jsdom": "^28.1.0",
+    "msw": "^2.12.10",
+    "tailwindcss": "^4.2.0",
+    "typescript": "~5.9.3",
+    "vite": "^7.3.1",
+    "vitest": "^4.0.18"
+  },
+  "dependencies": {
+    "@stripe/react-stripe-js": "^5.6.0",
+    "@stripe/stripe-js": "^8.8.0",
+    "@types/leaflet": "^1.9.21",
+    "axios": "^1.13.5",
+    "date-fns": "^4.1.0",
+    "framer-motion": "^12.34.3",
+    "i18next": "^25.8.13",
+    "leaflet": "^1.9.4",
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4",
+    "react-helmet-async": "^2.0.5",
+    "react-i18next": "^16.5.4",
+    "react-leaflet": "^5.0.0",
+    "react-qr-code": "^2.0.18",
+    "react-router-dom": "^7.13.0",
+    "recharts": "^3.7.0",
+    "zustand": "^5.0.11"
+  },
+  "msw": {
+    "workerDirectory": [
+      "public"
+    ]
+  }
+}

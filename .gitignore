@@ -1,0 +1,26 @@
+# Backend
+backend/target/
+backend/.env
+backend/.env.local
+
+# Frontend
+frontend/node_modules/
+frontend/dist/
+frontend/dist-ssr/
+frontend/*.local
+frontend/.env.local
+
+# IDE
+.idea/
+.vscode/
+*.iml
+.DS_Store
+
+# Logs
+*.log
+npm-debug.log*
+
+# Root level
+.env
+node_modules/
+.claude/

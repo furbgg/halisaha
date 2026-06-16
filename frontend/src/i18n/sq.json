@@ -1,0 +1,1733 @@
+{
+  "nav": {
+    "home": "Faqja kryesore",
+    "reservation": "rezervim",
+    "manage": "Menaxhoni rezervimin",
+    "login": "Regjistrohu",
+    "register": "Regjistrohu",
+    "logout": "Dilni",
+    "profile": "Llogaria ime",
+    "admin": {
+      "dashboard": "Paneli",
+      "reservations": "Rezervimet",
+      "equipment": "Lista e materialeve",
+      "staff": "Lista e personelit",
+      "settings": "Cilësimet",
+      "payments": "Pagesat",
+      "communication": "komunikimi",
+      "contactRequests": "Pyetjet e kontaktit",
+      "management": "Administrata",
+      "logout": "Dilni",
+      "openSidebar": "Hapni shiritin anësor",
+      "closeSidebar": "Mbyll shiritin anësor"
+    },
+    "bookNow": "Rezervoni tani",
+    "tournaments": "Turne",
+    "manageBooking": "Menaxho rezervimin",
+    "designedFor": "Projektuar për"
+  },
+  "common": {
+    "loading": "Ngarko...",
+    "error": "Ndodhi një gabim",
+    "save": "Ruaj",
+    "cancel": "Anulo",
+    "delete": "Fshije",
+    "edit": "Redakto",
+    "back": "Mbrapa",
+    "next": "Më tej",
+    "confirm": "Konfirmo",
+    "close": "Mbylle"
+  },
+  "footer": {
+    "privacy": "Mbrojtja e të dhënave",
+    "imprint": "gjurmë",
+    "refundPolicy": "Politika e rimbursimit",
+    "accessibility": "Aksesueshmëria",
+    "contact": "kontakt",
+    "terms": "Termat dhe Kushtet",
+    "faq": "FAQ",
+    "allRightsReserved": "Të gjitha të drejtat e rezervuara."
+  },
+  "theme": {
+    "dark": "Modaliteti i errët",
+    "light": "Modaliteti i dritës"
+  },
+  "home": {
+    "seo": {
+      "title": "Salla e Futbollit dhe Futbollit Bubble",
+      "description": "Rezervoni sallën tuaj të futbollit premium ose flluskë futbolli në Austrinë e Epërme. E përkryer për ditëlindje dhe ngjarje të kompanisë rreth Linz dhe Wels."
+    },
+    "hero": {
+      "badge": "Tani në dispozicion në 4651 Stadl-Paura",
+      "title1": "Loja juaj.",
+      "title2": "Vendi juaj.",
+      "subtitle": "Dy fusha të brendshme të mirëmbajtura në mënyrë perfekte ju presin në Salamanda Soccer Arena, të cilat i japin çdo ndeshje diçka të caktuar.<br/><br/>Përjetoni futbollin pa kompromis - pavarësisht nga moti, dinamik dhe me ndjenjën e vërtetë të konkurrencës dhe komunitetit.",
+      "bookNow": "REZERVO TANI",
+      "manageBooking": "MENAXH REZERVIMI",
+      "stats": {
+        "courts": "vende",
+        "players": "lojtar",
+        "rating": "Vlerësimi"
+      }
+    },
+    "features": {
+      "subtitle": "gamën tonë",
+      "title": "Zgjidhni përvojën tuaj",
+      "bubble": {
+        "badge": "POPULLORE",
+        "title": "Futbolli me flluska",
+        "description": "Argëtim i mbushur me aksion në flluska të mëdha për ekipin tuaj. E përkryer për ditëlindje, ndërtim ekipi ose thjesht për të lënë avull.",
+        "feature1": "Përfshin pajisje dhe udhëzime",
+        "feature2": "Koha e lojës nga 60 deri në 120 minuta",
+        "button": "Rezervoni tani"
+      },
+      "soccer": {
+        "badge": "PROFESIONAL",
+        "title": "Futbolli",
+        "description": "Përjetoni futbollin në Stadl-Paura.<br/>Vendndodhja më e mirë për lojtarë nga i gjithë rajoni.",
+        "feature1": "Sistemi i prozhektorit LED",
+        "feature2": "Dhoma të zhveshjes dhe dushe të përfshira",
+        "button": "Rezervoni vendin tuaj"
+      }
+    }
+  },
+  "booking": {
+    "step1": {
+      "title": "1. Fusha e lojës dhe data",
+      "selection": "Përzgjedhja",
+      "sportType": "Zgjidhni sportin",
+      "football": "futbolli",
+      "bubbleSoccer": "Futbolli me flluska",
+      "chooseField": "Zgjidhni një vend",
+      "duration": "Koha e lojës",
+      "minutes": "minuta",
+      "date": "Data",
+      "datePassed": "Data e zgjedhur është në të kaluarën.",
+      "dateTooFar": "Rezervimet janë të mundshme maksimumi 3 muaj përpara.",
+      "availableTimes": "Oraret e disponueshme per {{date}}",
+      "noTimes": "Nuk ka kohë të lirë",
+      "noTimesDesc": "Fatkeqësisht, të gjitha vendet janë të zëna në këtë ditë ose koha e lojës nuk përshtatet në boshllëqet e disponueshme.",
+      "chooseOtherDate": "Zgjidhni një datë tjetër",
+      "selectedSlot": "Data e zgjedhur:",
+      "oclock": "Ora",
+      "continueBooking": "Rezervimi Vazhdo",
+      "chooseTimeFirst": "Së pari zgjidhni një kohë",
+      "status": {
+        "free": "Falas",
+        "booked": "E provuar"
+      },
+      "happyHourTooltip": "Happy Hour zbatohet gjatë kësaj periudhe!",
+      "cancellation": {
+        "title": "anulimi",
+        "desc": "Falas deri në 48 orë para fillimit të lojës."
+      },
+      "equipment": {
+        "title": "pajisje",
+        "desc": "Dushet dhe dhomat e zhveshjes të përfshira."
+      },
+      "happyHour": {
+        "title": "Orë e lumtur",
+        "active": "Happy Hour Aktiv!",
+        "discount": "Zbritje"
+      },
+      "chooseTime": "ZGJIDHNI KOHËN TUAJ",
+      "timezone": "Zona kohore",
+      "selected": "Zgjedhur",
+      "unavailable": "Nuk disponohet",
+      "occupied": "E provuar",
+      "yourAppointment": "Takimi juaj",
+      "total": "Në total",
+      "continue": "Vazhdoni të rezervoni"
+    },
+    "step2": {
+      "flow": {
+        "step1": "1. Zgjidhni një datë",
+        "step2": "2. Futni të dhëna",
+        "step3": "3. Konfirmimi"
+      },
+      "error": {
+        "fillRequired": "Ju lutemi plotësoni të gjitha fushat e detyrueshme.",
+        "unavailable": "Fatkeqësisht data e zgjedhur nuk është më e disponueshme."
+      },
+      "title": "Informacioni juaj",
+      "subtitle": "Ju lutemi shkruani të dhënat tuaja për të përfunduar rezervimin.",
+      "form": {
+        "firstName": "Emri i parë",
+        "lastName": "Mbiemri",
+        "email": "Adresa e postës elektronike",
+        "phone": "Numri i telefonit"
+      },
+      "equipment": {
+        "title": "Material me qira",
+        "subtitle": "Opsionale - merrni me qira Krampon direkt në vend",
+        "chooseSize": "Zgjidhni madhësinë",
+        "available": "Në dispozicion",
+        "outOfStock": "Jashtë stok",
+        "addSize": "Shto madhësinë {{size}} (+€{{çmimi}})",
+        "addSizeFallback": "Shtoni madhësinë",
+        "selectSizeFirst": "Zgjidh madhësinë...",
+        "selected": "Zgjedhur",
+        "pair": "Çifti"
+      },
+      "buttons": {
+        "back": "Kthehu te përzgjedhja",
+        "loading": "Duke u ngarkuar...",
+        "continue": "VAZHDO ME PAGESËN"
+      },
+      "summary": {
+        "title": "Përmbledhje",
+        "soccer": "Futbolli",
+        "bubbleSoccer": "Futbolli me flluska",
+        "date": "Data",
+        "time": "koha",
+        "location": "Vendndodhja",
+        "fieldRental": "Vend me qira",
+        "krampon": "Krampon",
+        "total": "Shuma totale",
+        "vatIncluded": "TVSH e përfshirë.",
+        "cancellation": "Anulimi falas është i mundur deri në 48 orë para fillimit të lojës."
+      }
+    },
+    "step3": {
+      "processing": {
+        "title": "Pagesa e sigurt është duke u përpunuar...",
+        "subtitle": "Ju lutemi prisni, do të ridrejtoheni te verifikimi 3D Secure i bankës suaj.",
+        "tls": "Lidhje e koduar TLS"
+      },
+      "flow": {
+        "step1": "1. Zgjidhni një datë",
+        "step2": "2. Futni të dhëna",
+        "step3": "3. Zgjidhni mënyrën e pagesës"
+      },
+      "payment": {
+        "title": "Zgjidhni mënyrën e pagesës",
+        "subtitle": "Zgjidhni mënyrën tuaj të preferuar të pagesës për rezervim.",
+        "googlePay": "Google Pay",
+        "fastSecure": "Shpejt dhe i sigurt",
+        "applePay": "Apple Pay",
+        "convenient": "Paguani me lehtësi",
+        "creditCard": "Kartë krediti",
+        "cardTypes": "Visa, Mastercard, Amex",
+        "cardNumber": "Numri i kartës",
+        "expiry": "E vlefshme deri në (MM/YY)",
+        "cvc": "CVC/CVV"
+      },
+      "coupon": {
+        "title": "Kodi i kuponit",
+        "placeholder": "Fut kodin e kuponit",
+        "apply": "Aplikoni",
+        "remove": "Hiq",
+        "applied": "Aplikuar",
+        "discountTextPercentage": "{{value}}% zbritje — kurseni {{amount}} €",
+        "discountTextFixed": "€{{value}} zbritje — kurseni €{{amount}}",
+        "errorInvalid": "Kodi i pavlefshëm i kuponit",
+        "errorCheck": "Gabim gjatë kontrollit të kuponit"
+      },
+      "buttons": {
+        "back": "Kthehu te të dhënat",
+        "pay": "Paguani dhe rezervoni tani"
+      },
+      "summary": {
+        "title": "Përmbledhje",
+        "soccer": "Futbolli",
+        "bubbleSoccer": "Futbolli me flluska",
+        "fieldRental": "Vend me qira",
+        "krampon": "Krampon",
+        "pair": "Çifti",
+        "hours": "orët",
+        "serviceFee": "Tarifa e shërbimit",
+        "discount": "Zbritje",
+        "couponDiscount": "Zbritje e kuponit",
+        "total": "Shuma totale",
+        "vatIncluded": "TVSH e përfshirë.",
+        "ssl": "Kriptim i sigurt SSL"
+      },
+      "error": {
+        "transactionFailed": "Transaksioni nuk mund të përpunohej nga serveri ynë."
+      }
+    },
+    "success": {
+      "confirmed": "Rezervimi u konfirmua",
+      "thankYou": "faleminderit,",
+      "gameReady": "Loja juaj ka përfunduar!",
+      "description": "Rezervimi juaj është konfirmuar me sukses. Ne ju kemi dërguar një përmbledhje me email. Përgatituni për ndeshjen!",
+      "manageBtn": "MENAXH REZERVIMI",
+      "homeBtn": "Faqja kryesore",
+      "needHelp": "Keni nevojë për ndihmë? Ne jemi këtu për ju.",
+      "contactSupport": "Kontaktoni me mbështetjen",
+      "bookingId": "ID-ja e rezervimit",
+      "date": "Data",
+      "time": "Koha",
+      "field": "Vendi",
+      "price": "Çmimi",
+      "checkIn": "Kodi i regjistrimit",
+      "qrDesc": "Shfaq këtë kod QR në pritje për të fituar qasje në fushë.",
+      "planRoute": "Planifikoni rrugën",
+      "paidStatus": "I paguar"
+    },
+    "cancel": {
+      "error": "Gabim anulimi.",
+      "successTitle": "Rezervimi juaj është anuluar me sukses.",
+      "successDesc": "Një konfirmim është dërguar në adresën tuaj të emailit. Rimbursimi do të përpunohet brenda 3-5 ditëve të punës.",
+      "cancelledBooking": "Rezervimi i anuluar",
+      "backHome": "KTHIM NE FAQEN KRYESORE",
+      "needHelp": "Keni nevojë për ndihmë?",
+      "contactSupport": "Kontaktoni mbështetjen tonë",
+      "backButton": "Kthehu në përmbledhje",
+      "confirmTitle": "Dëshiron vërtet ta anulosh?",
+      "confirmDesc": "Ju lutemi konfirmoni anulimin e rezervimit tuaj.",
+      "bookingId": "Rezervimi nr.",
+      "policyTitle": "Politika e anulimit",
+      "policyDesc": "Anulimet janë pa pagesë deri në 48 orë para fillimit të lojës. Më pas do të mbahet një tarifë prej 50%.",
+      "confirmPaidBtn": "ANULO TANI PER NJE TARISHJE",
+      "abortBtn": "MOS ANULO",
+      "haveQuestions": "A keni ndonjë pyetje?"
+    }
+  },
+  "contact": {
+    "title1": "Kontaktoni",
+    "title2": "ju ne",
+    "subtitle": "A keni ndonjë pyetje në lidhje me rezervimin tuaj apo vendin tonë? Ne jemi këtu për ju. Thjesht plotësoni formularin.",
+    "form": {
+      "nameLabel": "emri",
+      "namePlaceholder": "Emri juaj",
+      "emailLabel": "Adresa e postës elektronike",
+      "emailPlaceholder": "emri@shembull.at",
+      "subjectLabel": "Në lidhje me",
+      "subjectPlaceholder": "Për çfarë bëhet fjalë?",
+      "messageLabel": "mesazhin tuaj",
+      "messagePlaceholder": "Na shkruani mesazhin tuaj...",
+      "successData": "Faleminderit për mesazhin tuaj. Ne do t'ju kontaktojmë së shpejti.",
+      "sendingBtn": "Do të dërgohet...",
+      "sendBtn": "Dërgo Mesazh",
+      "errorFallback": "Ka ndodhur një gabim. Ju lutemi provoni përsëri."
+    },
+    "info": {
+      "address": "adresa",
+      "phone": "telefon",
+      "email": "e-mail",
+      "hoursTitle": "Orari i hapjes",
+      "hoursLine1": "Hënë - E enjte: 4:30 pasdite. - ora 12:00",
+      "hoursLine2": "E Premte - E Diel: 12:00 p.m. - 1:30 e mëngjesit",
+      "planRoute": "Planifikoni rrugën",
+      "mapAustria": "Austria"
+    }
+  },
+  "impressum": {
+    "tag": "Ligjore",
+    "title": "gjurmë",
+    "subtitle": "Informacioni në përputhje me Seksionin 5 të Aktit të Tregtisë Elektronike (ECG) dhe detyrimin e zbulimit në përputhje me seksionin 25 të Aktit të Medias.",
+    "companyDetails": "Informacioni i kompanisë",
+    "companyName": "Emri i kompanisë",
+    "legalForm": "Forma juridike",
+    "headquarters": "vend",
+    "owners": "aksioner",
+    "addressTitle": "Adresa",
+    "registerEntryTitle": "Regjistro hyrjen",
+    "registeredCourt": "Regjistruar në regjistrin tregtar të",
+    "uid": "Numri UID:",
+    "contactTitle": "kontakt",
+    "chamberTitle": "Mbikëqyrja dhe Dhoma",
+    "chamberMembership": "përkatësia e dhomës",
+    "chamberMember": "Anëtar i Dhomës Ekonomike Austriake (WKO)",
+    "tradeRegulations": "Rregulloret e tregtisë",
+    "liabilityTitle": "Përgjegjësia për përmbajtjen dhe lidhjet",
+    "liabilityDesc1": "Përmbajtja e kësaj faqeje interneti është krijuar me kujdes, por ne nuk marrim asnjë përgjegjësi për saktësinë, plotësinë ose aktualitetin e përmbajtjes. Si ofrues shërbimi, ne jemi përgjegjës për përmbajtjen tonë në këto faqe në përputhje me ligjet e përgjithshme.",
+    "liabilityDesc2": "Oferta jonë përmban lidhje me uebsajte të jashtme të palëve të treta mbi përmbajtjen e të cilave ne nuk kemi asnjë ndikim. Prandaj, ne nuk mund të marrim asnjë përgjegjësi për këtë përmbajtje të jashtme. Ofruesi ose operatori përkatës i faqeve është gjithmonë përgjegjës për përmbajtjen e faqeve të lidhura.",
+    "copyrightTitle": "e drejta e autorit",
+    "copyrightDesc": "Përmbajtja dhe veprat në këto faqe të krijuara nga operatorët e faqes janë subjekt i ligjit austriak për të drejtat e autorit. Riprodhimi, përpunimi, shpërndarja dhe çdo lloj shfrytëzimi jashtë kufijve të ligjit të së drejtës së autorit kërkon pëlqimin me shkrim të autorit ose krijuesit përkatës. Shkarkimet dhe kopjet e kësaj faqeje lejohen vetëm për përdorim privat, jo komercial.",
+    "backHome": "Kthehu në faqen kryesore"
+  },
+  "faq": {
+    "titlePart1": "Pyetur shpesh",
+    "titlePart2": "Pyetje",
+    "subtitle": "Gjithçka që duhet të dini për goditjen tuaj me ne. Nëse diçka është ende e paqartë, thjesht na kontaktoni!",
+    "contactTitle": "Kontakt & Udhëzime",
+    "contactTel": "Tel:",
+    "contactEmail": "E-mail:",
+    "planRoute": "Planifikoni rrugën",
+    "items": {
+      "0": {
+        "q": "Mund të luani pa rezervim?",
+        "a": "Loja spontane është e mundur nëse ka një hapësirë ​​të lirë. Megjithatë, ju rekomandojmë fuqimisht që të rezervoni paraprakisht në internet ose me telefon."
+      },
+      "1": {
+        "q": "Sa kohë më parë mund të rezervoni një vend?",
+        "a": "Një vend mund të rezervohet deri në 90 ditë përpara duke përdorur sistemin tonë të rezervimit online. Nëse dëshironi të luani në një njoftim të shkurtër, pra disa orë përpara, ju rekomandojmë të na kontaktoni me telefon për të kontrolluar disponueshmërinë aktuale."
+      },
+      "2": {
+        "q": "A mund të bëj një abonim të rregullt ose një rezervim të përsëritur?",
+        "a": "Po, nëse doni të luani rregullisht - për shembull çdo javë ose çdo dy javë në të njëjtën kohë - nuk është problem. Në këtë rast, ju lutemi na kontaktoni drejtpërdrejt nëpërmjet faqes sonë të kontaktit ose me telefon, në mënyrë që të mund të vendosim një rezervim individual për ju së bashku."
+      },
+      "3": {
+        "q": "Në çfarë terreni luhet ndeshja?",
+        "a": "Loja luhet në terren artificial politan me cilësi të lartë, i cili ofron një ndjenjë loje optimale dhe siguri maksimale."
+      },
+      "4": {
+        "q": "Me cilat këpucë mund të luani?",
+        "a": "Mund të luhet me të gjitha këpucët sportive standarde - këpucët me kapak nuk lejohen për arsye sigurie."
+      },
+      "5": {
+        "q": "A ka dushe dhe dhoma zhveshjeje?",
+        "a": "Po, ka dushe dhe dhoma zhveshjeje falas në dispozicion për mysafirët tanë. Ju lutemi vini re se aktualisht nuk ka dollapë për sendet me vlerë."
+      },
+      "6": {
+        "q": "A ka parkim në vend?",
+        "a": "Po, ka shumë vende parkimi falas të disponueshme drejtpërdrejt përballë Arenës së Futbollit."
+      }
+    }
+  },
+  "datenschutz": {
+    "tag": "Mbrojtja ligjore dhe e të dhënave",
+    "title": "Politika e privatësisë",
+    "subtitle": "Ne e marrim shumë seriozisht mbrojtjen e të dhënave tuaja personale. Këtu mund të zbuloni në mënyrë transparente se si ne i përpunojmë dhe mbrojmë informacionin tuaj në {company}.",
+    "sections": {
+      "0": {
+        "title": "1. Personi përgjegjës",
+        "content": "Përgjegjës për përpunimin e të dhënave në këtë faqe interneti sipas kuptimit të Rregullores së Përgjithshme të Mbrojtjes së të Dhënave (GDPR) është:",
+        "representedBy": "Përfaqësuar nga:",
+        "email": "E-mail:"
+      },
+      "1": {
+        "title": "2. Mbledhja dhe përpunimi i të dhënave",
+        "content": "Ne përpunojmë të dhënat personale që marrim nga ju si pjesë e marrëdhënies sonë të biznesit. Të dhënat e përpunuara përfshijnë në veçanti:",
+        "items": {
+          "0": "Emri emri",
+          "1": "Numri i telefonit",
+          "2": "Adresa e postës elektronike",
+          "3": "Detajet e rezervimit",
+          "4": "Detajet e pagesës",
+          "5": "Të dhënat teknike (IP, cookies)"
+        }
+      },
+      "2": {
+        "title": "3. Qëllimi i përpunimit",
+        "content": "Ne i përpunojmë të dhënat tuaja personale në përputhje me dispozitat e Rregullores së Përgjithshme të BE-së për Mbrojtjen e të Dhënave (GDPR) dhe Aktit të Mbrojtjes së të Dhënave (DSG) për qëllimet e mëposhtme:",
+        "items": {
+          "0": {
+            "t": "Rezervimi dhe procesimi i pagesave:",
+            "c": "Për të menaxhuar rezervimet tuaja të vendeve dhe transaksionet përkatëse."
+          },
+          "1": {
+            "t": "Përmbushja e kontratës:",
+            "c": "Për të ofruar shërbimet tona brenda objektit të marrëveshjes së përdoruesit."
+          },
+          "2": {
+            "t": "Komunikimi:",
+            "c": "Për të na kontaktuar nëse keni ndonjë pyetje ose bëni ndryshime në rezervimin tuaj."
+          },
+          "3": {
+            "t": "Përmirësimi i shërbimit:",
+            "c": "Analiza për të optimizuar ofertën tonë dhe faqen e internetit."
+          }
+        }
+      },
+      "3": {
+        "title": "4. Baza ligjore",
+        "content": "Të dhënat tuaja do të përpunohen në bazë të bazave ligjore të mëposhtme në përputhje me Art. 6 Para. 1 GDPR:",
+        "items": {
+          "0": {
+            "t": "Ndezur. a",
+            "c": "Pëlqimi (p.sh. buletini, cookie)"
+          },
+          "1": {
+            "t": "Ndezur. b",
+            "c": "Përmbushja e kontratës (rezervimet)"
+          },
+          "2": {
+            "t": "Ndezur. c",
+            "c": "Detyrimi ligjor (ligji tatimor)"
+          },
+          "3": {
+            "t": "Ndezur. f",
+            "c": "Interesi legjitim (siguria, analiza)"
+          }
+        }
+      },
+      "4": {
+        "title": "5. Ndarja e të dhënave",
+        "content": "Të dhënat tuaja personale nuk do t'i transferohen palëve të treta për qëllime të tjera nga ato të listuara më poshtë. Ne ua kalojmë të dhënat tuaja personale palëve të treta vetëm nëse kjo është e nevojshme për ekzekutimin e kontratës, siç është institucioni i kreditit ose ofruesi i shërbimit të pagesave përgjegjës për përpunimin e pagesës."
+      },
+      "5": {
+        "title": "6. Cookies & Ndjekja",
+        "content": "Faqja jonë e internetit përdor cookie. Këta janë skedarë të vegjël teksti që shfletuesi juaj i uebit i ruan në pajisjen tuaj. Cookies na ndihmojnë ta bëjmë ofertën tonë më miqësore, efektive dhe të sigurt për përdoruesit. Ne përdorim vetëm mjete analize dhe marketingu bazuar në pëlqimin tuaj të shprehur. Ju mund ta konfiguroni shfletuesin tuaj në mënyrë që të jeni të informuar për vendosjen e cookies dhe të lejoni skedarët vetëm në raste individuale."
+      },
+      "6": {
+        "title": "7. Periudha e ruajtjes",
+        "content": "Ne i ruajmë të dhënat tuaja personale vetëm për aq kohë sa është e nevojshme për të përmbushur detyrimet kontraktuale ose ligjore. Nëse të dhënat nuk kërkohen më për të përmbushur detyrimet kontraktuale ose ligjore, ato do të fshihen rregullisht."
+      },
+      "7": {
+        "title": "8. Të drejtat e të prekurve",
+        "items": {
+          "0": {
+            "t": "Informacion",
+            "c": "Ju mund të kërkoni informacion në lidhje me të dhënat tuaja të përpunuara."
+          },
+          "1": {
+            "t": "Korrigjimi",
+            "c": "Ju mund të kërkoni që të dhënat e pasakta të korrigjohen."
+          },
+          "2": {
+            "t": "fshirje",
+            "c": "Ju mund të kërkoni fshirjen e të dhënave tuaja."
+          },
+          "3": {
+            "t": "Kufizimi",
+            "c": "Ju mund të kërkoni kufizimin e përpunimit."
+          },
+          "4": {
+            "t": "Transferueshmëria",
+            "c": "Ju keni të drejtën e transportueshmërisë së të dhënave."
+          },
+          "5": {
+            "t": "kontradiktë",
+            "c": "Ju mund të kundërshtoni përpunimin."
+          },
+          "6": {
+            "t": "Revokimi",
+            "c": "Shumë operacione të përpunimit të të dhënave janë të mundshme vetëm me pëlqimin tuaj të shprehur. Ju mund të revokoni çdo pëlqim që keni dhënë tashmë në çdo kohë."
+          }
+        }
+      },
+      "8": {
+        "title": "9. Siguria",
+        "content": "Ne përdorim masa sigurie teknike dhe organizative për të mbrojtur të dhënat që menaxhojmë nga manipulimi, humbja, shkatërrimi ose aksesi aksidental ose i qëllimshëm nga persona të paautorizuar. Masat tona të sigurisë përmirësohen vazhdimisht në përputhje me zhvillimet teknologjike."
+      },
+      "9": {
+        "title": "10. Ndryshimet",
+        "content": "Ne rezervojmë të drejtën që herë pas here të përshtatim këtë deklaratë për mbrojtjen e të dhënave në mënyrë që ajo të jetë gjithmonë në përputhje me kërkesat aktuale ligjore ose të zbatojmë ndryshime në shërbimet tona në deklaratën e mbrojtjes së të dhënave, p.sh. kur prezantoni shërbime të reja. Deklarata e re e mbrojtjes së të dhënave do të zbatohet më pas për vizitën tuaj të ardhshme."
+      }
+    },
+    "footer": {
+      "q": "A keni ende pyetje në lidhje me mbrojtjen e të dhënave?",
+      "btn": "Kontaktoni oficerin tuaj për mbrojtjen e të dhënave"
+    },
+    "backHome": "Kthehu në faqen kryesore"
+  },
+  "errorPages": {
+    "notFound": {
+      "seoTitle": "404 - Faqja nuk u gjet",
+      "seoDesc": "Oops! Fatkeqësisht kjo faqe nuk ekziston. Kthehuni në faqen kryesore të {kompanisë}.",
+      "titlePart1": "Oops!",
+      "titlePart2": "Në pozicion jashtë loje.",
+      "desc": "Fatkeqësisht kjo faqe nuk ekziston ose është zhvendosur. Ndoshta topi doli jashtë kufijve?",
+      "backHome": "KTHIM NE FAQEN KRYESORE",
+      "bookNow": "REZERVO TANI",
+      "contact": "KONTAKTONI"
+    },
+    "forbidden": {
+      "seoTitle": "403 - Nuk ka qasje",
+      "seoDesc": "Qasja u refuzua.",
+      "titlePart1": "Ndalo!",
+      "titlePart2": "Karton i kuq.",
+      "desc": "Ju nuk keni autorizim të mjaftueshëm për të hyrë në këtë zonë. Ju lutemi kthehuni në faqen kryesore ose identifikohuni.",
+      "backHome": "KTHIM NE FAQEN KRYESORE",
+      "loginInfo": "Ose hyni me të drejtat e kërkuara:"
+    },
+    "unauthorized": {
+      "seoTitle": "401 - Nuk jeni identifikuar",
+      "seoDesc": "Ju lutemi identifikohuni.",
+      "titlePart1": "Ndalo!",
+      "titlePart2": "Kontrolli i hyrjes.",
+      "desc": "Ju lutemi identifikohuni për të hyrë në këtë zonë. Kërkohet një biletë.",
+      "loginBtn": "PËR TË HYRUR"
+    },
+    "serverError": {
+      "seoTitle": "500 - Gabim serveri",
+      "seoDesc": "Ndodhi një gabim i papritur.",
+      "titlePart1": "Oof!",
+      "titlePart2": "Lojë e keqe në kod.",
+      "desc": "Serveri ynë mori një goditje të papritur. Ekipi ynë teknik tashmë është në fushë. Ju lutemi provoni përsëri më vonë.",
+      "backHome": "KTHIM NE FAQEN KRYESORE"
+    },
+    "maintenance": {
+      "seoTitle": "Mirëmbajtja e sistemit",
+      "seoDesc": "Fusha e lojës është duke u përgatitur.",
+      "titlePart1": "Pushim i shkurtër!",
+      "titlePart2": "Kujdesi për lëndinë.",
+      "desc": "Aktualisht po kryejmë punët e nevojshme të mirëmbajtjes për ta sjellë fushën në formë të mirë për ju. Ne do të kthehemi së shpejti.",
+      "statusText": "Në pritje të rifillimit të lojës..."
+    }
+  },
+  "login": {
+    "seoTitle": "Identifikohu | {kompani}",
+    "seoDesc": "Hyni për të menaxhuar rezervimet tuaja.",
+    "title": "Regjistrohu",
+    "subtitle": "Hyni për të menaxhuar rezervimet tuaja.",
+    "errors": {
+      "authFailed": "Identifikimi dështoi. Ju lutemi provoni përsëri.",
+      "tooManyRequests": "Shumë përpjekje për hyrje. Ju lutemi prisni 15 minuta.",
+      "invalidCredentials": "Detaje të pavlefshme identifikimi."
+    },
+    "form": {
+      "emailLabel": "adresën e postës elektronike",
+      "emailPlaceholder": "your@email.com",
+      "passwordLabel": "fjalëkalimin",
+      "passwordPlaceholder": "••••••••",
+      "totpDesc": "Fut kodin 6-shifror nga aplikacioni yt i vërtetuesit.",
+      "totpLabel": "Kodi 2FA",
+      "totpPlaceholder": "000000",
+      "backToLogin": "Kthehu te regjistrimi",
+      "submitLogin": "Regjistrohu",
+      "submitVerify": "Verifiko"
+    },
+    "footer": "Sistemi i rezervimeve për objektet sportive"
+  },
+  "bookingManage": {
+    "title": "Menaxhoni rezervimin tuaj",
+    "desc": "Futni ID-në tuaj të rezervimit dhe adresën e emailit për të parë ose ndryshuar rezervimin tuaj.",
+    "form": {
+      "idLabel": "ID-ja e rezervimit",
+      "idPlaceholder": "RH-2026-X982",
+      "emailLabel": "Adresa e postës elektronike",
+      "emailPlaceholder": "your@email.com",
+      "submit": "GJENI REZERVIM"
+    },
+    "help": {
+      "text": "Keni harruar ID-në tuaj të rezervimit? Kontrolloni kutinë tuaj të postës elektronike ose",
+      "link": "kontaktoni mbështetjen tonë"
+    }
+  },
+  "bookingManageDetail": {
+    "back": "Kthehu në përmbledhje",
+    "status": {
+      "confirmed": "E konfirmuar",
+      "bookedOn": "Rezervuar në"
+    },
+    "title": "Rezervimi juaj",
+    "desc": "Këtu do të gjeni të gjitha detajet në lidhje me rezervimin tuaj të ardhshëm. Ju mund ta shtyni ose anuloni takimin.",
+    "actions": {
+      "print": "Shtypni",
+      "share": "Ndarë",
+      "copied": "Lidhja dhe detajet u kopjuan në kujtesën e fragmenteve!",
+      "copyFailed": "Kopjimi dështoi.",
+      "shareText": "⚽ Hej! Kam rezervuar një vend me {company}!\\n🏟️ Vendi: {field}\\n📅 Data: {date}\\n👇 Këtu janë detajet:",
+      "shareTitle": "Rezervimi me {kompani}"
+    },
+    "details": {
+      "fieldLabel": "Vendi i rezervuar",
+      "fieldTags": "Jashtë • Me ndriçim",
+      "dateTimeLabel": "Data dhe ora",
+      "amountLabel": "Shuma totale",
+      "paid": "I paguar",
+      "pending": "Në pritje",
+      "qrCode": "KONTROLLI NË KODI",
+      "qrCodeSub": "Shfaq në pritje",
+      "route": "Planifikoni rrugën"
+    },
+    "management": {
+      "title": "Administrata",
+      "reschedule": {
+        "title": "ricaktoni takimin",
+        "desc": "Ndryshoni datën ose orën e rezervimit tuaj. Në varësi të disponueshmërisë."
+      },
+      "refund": {
+        "title": "rimbursim",
+        "badge": "informacion",
+        "desc": "Nëse anuloni deri në 48 orë para fillimit të lojës, do të merrni automatikisht një rimbursim të plotë përmes Stripe."
+      },
+      "cancel": {
+        "title": "Anulo rezervimin",
+        "badge": "Rrezik",
+        "desc": "Anulimet janë pa pagesë deri në 48 orë para fillimit të lojës. Pas kësaj, aplikohen tarifat."
+      },
+      "help": {
+        "title": "Keni nevojë për ndihmë?",
+        "link": "Kontaktoni me mbështetjen"
+      }
+    }
+  },
+  "bookingReschedule": {
+    "title": "ricaktoni takimin",
+    "subtitle": "Menaxho rezervimin",
+    "desc": "Zgjidhni një datë dhe orë të re për lojën tuaj. Ndryshimet janë pa pagesë deri në 48 orë para fillimit të lojës.",
+    "success": {
+      "title": "U zhvendos me sukses!",
+      "desc": "Takimi juaj i ri më <1>{date}</1> është konfirmuar. Ju kemi dërguar një email të ri konfirmimi.",
+      "btn": "KTHIM NË PASQYRËN E PËRGJITHSHME"
+    },
+    "current": {
+      "title": "Takimi aktual",
+      "duration": "Gjatësia e kohës",
+      "price": "Çmimi",
+      "tag": "I VJETËR"
+    },
+    "calendar": {
+      "title": "Zgjidhni një datë të re",
+      "days": {
+        "0": "Mo",
+        "1": "e martë",
+        "2": "e mërkurë",
+        "3": "bëj",
+        "4": "Znj",
+        "5": "Shtu",
+        "6": "Pra"
+      }
+    },
+    "slots": {
+      "title": "Oraret e disponueshme",
+      "available": "Në dispozicion",
+      "selected": "Zgjedhur",
+      "loading": "Po ngarkon takimet...",
+      "empty": "Fatkeqësisht, nuk ka data të përshtatshme (më) për këtë datë."
+    },
+    "summary": {
+      "title": "Përmbledhje",
+      "old": "Takimi i vjetër",
+      "new": "Takimi i ri",
+      "fee": "Tarifa e ndryshimit",
+      "submit": "Ndrysho takimin tani",
+      "cancel": "Anulo & Kthehu",
+      "secure": "Lidhje e sigurt dhe përpunim i të dhënave"
+    },
+    "error": "Gabim gjatë ricaktimit të takimit."
+  },
+  "bookingFailure": {
+    "title": "Oops! Diçka shkoi keq.",
+    "desc": "Pagesa ose rezervimi juaj nuk mund të përpunohej.",
+    "idLabel": "ID-ja e rezervimit",
+    "failedLabel": "Dështoi",
+    "fieldLabel": "Vendi",
+    "priceLabel": "Çmimi",
+    "reasonLabel": "Arsyeja e refuzimit",
+    "retryBtn": "PROVONI SËRISH",
+    "helpBtn": "MERRNI NDIHMË"
+  },
+  "bookingTicketPrint": {
+    "actions": {
+      "print": "Print/Ruaj PDF",
+      "close": "Mbylle"
+    },
+    "header": {
+      "title": "Konfirmimi i rezervimit",
+      "issuedAt": "Lëshuar në:"
+    },
+    "reference": {
+      "title": "Referenca e rezervimit",
+      "id": "ID-ja e rezervimit:"
+    },
+    "details": {
+      "customer": "klient",
+      "field": "Vendi",
+      "date": "Data",
+      "time": "Koha",
+      "status": "statusi",
+      "paid": "I paguar",
+      "total": "Shuma totale",
+      "tax": "TVSH e përfshirë.",
+      "paymentMethod": "Mënyra e pagesës",
+      "creditCard": "Kartë krediti"
+    },
+    "qrCode": {
+      "title": "Kodi i regjistrimit",
+      "desc": "Ju lutemi tregoni atë në recepsion"
+    },
+    "footer": {
+      "tel": "Tel:",
+      "web": "Ueb:",
+      "email": "E-mail:",
+      "thanks": "Faleminderit për rezervimin tuaj! Presim me padurim vizitën tuaj."
+    }
+  },
+  "adminLogin": {
+    "nav": {
+      "home": "Faqja kryesore",
+      "contact": "kontakt"
+    },
+    "status": "Statusi i sistemit: Online",
+    "error": {
+      "title": "Identifikimi dështoi",
+      "desc": "Ju lutemi kontrolloni të dhënat tuaja dhe provoni përsëri.",
+      "invalid": "Detaje të pavlefshme identifikimi.",
+      "tooMany": "Shumë përpjekje për hyrje. Ju lutemi prisni 15 minuta."
+    },
+    "welcome": {
+      "title": "Zona e administrimit",
+      "desc": "Mirë se vini përsëri! Ju lutemi, identifikohuni<br/> për të menaxhuar objektin tuaj sportiv."
+    },
+    "form": {
+      "email": "adresën e postës elektronike",
+      "emailPlaceholder": "admin@example.com",
+      "password": "fjalëkalimin",
+      "passwordPlaceholder": "••••••••",
+      "remember": "qëndro i identifikuar",
+      "forgot": "Keni harruar fjalëkalimin tuaj?",
+      "submit": "Regjistrohu"
+    },
+    "footer": "Portali i menaxhimit për ambiente profesionale<br/> sportive dhe sisteme rezervimesh",
+    "mfa": {
+      "tag": "Kontrolli i sigurisë",
+      "title": "Autentifikimi me dy faktorë",
+      "desc": "Fut kodin nga aplikacioni yt Google Authenticator.",
+      "submit": "Verifiko",
+      "issues": "Probleme me identifikimin?",
+      "backup": "Përdorni kodin rezervë",
+      "check": "Kontrolli i sigurisë për zonën e administratorit • SSL i koduar"
+    },
+    "support": "Mbështetje teknike",
+    "copyright": "© 2026 Randevu Halı Saha"
+  },
+  "adminAuth": {
+    "forgot": {
+      "support": "Mbështetje",
+      "contact": "kontakt",
+      "successTitle": "Email u dërgua!",
+      "successDesc": "Ne kemi dërguar një lidhje për të rivendosur fjalëkalimin tuaj në <span className=\"text-white font-medium\">{{email}}</span>. Ju lutemi kontrolloni gjithashtu dosjen tuaj të postës elektronike.",
+      "backToLogin": "KTHIM PËR LOGIN",
+      "sending": "Dërgo...",
+      "resendNotReceived": "Nuk e morët emailin? Ridërgoje",
+      "title": "Keni harruar fjalëkalimin tuaj?",
+      "desc": "Shkruani adresën tuaj të emailit. Ne do t'ju dërgojmë një lidhje për të rivendosur fjalëkalimin tuaj.",
+      "emailLabel": "adresën e postës elektronike",
+      "emailPlaceholder": "admin@soccerarena.at",
+      "submit": "DËRGONI LINK",
+      "back": "Kthehu te identifikimi",
+      "techSupport": "Mbështetje teknike",
+      "copyright": "© 2026 Randevu Halı Saha",
+      "resendTitle": "Lidhja u rikthye!",
+      "resendDesc": "Ne kemi dërguar një lidhje të re për rivendosjen e fjalëkalimit në adresën tuaj të emailit. Ju lutemi kontrolloni gjithashtu dosjen tuaj të postës elektronike.",
+      "resendOk": "E KUPTUAR",
+      "errorGeneric": "Ka ndodhur një gabim. Ju lutemi provoni përsëri më vonë.",
+      "errorTooMany": "Shumë përpjekje. Ju lutemi prisni 15 minuta."
+    },
+    "reset": {
+      "errInvalidToken": "Shenja e pavlefshme ose mungon. Ju lutemi kërkoni një lidhje të re.",
+      "errMismatch": "Fjalëkalimet nuk përputhen.",
+      "errWeak": "Fjalëkalimi nuk i plotëson kërkesat e sigurisë.",
+      "errFailed": "Fjalëkalimi nuk mund të rivendosej. Lidhja mund të ketë skaduar.",
+      "support": "Mbështetje",
+      "contact": "kontakt",
+      "successTitle": "Fjalëkalimi u ndryshua!",
+      "successDesc": "Fjalëkalimi juaj i ri është ruajtur me sukses. Së shpejti do të ridrejtoheni te regjistrimi...",
+      "title": "Vendosni një fjalëkalim të ri",
+      "desc": "Ju lutemi shkruani fjalëkalimin tuaj të ri dhe konfirmoni atë.",
+      "newLabel": "Fjalëkalim i ri",
+      "placeholder": "••••••••",
+      "confirmLabel": "Konfirmo fjalëkalimin",
+      "info": "Min. 8 karaktere, shkronja të mëdha, të vogla, numër dhe karaktere speciale",
+      "submit": "RUAJ FALËkalimin",
+      "cancel": "Anulo",
+      "techSupport": "Mbështetje teknike",
+      "copyright": "© 2026 Randevu Halı Saha"
+    }
+  },
+  "adminDashboard": {
+    "status": {
+      "confirmed": "E konfirmuar",
+      "cancelled": "Anuluar",
+      "modified": "Ndryshuar",
+      "completed": "E përfunduar",
+      "noShow": "Asnjë shfaqje"
+    },
+    "payment": {
+      "applePay": "Apple Pay",
+      "googlePay": "Google Pay",
+      "card": "Harta",
+      "onSite": "Në vend"
+    },
+    "days": {
+      "mo": "Mo",
+      "di": "e martë",
+      "mi": "e mërkurë",
+      "do": "bëj",
+      "fr": "Znj",
+      "sa": "Shtu",
+      "so": "Pra"
+    },
+    "badges": {
+      "strong": "I forte",
+      "good": "Mirë",
+      "normal": "Normale"
+    },
+    "errors": {
+      "loadError": "Të dhënat e panelit të kontrollit nuk mund të ngarkoheshin."
+    },
+    "vsYesterday": {
+      "noData": "Nuk ka të dhëna",
+      "vsYesterdayLabel": "kundrejt dje"
+    },
+    "loadingContent": {
+      "title": "Paneli",
+      "errorTitle": "Gabim në panelin e kontrollit",
+      "errorMsg": "Gabim në ngarkim",
+      "retry": "Provo sërish"
+    },
+    "page": {
+      "title": "Paneli i avancuar i administratorit"
+    },
+    "cards": {
+      "today": {
+        "title": "Sot",
+        "tooltipCompare": "Krahasimi",
+        "yesterdayLabel": "Dje:",
+        "bookings": "Rezervimet"
+      },
+      "revenueLive": {
+        "title": "Në kohë reale (me pagesë)",
+        "lastBooking": "Rezervimi i fundit:",
+        "emptyLast": "-",
+        "tooltipLive": "Fitimet e gjalla",
+        "tooltipWeek": "Java:"
+      },
+      "monthlyRev": {
+        "title": "Shitjet mujore",
+        "bookings": "Rezervimet",
+        "tooltipPerf": "performancës"
+      },
+      "utilization": {
+        "title": "shfrytëzimi",
+        "tooltipDetails": "Detajet e vendit",
+        "bookings": "Rezervimet"
+      },
+      "refunded": {
+        "title": "Rimbursohet",
+        "cancellations": "Anulimet",
+        "tooltipReversals": "rimbursimet",
+        "totalRefund": "Rimbursimi total:"
+      },
+      "errorsCard": {
+        "title": "Gabim",
+        "rejected": "Pagesa u refuzua",
+        "tooltipSysWarn": "Paralajmërimet e sistemit",
+        "actionNeeded": "Veprimi i nevojshëm",
+        "failedMsg": "përpjekjet e dështuara të pagesës"
+      }
+    },
+    "timeline": {
+      "title": "Orari i sotëm",
+      "active": "Aktiv",
+      "funZone": "Zonë argëtimi",
+      "noBookingsText": "Nuk ka rezervime",
+      "timeLabel": "Koha:",
+      "statusLabel": "Statusi:",
+      "noBookingsToday": "Nuk ka rezervime për sot"
+    },
+    "weeklyChart": {
+      "title": "Shitjet javore",
+      "current": "Aktuale:"
+    },
+    "paymentDonut": {
+      "title": "Mënyra e pagesës",
+      "total": "Gjithsej",
+      "details": "Detajet e transaksionit",
+      "transactions": "Trans."
+    },
+    "aiInsights": {
+      "badge": "Analiza mujore",
+      "totalBookings": "Rezervimet totale",
+      "bookings": "Rezervimet",
+      "weakestDays": "Ditët më të dobëta",
+      "avgOther": "Ø të tjerët:",
+      "weakestSlots": "Dritaret më të dobëta të kohës",
+      "happyHourAct": "Aktivizo orën e lumturisë për këto kohë?",
+      "noData": "Nuk ka ende të dhëna për analizë."
+    },
+    "topMaterials": {
+      "title": "Materiali më i marrë me qira",
+      "viewAll": "Shiko të gjitha",
+      "rentals": "Jep hua",
+      "noData": "Nuk ka të dhëna"
+    },
+    "trend": {
+      "title": "Tendenca mujore",
+      "last6mo": "6 muajt e fundit",
+      "revenue": "Vëllimi i shitjeve"
+    },
+    "hourlyOccupancy": {
+      "title": "Shfrytëzimi për orë",
+      "avg": "Mesatare",
+      "occupancy": "Përdorimi:"
+    }
+  },
+  "adminRes": {
+    "title": "Rezervimet",
+    "errorTitle": "Rezervime - Gabim",
+    "loadError": "Gabim në ngarkim",
+    "retry": "Provo sërish",
+    "headerTitle": "Të gjitha rezervimet",
+    "headerDesc": "Menaxhoni të gjitha rezervimet, anulimet dhe kërkesat në një vend.",
+    "export": "Eksporto",
+    "newBooking": "Rezervim i ri",
+    "filters": {
+      "all": "Të gjitha",
+      "today": "Sot",
+      "tomorrow": "Mëngjes",
+      "week": "Këtë javë",
+      "cancelled": "Anuluar"
+    },
+    "status": {
+      "confirmed": "E konfirmuar",
+      "modified": "Ndryshuar",
+      "completed": "E përfunduar",
+      "cancelled": "Anuluar",
+      "noShow": "mos-shfaqje"
+    },
+    "payment": {
+      "pending": "Në pritje",
+      "paid": "I paguar",
+      "failed": "Dështoi",
+      "refunded": "Rimbursohet",
+      "onSite": "Në vend"
+    },
+    "duration": {
+      "m60": "1 orë",
+      "m90": "1.5 orë",
+      "m120": "2 orë",
+      "m150": "2.5 orë",
+      "m180": "3 orë",
+      "min": "Min."
+    },
+    "csvHeader": "ID-ja e rezervimit;Data;Ora;Klienti;Telefoni;Sedilja;Kohëzgjatja (min);Statusi;Çmimi",
+    "stats": {
+      "total": "Rezervimet totale",
+      "vsPrevMonth": "kundrejt muajit të mëparshëm",
+      "cancelRate": "Shkalla e anulimit",
+      "popularTime": "Koha më e njohur",
+      "primetime": "Shfrytëzimi në kohë të parë",
+      "revenueProg": "Parashikimi i shitjeve",
+      "target": "Qëllimi"
+    },
+    "charts": {
+      "bookingTrends": "Tendencat e rezervimit",
+      "resPeriod": "Rezervimet në periudhën aktuale",
+      "week": "javë",
+      "month": "muaj",
+      "occCompare": "Krahasimi i përdorimit",
+      "bookedHours": "Rezervuar për orë të tëra",
+      "vsPrevWeek": "kundrejt javës së kaluar",
+      "noFields": "Nuk ka fusha"
+    },
+    "search": {
+      "placeholder": "Kërko sipas ID-së, Emrit ose Telefonit...",
+      "foundText": "gjetur",
+      "booking": "prenotim",
+      "bookings": "Rezervimet"
+    },
+    "table": {
+      "id": "ID-ja e rezervimit",
+      "date": "Data dhe Ora",
+      "customer": "klient",
+      "field": "Vendi",
+      "duration": "Gjatësia e kohës",
+      "status": "statusi",
+      "payment": "pagesa",
+      "price": "Çmimi",
+      "actions": "Veprimet",
+      "noResults": "Nuk u gjet asnjë rezervim",
+      "showing": "Shfaq",
+      "of": "nga",
+      "page": "Faqe"
+    },
+    "modals": {
+      "cancelTitle": "Të anulohet rezervimi?",
+      "cancelDesc": "Ky veprim nuk mund të zhbëhet.",
+      "booking": "Rezervimi:",
+      "customer": "Klienti:",
+      "period": "Periudha:",
+      "field": "Vendi:",
+      "cancelBtn": "Anulo",
+      "cancelAction": "Anulo",
+      "refundTitle": "Shuma e rimbursimit?",
+      "refundDesc": "Shuma do të rimbursohet përmes Stripe.",
+      "paymentLabel": "Pagesa:",
+      "refundAmount": "Shuma e rimbursimit:",
+      "refundAction": "Rimbursimi"
+    },
+    "newBookingModal": {
+      "title": "Krijo rezervim të ri",
+      "desc": "Regjistrimi manual i rezervimit",
+      "successTitle": "Rezervimi u krijua!",
+      "successDesc": "U ruajt...",
+      "customerData": "Të dhënat e klientit",
+      "customerName": "emri i klientit *",
+      "email": "adresën e postës elektronike",
+      "phone": "Numri i telefonit",
+      "fieldDetails": "Hapësirë ​​& Detaje",
+      "fieldSelect": "Zgjedhja e vendit",
+      "dateSelect": "Zgjidhni datën",
+      "durationLabel": "Gjatësia e kohës",
+      "timeSelect": "Zgjidhni kohën e fillimit",
+      "chooseDateFirst": "Ju lutemi së pari zgjidhni një datë",
+      "loadingAvail": "Po ngarkon disponueshmërinë...",
+      "noSlots": "Nuk ka kohë të lirë në këtë ditë",
+      "paymentTitle": "paguaj",
+      "onSiteLabel": "Pagesa: Në vend",
+      "onSiteDesc": "Klienti paguan me para në dorë ose me kartë direkt në sportel.",
+      "estPrice": "Çmimi i parashikuar",
+      "fillRequired": "Ju lutemi plotësoni të gjitha fushat e detyrueshme.",
+      "saveBooking": "Ruani rezervimin",
+      "saveError": "Rezervimi nuk mund të krijohej."
+    },
+    "details": {
+      "title": "Detajet e rezervimit",
+      "emailLabel": "e-mail",
+      "endLabel": "fund",
+      "priceLabel": "Çmimi",
+      "paymentStatusLabel": "Statusi i pagesës",
+      "paymentMethodLabel": "Mënyra e pagesës",
+      "card": "Harta",
+      "apple": "Apple Pay",
+      "google": "Google Pay",
+      "rentalsTitle": "Material me qira",
+      "created": "Krijuar:"
+    }
+  },
+  "adminSettings": {
+    "title": "Cilësimet",
+    "desc": "Menaxhoni orët e hapjes, çmimet dhe rregullat e rezervimit.",
+    "online": "Sistemi në internet",
+    "tabs": {
+      "fields": "Cilësimet e Saha",
+      "staff": "Cilësimet e personelit",
+      "company": "Të dhënat e kompanisë",
+      "security": "Siguria",
+      "notifications": "Njoftimet",
+      "coupons": "Kuponat"
+    },
+    "days": {
+      "monday": "e hënë",
+      "tuesday": "e martë",
+      "wednesday": "e mërkurë",
+      "thursday": "e enjte",
+      "friday": "e premte",
+      "saturday": "e shtunë",
+      "sunday": "të dielën"
+    },
+    "fields": {
+      "hoursTitle": "Orari i hapjes dhe disponueshmëria",
+      "table": {
+        "day": "ditë",
+        "open": "Hapet në",
+        "close": "Mbyllet përreth",
+        "status": "statusi"
+      },
+      "sports": {
+        "football": "Futboll (në orë)",
+        "bubbleSoccer": "Bubble Soccer (në orë)",
+        "tennis": "Tenis (në orë)",
+        "basketball": "Basketboll (në orë)",
+        "volleyball": "Volejboll (në orë)"
+      },
+      "pricingTitle": "Saha çmimi",
+      "active": "Aktiv",
+      "inactive": "Joaktiv",
+      "hourlyStandard": "Tarifa standarde për orë",
+      "happyHourTitle": "Konfigurimi i orës së lumtur",
+      "happyHourDesc": "Vendosni kohët kur një zbritje zbatohet automatikisht për të gjitha vendet.",
+      "happyHourEnable": "Aktivizo orën e lumturisë",
+      "startTime": "Koha e fillimit",
+      "endTime": "Kohët e fundit",
+      "discount": "Zbritje (%)",
+      "rulesTitle": "Cilësimet e rezervimit",
+      "holdDuration": "Kohëzgjatja e mbajtjes",
+      "holdDesc": "Periudha gjatë së cilës rezervimi mbetet i rezervuar përpara se të paguhet.",
+      "cancelDeadline": "Afati i anulimit",
+      "cancelDesc": "Mund ta anuloni pa pagesë deri në sa orë para fillimit të lojës.",
+      "notifications": "Njoftimet",
+      "notifDesc": "Dërgoni kujtesë automatike për klientët.",
+      "reminders": "SMS/email rikujtues (24 orë)"
+    },
+    "coupons": {
+      "title": "Menaxhimi i kuponit",
+      "newBtn": "Kupon i ri",
+      "table": {
+        "code": "Kodi i kuponit",
+        "discount": "Zbritje",
+        "minOrder": "Shitjet minimale",
+        "validity": "vlefshmërinë",
+        "uses": "Përdorimet",
+        "status": "statusi"
+      },
+      "noCoupons": "Nuk ka kupon në dispozicion.",
+      "expired": "I skaduar",
+      "active": "Aktiv",
+      "inactive": "Joaktiv",
+      "edit": "Redakto",
+      "delete": "Fshije",
+      "deleteConfirm": "Të fshihet vërtet kuponi?",
+      "modal": {
+        "editTitle": "Redakto kupon",
+        "newTitle": "Kupon i ri",
+        "code": "Kodi i kuponit",
+        "discountType": "Lloji i zbritjes",
+        "percent": "përqindje (%)",
+        "fixed": "Shuma fikse (€)",
+        "discountValue": "Vlera e zbritjes",
+        "maxUses": "Maks. përdor",
+        "unlimited": "0 = e pakufizuar",
+        "minOrder": "Vlera minimale e porosisë",
+        "noMinOrder": "0 = nuk ka shumë minimale",
+        "validFrom": "E vlefshme nga",
+        "validUntil": "E vlefshme deri në",
+        "activateNow": "Aktivizoni menjëherë",
+        "cancel": "Anulo",
+        "save": "Ruaj",
+        "create": "Krijo"
+      }
+    },
+    "notifications": {
+      "clientTitle": "Njoftimet e klientit",
+      "emailSettings": "Njoftimet me email",
+      "emailDesc": "Aktivizo/çaktivizo të gjitha njoftimet me email për klientët.",
+      "emailConfirm": "Konfirmimi i rezervimit me email",
+      "emailConfirmDesc": "Automatikisht i dërgon një konfirmim klientit pas një rezervimi të suksesshëm.",
+      "emailReminder": "Kujtesa e takimit (24 orë përpara)",
+      "emailReminderDesc": "U kujton klientëve takimin e tyre 24 orë përpara fillimit të lojës.",
+      "emailCancel": "Konfirmimi i anulimit",
+      "emailCancelDesc": "Njofton klientin kur një rezervim është anuluar.",
+      "waTitle": "Integrimi në WhatsApp",
+      "waEnable": "Aktivizoni mesazhet WhatsApp",
+      "waDesc": "Ju lejon të dërgoni detajet e rezervimit direkt përmes WhatsApp.",
+      "waKey": "Çelësi i WhatsApp API",
+      "waKeyDesc": "Mund ta gjeni këtë çelës në panelin tuaj të Meta Business.",
+      "waPhoneId": "ID e numrit të telefonit",
+      "waPhoneDesc": "ID-ja e numrit të telefonit nga konfigurimi juaj i WhatsApp Business API.",
+      "templates": "Modelet e mesazheve",
+      "placeholders": "Shkronja e egër:",
+      "confirmTpl": "Konfirmimi i rezervimit",
+      "cancelTpl": "anulimi",
+      "modTpl": "Rezervimi",
+      "couponTpl": "Informacioni i kuponit",
+      "adminReports": "Raportet e administratorit",
+      "dailyRev": "Raporti ditor i shitjeve",
+      "dailyRevDesc": "Përmbledhja e dërguar me email në 11:59 p.m.",
+      "newBooking": "Njoftim për rezervime të reja",
+      "newBookingDesc": "Informacion i menjëhershëm për çdo rezervim të ri.",
+      "sysAlerts": "Njoftimet e sistemit",
+      "secAlerts": "Paralajmërimet e sigurisë",
+      "secAlertsDesc": "Paralajmërim për përpjekjet e dyshimta për hyrje.",
+      "maintAlerts": "Mesazhet e mirëmbajtjes",
+      "maintAlertsDesc": "Informacion rreth përditësimeve të planifikuara të sistemit."
+    },
+    "security": {
+      "adminSec": "Siguria e administratorit",
+      "changePw": "Ndrysho fjalëkalimin",
+      "currentPw": "Fjalëkalimi aktual",
+      "newPw": "Fjalëkalim i ri",
+      "pwHint": "Të paktën 8 karaktere, duke përfshirë karaktere speciale",
+      "confirmPw": "Konfirmo fjalëkalimin",
+      "updatePw": "Përditëso fjalëkalimin",
+      "twoFactor": "Vërtetimi me 2 faktorë (2FA)",
+      "twoFactorDesc": "Shtresë shtesë sigurie për llogarinë tuaj",
+      "twoFactorSetup": "Konfiguro 2FA",
+      "scanQr": "Skanoni kodin QR me Google Authenticator ose një aplikacion të përputhshëm:",
+      "manualEntry": "Ose futni manualisht:",
+      "sixDigitCode": "Kodi 6 shifror",
+      "cancel": "Anulo",
+      "activate": "Aktivizoni",
+      "sessions": "Menaxhimi i sesionit",
+      "revokeAll": "Përfundoni të gjithë të tjerët",
+      "activeSessions": "Seanca aktive",
+      "noSessions": "Nuk ka seanca aktive",
+      "unknownDevice": "Pajisja e panjohur",
+      "current": "Aktuale",
+      "revoke": "Përfundoni seancën",
+      "justNow": "Vetëm tani",
+      "lastActivity": "Aktiviteti i fundit:",
+      "sessionWarning": "Nëse nuk e njihni një seancë, ndryshoni menjëherë fjalëkalimin tuaj dhe përfundoni të gjitha seancat."
+    },
+    "saveBar": {
+      "lastChange": "Përditësimi i fundit:",
+      "notSaved": "Nuk është ruajtur ende",
+      "cancel": "Anulo",
+      "save": "Ruaj cilësimet",
+      "successMsg": "Cilësimet u ruajtën me sukses!",
+      "saveError": "Gabim gjatë ruajtjes.",
+      "saving": "U ruajt..."
+    },
+    "placeholder": {
+      "soon": "Ky seksion do të zbatohet së shpejti."
+    },
+    "errors": {
+      "pwFillAll": "Ju lutemi plotësoni të gjitha fushat.",
+      "pwLength": "Fjalëkalimi i ri duhet të ketë të paktën 8 karaktere.",
+      "pwMismatch": "Fjalëkalimet nuk përputhen.",
+      "pwSuccess": "Fjalëkalimi u ndryshua me sukses!",
+      "twoFAError": "2FA nuk mund të konfigurohej.",
+      "twoFAInvalid": "Kodi i pavlefshëm. Ju lutemi provoni përsëri.",
+      "couponSaveError": "Gabim gjatë ruajtjes"
+    }
+  },
+  "adminMaterial": {
+    "title": "Materiali & Inventari",
+    "allCategories": "Të gjitha",
+    "exportBtn": "Eksporto",
+    "newBtn": "Material i ri",
+    "loadError": "Gabim gjatë ngarkimit të listës së materialeve.",
+    "stats": {
+      "total": "Inventari total",
+      "rentable": "Me qira",
+      "defect": "Defekt / mirëmbajtje",
+      "actionNeeded": "Nevoja për veprim",
+      "allGood": "Gjithçka në rregull",
+      "itemsActive": "Artikull aktiv",
+      "items": "Neni"
+    },
+    "categories": {
+      "title": "Kategoritë",
+      "empty": "Nuk ka kategori të disponueshme",
+      "rentableParams": "Copë • {{fitimprurëse}} jepet me qira"
+    },
+    "table": {
+      "article": "Neni",
+      "sizeType": "Madhësia/Lloji",
+      "available": "Në dispozicion",
+      "status": "statusi",
+      "rentalFee": "Tarifa e qirasë",
+      "actions": "Veprimet",
+      "empty": "Nuk u gjet asnjë material në këtë kategori.",
+      "pieces": "Pjesë",
+      "oneSize": "Një madhësi i përshtatet të gjithëve",
+      "showing": "Shfaq {{count}} nga {{total}} artikuj"
+    },
+    "conditions": {
+      "new": "E re",
+      "good": "Mirë",
+      "damaged": "I dëmtuar",
+      "retired": "Në pension"
+    },
+    "actions": {
+      "edit": "Redakto",
+      "delete": "Fshije",
+      "deleteTitle": "Fshi materialin",
+      "deleteConfirm": "Jeni i sigurt që dëshironi të hiqni \"{{name}}\" nga qiraja?",
+      "deactivateBtn": "Çaktivizo"
+    },
+    "modal": {
+      "editTitle": "Redaktoni materialin",
+      "newTitle": "Material i ri",
+      "name": "emri *",
+      "category": "Kategoria *",
+      "quantity": "turma *",
+      "condition": "gjendja *",
+      "rentable": "Në dispozicion për qira",
+      "rentableDesc": "Materiali mund të rezervohet nga klientët.",
+      "pricePerHour": "Çmimi për orë (€)",
+      "sizes": "Madhësitë e disponueshme",
+      "sizesHint": "(i ndarë me presje)",
+      "notes": "Shënime",
+      "notesPH": "Shënime opsionale...",
+      "cancel": "Anulo",
+      "save": "Ruaj"
+    }
+  },
+  "adminStaff": {
+    "title": "Menaxhimi i burimeve njerëzore",
+    "adminPanel": "Paneli i administratorit",
+    "subtitle": "Menaxhoni ekipin tuaj, ndërroni oraret dhe të dhënat e performancës për sezonin sportiv.",
+    "adminInviteSuccess": "Përdoruesi i administratorit u krijua. Detajet e hyrjes u dërguan me email.",
+    "adminInviteError": "Gabim në krijimin e përdoruesit të administratorit.",
+    "time": {
+      "minsAgo": "{{min}} minuta më parë",
+      "hoursAgo": "{{orë}} orë më parë",
+      "daysAgo": "{{ditë}} ditë më parë",
+      "yesterday": "Dje"
+    },
+    "stats": {
+      "total": "Stafi total",
+      "activeTitle": "Aktiv",
+      "activeDesc": "Punonjës aktiv",
+      "inactive": "Joaktiv"
+    },
+    "search": {
+      "placeholder": "Kërkoni sipas emrit ose pozicionit...",
+      "allRoles": "Të gjitha rolet"
+    },
+    "buttons": {
+      "newStaff": "Staf i ri",
+      "newAdmin": "Admin i ri"
+    },
+    "table": {
+      "staff": "Punonjësit",
+      "role": "rol",
+      "status": "statusi",
+      "contact": "kontakt",
+      "created": "Krijuar",
+      "actions": "Veprimet",
+      "empty": "Nuk u gjet asnjë punonjës.",
+      "activeStr": "Aktiv",
+      "inactiveStr": "Joaktiv",
+      "showing": "Shfaq {{count}} nga {{total}} punonjës"
+    },
+    "actions": {
+      "editProfile": "Redakto profilin",
+      "deactivate": "Çaktivizo"
+    },
+    "modal": {
+      "editTitle": "Redaktoni punonjësit",
+      "newTitle": "Staf i ri",
+      "name": "emri *",
+      "namePH": "Emri dhe Mbiemri",
+      "role": "Roli *",
+      "rolePH": "Zgjidhni rolin...",
+      "roles": {
+        "Manager": "menaxher",
+        "Trainer": "trajner",
+        "Platzwart": "kujdestar i terrenit",
+        "Rezeption": "pritje",
+        "Reinigung": "pastrimi",
+        "Security": "Siguria"
+      },
+      "email": "e-mail",
+      "emailPH": "email@example.com",
+      "phone": "telefon",
+      "phonePH": "+43 ...",
+      "notes": "Shënime",
+      "notesPH": "Shënime të brendshme...",
+      "cancel": "Anulo",
+      "updateBtn": "Përditëso",
+      "createBtn": "Krijo"
+    },
+    "adminModal": {
+      "title": "Fto admin",
+      "desc": "Një përdorues i ri administratori krijohet dhe merr detajet e hyrjes me email.",
+      "name": "emri *",
+      "email": "email *",
+      "emailPH": "admin@soccerarena.at",
+      "inviteBtn": "Fto admin",
+      "cancel": "Anulo"
+    }
+  },
+  "adminPayments": {
+    "title": "Pagesat",
+    "titleError": "Pagesat - Gabim",
+    "header": "Historia e Pagesave dhe Rimbursimet",
+    "subtitle": "Menaxhoni të gjitha transaksionet e pagesave në një vend.",
+    "secureEnv": "Mjedis i sigurt",
+    "exportBtn": "Eksporto",
+    "loadError": "Detajet e pagesës nuk mund të ngarkoheshin.",
+    "errorTitle": "Gabim në ngarkim",
+    "retry": "Provo sërish",
+    "timeFmt": "{{time}} ora",
+    "statuses": {
+      "PAID": "Suksese",
+      "PENDING": "Në pritje",
+      "REFUNDED": "Rimbursohet",
+      "FAILED": "Dështoi",
+      "ON_SITE": "Në vend"
+    },
+    "methods": {
+      "CARD": "Harta",
+      "APPLE_PAY": "Apple Pay",
+      "GOOGLE_PAY": "GPay",
+      "ON_SITE": "Pagesa me para në dorë"
+    },
+    "filters": {
+      "all": "Të gjitha"
+    },
+    "stats": {
+      "todayRev": "Shitjet sot",
+      "vsYesterday": "Krahasuar me dje",
+      "pending": "Pagesat e hapura",
+      "attention": "Kërkon vëmendje",
+      "pendingSub": "Pagesat në pritje",
+      "refundedM": "Gjithsej i rimbursuar (muaj)",
+      "transactions": "transaksion",
+      "transactionsPlural": "Transaksionet"
+    },
+    "search": "Kërko me ID ose emër...",
+    "foundText": "pagesa",
+    "foundTextPlural": "Pagesat",
+    "foundSuffix": "gjetur",
+    "table": {
+      "id": "ID e transaksionit",
+      "date": "Data",
+      "customer": "klient",
+      "method": "metodë",
+      "amount": "Shuma",
+      "status": "statusi",
+      "actions": "Veprimet",
+      "empty": "Nuk u gjetën pagesa",
+      "showing": "Shfaq {{fillim}}-{{fund}} nga {{total}} hyrje",
+      "pageOf": "Faqja {{aktuale}} nga {{total}}"
+    },
+    "refundModal": {
+      "title": "Pagesa e rimbursimit",
+      "transaction": "transaksion",
+      "origAmount": "Shuma origjinale",
+      "type": "Lloji i rimbursimit",
+      "partial": "Rimbursimi i pjesshëm",
+      "full": "Rimbursimi i plotë",
+      "amountEur": "Shuma (EUR)",
+      "maxRefundable": "Maksimumi i rimbursueshëm:",
+      "reason": "Arsyetimi (opsionale)",
+      "reasonPH": "Arsyeja e rimbursimit...",
+      "cancel": "Anulo",
+      "refundBtn": "Rimbursimi",
+      "refundError": "Rimbursimi dështoi."
+    }
+  },
+  "adminContact": {
+    "title": "Kërkesat për kontakt me administratorin",
+    "header": "Menaxho kërkesat për kontakt",
+    "subtitle": "Pasqyrë e të gjitha mesazheve nga formulari i kontaktit",
+    "exportBtn": "Eksporto",
+    "statuses": {
+      "NEW": "E re",
+      "READ": "Lexoni",
+      "REPLIED": "U përgjigj",
+      "ARCHIVED": "Arkivuar"
+    },
+    "time": {
+      "today": "Sot",
+      "yesterday": "Dje"
+    },
+    "stats": {
+      "all": "Të gjitha lajmet",
+      "new": "Lajm i ri",
+      "unread": "Të palexuara",
+      "replied": "U përgjigj",
+      "total": "Në total"
+    },
+    "search": "Kërko sipas emrit, emailit ose subjektit...",
+    "filters": {
+      "all": "Të gjitha statuset"
+    },
+    "table": {
+      "id": "ID",
+      "date": "Data",
+      "name": "Emri & Mbiemri",
+      "email": "Adresa e postës elektronike",
+      "subject": "Në lidhje me",
+      "status": "statusi",
+      "actions": "Veprimet",
+      "empty": "Nuk u gjet asnjë mesazh.",
+      "showing": "Shfaq {{count}} nga {{total}} rezultate"
+    },
+    "actions": {
+      "view": "Shiko",
+      "delete": "Fshije"
+    },
+    "drawer": {
+      "title": "Detajet e mesazhit",
+      "tel": "Tel:",
+      "date": "Data",
+      "status": "statusi",
+      "subject": "Në lidhje me",
+      "noSubject": "Asnjë subjekt",
+      "message": "Lajme",
+      "reply": "Përgjigjuni drejtpërdrejt",
+      "markDone": "Shëno si të kryer",
+      "delete": "Fshije",
+      "replySubject": "Kërkesa juaj në SALAMANDA SOCCER ARENA"
+    }
+  },
+  "tournaments": {
+    "hero": {
+      "season": "sezoni 2026",
+      "title1": "Duke ardhur",
+      "title2": "Turne",
+      "desc": "Konkurroni me ekipet më të mira në Austri. Regjistroni ekipin tuaj sot dhe luftoni për famën, nderin dhe paratë e çmimeve."
+    },
+    "badges": {
+      "open": "Regjistrimi i hapur",
+      "few": "Pak vende",
+      "full": "Plotësisht i rezervuar",
+      "new": "E re"
+    },
+    "details": {
+      "players": "{{count}} vs {{count}}",
+      "price": "{{çmimi}}€ për ekip"
+    },
+    "actions": {
+      "register": "REGJISTRONI EKIPIN",
+      "waitlist": "LISTA E PRITJES"
+    },
+    "hallOfFame": {
+      "subtitle": "Më e mira nga më të mirat",
+      "title": "Hall of Fame",
+      "winner": "{{year}} fitues"
+    },
+    "list": {
+      "t1": {
+        "title": "Kupa Salamanda 2026",
+        "desc": "Klasik në zemër të Stadl-Paura.",
+        "date": "12 qershor 2026"
+      },
+      "t2": {
+        "title": "Liga Verore e Salzburgut",
+        "desc": "Ngjarja më e madhe e vitit në natyrë.",
+        "date": "15 korrik 2026"
+      },
+      "t3": {
+        "title": "Kupa e brendshme e Grazit",
+        "desc": "Turne intensive në ambiente të mbyllura në dimër.",
+        "date": "20 shkurt 2026"
+      },
+      "t4": {
+        "title": "Kupa Alpine e Insbrukut",
+        "desc": "Futboll përballë një sfondi të lë pa frymë.",
+        "date": "05 gusht 2026"
+      }
+    }
+  },
+  "barrierefreiheit": {
+    "titlePart1": "Aksesueshmëria",
+    "titlePart2": "shpjegim",
+    "desc": "Informacion në lidhje me aksesueshmërinë e kësaj faqeje interneti. {{kompania}} përpiqet ta bëjë uebsajtin e saj të aksesueshëm pa pengesa në përputhje me Aktin Federal të Barazisë së Aftësisë së Kufizuar (BGStG).",
+    "scope": "Kjo deklaratë e aksesueshmërisë zbatohet për faqen e internetit <1>{{website}}</1>.",
+    "backHome": "Kthehu në faqen kryesore",
+    "sections": {
+      "1": {
+        "title": "Statusi i përputhshmërisë me kërkesat",
+        "desc": "Kjo faqe interneti është pjesërisht në përputhje me nivelin e pajtueshmërisë AA të \"Udhëzimeve të aksesueshmërisë së përmbajtjes së uebit - WCAG 2.1\" për shkak të papajtueshmërive dhe përjashtimeve të mëposhtme."
+      },
+      "2": {
+        "title": "Përmbajtje e paarritshme",
+        "desc": "Përmbajtja e listuar më poshtë nuk është e aksesueshme për arsyet e mëposhtme:",
+        "a": {
+          "title": "a) Papajtueshmëria me rregulloret e aksesueshmërisë",
+          "i1": "Disa imazhe nuk kanë ende tekst alternativ, duke e bërë këtë informacion të paarritshëm për përdoruesit e lexuesve të ekranit. Ne po punojmë për t'i shtuar vazhdimisht këto tekste.",
+          "i2": "Kontrastet në disa elementë të navigimit nuk përmbushin ende plotësisht standardin e kërkuar. Është planifikuar një rishikim i skemës së ngjyrave."
+        },
+        "b": {
+          "title": "b) Barrë joproporcionale",
+          "desc": "Videot tona aktualisht nuk kanë titra. Ne po punojmë për një zgjidhje për ta zbatuar këtë si parazgjedhje për videot e reja."
+        }
+      },
+      "3": {
+        "title": "Përgatitja e deklaratës",
+        "desc": "Kjo deklaratë është bërë më <1>15. Tetor 2023</1> u krijua. Vlerësimi i përputhshmërisë së faqes në internet me WZG për zbatimin e kërkesave të Direktivës (BE) 2016/2102 u krye në formën e një vetëtestimi sipas WCAG 2.1 në nivelin e konformitetit AA."
+      },
+      "4": {
+        "title": "Komentet dhe detajet e kontaktit",
+        "p1": "Ofertat dhe shërbimet në këtë faqe interneti janë duke u përmirësuar, shkëmbyer dhe zgjeruar vazhdimisht. Përdorshmëria dhe aksesueshmëria janë shumë të rëndësishme për ne.",
+        "p2": "Nëse vëreni pengesa që ju pengojnë të përdorni faqen tonë të internetit - probleme që nuk përshkruhen në këtë deklaratë, mangësi në përputhje me kërkesat e aksesueshmërisë - ju kërkojmë të na njoftoni me email."
+      },
+      "5": {
+        "title": "Procedurat e zbatimit",
+        "p1": "Nëse nuk merrni përgjigje të kënaqshme nga opsioni i mësipërm i kontaktit, mund të ankoheni në Agjencinë Austriake të Promovimit të Kërkimit (FFG).",
+        "p2": "FFG pranon ankesat në mënyrë elektronike duke përdorur formularin e kontaktit.",
+        "link": "Formulari i kontaktit të zyrës së ankesave"
+      }
+    }
+  },
+  "ruckerstattung": {
+    "titlePart1": "rimbursim",
+    "titlePart2": "politikë",
+    "desc": "Informacion rreth anulimeve, rirezervimeve dhe rimbursimeve në {{kompani}}. Ne përpiqemi për drejtësi dhe transparencë për të gjithë lojtarët tanë.",
+    "scope": "Kjo politikë zbatohet për të gjitha rezervimet e vendeve, ngjarjeve dhe shërbimeve nëpërmjet sajtit të internetit <1>{{website}}</1> ose direkt në sajt.",
+    "backHome": "Kthehu në faqen kryesore",
+    "sections": {
+      "1": {
+        "title": "1. Të përgjithshme",
+        "desc": "Ne e kuptojmë se planet mund të ndryshojnë. Politika jonë e rimbursimit është krijuar për të qenë fleksibël, ndërkohë që sigurohet që vendet tona të mbeten të disponueshme për të gjithë entuziastët e futbollit. Duke rezervuar një vend ju pranoni kushtet e mëposhtme."
+      },
+      "2": {
+        "title": "2. Anulimet nga klientët",
+        "desc": "Anulimet duhet të bëhen me shkrim ose nëpërmjet llogarisë së përdoruesit në faqen tonë të internetit. Shuma e rimbursimit varet nga koha e anulimit:",
+        "mehr": {
+          "title": "Më shumë se 48 orë para fillimit të lojës",
+          "desc": "Ju do të merrni një rimbursim të plotë të shumës së rezervimit. Përndryshe, shuma mund të kreditohet si kredi për rezervimet e ardhshme."
+        },
+        "weniger": {
+          "title": "Më pak se 48 orë para fillimit të lojës",
+          "desc": "Fatkeqësisht, asnjë rimbursim nuk është i mundur pasi shpesh nuk jemi më në gjendje të marrim me qira hapësirën në një njoftim kaq të shkurtër."
+        }
+      },
+      "3": {
+        "title": "3. Rezervimet",
+        "desc": "Dëshironi ta ricaktoni takimin tuaj në vend që ta anuloni atë? Rezervimet janë të mundshme në kushtet e mëposhtme:",
+        "i1": "Rezervimet janë të mundshme pa pagesë deri në 48 orë përpara takimit origjinal.",
+        "i2": "Data e re duhet të jetë brenda 30 ditëve nga data origjinale e rezervimit.",
+        "i3": "Diferencat e çmimeve (p.sh. ndryshimi nga koha jashtë pikut në kohën e pikut) duhet të paguhen."
+      },
+      "4": {
+        "title": "4. Rimbursimi në rast dështimi nga operatori",
+        "desc": "Nëse {{kompania}} nuk është në gjendje të sigurojë hapësirën e rezervuar për shkak të problemeve teknike, punëve të mirëmbajtjes ose forcës madhore (p.sh. dëmtimi i ujit, ndërprerja e energjisë elektrike), sigurisht që do të merrni një <1>100% rimbursim</1> të shumës së paguar.",
+        "note": "* Në raste të tilla do të kontaktoheni menjëherë me email ose telefon."
+      },
+      "5": {
+        "title": "5. Oferta speciale dhe kupona",
+        "desc": "Ju lutemi vini re se rezervimet e bëra si pjesë e promovimeve speciale ose të paguara me kupona promocionalë mund të përjashtohen nga rimbursimet e rregullta. Kuponët e blerë nuk mund të blihen me para në dorë, por mbeten të vlefshme në rast anulimi (kredi në llogarinë e klientit)."
+      },
+      "6": {
+        "title": "6. Koha e përpunimit",
+        "desc": "Ne përpiqemi të përpunojmë të gjitha kërkesat për rimbursim sa më shpejt që të jetë e mundur. Na lejoni një kohë përpunimi prej <1>7-10 ditësh pune</1> për shumën që do të kreditohet në mënyrën tuaj origjinale të pagesës."
+      },
+      "7": {
+        "title": "7. Kontaktoni për rimbursimet",
+        "desc": "A keni pyetje në lidhje me faturën tuaj ose një rimbursim specifik? Ekipi ynë mbështetës është në dispozicionin tuaj."
+      }
+    }
+  },
+  "agb": {
+    "tag": "Ligjore",
+    "titlePart1": "Gjeneral",
+    "titlePart2": "Termat dhe Kushtet",
+    "subtitle": "Ju lutemi lexoni me kujdes këto Kushte përpara se të përdorni Shërbimet tona. Transparenca dhe drejtësia janë të rëndësishme për ne.",
+    "date": "Që nga: maj 2024",
+    "sections": {
+      "0": {
+        "title": "Fushëveprimi",
+        "p1": "Këto Kushte dhe Kushte të Përgjithshme (në tekstin e mëtejmë \"Kushtet dhe Kushtet\") rregullojnë përdorimin e objektit sportiv {{kompani}} (në tekstin e mëtejmë \"Operator\") nga klientët dhe vizitorët (në tekstin e mëtejmë \"Përdoruesit\").",
+        "p2": "Duke rezervuar një fushë loje ose duke hyrë në objekt, përdoruesi i pranon këto terma dhe kushte në versionin e tyre aktual të vlefshëm. Kushtet e ndryshme të përdoruesit nuk bëhen pjesë e kontratës, përveç nëse operatori bie dakord shprehimisht për vlefshmërinë e tyre me shkrim."
+      },
+      "1": {
+        "title": "Rezervimi dhe lidhja e kontrates",
+        "p1": "Rezervimi i fushave të lojës bëhet kryesisht nëpërmjet sistemit të rezervimit online në faqen tonë të internetit.",
+        "i1": "Kontrata midis përdoruesit dhe operatorit lidhet sapo përdoruesi të ketë përfunduar procesin e rezervimit dhe të marrë një konfirmim rezervimi me email.",
+        "i2": "Konfirmimi i rezervimit përmban të gjitha detajet përkatëse rreth rezervimit (data, ora, numri i sediljes, çmimi).",
+        "i3": "Përdoruesi është i detyruar të kontrollojë menjëherë informacionin në konfirmimin e rezervimit për saktësi dhe të raportojë menjëherë çdo gabim."
+      },
+      "2": {
+        "title": "Kushtet e pagesës",
+        "p1": "Çmimet për përdorimin e fushave të lojës bazohen në listën aktuale të çmimeve në faqen e internetit. Të gjitha çmimet janë në euro (EUR).",
+        "i1": "Mënyrat e pagesës: Pagesa bëhet në internet duke përdorur mënyrat e ofruara të pagesës (kartë krediti, Apple Pay, Google Pay).",
+        "i2": "Data e skadimit: Shuma e plotë e faturës paguhet menjëherë pas rezervimit ose më së voni para fillimit të lojës.",
+        "i3": "Përdorimi i hapësirës pa pagesë paraprake të plotë nuk lejohet."
+      },
+      "3": {
+        "title": "Anulimi & Rimbursimi",
+        "p1": "Anulimet duhet të bëhen me shkrim (me email) ose nëpërmjet llogarisë së përdoruesit në sistemin e rezervimit online.",
+        "b1Title": "Deri në 48 orë para fillimit të lojës",
+        "b1Desc": "Mundësia e anulimit falas. Shuma e paguar tashmë do të kthehet plotësisht.",
+        "b2Title": "Brenda 48 orëve",
+        "b2Desc": "Asnjë rimbursim. Në rast anulimi të vonuar ose mos-shfaqjeje, shuma e plotë do të mbahet."
+      },
+      "4": {
+        "title": "Përdorimi i objektit dhe rregullat e shtëpisë",
+        "p1": "Përdorimi i objektit lejohet vetëm gjatë kohës së rezervuar.",
+        "i1": "Përdoruesit duhet të largohen menjëherë nga objekti në fund të kohës së tyre të rezervimit në mënyrë që të mundësojnë që grupet pasuese të fillojnë në kohë.",
+        "i2": "Zbatohen rregullat e shtëpisë të vendosura në shtojcë dhe udhëzimet e stafit.",
+        "i3": "Hyrja në fushat e lojës lejohet vetëm me këpucë sportive të përshtatshme (pa kapëse me vida).",
+        "i4": "Ndalohet pirja e duhanit dhe konsumimi i alkoolit në zonat sportive."
+      },
+      "5": {
+        "title": "Përgjegjësia",
+        "p1": "Përdorimi i {{kompany}} dhe objekteve të saj është në rrezikun tuaj.",
+        "i1": "Operatori nuk është përgjegjës për dëmtimet ose dëmtimet që vijnë nga përdorimi i sistemit, përveç nëse ato janë për shkak të neglizhencës ose qëllimit të rëndë nga ana e operatorit.",
+        "i2": "Asnjë përgjegjësi nuk pranohet për sendet me vlerë, veshjet dhe pajisjet e sjella me vete. Ne ju rekomandojmë që të mos lini sende me vlerë në dhomat e zhveshjes.",
+        "i3": "Personi përgjegjës ose personi që bën rezervimin është plotësisht përgjegjës për çdo dëmtim të qëllimshëm të objektit."
+      },
+      "6": {
+        "title": "Anulimi nga operatori",
+        "p1": "Operatori rezervon të drejtën të anulojë rezervimet për arsye të rëndësishme (p.sh. probleme teknike, mosluajtja e kursit, forca madhore). Në këtë rast, shuma e paguar tashmë do të kthehet plotësisht. Kërkesat e mëtejshme për dëmshpërblime janë të përjashtuara."
+      },
+      "7": {
+        "title": "Mbrojtja e të dhënave",
+        "p1": "Mbrojtja e të dhënave tuaja personale është e rëndësishme për ne. Informacioni mbi mbledhjen, përpunimin dhe përdorimin e të dhënave tuaja mund të gjendet në deklaratën tonë të veçantë për mbrojtjen e të dhënave."
+      },
+      "8": {
+        "title": "Ndryshimet në Termat dhe Kushtet",
+        "p1": "Operatori rezervon të drejtën të ndryshojë këto terma dhe kushte në çdo kohë. Ndryshimet do të shpallen në faqen e internetit dhe do të zbatohen për të gjitha rezervimet e bëra pas publikimit."
+      },
+      "9": {
+        "title": "Vendi i juridiksionit dhe ligji",
+        "p1": "Zbatohet ligji austriak. Wels është rënë dakord si vendi i juridiksionit për të gjitha mosmarrëveshjet që lindin nga marrëdhënia kontraktuale nëse klienti është një sipërmarrës ose nuk ka një vend juridiksioni të përgjithshëm në Austri."
+      }
+    },
+    "footer": {
+      "title": "A keni ndonjë pyetje në lidhje me termat dhe kushtet tona?",
+      "subtitle": "Ekipi ynë mbështetës është në dispozicionin tuaj.",
+      "button": "bëj kontakt"
+    },
+    "backHome": "Kthehu në faqen kryesore"
+  },
+  "admin": {
+    "settings": {
+      "save": "RUAJI CILËSIMET",
+      "cancel": "Anulo"
+    }
+  }
+}

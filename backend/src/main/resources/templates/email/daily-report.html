@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" lang="de">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Tagesbericht</title>
+</head>
+<body style="margin:0;padding:0;background-color:#0a0f08;font-family:'Segoe UI',Arial,Helvetica,sans-serif;">
+<table width="100%" cellpadding="0" cellspacing="0" style="background-color:#0a0f08;padding:40px 0;">
+  <tr>
+    <td align="center">
+      <table width="600" cellpadding="0" cellspacing="0" style="background-color:#111a0e;border-radius:16px;overflow:hidden;border:1px solid rgba(249,115,22,0.12);">
+
+        <!-- HEADER -->
+        <tr>
+          <td style="background-color:#0d1208;padding:28px 32px;border-bottom:1px solid rgba(249,115,22,0.1);">
+            <table width="100%" cellpadding="0" cellspacing="0">
+              <tr>
+                <td style="vertical-align:middle;">
+                  <span style="color:#ffffff;font-size:17px;font-weight:bold;">SoccerArena Salamanda</span>
+                  <br/>
+                  <span style="color:#6b7a62;font-size:11px;letter-spacing:1px;text-transform:uppercase;">Tagesbericht</span>
+                </td>
+                <td align="right" style="vertical-align:middle;">
+                  <span style="background-color:rgba(249,115,22,0.1);border:1px solid rgba(249,115,22,0.25);border-radius:20px;padding:5px 14px;font-size:11px;font-weight:bold;color:#f97316;text-transform:uppercase;letter-spacing:0.5px;" th:text="${reportDate}">15.03.2026</span>
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+
+        <!-- ÜBERSICHT -->
+        <tr>
+          <td style="padding:28px 32px;">
+            <h2 style="color:#ffffff;font-size:18px;font-weight:bold;margin:0 0 16px;">Übersicht</h2>
+            <table width="100%" cellpadding="0" cellspacing="0">
+              <tr>
+                <td width="33%" style="padding:12px;background-color:rgba(31,39,27,0.5);border-radius:8px;text-align:center;border:1px solid rgba(255,255,255,0.05);">
+                  <p style="font-size:10px;color:#6b7a62;text-transform:uppercase;letter-spacing:1px;margin:0 0 4px;">Reservierungen</p>
+                  <p style="font-size:24px;font-weight:bold;color:#ffffff;margin:0;" th:text="${totalReservations}">0</p>
+                </td>
+                <td width="6"></td>
+                <td width="33%" style="padding:12px;background-color:rgba(31,39,27,0.5);border-radius:8px;text-align:center;border:1px solid rgba(255,255,255,0.05);">
+                  <p style="font-size:10px;color:#6b7a62;text-transform:uppercase;letter-spacing:1px;margin:0 0 4px;">Umsatz</p>
+                  <p style="font-size:24px;font-weight:bold;color:#22c55e;margin:0;">&#8364; <span th:text="${totalRevenue}">0</span></p>
+                </td>
+                <td width="6"></td>
+                <td width="33%" style="padding:12px;background-color:rgba(31,39,27,0.5);border-radius:8px;text-align:center;border:1px solid rgba(255,255,255,0.05);">
+                  <p style="font-size:10px;color:#6b7a62;text-transform:uppercase;letter-spacing:1px;margin:0 0 4px;">Stornierungen</p>
+                  <p style="font-size:24px;font-weight:bold;color:#ef4444;margin:0;" th:text="${cancelledCount}">0</p>
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+
+        <!-- PLATZAUSLASTUNG -->
+        <tr>
+          <td style="padding:0 32px 24px;">
+            <h2 style="color:#ffffff;font-size:16px;font-weight:bold;margin:0 0 12px;">Platzauslastung</h2>
+            <table width="100%" cellpadding="0" cellspacing="0" style="border:1px solid rgba(255,255,255,0.05);border-radius:8px;overflow:hidden;">
+              <tr style="background-color:rgba(255,255,255,0.05);">
+                <td style="padding:8px 12px;font-size:10px;font-weight:bold;color:#6b7a62;text-transform:uppercase;">Platz</td>
+                <td style="padding:8px 12px;font-size:10px;font-weight:bold;color:#6b7a62;text-transform:uppercase;text-align:right;">Buchungen</td>
+              </tr>
+              <tr th:each="entry : ${fieldCounts}">
+                <td style="padding:8px 12px;font-size:13px;color:#e2e8d0;border-top:1px solid rgba(255,255,255,0.03);" th:text="${entry.key}">Platz 1</td>
+                <td style="padding:8px 12px;font-size:13px;color:#f97316;font-weight:bold;text-align:right;border-top:1px solid rgba(255,255,255,0.03);" th:text="${entry.value}">0</td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+
+        <!-- SPITZENZEITEN -->
+        <tr>
+          <td style="padding:0 32px 24px;">
+            <h2 style="color:#ffffff;font-size:16px;font-weight:bold;margin:0 0 12px;">Spitzenzeiten</h2>
+            <table width="100%" cellpadding="0" cellspacing="0" style="border:1px solid rgba(255,255,255,0.05);border-radius:8px;overflow:hidden;">
+              <tr style="background-color:rgba(255,255,255,0.05);">
+                <td style="padding:8px 12px;font-size:10px;font-weight:bold;color:#6b7a62;text-transform:uppercase;">Uhrzeit</td>
+                <td style="padding:8px 12px;font-size:10px;font-weight:bold;color:#6b7a62;text-transform:uppercase;text-align:right;">Buchungen</td>
+              </tr>
+              <tr th:each="entry : ${hourlyBookings}">
+                <td style="padding:8px 12px;font-size:13px;color:#e2e8d0;border-top:1px solid rgba(255,255,255,0.03);" th:text="${entry.key + ':00 Uhr'}">18:00 Uhr</td>
+                <td style="padding:8px 12px;font-size:13px;color:#f97316;font-weight:bold;text-align:right;border-top:1px solid rgba(255,255,255,0.03);" th:text="${entry.value}">0</td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+
+        <!-- ZAHLUNGSÜBERSICHT -->
+        <tr>
+          <td style="padding:0 32px 24px;">
+            <h2 style="color:#ffffff;font-size:16px;font-weight:bold;margin:0 0 12px;">Zahlungsübersicht</h2>
+            <table width="100%" cellpadding="0" cellspacing="0" style="border:1px solid rgba(255,255,255,0.05);border-radius:8px;overflow:hidden;">
+              <tr style="background-color:rgba(255,255,255,0.05);">
+                <td style="padding:8px 12px;font-size:10px;font-weight:bold;color:#6b7a62;text-transform:uppercase;">Zahlungsart</td>
+                <td style="padding:8px 12px;font-size:10px;font-weight:bold;color:#6b7a62;text-transform:uppercase;text-align:right;">Anzahl</td>
+              </tr>
+              <tr th:each="entry : ${paymentMethods}">
+                <td style="padding:8px 12px;font-size:13px;color:#e2e8d0;border-top:1px solid rgba(255,255,255,0.03);" th:text="${entry.key}">CARD</td>
+                <td style="padding:8px 12px;font-size:13px;color:#f97316;font-weight:bold;text-align:right;border-top:1px solid rgba(255,255,255,0.03);" th:text="${entry.value}">0</td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+
+        <!-- GUTSCHEINE -->
+        <tr th:if="${couponUsageCount > 0}">
+          <td style="padding:0 32px 24px;">
+            <h2 style="color:#ffffff;font-size:16px;font-weight:bold;margin:0 0 12px;">Gutscheine</h2>
+            <table width="100%" cellpadding="0" cellspacing="0">
+              <tr>
+                <td width="50%" style="padding:12px;background-color:rgba(31,39,27,0.5);border-radius:8px;text-align:center;border:1px solid rgba(255,255,255,0.05);">
+                  <p style="font-size:10px;color:#6b7a62;text-transform:uppercase;margin:0 0 4px;">Eingelöst</p>
+                  <p style="font-size:20px;font-weight:bold;color:#ffffff;margin:0;" th:text="${couponUsageCount}">0</p>
+                </td>
+                <td width="12"></td>
+                <td width="50%" style="padding:12px;background-color:rgba(31,39,27,0.5);border-radius:8px;text-align:center;border:1px solid rgba(255,255,255,0.05);">
+                  <p style="font-size:10px;color:#6b7a62;text-transform:uppercase;margin:0 0 4px;">Rabatt gesamt</p>
+                  <p style="font-size:20px;font-weight:bold;color:#ef4444;margin:0;">-&#8364; <span th:text="${totalDiscount}">0</span></p>
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+
+        <!-- BENACHRICHTIGUNGEN -->
+        <tr>
+          <td style="padding:0 32px 24px;">
+            <h2 style="color:#ffffff;font-size:16px;font-weight:bold;margin:0 0 12px;">Benachrichtigungen</h2>
+            <table width="100%" cellpadding="0" cellspacing="0">
+              <tr>
+                <td width="50%" style="padding:12px;background-color:rgba(31,39,27,0.5);border-radius:8px;text-align:center;border:1px solid rgba(255,255,255,0.05);">
+                  <p style="font-size:10px;color:#6b7a62;text-transform:uppercase;margin:0 0 4px;">Gesendet</p>
+                  <p style="font-size:20px;font-weight:bold;color:#22c55e;margin:0;" th:text="${sentNotifications}">0</p>
+                </td>
+                <td width="12"></td>
+                <td width="50%" style="padding:12px;background-color:rgba(31,39,27,0.5);border-radius:8px;text-align:center;border:1px solid rgba(255,255,255,0.05);">
+                  <p style="font-size:10px;color:#6b7a62;text-transform:uppercase;margin:0 0 4px;">Fehlgeschlagen</p>
+                  <p style="font-size:20px;font-weight:bold;color:#ef4444;margin:0;" th:text="${failedNotifications}">0</p>
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+
+        <!-- FOOTER -->
+        <tr>
+          <td style="padding:20px 32px 28px;border-top:1px solid rgba(255,255,255,0.05);text-align:center;">
+            <p style="font-size:12px;color:#6b7a62;margin:0;">
+              Diesen Bericht können Sie in den
+              <a th:href="${baseUrl + '/portal-salamanda-soccer-arena-portal/einstellungen'}" style="color:#f97316;text-decoration:none;">Einstellungen</a>
+              anpassen.
+            </p>
+            <p style="font-size:11px;color:#4a5a42;margin:8px 0 0;">
+              SoccerArena Salamanda — Automatischer Tagesbericht
+            </p>
+          </td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+</body>
+</html>

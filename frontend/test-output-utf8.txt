@@ -1,0 +1,1061 @@
+﻿
+[1m[46m RUN [49m[22m [36mv4.0.18 [39m[90mC:/Users/furbg/Desktop/halisaha/frontend[39m
+
+ [31mÔØ»[39m src/__tests__/components/Navbar.test.tsx [2m([22m[2m4 tests[22m[2m | [22m[31m4 failed[39m[2m)[22m[32m 47[2mms[22m[39m
+[31m     [31m├ù[31m shouldRenderLogoAndBrandText[39m[32m 32[2mms[22m[39m
+[31m     [31m├ù[31m shouldShowNavigationLinks_whenShowLinksIsTrue[39m[32m 4[2mms[22m[39m
+[31m     [31m├ù[31m shouldShowBookingCTA_whenShowLinksIsTrue[39m[32m 5[2mms[22m[39m
+[31m     [31m├ù[31m shouldOpenMobileMenu_onClick[39m[32m 4[2mms[22m[39m
+ [31mÔØ»[39m src/__tests__/pages/AGB.test.tsx [2m([22m[2m1 test[22m[2m | [22m[31m1 failed[39m[2m)[22m[32m 61[2mms[22m[39m
+[31m     [31m├ù[31m shouldRenderAGBContent[39m[32m 59[2mms[22m[39m
+ [32mÔ£ô[39m src/__tests__/components/ErrorBoundary.test.tsx [2m([22m[2m3 tests[22m[2m)[22m[32m 195[2mms[22m[39m
+ [32mÔ£ô[39m src/__tests__/pages/BookingManage.test.tsx [2m([22m[2m3 tests[22m[2m)[22m[33m 457[2mms[22m[39m
+     [33m[2mÔ£ô[22m[39m shouldNavigateOnSubmit [33m 357[2mms[22m[39m
+ [32mÔ£ô[39m src/__tests__/pages/Datenschutz.test.tsx [2m([22m[2m1 test[22m[2m)[22m[33m 490[2mms[22m[39m
+     [33m[2mÔ£ô[22m[39m shouldRenderDatenschutzContent [33m 487[2mms[22m[39m
+ [32mÔ£ô[39m src/__tests__/pages/BookingFailure.test.tsx [2m([22m[2m2 tests[22m[2m)[22m[33m 538[2mms[22m[39m
+     [33m[2mÔ£ô[22m[39m shouldNavigateToRetry [33m 415[2mms[22m[39m
+ [32mÔ£ô[39m src/__tests__/pages/NotFound.test.tsx [2m([22m[2m1 test[22m[2m)[22m[33m 484[2mms[22m[39m
+     [33m[2mÔ£ô[22m[39m shouldRender404Message [33m 482[2mms[22m[39m
+ [32mÔ£ô[39m src/__tests__/pages/admin/AdminDashboard.test.tsx [2m([22m[2m3 tests[22m[2m)[22m[33m 590[2mms[22m[39m
+     [33m[2mÔ£ô[22m[39m renders dashboard data correctly [33m 411[2mms[22m[39m
+ [32mÔ£ô[39m src/__tests__/pages/Login.test.tsx [2m([22m[2m4 tests[22m[2m)[22m[33m 950[2mms[22m[39m
+     [33m[2mÔ£ô[22m[39m renders login form inputs [33m 379[2mms[22m[39m
+ [32mÔ£ô[39m src/__tests__/pages/Contact.test.tsx [2m([22m[2m3 tests[22m[2m)[22m[33m 692[2mms[22m[39m
+     [33m[2mÔ£ô[22m[39m shouldSubmitContactFormAndShowSuccess [33m 444[2mms[22m[39m
+ [32mÔ£ô[39m src/__tests__/pages/admin/AdminLogin.test.tsx [2m([22m[2m3 tests[22m[2m)[22m[33m 1177[2mms[22m[39m
+     [33m[2mÔ£ô[22m[39m shouldRenderEmailAndPasswordInputs [33m 644[2mms[22m[39m
+ [32mÔ£ô[39m src/__tests__/components/SEO.test.tsx [2m([22m[2m3 tests[22m[2m)[22m[32m 93[2mms[22m[39m
+ [32mÔ£ô[39m src/__tests__/components/Logo.test.tsx [2m([22m[2m4 tests[22m[2m)[22m[33m 347[2mms[22m[39m
+ [32mÔ£ô[39m src/__tests__/components/ProtectedRoute.test.tsx [2m([22m[2m5 tests[22m[2m)[22m[32m 76[2mms[22m[39m
+ [32mÔ£ô[39m src/__tests__/components/Footer.test.tsx [2m([22m[2m4 tests[22m[2m)[22m[32m 168[2mms[22m[39m
+ [32mÔ£ô[39m src/__tests__/components/HappyHourBadge.test.tsx [2m([22m[2m2 tests[22m[2m)[22m[32m 166[2mms[22m[39m
+ [32mÔ£ô[39m src/__tests__/services/reservationService.test.ts [2m([22m[2m7 tests[22m[2m)[22m[32m 8[2mms[22m[39m
+ [32mÔ£ô[39m src/__tests__/pages/FAQ.test.tsx [2m([22m[2m2 tests[22m[2m)[22m[32m 139[2mms[22m[39m
+ [32mÔ£ô[39m src/__tests__/pages/Home.test.tsx [2m([22m[2m1 test[22m[2m)[22m[32m 33[2mms[22m[39m
+ [32mÔ£ô[39m src/__tests__/components/HoldTimer.test.tsx [2m([22m[2m2 tests[22m[2m)[22m[32m 137[2mms[22m[39m
+ [32mÔ£ô[39m src/__tests__/pages/admin/AdminReservierungen.test.tsx [2m([22m[2m3 tests[22m[2m)[22m[32m 179[2mms[22m[39m
+ [32mÔ£ô[39m src/__tests__/store/authStore.test.ts [2m([22m[2m6 tests[22m[2m)[22m[32m 7[2mms[22m[39m
+node.exe : [90mstderr[2m | src/__tests__/pages/BookingDetails.test.tsx[2m > [22m[2mBookingDetails Page[2m > [22m[2mshouldRenderFormAndOrderSum
+mary
+In Zeile:1 Zeichen:1
++ & "C:\Program Files\nodejs/node.exe" "C:\Program Files\nodejs/node_mo ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: ([90mstderr[2m...AndOrderSummary:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+[22m[39mAn update to HoldTimer inside a test was not wrapped in act(...).
+
+When testing, code that causes React state updates should be wrapped into act(...):
+
+act(() => {
+  /* fire events that update state */
+});
+/* assert on the output */
+
+This ensures that you're testing the behavior the user would see in the browser. Learn more at https://react.dev/link/wrap-tests-with-act
+An update to HoldTimer inside a test was not wrapped in act(...).
+
+When testing, code that causes React state updates should be wrapped into act(...):
+
+act(() => {
+  /* fire events that update state */
+});
+/* assert on the output */
+
+This ensures that you're testing the behavior the user would see in the browser. Learn more at https://react.dev/link/wrap-tests-with-act
+An update to BookingDetails inside a test was not wrapped in act(...).
+
+When testing, code that causes React state updates should be wrapped into act(...):
+
+act(() => {
+  /* fire events that update state */
+});
+/* assert on the output */
+
+This ensures that you're testing the behavior the user would see in the browser. Learn more at https://react.dev/link/wrap-tests-with-act
+
+[90mstderr[2m | src/__tests__/pages/BookingDetails.test.tsx[2m > [22m[2mBookingDetails Page[2m > [22m[2mshouldSubmitHoldAndNavigateToCheckout
+[22m[39mAn update to HoldTimer inside a test was not wrapped in act(...).
+
+When testing, code that causes React state updates should be wrapped into act(...):
+
+act(() => {
+  /* fire events that update state */
+});
+/* assert on the output */
+
+This ensures that you're testing the behavior the user would see in the browser. Learn more at https://react.dev/link/wrap-tests-with-act
+An update to HoldTimer inside a test was not wrapped in act(...).
+
+When testing, code that causes React state updates should be wrapped into act(...):
+
+act(() => {
+  /* fire events that update state */
+});
+/* assert on the output */
+
+This ensures that you're testing the behavior the user would see in the browser. Learn more at https://react.dev/link/wrap-tests-with-act
+An update to BookingDetails inside a test was not wrapped in act(...).
+
+When testing, code that causes React state updates should be wrapped into act(...):
+
+act(() => {
+  /* fire events that update state */
+});
+/* assert on the output */
+
+This ensures that you're testing the behavior the user would see in the browser. Learn more at https://react.dev/link/wrap-tests-with-act
+
+ [31mÔØ»[39m src/__tests__/pages/BookingDetails.test.tsx [2m([22m[2m2 tests[22m[2m | [22m[31m2 failed[39m[2m)[22m[32m 111[2mms[22m[39m
+[31m     [31m├ù[31m shouldRenderFormAndOrderSummary[39m[32m 71[2mms[22m[39m
+[31m     [31m├ù[31m shouldSubmitHoldAndNavigateToCheckout[39m[32m 38[2mms[22m[39m
+[90mstderr[2m | src/__tests__/pages/BookingCheckout.test.tsx[2m > [22m[2mBookingCheckout Page[2m > [22m[2mshouldRenderPaymentMethodSelection
+[22m[39mAn update to HoldTimer inside a test was not wrapped in act(...).
+
+When testing, code that causes React state updates should be wrapped into act(...):
+
+act(() => {
+  /* fire events that update state */
+});
+/* assert on the output */
+
+This ensures that you're testing the behavior the user would see in the browser. Learn more at https://react.dev/link/wrap-tests-with-act
+An update to HoldTimer inside a test was not wrapped in act(...).
+
+When testing, code that causes React state updates should be wrapped into act(...):
+
+act(() => {
+  /* fire events that update state */
+});
+/* assert on the output */
+
+This ensures that you're testing the behavior the user would see in the browser. Learn more at https://react.dev/link/wrap-tests-with-act
+
+ [32mÔ£ô[39m src/__tests__/pages/BookingCancel.test.tsx [2m([22m[2m3 tests[22m[2m)[22m[33m 545[2mms[22m[39m
+ [32mÔ£ô[39m src/__tests__/services/contactService.test.ts [2m([22m[2m7 tests[22m[2m)[22m[32m 5[2mms[22m[39m
+ [32mÔ£ô[39m src/__tests__/pages/Booking.test.tsx [2m([22m[2m3 tests[22m[2m)[22m[33m 432[2mms[22m[39m
+ [32mÔ£ô[39m src/__tests__/services/authService.test.ts [2m([22m[2m7 tests[22m[2m)[22m[32m 7[2mms[22m[39m
+ [32mÔ£ô[39m src/__tests__/services/settingsService.test.ts [2m([22m[2m2 tests[22m[2m)[22m[32m 5[2mms[22m[39m
+ [32mÔ£ô[39m src/__tests__/store/themeStore.test.ts [2m([22m[2m2 tests[22m[2m)[22m[32m 4[2mms[22m[39m
+ [32mÔ£ô[39m src/__tests__/services/fieldService.test.ts [2m([22m[2m3 tests[22m[2m)[22m[32m 4[2mms[22m[39m
+ [32mÔ£ô[39m src/__tests__/services/adminService.test.ts [2m([22m[2m5 tests[22m[2m)[22m[32m 4[2mms[22m[39m
+[90mstderr[2m | src/__tests__/pages/BookingCheckout.test.tsx[2m > [22m[2mBookingCheckout Page[2m > [22m[2mshouldHandlePaymentSubmission_andNav
+igateToSuccess
+[22m[39mAn update to HoldTimer inside a test was not wrapped in act(...).
+
+When testing, code that causes React state updates should be wrapped into act(...):
+
+act(() => {
+  /* fire events that update state */
+});
+/* assert on the output */
+
+This ensures that you're testing the behavior the user would see in the browser. Learn more at https://react.dev/link/wrap-tests-with-act
+An update to HoldTimer inside a test was not wrapped in act(...).
+
+When testing, code that causes React state updates should be wrapped into act(...):
+
+act(() => {
+  /* fire events that update state */
+});
+/* assert on the output */
+
+This ensures that you're testing the behavior the user would see in the browser. Learn more at https://react.dev/link/wrap-tests-with-act
+
+ [31mÔØ»[39m src/__tests__/pages/BookingCheckout.test.tsx [2m([22m[2m2 tests[22m[2m | [22m[31m2 failed[39m[2m)[22m[33m 772[2mms[22m[39m
+[31m     [31m├ù[31m shouldRenderPaymentMethodSelection[39m[32m 230[2mms[22m[39m
+[31m     [31m├ù[31m shouldHandlePaymentSubmission_andNavigateToSuccess[39m[33m 540[2mms[22m[39m
+ [32mÔ£ô[39m src/__tests__/pages/BookingSuccess.test.tsx [2m([22m[2m1 test[22m[2m)[22m[32m 42[2mms[22m[39m
+
+[31mÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»[39m[1m[41m Failed Tests 9 [49m[22m[31mÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»[39m
+
+[41m[1m FAIL [22m[49m src/__tests__/pages/AGB.test.tsx[2m > [22mAGB Page[2m > [22mshouldRenderAGBContent
+[31m[1mError[22m: link is a void element tag and must neither have `children` nor use `dangerouslySetInnerHTML`.[39m
+[90m [2mÔØ»[22m setInitialProperties node_modules/react-dom/cjs/react-dom-client.development.js:[2m20724:25[22m[39m
+[90m [2mÔØ»[22m completeWork node_modules/react-dom/cjs/react-dom-client.development.js:[2m12662:18[22m[39m
+[90m [2mÔØ»[22m runWithFiberInDEV node_modules/react-dom/cjs/react-dom-client.development.js:[2m874:13[22m[39m
+[90m [2mÔØ»[22m completeUnitOfWork node_modules/react-dom/cjs/react-dom-client.development.js:[2m17777:19[22m[39m
+[90m [2mÔØ»[22m performUnitOfWork node_modules/react-dom/cjs/react-dom-client.development.js:[2m17658:11[22m[39m
+[90m [2mÔØ»[22m workLoopSync node_modules/react-dom/cjs/react-dom-client.development.js:[2m17469:41[22m[39m
+[90m [2mÔØ»[22m renderRootSync node_modules/react-dom/cjs/react-dom-client.development.js:[2m17450:11[22m[39m
+[90m [2mÔØ»[22m performWorkOnRoot node_modules/react-dom/cjs/react-dom-client.development.js:[2m16583:35[22m[39m
+[90m [2mÔØ»[22m performWorkOnRootViaSchedulerTask node_modules/react-dom/cjs/react-dom-client.development.js:[2m18957:7[22m[39m
+[90m [2mÔØ»[22m flushActQueue node_modules/react/cjs/react.development.js:[2m590:34[22m[39m
+
+[31m[2mÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»[1/9]ÔÄ»[22m[39m
+
+[41m[1m FAIL [22m[49m src/__tests__/pages/BookingCheckout.test.tsx[2m > [22mBookingCheckout Page[2m > [22mshouldRenderPaymentMethodSelection
+[31m[1mTestingLibraryElementError[22m[39m: Unable to find an element with the text: booking.step3.payment.title. This could be because the text is
+ broken up by multiple elements. In this case, you can provide a function for your text matcher to make your matcher more flexible.
+
+Ignored nodes: comments, script, style
+[36m<body>[39m
+  [36m<div>[39m
+    [36m<div[39m
+      [33mclass[39m=[32m"grow flex justify-center py-8 px-4 sm:px-6 lg:px-8 bg-background-light dark:bg-background-dark text-slate-900 dark:text-wh
+ite font-display overflow-hidden relative transition-all duration-500 "[39m
+    [36m>[39m
+      [36m<div[39m
+        [33mclass[39m=[32m"absolute top-0 left-1/4 w-96 h-96 bg-primary/5 rounded-full blur-3xl -z-10 pointer-events-none"[39m
+      [36m/>[39m
+      [36m<div[39m
+        [33mclass[39m=[32m"absolute bottom-0 right-1/4 w-[500px] h-[500px] bg-blue-500/5 rounded-full blur-3xl -z-10 pointer-events-none"[39m
+      [36m/>[39m
+      [36m<div[39m
+        [33mclass[39m=[32m"w-full max-w-[1200px] flex flex-col gap-8"[39m
+      [36m>[39m
+        [36m<nav[39m
+          [33maria-label[39m=[32m"Progress"[39m
+          [33mclass[39m=[32m"w-full py-4"[39m
+        [36m>[39m
+          [36m<ol[39m
+            [33mclass[39m=[32m"flex flex-wrap items-center gap-y-2 gap-x-4 md:gap-x-8 text-sm md:text-base"[39m
+          [36m>[39m
+            [36m<li[39m
+              [33mclass[39m=[32m"flex items-center text-primary/60 cursor-pointer transition-colors hover:text-primary"[39m
+            [36m>[39m
+              [36m<span[39m
+                [33mclass[39m=[32m"flex items-center justify-center w-6 h-6 rounded-full border border-primary/60 mr-2 text-xs"[39m
+              [36m>[39m
+                [36m<span[39m
+                  [33mclass[39m=[32m"material-symbols-outlined text-sm"[39m
+                [36m>[39m
+                  [0mcheck[0m
+                [36m</span>[39m
+              [36m</span>[39m
+              [36m<span[39m
+                [33mclass[39m=[32m"font-medium hover:underline"[39m
+              [36m>[39m
+                [0m1. Termin w├ñhlen[0m
+              [36m</span>[39m
+              [36m<span[39m
+                [33mclass[39m=[32m"ml-4 text-border-dark"[39m
+              [36m>[39m
+                [0m/[0m
+              [36m</span>[39m
+            [36m</li>[39m
+            [36m<li[39m
+              [33mclass[39m=[32m"flex items-center text-primary/60 cursor-pointer transition-colors hover:text-primary"[39m
+            [36m>[39m
+              [36m<span[39m
+                [33mclass[39m=[32m"flex items-center justify-center w-6 h-6 rounded-full border border-primary/60 mr-2 text-xs"[39m
+              [36m>[39m
+                [36m<span[39m
+                  [33mclass[39m=[32m"material-symbols-outlined text-sm"[39m
+                [36m>[39m
+                  [0mcheck[0m
+                [36m</span>[39m
+              [36m</span>[39m
+              [36m<span[39m
+                [33mclass[39m=[32m"font-medium hover:underline"[39m
+              [36m>[39m
+                [0m2. Daten eingeben[0m
+              [36m</span>[39m
+              [36m<span[39m
+                [33mclass[39m=[32m"ml-4 text-border-dark"[39m
+              [36m>[39m
+                [0m/[0m
+              [36m</span>[39m
+            [36m</li>[39m
+            [36m<li[39m
+              [33mclass[39m=[32m"flex items-center text-primary"[39m
+            [36m>[39m
+              [36m<span[39m
+                [33mclass[39m=[32m"flex items-center justify-center w-6 h-6 rounded-full bg-primary text-background-dark mr-2 text-xs font-bold sha
+dow-[0_0_15px_rgba(255,87,34,0.5)]"[39m
+              [36m>[39m
+                [0m3[0m
+              [36m</span>[39m
+              [36m<span[39m
+                [33mclass[39m=[32m"font-bold"[39m
+              [36m>[39m
+                [0m3. Zahlungsart w├ñhlen[0m
+              [36m</span>[39m
+            [36m</li>[39m
+          [36m</ol>[39m
+        [36m</nav>[39m
+        [36m<div[39m
+          [33mclass[39m=[32m"grid grid-cols-1 lg:grid-cols-12 gap-8 items-start"[39m
+        [36m>[39m
+          [36m<div[39m
+            [33mclass[39m=[32m"lg:col-span-7 xl:col-span-8 flex flex-col gap-8"[39m
+          [36m>[39m
+            [36m<div>[39m
+              [36m<h1[39m
+                [33mclass[39m=[32m"text-3xl font-bold text-slate-900 dark:text-white mb-2"[39m
+              [36m>[39m
+                [0mZahlungsart w├ñhlen[0m
+              [36m</h1>[39m
+              [36m<p[39m
+                [33mclass[39m=[32m"text-slate-600 dark:text-slate-400 text-sm"[39m
+              [36m>[39m
+                [0mW├ñhlen Sie Ihre bevorzugte Zahlungsmethode f├╝r die Buchung.[0m
+              [36m</p>[39m
+            [36m</div>[39m
+            [36m<form[39m
+              [33mclass[39m=[32m"flex flex-col gap-4"[39m
+            [36m>[39m
+              [36m<label[39m
+                [33mclass[39m=[32m"group cursor-pointer relative"[39m
+              [36m>[39m
+                [36m<input[39m
+                  [33mclass[39m=[32m"peer sr-only custom-radio"[39m
+                  [33mname[39m=[32m"payment_method"[39m
+                  [33mtype[39m=[32m"radio"[39m
+                [36m/>[39m
+                [36m<div[39m
+                  [33mclass[39m=[32m"bg-white/5 dark:bg-surface-dark/60 backdrop-blur-md p-5 rounded-xl border border-slate-200 dark:border-white/1
+0 flex items-center gap-4 transition-all duration-300 hover:border-primary/50 peer-checked:border-primary peer-checked:bg-primary/5"[39m
+                [36m>[39m
+                  [36m<div[39m
+                    [33mclass[39m=[32m"w-5 h-5 rounded-full border-2 border-slate-300 dark:border-slate-500 flex items-center justify-center relati
+ve transition-colors duration-300 group-has-checked:border-primary after:content-[''] after:w-2.5 after:h-2.5 after:bg-primary after:rounded-full afte
+r:scale-0 after:transition-transform after:duration-300 group-has-checked:after:scale-100 group-has-checked:shadow-[0_0_12px_rgba(249,115,22,0.5)]"[3
+9m
+                  [36m/>[39m
+                  [36m<div[39m
+                    [33mclass[39m=[32m"flex-1 flex items-center justify-between"[39m
+                  [36m>[39m
+                    [36m<div[39m
+                      [33mclass[39m=[32m"flex flex-col"[39m
+                    [36m>[39m
+                      [36m<span[39m
+                        [33mclass[39m=[32m"font-medium text-slate-900 dark:text-white"[39m
+                      [36m>[39m
+                        [0mGoogle Pay[0m
+                      [36m</span>[39m
+                      [36m<span[39m
+                        [33mclass[39m=[32m"text-xs text-slate-500 dark:text-slate-400"[39m
+                      [36m>[39m
+                        [0mSchnell und sicher[0m
+                      [36m</span>[39m
+                    [36m</div>[39m
+                    [36m<div[39m
+                      [33mclass[39m=[32m"h-8 bg-slate-100 dark:bg-white/10 rounded px-2 flex items-center justify-center text-slate-600 dark:text-w
+hite"[39m
+           ...
+[90m [2mÔØ»[22m Object.getElementError node_modules/@testing-library/dom/dist/config.js:[2m37:19[22m[39m
+[90m [2mÔØ»[22m node_modules/@testing-library/dom/dist/query-helpers.js:[2m76:38[22m[39m
+[90m [2mÔØ»[22m node_modules/@testing-library/dom/dist/query-helpers.js:[2m109:15[22m[39m
+[36m [2mÔØ»[22m src/__tests__/pages/BookingCheckout.test.tsx:[2m49:19[22m[39m
+    [90m 47| [39m    )[33m;[39m
+    [90m 48| [39m
+    [90m 49| [39m    expect(screen.getAllByText('booking.step3.payment.title').length).ÔÇª
+    [90m   | [39m                  [31m^[39m
+    [90m 50| [39m    expect(screen.getByText('booking.step3.payment.creditCard')).toBeIÔÇª
+    [90m 51| [39m    expect(screen.getByText('booking.step3.payment.googlePay')).toBeInÔÇª
+
+[31m[2mÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»[2/9]ÔÄ»[22m[39m
+
+[41m[1m FAIL [22m[49m src/__tests__/pages/BookingCheckout.test.tsx[2m > [22mBookingCheckout Page[2m > [22mshouldHandlePaymentSubmission_andNav
+igateToSuccess
+[31m[1mTestingLibraryElementError[22m[39m: Unable to find an accessible element with the role "button" and name `/booking.step3.buttons.pay/i`
+
+Here are the accessible roles:
+
+  navigation:
+
+  Name "Progress":
+  [36m<nav[39m
+    [33maria-label[39m=[32m"Progress"[39m
+    [33mclass[39m=[32m"w-full py-4"[39m
+  [36m/>[39m
+
+  --------------------------------------------------
+  list:
+
+  Name "":
+  [36m<ol[39m
+    [33mclass[39m=[32m"flex flex-wrap items-center gap-y-2 gap-x-4 md:gap-x-8 text-sm md:text-base"[39m
+  [36m/>[39m
+
+  --------------------------------------------------
+  listitem:
+
+  Name "":
+  [36m<li[39m
+    [33mclass[39m=[32m"flex items-center text-primary/60 cursor-pointer transition-colors hover:text-primary"[39m
+  [36m/>[39m
+
+  Name "":
+  [36m<li[39m
+    [33mclass[39m=[32m"flex items-center text-primary/60 cursor-pointer transition-colors hover:text-primary"[39m
+  [36m/>[39m
+
+  Name "":
+  [36m<li[39m
+    [33mclass[39m=[32m"flex items-center text-primary"[39m
+  [36m/>[39m
+
+  --------------------------------------------------
+  heading:
+
+  Name "Zahlungsart w├ñhlen":
+  [36m<h1[39m
+    [33mclass[39m=[32m"text-3xl font-bold text-slate-900 dark:text-white mb-2"[39m
+  [36m/>[39m
+
+  Name "receipt_longZusammenfassung":
+  [36m<h3[39m
+    [33mclass[39m=[32m"text-lg font-bold text-slate-900 dark:text-white mb-6 flex items-center gap-2"[39m
+  [36m/>[39m
+
+  Name "Main Field":
+  [36m<h4[39m
+    [33mclass[39m=[32m"text-slate-900 dark:text-white font-bold text-base"[39m
+  [36m/>[39m
+
+  --------------------------------------------------
+  paragraph:
+
+  Name "":
+  [36m<p[39m
+    [33mclass[39m=[32m"text-slate-600 dark:text-slate-400 text-sm"[39m
+  [36m/>[39m
+
+  Name "":
+  [36m<p[39m
+    [33mclass[39m=[32m"text-slate-500 dark:text-slate-400 text-sm mt-0.5"[39m
+  [36m/>[39m
+
+  Name "":
+  [36m<p[39m
+    [33mclass[39m=[32m"text-xs text-slate-500 dark:text-slate-500 text-right"[39m
+  [36m/>[39m
+
+  --------------------------------------------------
+  radio:
+
+  Name "Google PaySchnell und sicher":
+  [36m<input[39m
+    [33mclass[39m=[32m"peer sr-only custom-radio"[39m
+    [33mname[39m=[32m"payment_method"[39m
+    [33mtype[39m=[32m"radio"[39m
+  [36m/>[39m
+
+  Name "Apple PayBequem bezahlen":
+  [36m<input[39m
+    [33mclass[39m=[32m"peer sr-only custom-radio"[39m
+    [33mname[39m=[32m"payment_method"[39m
+    [33mtype[39m=[32m"radio"[39m
+  [36m/>[39m
+
+  Name "KreditkarteVisa, Mastercard, Amex VISA Kartennummer credit_card G├╝ltig bis (MM/JJ) CVC / CVV help":
+  [36m<input[39m
+    [33mchecked[39m=[32m""[39m
+    [33mclass[39m=[32m"peer sr-only custom-radio"[39m
+    [33mname[39m=[32m"payment_method"[39m
+    [33mtype[39m=[32m"radio"[39m
+  [36m/>[39m
+
+  --------------------------------------------------
+  textbox:
+
+  Name "":
+  [36m<input[39m
+    [33mclass[39m=[32m"w-full bg-white dark:bg-background-dark/50 border border-slate-300 dark:border-white/10 rounded-lg py-3 pl-4 pr-10 text-slat
+e-900 dark:text-white placeholder-slate-400 focus:ring-1 focus:ring-primary focus:border-primary transition-colors"[39m
+    [33mplaceholder[39m=[32m"0000 0000 0000 0000"[39m
+    [33mtype[39m=[32m"text"[39m
+  [36m/>[39m
+
+  Name "":
+  [36m<input[39m
+    [33mclass[39m=[32m"w-full bg-white dark:bg-background-dark/50 border border-slate-300 dark:border-white/10 rounded-lg py-3 px-4 text-slate-900 
+dark:text-white placeholder-slate-400 focus:ring-1 focus:ring-primary focus:border-primary transition-colors"[39m
+    [33mplaceholder[39m=[32m"MM/JJ"[39m
+    [33mtype[39m=[32m"text"[39m
+  [36m/>[39m
+
+  Name "":
+  [36m<input[39m
+    [33mclass[39m=[32m"w-full bg-white dark:bg-background-dark/50 border border-slate-300 dark:border-white/10 rounded-lg py-3 pl-4 pr-10 text-slat
+e-900 dark:text-white placeholder-slate-400 focus:ring-1 focus:ring-primary focus:border-primary transition-colors"[39m
+    [33mplaceholder[39m=[32m"123"[39m
+    [33mtype[39m=[32m"text"[39m
+  [36m/>[39m
+
+  Name "":
+  [36m<input[39m
+    [33mclass[39m=[32m"flex-1 bg-white dark:bg-background-dark border border-slate-300 dark:border-white/10 rounded-lg py-3 px-4 text-slate-900 dar
+k:text-white placeholder-slate-400 focus:ring-1 focus:ring-primary focus:border-primary transition-colors"[39m
+    [33mplaceholder[39m=[32m"Gutscheincode eingeben"[39m
+    [33mtype[39m=[32m"text"[39m
+    [33mvalue[39m=[32m""[39m
+  [36m/>[39m
+
+  --------------------------------------------------
+  button:
+
+  Name "Anwenden":
+  [36m<button[39m
+    [33mclass[39m=[32m"px-6 py-2 rounded-lg border border-slate-300 dark:border-white/20 text-slate-700 dark:text-white hover:bg-slate-50 dark:hove
+r:bg-white/5 font-medium transition-colors disabled:opacity-40 disabled:cursor-not-allowed flex items-center gap-2"[39m
+    [33mdisabled[39m=[32m""[39m
+    [33mtype[39m=[32m"button"[39m
+  [36m/>[39m
+
+  Name "arrow_backZur├╝ck zu den Daten":
+  [36m<button[39m
+    [33mclass[39m=[32m"inline-flex items-center text-slate-500 dark:text-slate-400 hover:text-slate-900 dark:hover:text-white transition-colors gap
+-1 text-sm bg-transparent border-none cursor-pointer"[39m
+  [36m/>[39m
+
+  Name "lockJetzt zahlen & buchen":
+  [36m<button[39m
+    [33mclass[39m=[32m"w-full mt-8 bg-primary text-white dark:text-background-dark font-bold text-sm uppercase tracking-wider py-4 rounded-xl flex 
+items-center justify-center gap-2 transition-all transform hover:-translate-y-0.5 shadow-[0_0_20px_rgba(255,87,34,0.3)] hover:shadow-[0_0_30px_rgba(25
+5,87,34,0.5)] hover:bg-[#e65100]"[39m
+  [36m/>[39m
+
+  Name "arrow_backZur├╝ck zu den Daten":
+  [36m<button[39m
+    [33mclass[39m=[32m"inline-flex items-center text-slate-500 hover:text-slate-900 dark:hover:text-white transition-colors gap-1 text-sm bg-transp
+arent border-none cursor-pointer"[39m
+  [36m/>[39m
+
+  --------------------------------------------------
+  img:
+
+  Name "Main Field":
+  [36m<img[39m
+    [33malt[39m=[32m"Main Field"[39m
+    [33mclass[39m=[32m"w-full h-full object-cover"[39m
+    [33msrc[39m=[32m"/soccer.png"[39m
+  [36m/>[39m
+
+  --------------------------------------------------
+
+Ignored nodes: comments, script, style
+[36m<body>[39m
+  [36m<div>[39m
+    [36m<div[39m
+      [33mclass[39m=[32m"grow flex justify-center py-8 px-4 sm:px-6 lg:px-8 bg-background-light dark:bg-background-dark text-slate-900 dark:text-wh
+ite font-display overflow-hidden relative transition-all duration-500 "[39m
+    [36m>[39m
+      [36m<div[39m
+        [33mclass[39m=[32m"absolute top-0 left-1/4 w-96 h-96 bg-primary/5 rounded-full blur-3xl -z-10 pointer-events-none"[39m
+      [36m/>[39m
+      [36m<div[39m
+        [33mclass[39m=[32m"absolute bottom-0 right-1/4 w-[500px] h-[500px] bg-blue-500/5 rounded-full blur-3xl -z-10 pointer-events-none"[39m
+      [36m/>[39m
+      [36m<div[39m
+        [33mclass[39m=[32m"w-full max-w-[1200px] flex flex-col gap-8"[39m
+      [36m>[39m
+        [36m<nav[39m
+          [33maria-label[39m=[32m"Progress"[39m
+          [33mclass[39m=[32m"w-full py-4"[39m
+        [36m>[39m
+          [36m<ol[39m
+            [33mclass[39m=[32m"flex flex-wrap items-center gap-y-2 gap-x-4 md:gap-x-8 text-sm md:text-base"[39m
+          [36m>[39m
+            [36m<li[39m
+              [33mclass[39m=[32m"flex items-center text-primary/60 cursor-pointer transition-colors hover:text-primary"[39m
+            [36m>[39m
+              [36m<span[39m
+                [33mclass[39m=[32m"flex items-center justify-center w-6 h-6 rounded-full border border-primary/60 mr-2 text-xs"[39m
+              [36m>[39m
+                [36m<span[39m
+                  [33mclass[39m=[32m"material-symbols-outlined text-sm"[39m
+                [36m>[39m
+                  [0mcheck[0m
+                [36m</span>[39m
+              [36m</span>[39m
+              [36m<span[39m
+                [33mclass[39m=[32m"font-medium hover:underline"[39m
+              [36m>[39m
+                [0m1. Termin w├ñhlen[0m
+              [36m</span>[39m
+              [36m<span[39m
+                [33mclass[39m=[32m"ml-4 text-border-dark"[39m
+              [36m>[39m
+                [0m/[0m
+              [36m</span>[39m
+            [36m</li>[39m
+            [36m<li[39m
+              [33mclass[39m=[32m"flex items-center text-primary/60 cursor-pointer transition-colors hover:text-primary"[39m
+            [36m>[39m
+              [36m<span[39m
+                [33mclass[39m=[32m"flex items-center justify-center w-6 h-6 rounded-full border border-primary/60 mr-2 text-xs"[39m
+              [36m>[39m
+                [36m<span[39m
+                  [33mclass[39m=[32m"material-symbols-outlined text-sm"[39m
+                [36m>[39m
+                  [0mcheck[0m
+                [36m</span>[39m
+              [36m</span>[39m
+              [36m<span[39m
+                [33mclass[39m=[32m"font-medium hover:underline"[39m
+              [36m>[39m
+                [0m2. Daten eingeben[0m
+              [36m</span>[39m
+              [36m<span[39m
+                [33mclass[39m=[32m"ml-4 text-border-dark"[39m
+              [36m>[39m
+                [0m/[0m
+              [36m</span>[39m
+            [36m</li>[39m
+            [36m<li[39m
+              [33mclass[39m=[32m"flex items-center text-primary"[39m
+            [36m>[39m
+              [36m<span[39m
+                [33mclass[39m=[32m"flex items-center justify-center w-6 h-6 rounded-full bg-primary text-background-dark mr-2 text-xs font-bold sha
+dow-[0_0_15px_rgba(255,87,34,0.5)]"[39m
+              [36m>[39m
+                [0m3[0m
+              [36m</span>[39m
+              [36m<span[39m
+                [33mclass[39m=[32m"font-bold"[39m
+              [36m>[39m
+                [0m3. Zahlungsart w├ñhlen[0m
+              [36m</span>[39m
+            [36m</li>[39m
+          [36m</ol>[39m
+        [36m</nav>[39m
+        [36m<div[39m
+          [33mclass[39m=[32m"grid grid-cols-1 lg:grid-cols-12 gap-8 items-start"[39m
+        [36m>[39m
+          [36m<div[39m
+            [33mclass[39m=[32m"lg:col-span-7 xl:col-span-8 flex flex-col gap-8"[39m
+          [36m>[39m
+            [36m<div>[39m
+              [36m<h1[39m
+                [33mclass[39m=[32m"text-3xl font-bold text-slate-900 dark:text-white mb-2"[39m
+              [36m>[39m
+                [0mZahlungsart w├ñhlen[0m
+              [36m</h1>[39m
+              [36m<p[39m
+                [33mclass[39m=[32m"text-slate-600 dark:text-slate-400 text-sm"[39m
+              [36m>[39m
+                [0mW├ñhlen Sie Ihre bevorzugte Zahlungsmethode f├╝r die Buchung.[0m
+              [36m</p>[39m
+            [36m</div>[39m
+            [36m<form[39m
+              [33mclass[39m=[32m"flex flex-col gap-4"[39m
+            [36m>[39m
+              [36m<label[39m
+                [33mclass[39m=[32m"group cursor-pointer relative"[39m
+              [36m>[39m
+                [36m<input[39m
+                  [33mclass[39m=[32m"peer sr-only custom-radio"[39m
+                  [33mname[39m=[32m"payment_method"[39m
+                  [33mtype[39m=[32m"radio"[39m
+                [36m/>[39m
+                [36m<div[39m
+                  [33mclass[39m=[32m"bg-white/5 dark:bg-surface-dark/60 backdrop-blur-md p-5 rounded-xl border border-slate-200 dark:border-white/1
+0 flex items-center gap-4 transition-all duration-300 hover:border-primary/50 peer-checked:border-primary peer-checked:bg-primary/5"[39m
+                [36m>[39m
+                  [36m<div[39m
+                    [33mclass[39m=[32m"w-5 h-5 rounded-full border-2 border-slate-300 dark:border-slate-500 flex items-center justify-center relati
+ve transition-colors duration-300 group-has-checked:border-primary after:content-[''] after:w-2.5 after:h-2.5 after:bg-primary after:rounded-full afte
+r:scale-0 after:transition-transform after:duration-300 group-has-checked:after:scale-100 group-has-checked:shadow-[0_0_12px_rgba(249,115,22,0.5)]"[3
+9m
+                  [36m/>[39m
+                  [36m<div[39m
+                    [33mclass[39m=[32m"flex-1 flex items-center justify-between"[39m
+                  [36m>[39m
+                    [36m<div[39m
+                      [33mclass[39m=[32m"flex flex-col"[39m
+                    [36m>[39m
+                      [36m<span[39m
+                        [33mclass[39m=[32m"font-medium text-slate-900 dark:text-white"[39m
+                      [36m>[39m
+                        [0mGoogle Pay[0m
+                      [36m</span>[39m
+                      [36m<span[39m
+                        [33mclass[39m=[32m"text-xs text-slate-500 dark:text-slate-400"[39m
+                      [36m>[39m
+                        [0mSchnell und sicher[0m
+                      [36m</span>[39m
+                    [36m</div>[39m
+                    [36m<div[39m
+                      [33mclass[39m=[32m"h-8 bg-slate-100 dark:bg-white/10 rounded px-2 flex items-center justify-center text-slate-600 dark:text-w
+hite"[39m
+           ...
+[90m [2mÔØ»[22m Object.getElementError node_modules/@testing-library/dom/dist/config.js:[2m37:19[22m[39m
+[90m [2mÔØ»[22m node_modules/@testing-library/dom/dist/query-helpers.js:[2m76:38[22m[39m
+[90m [2mÔØ»[22m node_modules/@testing-library/dom/dist/query-helpers.js:[2m52:17[22m[39m
+[90m [2mÔØ»[22m node_modules/@testing-library/dom/dist/query-helpers.js:[2m95:19[22m[39m
+[36m [2mÔØ»[22m src/__tests__/pages/BookingCheckout.test.tsx:[2m68:30[22m[39m
+    [90m 66| [39m    )[33m;[39m
+    [90m 67| [39m
+    [90m 68| [39m    const payButton = screen.getByRole('button', { name: /booking.stepÔÇª
+    [90m   | [39m                             [31m^[39m
+    [90m 69| [39m    fireEvent[33m.[39m[34mclick[39m(payButton)[33m;[39m
+    [90m 70| [39m
+
+[31m[2mÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»[3/9]ÔÄ»[22m[39m
+
+[41m[1m FAIL [22m[49m src/__tests__/pages/BookingDetails.test.tsx[2m > [22mBookingDetails Page[2m > [22mshouldRenderFormAndOrderSummary
+[31m[1mTestingLibraryElementError[22m[39m: Unable to find an element with the text: booking.step2.title. This could be because the text is broken 
+up by multiple elements. In this case, you can provide a function for your text matcher to make your matcher more flexible.
+
+Ignored nodes: comments, script, style
+[36m<body>[39m
+  [36m<div>[39m
+    [36m<div[39m
+      [33mclass[39m=[32m"grow flex justify-center py-8 px-4 sm:px-6 lg:px-8 bg-background-light dark:bg-background-dark text-slate-900 dark:text-wh
+ite font-display"[39m
+    [36m>[39m
+      [36m<div[39m
+        [33mclass[39m=[32m"w-full max-w-[1200px] flex flex-col gap-8"[39m
+      [36m>[39m
+        [36m<nav[39m
+          [33maria-label[39m=[32m"Progress"[39m
+          [33mclass[39m=[32m"w-full py-4"[39m
+        [36m>[39m
+          [36m<ol[39m
+            [33mclass[39m=[32m"flex flex-wrap items-center gap-y-2 gap-x-4 md:gap-x-8 text-sm md:text-base"[39m
+          [36m>[39m
+            [36m<li[39m
+              [33mclass[39m=[32m"flex items-center text-primary/60 cursor-pointer"[39m
+            [36m>[39m
+              [36m<span[39m
+                [33mclass[39m=[32m"flex items-center justify-center w-6 h-6 rounded-full border border-primary/60 mr-2 text-xs"[39m
+              [36m>[39m
+                [36m<span[39m
+                  [33mclass[39m=[32m"material-symbols-outlined text-sm"[39m
+                [36m>[39m
+                  [0mcheck[0m
+                [36m</span>[39m
+              [36m</span>[39m
+              [36m<span[39m
+                [33mclass[39m=[32m"font-medium hover:underline"[39m
+              [36m>[39m
+                [0m1. Termin w├ñhlen[0m
+              [36m</span>[39m
+              [36m<span[39m
+                [33mclass[39m=[32m"ml-4 text-border-dark"[39m
+              [36m>[39m
+                [0m/[0m
+              [36m</span>[39m
+            [36m</li>[39m
+            [36m<li[39m
+              [33mclass[39m=[32m"flex items-center text-primary"[39m
+            [36m>[39m
+              [36m<span[39m
+                [33mclass[39m=[32m"flex items-center justify-center w-6 h-6 rounded-full bg-primary text-background-dark mr-2 text-xs font-bold"[3
+9m
+              [36m>[39m
+                [0m2[0m
+              [36m</span>[39m
+              [36m<span[39m
+                [33mclass[39m=[32m"font-bold"[39m
+              [36m>[39m
+                [0m2. Daten eingeben[0m
+              [36m</span>[39m
+              [36m<span[39m
+                [33mclass[39m=[32m"ml-4 text-border-dark"[39m
+              [36m>[39m
+                [0m/[0m
+              [36m</span>[39m
+            [36m</li>[39m
+            [36m<li[39m
+              [33mclass[39m=[32m"flex items-center text-white/30"[39m
+            [36m>[39m
+              [36m<span[39m
+                [33mclass[39m=[32m"flex items-center justify-center w-6 h-6 rounded-full border border-white/20 mr-2 text-xs font-medium"[39m
+              [36m>[39m
+                [0m3[0m
+              [36m</span>[39m
+              [36m<span[39m
+                [33mclass[39m=[32m"font-medium"[39m
+              [36m>[39m
+                [0m3. Best├ñtigung[0m
+              [36m</span>[39m
+            [36m</li>[39m
+          [36m</ol>[39m
+        [36m</nav>[39m
+        [36m<div[39m
+          [33mclass[39m=[32m"flex flex-col lg:flex-row gap-10 items-start"[39m
+        [36m>[39m
+          [36m<div[39m
+            [33mclass[39m=[32m"flex-1 w-full max-w-2xl"[39m
+          [36m>[39m
+            [36m<div[39m
+              [33mclass[39m=[32m"mb-8"[39m
+            [36m>[39m
+              [36m<h1[39m
+                [33mclass[39m=[32m"text-3xl md:text-4xl font-bold text-slate-900 dark:text-white mb-2"[39m
+              [36m>[39m
+                [0mDeine Informationen[0m
+              [36m</h1>[39m
+              [36m<p[39m
+                [33mclass[39m=[32m"text-slate-600 dark:text-white/60 text-sm md:text-base"[39m
+              [36m>[39m
+                [0mBitte gib deine Daten ein, um die Reservierung abzuschlie├ƒen.[0m
+              [36m</p>[39m
+            [36m</div>[39m
+            [36m<form[39m
+              [33mclass[39m=[32m"space-y-6"[39m
+            [36m>[39m
+              [36m<div[39m
+                [33mclass[39m=[32m"grid grid-cols-1 md:grid-cols-2 gap-6"[39m
+              [36m>[39m
+                [36m<div[39m
+                  [33mclass[39m=[32m"space-y-2 group"[39m
+                [36m>[39m
+                  [36m<label[39m
+                    [33mclass[39m=[32m"block text-sm font-medium text-slate-700 dark:text-white/90"[39m
+                    [33mfor[39m=[32m"firstName"[39m
+                  [36m>[39m
+                    [0mVorname[0m
+                  [36m</label>[39m
+                  [36m<div[39m
+                    [33mclass[39m=[32m"relative"[39m
+                  [36m>[39m
+                    [36m<div[39m
+                      [33mclass[39m=[32m"absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none text-slate-400 dark:text-white/40 gro
+up-focus-within:text-primary transition-colors"[39m
+                    [36m>[39m
+                      [36m<span[39m
+                        [33mclass[39m=[32m"material-symbols-outlined text-[20px]"[39m
+                      [36m>[39m
+                        [0mperson[0m
+                      [36m</span>[39m
+                    [36m</div>[39m
+                    [36m<input[39m
+                      [33mclass[39m=[32m"block w-full rounded-lg border-slate-300 dark:border-border-dark bg-white dark:bg-surface-dark pl-10 py-3 
+text-slate-900 dark:text-white placeholder-slate-400 dark:placeholder-white/30 focus:border-primary focus:ring-1 focus:ring-primary sm:text-sm transit
+ion-all shadow-sm"[39m
+                      [33mid[39m=[32m"firstName"[39m
+                      [33mplaceholder[39m=[32m"Max"[39m
+                      [33mrequired[39m=[32m""[39m
+                      [33mtype[39m=[32m"text"[39m
+                      [33mvalue[39m=[32m""[39m
+                    [36m/>[39m
+                  [36m</div>[39m
+                [36m</div>[39m
+                [36m<div[39m
+                  [33mclass[39m=[32m"space-y-2 group"[39m
+                [36m>[39m
+                  [36m<label[39m
+                    [33mclass[39m=[32m"block text-sm font-medium text-slate-700 dark:text-white/90"[39m
+                    [33mfor[39m=[32m"lastName"[39m
+                  [36m>[39m
+                    [0mNachname[0m
+                  [36m</label>[39m
+                  [36m<div[39m
+                    [33mclass[39m=[32m"relative"[39m
+                  [36m>[39m
+                    [36m<div[39m
+                      [33mclass[39m=[32m"absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none text-slate-400 dark:text-white/40 gro
+up-focus-within:text-primary transition-colors"[39m
+                    [36m>[39m
+                      [36m<span[39m
+                        [33mclass[39m=[32m"material-symbols-outlined text-[20px]"[39m
+                      [36m>[39m
+          ...
+[90m [2mÔØ»[22m Object.getElementError node_modules/@testing-library/dom/dist/config.js:[2m37:19[22m[39m
+[90m [2mÔØ»[22m node_modules/@testing-library/dom/dist/query-helpers.js:[2m76:38[22m[39m
+[90m [2mÔØ»[22m node_modules/@testing-library/dom/dist/query-helpers.js:[2m52:17[22m[39m
+[90m [2mÔØ»[22m node_modules/@testing-library/dom/dist/query-helpers.js:[2m95:19[22m[39m
+[36m [2mÔØ»[22m src/__tests__/pages/BookingDetails.test.tsx:[2m51:19[22m[39m
+    [90m 49| [39m    )[33m;[39m
+    [90m 50| [39m
+    [90m 51| [39m    expect(screen.getByText('booking.step2.title')).toBeInTheDocument(ÔÇª
+    [90m   | [39m                  [31m^[39m
+    [90m 52| [39m    expect(screen.getByText('booking.step2.summary.title')).toBeInTheDÔÇª
+    [90m 53| [39m    
+
+[31m[2mÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»[4/9]ÔÄ»[22m[39m
+
+[41m[1m FAIL [22m[49m src/__tests__/pages/BookingDetails.test.tsx[2m > [22mBookingDetails Page[2m > [22mshouldSubmitHoldAndNavigateToCheckout
+[31m[1mTestingLibraryElementError[22m[39m: Unable to find a label with the text of: booking.step2.form.firstName
+
+Ignored nodes: comments, script, style
+[36m<body>[39m
+  [36m<div>[39m
+    [36m<div[39m
+      [33mclass[39m=[32m"grow flex justify-center py-8 px-4 sm:px-6 lg:px-8 bg-background-light dark:bg-background-dark text-slate-900 dark:text-wh
+ite font-display"[39m
+    [36m>[39m
+      [36m<div[39m
+        [33mclass[39m=[32m"w-full max-w-[1200px] flex flex-col gap-8"[39m
+      [36m>[39m
+        [36m<nav[39m
+          [33maria-label[39m=[32m"Progress"[39m
+          [33mclass[39m=[32m"w-full py-4"[39m
+        [36m>[39m
+          [36m<ol[39m
+            [33mclass[39m=[32m"flex flex-wrap items-center gap-y-2 gap-x-4 md:gap-x-8 text-sm md:text-base"[39m
+          [36m>[39m
+            [36m<li[39m
+              [33mclass[39m=[32m"flex items-center text-primary/60 cursor-pointer"[39m
+            [36m>[39m
+              [36m<span[39m
+                [33mclass[39m=[32m"flex items-center justify-center w-6 h-6 rounded-full border border-primary/60 mr-2 text-xs"[39m
+              [36m>[39m
+                [36m<span[39m
+                  [33mclass[39m=[32m"material-symbols-outlined text-sm"[39m
+                [36m>[39m
+                  [0mcheck[0m
+                [36m</span>[39m
+              [36m</span>[39m
+              [36m<span[39m
+                [33mclass[39m=[32m"font-medium hover:underline"[39m
+              [36m>[39m
+                [0m1. Termin w├ñhlen[0m
+              [36m</span>[39m
+              [36m<span[39m
+                [33mclass[39m=[32m"ml-4 text-border-dark"[39m
+              [36m>[39m
+                [0m/[0m
+              [36m</span>[39m
+            [36m</li>[39m
+            [36m<li[39m
+              [33mclass[39m=[32m"flex items-center text-primary"[39m
+            [36m>[39m
+              [36m<span[39m
+                [33mclass[39m=[32m"flex items-center justify-center w-6 h-6 rounded-full bg-primary text-background-dark mr-2 text-xs font-bold"[3
+9m
+              [36m>[39m
+                [0m2[0m
+              [36m</span>[39m
+              [36m<span[39m
+                [33mclass[39m=[32m"font-bold"[39m
+              [36m>[39m
+                [0m2. Daten eingeben[0m
+              [36m</span>[39m
+              [36m<span[39m
+                [33mclass[39m=[32m"ml-4 text-border-dark"[39m
+              [36m>[39m
+                [0m/[0m
+              [36m</span>[39m
+            [36m</li>[39m
+            [36m<li[39m
+              [33mclass[39m=[32m"flex items-center text-white/30"[39m
+            [36m>[39m
+              [36m<span[39m
+                [33mclass[39m=[32m"flex items-center justify-center w-6 h-6 rounded-full border border-white/20 mr-2 text-xs font-medium"[39m
+              [36m>[39m
+                [0m3[0m
+              [36m</span>[39m
+              [36m<span[39m
+                [33mclass[39m=[32m"font-medium"[39m
+              [36m>[39m
+                [0m3. Best├ñtigung[0m
+              [36m</span>[39m
+            [36m</li>[39m
+          [36m</ol>[39m
+        [36m</nav>[39m
+        [36m<div[39m
+          [33mclass[39m=[32m"flex flex-col lg:flex-row gap-10 items-start"[39m
+        [36m>[39m
+          [36m<div[39m
+            [33mclass[39m=[32m"flex-1 w-full max-w-2xl"[39m
+          [36m>[39m
+            [36m<div[39m
+              [33mclass[39m=[32m"mb-8"[39m
+            [36m>[39m
+              [36m<h1[39m
+                [33mclass[39m=[32m"text-3xl md:text-4xl font-bold text-slate-900 dark:text-white mb-2"[39m
+              [36m>[39m
+                [0mDeine Informationen[0m
+              [36m</h1>[39m
+              [36m<p[39m
+                [33mclass[39m=[32m"text-slate-600 dark:text-white/60 text-sm md:text-base"[39m
+              [36m>[39m
+                [0mBitte gib deine Daten ein, um die Reservierung abzuschlie├ƒen.[0m
+              [36m</p>[39m
+            [36m</div>[39m
+            [36m<form[39m
+              [33mclass[39m=[32m"space-y-6"[39m
+            [36m>[39m
+              [36m<div[39m
+                [33mclass[39m=[32m"grid grid-cols-1 md:grid-cols-2 gap-6"[39m
+              [36m>[39m
+                [36m<div[39m
+                  [33mclass[39m=[32m"space-y-2 group"[39m
+                [36m>[39m
+                  [36m<label[39m
+                    [33mclass[39m=[32m"block text-sm font-medium text-slate-700 dark:text-white/90"[39m
+                    [33mfor[39m=[32m"firstName"[39m
+                  [36m>[39m
+                    [0mVorname[0m
+                  [36m</label>[39m
+                  [36m<div[39m
+                    [33mclass[39m=[32m"relative"[39m
+                  [36m>[39m
+                    [36m<div[39m
+                      [33mclass[39m=[32m"absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none text-slate-400 dark:text-white/40 gro
+up-focus-within:text-primary transition-colors"[39m
+                    [36m>[39m
+                      [36m<span[39m
+                        [33mclass[39m=[32m"material-symbols-outlined text-[20px]"[39m
+                      [36m>[39m
+                        [0mperson[0m
+                      [36m</span>[39m
+                    [36m</div>[39m
+                    [36m<input[39m
+                      [33mclass[39m=[32m"block w-full rounded-lg border-slate-300 dark:border-border-dark bg-white dark:bg-surface-dark pl-10 py-3 
+text-slate-900 dark:text-white placeholder-slate-400 dark:placeholder-white/30 focus:border-primary focus:ring-1 focus:ring-primary sm:text-sm transit
+ion-all shadow-sm"[39m
+                      [33mid[39m=[32m"firstName"[39m
+                      [33mplaceholder[39m=[32m"Max"[39m
+
+                      [33mrequired[39m=[32m""[39m
+                      [33mtype[39m=[32m"text"[39m
+                      [33mvalue[39m=[32m""[39m
+                    [36m/>[39m
+                  [36m</div>[39m
+                [36m</div>[39m
+                [36m<div[39m
+                  [33mclass[39m=[32m"space-y-2 group"[39m
+                [36m>[39m
+                  [36m<label[39m
+                    [33mclass[39m=[32m"block text-sm font-medium text-slate-700 dark:text-white/90"[39m
+                    [33mfor[39m=[32m"lastName"[39m
+                  [36m>[39m
+                    [0mNachname[0m
+                  [36m</label>[39m
+                  [36m<div[39m
+                    [33mclass[39m=[32m"relative"[39m
+                  [36m>[39m
+                    [36m<div[39m
+                      [33mclass[39m=[32m"absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none text-slate-400 dark:text-white/40 gro
+up-focus-within:text-primary transition-colors"[39m
+                    [36m>[39m
+                      [36m<span[39m
+                        [33mclass[39m=[32m"material-symbols-outlined text-[20px]"[39m
+                      [36m>[39m
+          ...
+[90m [2mÔØ»[22m Object.getElementError node_modules/@testing-library/dom/dist/config.js:[2m37:19[22m[39m
+[90m [2mÔØ»[22m getAllByLabelText node_modules/@testing-library/dom/dist/queries/label-text.js:[2m111:38[22m[39m
+[90m [2mÔØ»[22m node_modules/@testing-library/dom/dist/query-helpers.js:[2m52:17[22m[39m
+[90m [2mÔØ»[22m node_modules/@testing-library/dom/dist/query-helpers.js:[2m95:19[22m[39m
+[36m [2mÔØ»[22m src/__tests__/pages/BookingDetails.test.tsx:[2m69:29[22m[39m
+    [90m 67| [39m
+    [90m 68| [39m    [90m// Fill form[39m
+    [90m 69| [39m    fireEvent.change(screen.getByLabelText('booking.step2.form.firstNaÔÇª
+    [90m   | [39m                            [31m^[39m
+    [90m 70| [39m    fireEvent.change(screen.getByLabelText('booking.step2.form.lastNamÔÇª
+    [90m 71| [39m    fireEvent.change(screen.getByLabelText('booking.step2.form.email')ÔÇª
+
+[31m[2mÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»[5/9]ÔÄ»[22m[39m
+
+[41m[1m FAIL [22m[49m src/__tests__/components/Navbar.test.tsx[2m > [22mNavbar[2m > [22mshouldRenderLogoAndBrandText
+[41m[1m FAIL [22m[49m src/__tests__/components/Navbar.test.tsx[2m > [22mNavbar[2m > [22mshouldShowNavigationLinks_whenShowLinksIsTrue
+[41m[1m FAIL [22m[49m src/__tests__/components/Navbar.test.tsx[2m > [22mNavbar[2m > [22mshouldShowBookingCTA_whenShowLinksIsTrue
+[41m[1m FAIL [22m[49m src/__tests__/components/Navbar.test.tsx[2m > [22mNavbar[2m > [22mshouldOpenMobileMenu_onClick
+[31m[1mTypeError[22m: Cannot read properties of undefined (reading 'language')[39m
+[36m [2mÔØ»[22m Navbar src/components/layout/Navbar.tsx:[2m73:90[22m[39m
+
+[90m [2mÔØ»[22m Object.react_stack_bottom_frame node_modules/react-dom/cjs/react-dom-client.development.js:[2m25904:20[22m[39m
+[90m [2mÔØ»[22m renderWithHooks node_modules/react-dom/cjs/react-dom-client.development.js:[2m7662:22[22m[39m
+[90m [2mÔØ»[22m updateFunctionComponent node_modules/react-dom/cjs/react-dom-client.development.js:[2m10166:19[22m[39m
+[90m [2mÔØ»[22m beginWork node_modules/react-dom/cjs/react-dom-client.development.js:[2m11778:18[22m[39m
+[90m [2mÔØ»[22m runWithFiberInDEV node_modules/react-dom/cjs/react-dom-client.development.js:[2m874:13[22m[39m
+[90m [2mÔØ»[22m performUnitOfWork node_modules/react-dom/cjs/react-dom-client.development.js:[2m17641:22[22m[39m
+[90m [2mÔØ»[22m workLoopSync node_modules/react-dom/cjs/react-dom-client.development.js:[2m17469:41[22m[39m
+[90m [2mÔØ»[22m renderRootSync node_modules/react-dom/cjs/react-dom-client.development.js:[2m17450:11[22m[39m
+[90m [2mÔØ»[22m performWorkOnRoot node_modules/react-dom/cjs/react-dom-client.development.js:[2m16583:35[22m[39m
+
+[31m[2mÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»[6/9]ÔÄ»[22m[39m
+[2m Test Files [22m [1m[31m4 failed[39m[22m[2m | [22m[1m[32m29 passed[39m[22m[90m (33)[39m
+[2m      Tests [22m [1m[31m9 failed[39m[22m[2m | [22m[1m[32m95 passed[39m[22m[90m (104)[39m
+[2m   Start at [22m 16:48:41
+[2m   Duration [22m 7.56s[2m (transform 5.81s, setup 5.03s, import 32.46s, tests 8.97s, environment 36.23s)[22m
+
+

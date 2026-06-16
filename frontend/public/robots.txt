@@ -1,0 +1,24 @@
+User-agent: *
+Allow: /
+Allow: /reservierung
+Allow: /turniere
+Allow: /kontakt
+Allow: /faq
+Allow: /impressum
+Allow: /datenschutz
+Allow: /agb
+Allow: /rueckerstattung
+Allow: /barrierefreiheit
+
+Disallow: /admin/
+Disallow: /portal-salamanda-soccer-arena-portal
+Disallow: /portal-salamanda-soccer-arena-portal/
+Disallow: /konto/
+Disallow: /reservierung/verwalten/
+Disallow: /reservierung/ticket/
+Disallow: /reservierung/checkout/
+Disallow: /reservierung/success/
+Disallow: /reservierung/failure/
+
+Host: www.salamandasoccerarena.com
+Sitemap: https://www.salamandasoccerarena.com/sitemap.xml

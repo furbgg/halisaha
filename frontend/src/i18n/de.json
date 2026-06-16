@@ -1,0 +1,1733 @@
+{
+  "nav": {
+    "home": "Startseite",
+    "reservation": "Reservierung",
+    "manage": "Reservierung verwalten",
+    "login": "Anmelden",
+    "register": "Registrieren",
+    "logout": "Abmelden",
+    "profile": "Mein Konto",
+    "admin": {
+      "dashboard": "Dashboard",
+      "reservations": "Reservierungen",
+      "equipment": "Materialliste",
+      "staff": "Personalliste",
+      "settings": "Einstellungen",
+      "payments": "Zahlungen",
+      "communication": "Kommunikation",
+      "contactRequests": "Kontaktanfragen",
+      "management": "Verwaltung",
+      "logout": "Abmelden",
+      "openSidebar": "Sidebar öffnen",
+      "closeSidebar": "Sidebar schließen"
+    },
+    "bookNow": "Jetzt Buchen",
+    "tournaments": "Turniere",
+    "manageBooking": "Buchung Verwalten",
+    "designedFor": "Designed For"
+  },
+  "common": {
+    "loading": "Laden...",
+    "error": "Fehler aufgetreten",
+    "save": "Speichern",
+    "cancel": "Abbrechen",
+    "delete": "Löschen",
+    "edit": "Bearbeiten",
+    "back": "Zurück",
+    "next": "Weiter",
+    "confirm": "Bestätigen",
+    "close": "Schließen"
+  },
+  "footer": {
+    "privacy": "Datenschutz",
+    "imprint": "Impressum",
+    "refundPolicy": "Rückerstattungsrichtlinien",
+    "accessibility": "Barrierefreiheit",
+    "contact": "Kontakt",
+    "terms": "AGB",
+    "faq": "FAQ",
+    "allRightsReserved": "Alle Rechte vorbehalten."
+  },
+  "theme": {
+    "dark": "Dunkelmodus",
+    "light": "Hellmodus"
+  },
+  "home": {
+    "seo": {
+      "title": "Fußball & Bubble Soccer Halle",
+      "description": "Buche deine Premium Fußball- oder Bubble Soccer Halle in Oberösterreich. Perfekt für Geburtstage und Firmenevents rund um Linz und Wels."
+    },
+    "hero": {
+      "badge": "Jetzt in 4651 Stadl-Paura verfügbar",
+      "title1": "Dein Spiel.",
+      "title2": "Dein Platz.",
+      "subtitle": "In der Salamanda Soccer Arena erwarten dich zwei perfekt gepflegte Indoor-Felder, die jedem Spiel das gewisse Etwas verleihen.<br/><br/>Erlebe Fußball ohne Kompromisse – wetterunabhängig, dynamisch und mit dem echten Gefühl von Wettkampf und Gemeinschaft.",
+      "bookNow": "JETZT BUCHEN",
+      "manageBooking": "BUCHUNG VERWALTEN",
+      "stats": {
+        "courts": "Plätze",
+        "players": "Spieler",
+        "rating": "Bewertung"
+      }
+    },
+    "features": {
+      "subtitle": "Unser Angebot",
+      "title": "Wähle dein Erlebnis",
+      "bubble": {
+        "badge": "POPULAR",
+        "title": "Bubble Soccer",
+        "description": "Actiongeladener Spaß in riesigen Bubbles für dein Team. Perfekt für Geburtstage, Teambuilding oder einfach nur zum Austoben.",
+        "feature1": "Inklusive Ausrüstung & Einweisung",
+        "feature2": "60 bis 120 Minuten Spielzeit",
+        "button": "Jetzt Buchen"
+      },
+      "soccer": {
+        "badge": "PROFI",
+        "title": "Soccer",
+        "description": "Fußball erleben in Stadl-Paura.<br/>Die Top-Location für Spieler aus der ganzen Region.",
+        "feature1": "LED-Flutlichtanlage",
+        "feature2": "Umkleiden & Duschen inklusive",
+        "button": "Platz Reservieren"
+      }
+    }
+  },
+  "booking": {
+    "step1": {
+      "title": "1. Spielfeld & Termin",
+      "selection": "Auswahl",
+      "sportType": "Sportart wählen",
+      "football": "Fußball",
+      "bubbleSoccer": "Bubble Soccer",
+      "chooseField": "Platz wählen",
+      "duration": "Spieldauer",
+      "minutes": "Minuten",
+      "date": "Datum",
+      "datePassed": "Das ausgewählte Datum liegt in der Vergangenheit.",
+      "dateTooFar": "Reservierungen sind maximal 3 Monate im Voraus möglich.",
+      "availableTimes": "Verfügbare Zeiten für {{date}}",
+      "noTimes": "Keine freien Zeiten",
+      "noTimesDesc": "An diesem Tag sind leider alle Plätze belegt oder die Spielzeit passt nicht in die verfügbaren Lücken.",
+      "chooseOtherDate": "Anderes Datum wählen",
+      "selectedSlot": "Ausgewählter Termin:",
+      "oclock": "Uhr",
+      "continueBooking": "Reservierung Fortsetzen",
+      "chooseTimeFirst": "Wähle zuerst eine Uhrzeit aus",
+      "status": {
+        "free": "Frei",
+        "booked": "Belegt"
+      },
+      "happyHourTooltip": "In diesem Zeitraum gilt die Happy Hour!",
+      "cancellation": {
+        "title": "Stornierung",
+        "desc": "Kostenlos bis 48h vor Spielbeginn."
+      },
+      "equipment": {
+        "title": "Ausstattung",
+        "desc": "Duschen und Umkleiden inklusive."
+      },
+      "happyHour": {
+        "title": "Happy Hour",
+        "active": "Happy Hour Aktiv!",
+        "discount": "Rabatt"
+      },
+      "chooseTime": "WÄHLE DEINE ZEIT",
+      "timezone": "Zeitzone",
+      "selected": "Ausgewählt",
+      "unavailable": "Nicht verfügbar",
+      "occupied": "Belegt",
+      "yourAppointment": "Dein Termin",
+      "total": "Gesamt",
+      "continue": "Weiter zur Buchung"
+    },
+    "step2": {
+      "flow": {
+        "step1": "1. Termin wählen",
+        "step2": "2. Daten eingeben",
+        "step3": "3. Bestätigung"
+      },
+      "error": {
+        "fillRequired": "Bitte fülle alle Pflichtfelder aus.",
+        "unavailable": "Der gewählte Termin ist leider nicht mehr verfügbar."
+      },
+      "title": "Deine Informationen",
+      "subtitle": "Bitte gib deine Daten ein, um die Reservierung abzuschließen.",
+      "form": {
+        "firstName": "Vorname",
+        "lastName": "Nachname",
+        "email": "E-Mail-Adresse",
+        "phone": "Telefonnummer"
+      },
+      "equipment": {
+        "title": "Mietmaterial",
+        "subtitle": "Optional — Krampon direkt vor Ort leihen",
+        "chooseSize": "Größe wählen",
+        "available": "Verfügbar",
+        "outOfStock": "Vergriffen",
+        "addSize": "Größe {{size}} hinzufügen (+€{{price}})",
+        "addSizeFallback": "Größe hinzufügen",
+        "selectSizeFirst": "Größe auswählen...",
+        "selected": "Ausgewählt",
+        "pair": "Paar"
+      },
+      "buttons": {
+        "back": "Zurück zur Auswahl",
+        "loading": "LÄDT...",
+        "continue": "WEITER ZUR ZAHLUNG"
+      },
+      "summary": {
+        "title": "Zusammenfassung",
+        "soccer": "Soccer",
+        "bubbleSoccer": "Bubble Soccer",
+        "date": "Datum",
+        "time": "Uhrzeit",
+        "location": "Ort",
+        "fieldRental": "Platzmiete",
+        "krampon": "Krampon",
+        "total": "Gesamtbetrag",
+        "vatIncluded": "Inkl. MwSt.",
+        "cancellation": "Kostenlose Stornierung bis 48 Stunden vor Spielbeginn möglich."
+      }
+    },
+    "step3": {
+      "processing": {
+        "title": "Sichere Zahlung wird verarbeitet...",
+        "subtitle": "Bitte warten, du wirst zur 3D-Secure-Verifizierung deiner Bank weitergeleitet.",
+        "tls": "TLS-Verschlüsselte Verbindung"
+      },
+      "flow": {
+        "step1": "1. Termin wählen",
+        "step2": "2. Daten eingeben",
+        "step3": "3. Zahlungsart wählen"
+      },
+      "payment": {
+        "title": "Zahlungsart wählen",
+        "subtitle": "Wählen Sie Ihre bevorzugte Zahlungsmethode für die Buchung.",
+        "googlePay": "Google Pay",
+        "fastSecure": "Schnell und sicher",
+        "applePay": "Apple Pay",
+        "convenient": "Bequem bezahlen",
+        "creditCard": "Kreditkarte",
+        "cardTypes": "Visa, Mastercard, Amex",
+        "cardNumber": "Kartennummer",
+        "expiry": "Gültig bis (MM/JJ)",
+        "cvc": "CVC / CVV"
+      },
+      "coupon": {
+        "title": "Gutscheincode",
+        "placeholder": "Gutscheincode eingeben",
+        "apply": "Anwenden",
+        "remove": "Entfernen",
+        "applied": "Angewendet",
+        "discountTextPercentage": "{{value}}% Rabatt — Sie sparen €{{amount}}",
+        "discountTextFixed": "€{{value}} Rabatt — Sie sparen €{{amount}}",
+        "errorInvalid": "Ungültiger Gutscheincode",
+        "errorCheck": "Fehler bei der Gutschein-Prüfung"
+      },
+      "buttons": {
+        "back": "Zurück zu den Daten",
+        "pay": "Jetzt zahlen & buchen"
+      },
+      "summary": {
+        "title": "Zusammenfassung",
+        "soccer": "Soccer",
+        "bubbleSoccer": "Bubble Soccer",
+        "fieldRental": "Platzmiete",
+        "krampon": "Krampon",
+        "pair": "Paar",
+        "hours": "Std",
+        "serviceFee": "Servicegebühr",
+        "discount": "Rabatt",
+        "couponDiscount": "Gutschein-Rabatt",
+        "total": "Gesamtbetrag",
+        "vatIncluded": "Inkl. MwSt.",
+        "ssl": "Sichere SSL-Verschlüsselung"
+      },
+      "error": {
+        "transactionFailed": "Die Transaktion konnte von unserem Server nicht verarbeitet werden."
+      }
+    },
+    "success": {
+      "confirmed": "Buchung Bestätigt",
+      "thankYou": "Vielen Dank,",
+      "gameReady": "Dein Spiel steht!",
+      "description": "Deine Buchung wurde erfolgreich bestätigt. Wir haben dir eine Zusammenfassung per E-Mail gesendet. Bereite dich auf das Match vor!",
+      "manageBtn": "BUCHUNG VERWALTEN",
+      "homeBtn": "Startseite",
+      "needHelp": "Brauchst du Hilfe? Wir sind für dich da.",
+      "contactSupport": "Support kontaktieren",
+      "bookingId": "Buchungs-ID",
+      "date": "Datum",
+      "time": "Zeit",
+      "field": "Platz",
+      "price": "Preis",
+      "checkIn": "Check-In Code",
+      "qrDesc": "Zeige diesen QR-Code am Empfang vor, um Zutritt zum Spielfeld zu erhalten.",
+      "planRoute": "Route planen",
+      "paidStatus": "Bezahlt"
+    },
+    "cancel": {
+      "error": "Fehler bei der Stornierung.",
+      "successTitle": "Deine Buchung wurde erfolgreich storniert.",
+      "successDesc": "Eine Bestätigung wurde an deine E-Mail-Adresse gesendet. Die Rückerstattung wird innerhalb von 3-5 Werktagen bearbeitet.",
+      "cancelledBooking": "Stornierte Buchung",
+      "backHome": "ZURÜCK ZUR STARTSEITE",
+      "needHelp": "Brauchst du Hilfe?",
+      "contactSupport": "Kontaktiere unseren Support",
+      "backButton": "Zurück zur Übersicht",
+      "confirmTitle": "Möchtest du wirklich stornieren?",
+      "confirmDesc": "Bitte bestätige die Stornierung deiner Buchung.",
+      "bookingId": "Buchungs-Nr.",
+      "policyTitle": "Stornierungsbedingungen",
+      "policyDesc": "Stornierungen sind bis 48h vor Spielbeginn kostenlos. Danach wird eine Gebühr von 50% einbehalten.",
+      "confirmPaidBtn": "JETZT KOSTENPFLICHTIG STORNIEREN",
+      "abortBtn": "DOCH NICHT STORNIEREN",
+      "haveQuestions": "Hast du Fragen?"
+    }
+  },
+  "contact": {
+    "title1": "Kontaktieren",
+    "title2": "Sie uns",
+    "subtitle": "Haben Sie Fragen zu Ihrer Buchung oder unserem Platz? Wir sind für Sie da. Füllen Sie einfach das Formular aus.",
+    "form": {
+      "nameLabel": "Name",
+      "namePlaceholder": "Ihr Name",
+      "emailLabel": "E-Mail-Adresse",
+      "emailPlaceholder": "name@beispiel.at",
+      "subjectLabel": "Betreff",
+      "subjectPlaceholder": "Worum geht es?",
+      "messageLabel": "Ihre Nachricht",
+      "messagePlaceholder": "Schreiben Sie uns Ihre Nachricht...",
+      "successData": "Vielen Dank für Ihre Nachricht. Wir werden uns in Kürze bei Ihnen melden.",
+      "sendingBtn": "Wird gesendet...",
+      "sendBtn": "Nachricht Senden",
+      "errorFallback": "Ein Fehler ist aufgetreten. Bitte versuchen Sie es erneut."
+    },
+    "info": {
+      "address": "Adresse",
+      "phone": "Telefon",
+      "email": "E-Mail",
+      "hoursTitle": "Öffnungszeiten",
+      "hoursLine1": "Mo - Do: 16:30 - 00:00 Uhr",
+      "hoursLine2": "Fr - So: 12:00 - 01:30 Uhr",
+      "planRoute": "Route planen",
+      "mapAustria": "Österreich"
+    }
+  },
+  "impressum": {
+    "tag": "Rechtliches",
+    "title": "Impressum",
+    "subtitle": "Informationen gemäß § 5 E-Commerce-Gesetz (ECG) und Offenlegungspflicht gemäß § 25 Mediengesetz.",
+    "companyDetails": "Angaben zum Unternehmen",
+    "companyName": "Firmenname",
+    "legalForm": "Rechtsform",
+    "headquarters": "Sitz",
+    "owners": "Gesellschafter",
+    "addressTitle": "Anschrift",
+    "registerEntryTitle": "Registereintrag",
+    "registeredCourt": "Eingetragen im Firmenbuch des",
+    "uid": "UID-Nummer:",
+    "contactTitle": "Kontakt",
+    "chamberTitle": "Aufsicht & Kammer",
+    "chamberMembership": "Kammerzugehörigkeit",
+    "chamberMember": "Mitglied der Wirtschaftskammer Österreich (WKO)",
+    "tradeRegulations": "Gewerbeordnung",
+    "liabilityTitle": "Haftung für Inhalte und Links",
+    "liabilityDesc1": "Der Inhalt dieser Website wurde sorgfältig erstellt, jedoch übernehmen wir keine Gewähr für die Richtigkeit, Vollständigkeit und Aktualität der Inhalte. Als Diensteanbieter sind wir für eigene Inhalte auf diesen Seiten nach den allgemeinen Gesetzen verantwortlich.",
+    "liabilityDesc2": "Unser Angebot enthält Links zu externen Webseiten Dritter, auf deren Inhalte wir keinen Einfluss haben. Deshalb können wir für diese fremden Inhalte auch keine Gewähr übernehmen. Für die Inhalte der verlinkten Seiten ist stets der jeweilige Anbieter oder Betreiber der Seiten verantwortlich.",
+    "copyrightTitle": "Urheberrecht",
+    "copyrightDesc": "Die durch die Seitenbetreiber erstellten Inhalte und Werke auf diesen Seiten unterliegen dem österreichischen Urheberrecht. Die Vervielfältigung, Bearbeitung, Verbreitung und jede Art der Verwertung außerhalb der Grenzen des Urheberrechtes bedürfen der schriftlichen Zustimmung des jeweiligen Autors bzw. Erstellers. Downloads und Kopien dieser Seite sind nur für den privaten, nicht kommerziellen Gebrauch gestattet.",
+    "backHome": "Zurück zur Startseite"
+  },
+  "faq": {
+    "titlePart1": "Häufig gestellte",
+    "titlePart2": "Fragen",
+    "subtitle": "Alles, was du über deinen Kick bei uns wissen musst. Falls noch etwas unklar ist, kontaktiere uns einfach!",
+    "contactTitle": "Kontakt & Anfahrt",
+    "contactTel": "Tel:",
+    "contactEmail": "Email:",
+    "planRoute": "Route planen",
+    "items": [
+      {
+        "q": "Kann man auch ohne Reservierung spielen?",
+        "a": "Spontanes Spielen ist möglich, wenn ein Platz frei ist. Wir empfehlen aber dringend, vorher online oder telefonisch zu reservieren."
+      },
+      {
+        "q": "Wie lange im Voraus kann man einen Platz reservieren?",
+        "a": "Über unser Online-Buchungssystem kann ein Platz bis zu 90 Tage im Voraus reserviert werden. Wenn du kurzfristig, also ein paar Stunden vorher, spielen möchtest, empfehlen wir dir, uns telefonisch zu kontaktieren, um die aktuelle Verfügbarkeit zu prüfen."
+      },
+      {
+        "q": "Kann man ein regelmäßiges Abo oder eine Dauerbuchung abschließen?",
+        "a": "Ja, wenn du regelmäßig spielen möchtest – zum Beispiel jede Woche oder alle zwei Wochen zur gleichen Zeit – ist das kein Problem. In diesem Fall kontaktiere uns bitte direkt über unsere Kontaktseite oder telefonisch, damit wir gemeinsam eine individuelle Dauerbuchung für dich einrichten können."
+      },
+      {
+        "q": "Auf welchem Boden wird gespielt?",
+        "a": "Es wird auf einem hochwertigen Polytan-Kunstrasen gespielt, der ein optimales Spielgefühl und maximale Sicherheit bietet."
+      },
+      {
+        "q": "Mit welchen Schuhen darf gespielt werden?",
+        "a": "Es kann mit allen gängigen Sportschuhen gespielt werden – Stollenschuhe sind aus Sicherheitsgründen nicht erlaubt."
+      },
+      {
+        "q": "Gibt es Duschen und Umkleiden?",
+        "a": "Ja, es stehen kostenlose Duschen und Umkleiden für unsere Gäste zur Verfügung. Bitte beachte, dass derzeit keine Schließfächer für Wertsachen vorhanden sind."
+      },
+      {
+        "q": "Gibt es Parkmöglichkeiten vor Ort?",
+        "a": "Ja, es stehen ausreichend kostenlose Parkplätze direkt vor der Soccer Arena zur Verfügung."
+      }
+    ]
+  },
+  "datenschutz": {
+    "tag": "Rechtliches & Datenschutz",
+    "title": "Datenschutzerklärung",
+    "subtitle": "Wir nehmen den Schutz deiner persönlichen Daten sehr ernst. Hier erfährst du transparent, wie wir deine Informationen bei {company} verarbeiten und schützen.",
+    "sections": [
+      {
+        "title": "1. Verantwortlicher",
+        "content": "Verantwortlich für die Datenverarbeitung auf dieser Website im Sinne der Datenschutz-Grundverordnung (DSGVO) ist:",
+        "representedBy": "Vertreten durch:",
+        "email": "E-Mail:"
+      },
+      {
+        "title": "2. Erhebung und Verarbeitung von Daten",
+        "content": "Wir verarbeiten personenbezogene Daten, die wir im Rahmen unserer Geschäftsbeziehung von Ihnen erhalten. Zu den verarbeiteten Daten gehören insbesondere:",
+        "items": [
+          "Name, Vorname",
+          "Telefonnummer",
+          "E-Mail-Adresse",
+          "Buchungsdetails",
+          "Zahlungsdaten",
+          "Technische Daten (IP, Cookies)"
+        ]
+      },
+      {
+        "title": "3. Zweck der Verarbeitung",
+        "content": "Wir verarbeiten Ihre personenbezogenen Daten unter Beachtung der Bestimmungen der EU-Datenschutz-Grundverordnung (DSGVO) und des Datenschutzgesetzes (DSG) zu folgenden Zwecken:",
+        "items": [
+          {
+            "t": "Buchungs- und Zahlungsabwicklung:",
+            "c": "Zur Verwaltung Ihrer Platzreservierungen und der dazugehörigen Transaktionen."
+          },
+          {
+            "t": "Vertragserfüllung:",
+            "c": "Zur Erbringung unserer Dienstleistungen im Rahmen des Nutzungsvertrages."
+          },
+          {
+            "t": "Kommunikation:",
+            "c": "Zur Kontaktaufnahme bei Rückfragen oder Änderungen Ihrer Buchung."
+          },
+          {
+            "t": "Serviceverbesserung:",
+            "c": "Analyse zur Optimierung unseres Angebots und der Website."
+          }
+        ]
+      },
+      {
+        "title": "4. Rechtsgrundlage",
+        "content": "Die Verarbeitung Ihrer Daten erfolgt auf Basis der folgenden Rechtsgrundlagen gemäß Art. 6 Abs. 1 DSGVO:",
+        "items": [
+          {
+            "t": "Lit. a",
+            "c": "Einwilligung (z.B. Newsletter, Cookies)"
+          },
+          {
+            "t": "Lit. b",
+            "c": "Vertragserfüllung (Buchungen)"
+          },
+          {
+            "t": "Lit. c",
+            "c": "Rechtliche Verpflichtung (Steuerrecht)"
+          },
+          {
+            "t": "Lit. f",
+            "c": "Berechtigtes Interesse (Sicherheit, Analyse)"
+          }
+        ]
+      },
+      {
+        "title": "5. Weitergabe von Daten",
+        "content": "Eine Übermittlung Ihrer persönlichen Daten an Dritte zu anderen als den im Folgenden aufgeführten Zwecken findet nicht statt. Wir geben Ihre persönlichen Daten nur an Dritte weiter, wenn dies für die Vertragsabwicklung erforderlich ist, etwa an das mit der Zahlungsabwicklung beauftragte Kreditinstitut oder Zahlungsdienstleister."
+      },
+      {
+        "title": "6. Cookies & Tracking",
+        "content": "Unsere Website verwendet Cookies. Das sind kleine Textdateien, die Ihr Webbrowser auf Ihrem Endgerät speichert. Cookies helfen uns dabei, unser Angebot nutzerfreundlicher, effektiver und sicherer zu machen. Wir setzen Analyse- und Marketing-Tools nur auf Basis Ihrer ausdrücklichen Einwilligung ein. Sie können Ihren Browser so konfigurieren, dass Sie über das Setzen von Cookies informiert werden und Cookies nur im Einzelfall erlauben."
+      },
+      {
+        "title": "7. Speicherdauer",
+        "content": "Wir speichern Ihre personenbezogenen Daten nur so lange, wie dies zur Erfüllung der vertraglichen oder gesetzlichen Pflichten erforderlich ist. Sind die Daten für die Erfüllung vertraglicher oder gesetzlicher Pflichten nicht mehr erforderlich, werden diese regelmäßig gelöscht."
+      },
+      {
+        "title": "8. Rechte der Betroffenen",
+        "items": [
+          {
+            "t": "Auskunft",
+            "c": "Sie können Auskunft über Ihre verarbeiteten Daten verlangen."
+          },
+          {
+            "t": "Berichtigung",
+            "c": "Sie können die Korrektur falscher Daten verlangen."
+          },
+          {
+            "t": "Löschung",
+            "c": "Sie können die Löschung Ihrer Daten verlangen."
+          },
+          {
+            "t": "Einschränkung",
+            "c": "Sie können die Einschränkung der Verarbeitung verlangen."
+          },
+          {
+            "t": "Übertragbarkeit",
+            "c": "Sie haben das Recht auf Datenübertragbarkeit."
+          },
+          {
+            "t": "Widerspruch",
+            "c": "Sie können der Verarbeitung widersprechen."
+          },
+          {
+            "t": "Widerruf",
+            "c": "Viele Datenverarbeitungsvorgänge sind nur mit Ihrer ausdrücklichen Einwilligung möglich. Sie können eine bereits erteilte Einwilligung jederzeit widerrufen."
+          }
+        ]
+      },
+      {
+        "title": "9. Sicherheit",
+        "content": "Wir setzen technische und organisatorische Sicherheitsmaßnahmen ein, um Ihre durch uns verwalteten Daten gegen zufällige oder vorsätzliche Manipulationen, Verlust, Zerstörung oder gegen den Zugriff unberechtigter Personen zu schützen. Unsere Sicherheitsmaßnahmen werden entsprechend der technologischen Entwicklung fortlaufend verbessert."
+      },
+      {
+        "title": "10. Änderungen",
+        "content": "Wir behalten uns vor, diese Datenschutzerklärung gelegentlich anzupassen, damit sie stets den aktuellen rechtlichen Anforderungen entspricht oder um Änderungen unserer Leistungen in der Datenschutzerklärung umzusetzen, z.B. bei der Einführung neuer Services. Für Ihren erneuten Besuch gilt dann die neue Datenschutzerklärung."
+      }
+    ],
+    "footer": {
+      "q": "Haben Sie noch Fragen zum Datenschutz?",
+      "btn": "Datenschutzbeauftragten kontaktieren"
+    },
+    "backHome": "Zurück zur Startseite"
+  },
+  "errorPages": {
+    "notFound": {
+      "seoTitle": "404 - Seite nicht gefunden",
+      "seoDesc": "Hoppla! Diese Seite existiert leider nicht. Kehren Sie zur Startseite von {company} zurück.",
+      "titlePart1": "Hoppla!",
+      "titlePart2": "Abseits.",
+      "desc": "Diese Seite existiert leider nicht oder wurde verschoben. Vielleicht ist der Ball ins Aus gerollt?",
+      "backHome": "ZURÜCK ZUR STARTSEITE",
+      "bookNow": "JETZT BUCHEN",
+      "contact": "KONTAKT"
+    },
+    "forbidden": {
+      "seoTitle": "403 - Kein Zugriff",
+      "seoDesc": "Zugriff verweigert.",
+      "titlePart1": "Halt!",
+      "titlePart2": "Rote Karte.",
+      "desc": "Sie haben keine ausreichende Berechtigung, um diesen Bereich zu betreten. Bitte kehren Sie zur Startseite zurück oder loggen Sie sich ein.",
+      "backHome": "ZURÜCK ZUR STARTSEITE",
+      "loginInfo": "Oder loggen Sie sich mit den erforderlichen Rechten ein:"
+    },
+    "unauthorized": {
+      "seoTitle": "401 - Nicht angemeldet",
+      "seoDesc": "Bitte loggen Sie sich ein.",
+      "titlePart1": "Stopp!",
+      "titlePart2": "Einlasskontrolle.",
+      "desc": "Bitte melden Sie sich an, um diesen Bereich zu betreten. Ein Ticket wird benötigt.",
+      "loginBtn": "ZUM LOGIN"
+    },
+    "serverError": {
+      "seoTitle": "500 - Server Error",
+      "seoDesc": "Ein unerwarteter Fehler ist aufgetreten.",
+      "titlePart1": "Uff!",
+      "titlePart2": "Foulspiel im Code.",
+      "desc": "Unser Server hat einen überraschenden Treffer abbekommen. Unser Technik-Team ist bereits auf dem Spielfeld. Bitte versuchen Sie es später noch einmal.",
+      "backHome": "ZURÜCK ZUR STARTSEITE"
+    },
+    "maintenance": {
+      "seoTitle": "System-Wartung",
+      "seoDesc": "Das Spielfeld wird gerade präpariert.",
+      "titlePart1": "Kurze Pause!",
+      "titlePart2": "Rasenpflege.",
+      "desc": "Wir führen derzeit notwendige Wartungsarbeiten durch, um das Spielfeld für Sie in Bestform zu bringen. In Kürze sind wir wieder da.",
+      "statusText": "Warten auf Spielwiederaufnahme..."
+    }
+  },
+  "login": {
+    "seoTitle": "Anmelden | {company}",
+    "seoDesc": "Melden Sie sich an, um Ihre Reservierungen zu verwalten.",
+    "title": "Anmelden",
+    "subtitle": "Melden Sie sich an, um Ihre Reservierungen zu verwalten.",
+    "errors": {
+      "authFailed": "Anmeldung fehlgeschlagen. Bitte versuchen Sie es erneut.",
+      "tooManyRequests": "Zu viele Anmeldeversuche. Bitte warten Sie 15 Minuten.",
+      "invalidCredentials": "Ungültige Anmeldedaten."
+    },
+    "form": {
+      "emailLabel": "E-Mail Adresse",
+      "emailPlaceholder": "ihre@email.com",
+      "passwordLabel": "Passwort",
+      "passwordPlaceholder": "••••••••",
+      "totpDesc": "Bitte geben Sie den 6-stelligen Code aus Ihrer Authenticator-App ein.",
+      "totpLabel": "2FA-Code",
+      "totpPlaceholder": "000000",
+      "backToLogin": "Zurück zur Anmeldung",
+      "submitLogin": "Anmelden",
+      "submitVerify": "Verifizieren"
+    },
+    "footer": "Reservierungssystem für Sportanlagen"
+  },
+  "bookingManage": {
+    "title": "Deine Buchung verwalten",
+    "desc": "Gib deine Buchungs-ID und deine E-Mail-Adresse ein, um deine Reservierung einzusehen oder zu ändern.",
+    "form": {
+      "idLabel": "Buchungs-ID",
+      "idPlaceholder": "RH-2026-X982",
+      "emailLabel": "E-Mail-Adresse",
+      "emailPlaceholder": "deine@email.com",
+      "submit": "BUCHUNG FINDEN"
+    },
+    "help": {
+      "text": "Buchungs-ID vergessen? Überprüfe dein E-Mail-Postfach oder",
+      "link": "kontaktiere unseren Support"
+    }
+  },
+  "bookingManageDetail": {
+    "back": "Zurück zur Übersicht",
+    "status": {
+      "confirmed": "Bestätigt",
+      "bookedOn": "Gebucht am"
+    },
+    "title": "Deine Reservierung",
+    "desc": "Hier findest du alle Details zu deiner bevorstehenden Buchung. Du kannst den Termin verschieben oder stornieren.",
+    "actions": {
+      "print": "Drucken",
+      "share": "Teilen",
+      "copied": "Link und Details in die Zwischenablage kopiert!",
+      "copyFailed": "Kopieren fehlgeschlagen.",
+      "shareText": "⚽ Hey! Ich habe einen Platz bei {company} gebucht!\\n🏟️ Platz: {field}\\n📅 Datum: {date}\\n🔗 Hier sind die Details:",
+      "shareTitle": "Reservierung bei {company}"
+    },
+    "details": {
+      "fieldLabel": "Gebuchter Platz",
+      "fieldTags": "Outdoor • Beleuchtet",
+      "dateTimeLabel": "Datum & Uhrzeit",
+      "amountLabel": "Gesamtbetrag",
+      "paid": "Bezahlt",
+      "pending": "Ausstehend",
+      "qrCode": "CHECK-IN CODE",
+      "qrCodeSub": "Am Empfang vorzeigen",
+      "route": "Route planen"
+    },
+    "management": {
+      "title": "Verwaltung",
+      "reschedule": {
+        "title": "Termin verschieben",
+        "desc": "Ändere Datum oder Uhrzeit deiner Reservierung. Verfügbarkeit vorbehalten."
+      },
+      "refund": {
+        "title": "Erstattung",
+        "badge": "Info",
+        "desc": "Bei einer Stornierung bis 48 Stunden vor Spielbeginn erhältst du automatisch eine volle Erstattung über Stripe."
+      },
+      "cancel": {
+        "title": "Buchung Stornieren",
+        "badge": "Achtung",
+        "desc": "Stornierungen sind bis 48h vor Spielbeginn kostenlos. Danach fallen Gebühren an."
+      },
+      "help": {
+        "title": "Brauchst du Hilfe?",
+        "link": "Kontaktiere den Support"
+      }
+    }
+  },
+  "bookingReschedule": {
+    "title": "Termin verschieben",
+    "subtitle": "Buchung Verwalten",
+    "desc": "Wählen Sie ein neues Datum und eine neue Uhrzeit für Ihr Spiel. Änderungen sind bis 48 Stunden vor Spielbeginn kostenlos.",
+    "success": {
+      "title": "Erfolgreich verschoben!",
+      "desc": "Dein neuer Termin am <1>{date}</1> wurde bestätigt. Wir haben dir eine neue Bestätigungs-E-Mail gesendet.",
+      "btn": "ZURÜCK ZUR ÜBERSICHT"
+    },
+    "current": {
+      "title": "Aktueller Termin",
+      "duration": "Dauer",
+      "price": "Preis",
+      "tag": "OLD"
+    },
+    "calendar": {
+      "title": "Neues Datum wählen",
+      "days": [
+        "Mo",
+        "Di",
+        "Mi",
+        "Do",
+        "Fr",
+        "Sa",
+        "So"
+      ]
+    },
+    "slots": {
+      "title": "Verfügbare Zeiten",
+      "available": "Verfügbar",
+      "selected": "Gewählt",
+      "loading": "Lade Termine...",
+      "empty": "Für dieses Datum sind leider keine passenden Termine (mehr) verfügbar."
+    },
+    "summary": {
+      "title": "Zusammenfassung",
+      "old": "Alter Termin",
+      "new": "Neuer Termin",
+      "fee": "Änderungsgebühr",
+      "submit": "Termin jetzt ändern",
+      "cancel": "Abbrechen & Zurück",
+      "secure": "Sichere Verbindung & Datenverarbeitung"
+    },
+    "error": "Fehler beim Verschieben des Termins."
+  },
+  "bookingFailure": {
+    "title": "Hoppla! Etwas ist schiefgelaufen.",
+    "desc": "Deine Zahlung oder Reservierung konnte nicht verarbeitet werden.",
+    "idLabel": "Buchungs-ID",
+    "failedLabel": "Fehlgeschlagen",
+    "fieldLabel": "Platz",
+    "priceLabel": "Preis",
+    "reasonLabel": "Grund der Ablehnung",
+    "retryBtn": "ERNEUT VERSUCHEN",
+    "helpBtn": "HILFE ERHALTEN"
+  },
+  "bookingTicketPrint": {
+    "actions": {
+      "print": "PDF Drucken / Speichern",
+      "close": "Schließen"
+    },
+    "header": {
+      "title": "Buchungsbestätigung",
+      "issuedAt": "Ausgestellt am:"
+    },
+    "reference": {
+      "title": "Buchungsreferenz",
+      "id": "Buchungs-ID:"
+    },
+    "details": {
+      "customer": "Kunde",
+      "field": "Platz",
+      "date": "Datum",
+      "time": "Zeit",
+      "status": "Status",
+      "paid": "Bezahlt",
+      "total": "Gesamtbetrag",
+      "tax": "Inkl. MwSt.",
+      "paymentMethod": "Zahlungsmethode",
+      "creditCard": "Kreditkarte"
+    },
+    "qrCode": {
+      "title": "Check-in Code",
+      "desc": "Bitte am Empfang vorzeigen"
+    },
+    "footer": {
+      "tel": "Tel:",
+      "web": "Web:",
+      "email": "Email:",
+      "thanks": "Vielen Dank für deine Buchung! Wir freuen uns auf deinen Besuch."
+    }
+  },
+  "adminLogin": {
+    "nav": {
+      "home": "Startseite",
+      "contact": "Kontakt"
+    },
+    "status": "System-Status: Online",
+    "error": {
+      "title": "Login Fehlgeschlagen",
+      "desc": "Bitte überprüfen Sie Ihre Eingabe und versuchen Sie es erneut.",
+      "invalid": "Ungültige Anmeldedaten.",
+      "tooMany": "Zu viele Anmeldeversuche. Bitte warten Sie 15 Minuten."
+    },
+    "welcome": {
+      "title": "Admin-Bereich",
+      "desc": "Willkommen zurück! Bitte loggen Sie sich ein,<br/> um Ihre Sportanlage zu verwalten."
+    },
+    "form": {
+      "email": "E-Mail Adresse",
+      "emailPlaceholder": "admin@example.com",
+      "password": "Passwort",
+      "passwordPlaceholder": "••••••••",
+      "remember": "Angemeldet bleiben",
+      "forgot": "Passwort vergessen?",
+      "submit": "Anmelden"
+    },
+    "footer": "Management-Portal für professionelle<br/> Sportanlagen & Reservierungssysteme",
+    "mfa": {
+      "tag": "Sicherheits-Check",
+      "title": "Zwei-Faktor-Authentifizierung",
+      "desc": "Bitte geben Sie den Code aus Ihrer Google Authenticator App ein.",
+      "submit": "Verifizieren",
+      "issues": "Probleme beim Login?",
+      "backup": "Backup-Code verwenden",
+      "check": "Sicherheits-Check für Admin-Bereich • SSL Verschlüsselt"
+    },
+    "support": "Technischer Support",
+    "copyright": "© 2026 Randevu Halı Saha"
+  },
+  "adminAuth": {
+    "forgot": {
+      "support": "Support",
+      "contact": "Kontakt",
+      "successTitle": "E-Mail gesendet!",
+      "successDesc": "Wir haben einen Link zum Zurücksetzen Ihres Passworts an <span className=\"text-white font-medium\">{{email}}</span> gesendet. Bitte überprüfen Sie auch Ihren Spam-Ordner.",
+      "backToLogin": "ZURÜCK ZUM LOGIN",
+      "sending": "Senden...",
+      "resendNotReceived": "E-Mail nicht erhalten? Erneut senden",
+      "title": "Passwort vergessen?",
+      "desc": "Geben Sie Ihre E-Mail-Adresse ein. Wir senden Ihnen einen Link, um Ihr Passwort zurückzusetzen.",
+      "emailLabel": "E-Mail Adresse",
+      "emailPlaceholder": "admin@soccerarena.at",
+      "submit": "LINK SENDEN",
+      "back": "Zurück zum Login",
+      "techSupport": "Technischer Support",
+      "copyright": "© 2026 Randevu Halı Saha",
+      "resendTitle": "Link erneut gesendet!",
+      "resendDesc": "Wir haben einen neuen Link zum Zurücksetzen Ihres Passworts an Ihre E-Mail-Adresse gesendet. Bitte prüfen Sie auch Ihren Spam-Ordner.",
+      "resendOk": "VERSTANDEN",
+      "errorGeneric": "Ein Fehler ist aufgetreten. Bitte versuchen Sie es später erneut.",
+      "errorTooMany": "Zu viele Versuche. Bitte warten Sie 15 Minuten."
+    },
+    "reset": {
+      "errInvalidToken": "Ungültiger oder fehlender Token. Bitte fordern Sie einen neuen Link an.",
+      "errMismatch": "Die Passwörter stimmen nicht überein.",
+      "errWeak": "Das Passwort erfüllt nicht die Sicherheitsanforderungen.",
+      "errFailed": "Das Passwort konnte nicht zurückgesetzt werden. Möglicherweise ist der Link abgelaufen.",
+      "support": "Support",
+      "contact": "Kontakt",
+      "successTitle": "Passwort geändert!",
+      "successDesc": "Ihr neues Passwort wurde erfolgreich gespeichert. Sie werden in Kürze zur Anmeldung weitergeleitet...",
+      "title": "Neues Passwort festlegen",
+      "desc": "Bitte geben Sie Ihr neues Passwort ein und bestätigen Sie es.",
+      "newLabel": "Neues Passwort",
+      "placeholder": "••••••••",
+      "confirmLabel": "Passwort bestätigen",
+      "info": "Min. 8 Zeichen, Groß-, Kleinbuchstaben, Zahl & Sonderzeichen",
+      "submit": "PASSWORT SPEICHERN",
+      "cancel": "Abbrechen",
+      "techSupport": "Technischer Support",
+      "copyright": "© 2026 Randevu Halı Saha"
+    }
+  },
+  "adminDashboard": {
+    "status": {
+      "confirmed": "Bestätigt",
+      "cancelled": "Storniert",
+      "modified": "Geändert",
+      "completed": "Abgeschlossen",
+      "noShow": "No Show"
+    },
+    "payment": {
+      "applePay": "Apple Pay",
+      "googlePay": "Google Pay",
+      "card": "Karte",
+      "onSite": "Vor Ort"
+    },
+    "days": {
+      "mo": "Mo",
+      "di": "Di",
+      "mi": "Mi",
+      "do": "Do",
+      "fr": "Fr",
+      "sa": "Sa",
+      "so": "So"
+    },
+    "badges": {
+      "strong": "Stark",
+      "good": "Gut",
+      "normal": "Normal"
+    },
+    "errors": {
+      "loadError": "Dashboard-Daten konnten nicht geladen werden."
+    },
+    "vsYesterday": {
+      "noData": "Keine Daten",
+      "vsYesterdayLabel": "vs Gestern"
+    },
+    "loadingContent": {
+      "title": "Dashboard",
+      "errorTitle": "Dashboard — Fehler",
+      "errorMsg": "Fehler beim Laden",
+      "retry": "Erneut versuchen"
+    },
+    "page": {
+      "title": "Advanced Admin Dashboard"
+    },
+    "cards": {
+      "today": {
+        "title": "Heute",
+        "tooltipCompare": "Vergleich",
+        "yesterdayLabel": "Gestern:",
+        "bookings": "Buchungen"
+      },
+      "revenueLive": {
+        "title": "Echtzeit (Bezahlt)",
+        "lastBooking": "Letzte Buchung:",
+        "emptyLast": "—",
+        "tooltipLive": "Live Einnahmen",
+        "tooltipWeek": "Woche:"
+      },
+      "monthlyRev": {
+        "title": "Monatsumsatz",
+        "bookings": "Buchungen",
+        "tooltipPerf": "Performance"
+      },
+      "utilization": {
+        "title": "Auslastung",
+        "tooltipDetails": "Platz Details",
+        "bookings": "Buchungen"
+      },
+      "refunded": {
+        "title": "Erstattet",
+        "cancellations": "Stornierungen",
+        "tooltipReversals": "Rückbuchungen",
+        "totalRefund": "Gesamte Rückerstattung:"
+      },
+      "errorsCard": {
+        "title": "Fehler",
+        "rejected": "Zahlung abgelehnt",
+        "tooltipSysWarn": "System Warnungen",
+        "actionNeeded": "Aktion nötig",
+        "failedMsg": "fehlgeschlagene Zahlungsversuche"
+      }
+    },
+    "timeline": {
+      "title": "Heutiger Zeitplan",
+      "active": "Aktiv",
+      "funZone": "Fun Zone",
+      "noBookingsText": "Keine Buchungen",
+      "timeLabel": "Zeit:",
+      "statusLabel": "Status:",
+      "noBookingsToday": "Keine Buchungen für heute"
+    },
+    "weeklyChart": {
+      "title": "Wochenumsatz",
+      "current": "Aktuell:"
+    },
+    "paymentDonut": {
+      "title": "Zahlungsmethode",
+      "total": "Total",
+      "details": "Transaktionsdetails",
+      "transactions": "Trans."
+    },
+    "aiInsights": {
+      "badge": "Monats-Analyse",
+      "totalBookings": "Buchungen gesamt",
+      "bookings": "Buchungen",
+      "weakestDays": "Schwächste Tage",
+      "avgOther": "Ø andere:",
+      "weakestSlots": "Schwächste Zeitfenster",
+      "happyHourAct": "Happy Hour für diese Zeiten aktivieren?",
+      "noData": "Noch keine Daten für die Analyse vorhanden."
+    },
+    "topMaterials": {
+      "title": "Meistgemietetes Material",
+      "viewAll": "Alle ansehen",
+      "rentals": "Ausleihen",
+      "noData": "Keine Daten"
+    },
+    "trend": {
+      "title": "Monatlicher Trend",
+      "last6mo": "Letzte 6 Monate",
+      "revenue": "Umsatz"
+    },
+    "hourlyOccupancy": {
+      "title": "Stunden-Auslastung",
+      "avg": "Durchschnitt",
+      "occupancy": "Auslastung:"
+    }
+  },
+  "adminRes": {
+    "title": "Reservierungen",
+    "errorTitle": "Reservierungen — Fehler",
+    "loadError": "Fehler beim Laden",
+    "retry": "Erneut versuchen",
+    "headerTitle": "Alle Reservierungen",
+    "headerDesc": "Verwalten Sie alle Buchungen, Stornierungen und Anfragen an einem Ort.",
+    "export": "Exportieren",
+    "newBooking": "Neue Buchung",
+    "filters": {
+      "all": "Alle",
+      "today": "Heute",
+      "tomorrow": "Morgen",
+      "week": "Diese Woche",
+      "cancelled": "Storniert"
+    },
+    "status": {
+      "confirmed": "Bestätigt",
+      "modified": "Geändert",
+      "completed": "Abgeschlossen",
+      "cancelled": "Storniert",
+      "noShow": "No-Show"
+    },
+    "payment": {
+      "pending": "Ausstehend",
+      "paid": "Bezahlt",
+      "failed": "Fehlgeschlagen",
+      "refunded": "Erstattet",
+      "onSite": "Vor Ort"
+    },
+    "duration": {
+      "m60": "1 Stunde",
+      "m90": "1,5 Stunden",
+      "m120": "2 Stunden",
+      "m150": "2,5 Stunden",
+      "m180": "3 Stunden",
+      "min": "Min."
+    },
+    "csvHeader": "Buchungs-ID;Datum;Uhrzeit;Kunde;Telefon;Platz;Dauer (Min.);Status;Preis",
+    "stats": {
+      "total": "Gesamt Reservierungen",
+      "vsPrevMonth": "vs. Vormonat",
+      "cancelRate": "Stornierungsrate",
+      "popularTime": "Beliebteste Zeit",
+      "primetime": "Primetime Auslastung",
+      "revenueProg": "Umsatz Prognose",
+      "target": "Ziel"
+    },
+    "charts": {
+      "bookingTrends": "Buchungstrends",
+      "resPeriod": "Reservierungen im laufenden Zeitraum",
+      "week": "Woche",
+      "month": "Monat",
+      "occCompare": "Auslastungs-Vergleich",
+      "bookedHours": "Std. gebucht",
+      "vsPrevWeek": "vs. Vorwoche",
+      "noFields": "Keine Felder"
+    },
+    "search": {
+      "placeholder": "Nach ID, Name oder Telefon suchen...",
+      "foundText": "gefunden",
+      "booking": "Buchung",
+      "bookings": "Buchungen"
+    },
+    "table": {
+      "id": "Buchungs-ID",
+      "date": "Datum & Zeit",
+      "customer": "Kunde",
+      "field": "Platz",
+      "duration": "Dauer",
+      "status": "Status",
+      "payment": "Zahlung",
+      "price": "Preis",
+      "actions": "Aktionen",
+      "noResults": "Keine Reservierungen gefunden",
+      "showing": "Zeige",
+      "of": "von",
+      "page": "Seite"
+    },
+    "modals": {
+      "cancelTitle": "Reservierung stornieren?",
+      "cancelDesc": "Diese Aktion kann nicht rückgängig gemacht werden.",
+      "booking": "Buchung:",
+      "customer": "Kunde:",
+      "period": "Zeitraum:",
+      "field": "Platz:",
+      "cancelBtn": "Abbrechen",
+      "cancelAction": "Stornieren",
+      "refundTitle": "Betrag erstatten?",
+      "refundDesc": "Der Betrag wird über Stripe zurückerstattet.",
+      "paymentLabel": "Zahlung:",
+      "refundAmount": "Erstattungsbetrag:",
+      "refundAction": "Erstatten"
+    },
+    "newBookingModal": {
+      "title": "Neue Buchung erstellen",
+      "desc": "Manuelle Buchungseingabe",
+      "successTitle": "Buchung erstellt!",
+      "successDesc": "Wird gespeichert...",
+      "customerData": "Kundendaten",
+      "customerName": "Name des Kunden *",
+      "email": "E-Mail Adresse",
+      "phone": "Telefonnummer",
+      "fieldDetails": "Platz & Details",
+      "fieldSelect": "Platz-Auswahl",
+      "dateSelect": "Datum wählen",
+      "durationLabel": "Dauer",
+      "timeSelect": "Startzeit wählen",
+      "chooseDateFirst": "Bitte zuerst ein Datum wählen",
+      "loadingAvail": "Verfügbarkeit wird geladen...",
+      "noSlots": "Keine freien Zeiten an diesem Tag",
+      "paymentTitle": "Bezahlung",
+      "onSiteLabel": "Bezahlung: Vor Ort",
+      "onSiteDesc": "Der Kunde zahlt Bar oder mit Karte direkt am Counter.",
+      "estPrice": "Geschätzter Preis",
+      "fillRequired": "Bitte alle Pflichtfelder ausfüllen.",
+      "saveBooking": "Buchung Speichern",
+      "saveError": "Buchung konnte nicht erstellt werden."
+    },
+    "details": {
+      "title": "Buchungsdetails",
+      "emailLabel": "E-Mail",
+      "endLabel": "Ende",
+      "priceLabel": "Preis",
+      "paymentStatusLabel": "Zahlungsstatus",
+      "paymentMethodLabel": "Zahlungsmethode",
+      "card": "Karte",
+      "apple": "Apple Pay",
+      "google": "Google Pay",
+      "rentalsTitle": "Gemietetes Material",
+      "created": "Erstellt:"
+    }
+  },
+  "adminSettings": {
+    "title": "Einstellungen",
+    "desc": "Verwalten Sie Öffnungszeiten, Preise und Reservierungsregeln.",
+    "online": "System Online",
+    "tabs": {
+      "fields": "Saha-Einstellungen",
+      "staff": "Personal-Einstellungen",
+      "company": "Unternehmensdaten",
+      "security": "Sicherheit",
+      "notifications": "Benachrichtigungen",
+      "coupons": "Gutscheine"
+    },
+    "days": {
+      "monday": "Montag",
+      "tuesday": "Dienstag",
+      "wednesday": "Mittwoch",
+      "thursday": "Donnerstag",
+      "friday": "Freitag",
+      "saturday": "Samstag",
+      "sunday": "Sonntag"
+    },
+    "fields": {
+      "hoursTitle": "Öffnungszeiten & Verfügbarkeit",
+      "table": {
+        "day": "Tag",
+        "open": "Öffnet um",
+        "close": "Schließt um",
+        "status": "Status"
+      },
+      "sports": {
+        "football": "Fußball (pro Stunde)",
+        "bubbleSoccer": "Bubble Soccer (pro Stunde)",
+        "tennis": "Tennis (pro Stunde)",
+        "basketball": "Basketball (pro Stunde)",
+        "volleyball": "Volleyball (pro Stunde)"
+      },
+      "pricingTitle": "Saha Preisgestaltung",
+      "active": "Aktiv",
+      "inactive": "Inaktiv",
+      "hourlyStandard": "Stundensatz Standard",
+      "happyHourTitle": "Happy Hour Konfiguration",
+      "happyHourDesc": "Legen Sie Zeiten fest, in denen automatisch ein Rabatt auf alle Plätze gewährt wird.",
+      "happyHourEnable": "Happy Hour aktivieren",
+      "startTime": "Startzeit",
+      "endTime": "Endzeit",
+      "discount": "Rabatt (%)",
+      "rulesTitle": "Reservierungseinstellungen",
+      "holdDuration": "Hold-Dauer",
+      "holdDesc": "Zeitraum, in dem eine Buchung reserviert bleibt, bevor sie bezahlt werden muss.",
+      "cancelDeadline": "Stornierungsfrist",
+      "cancelDesc": "Bis wie viele Stunden vor Spielbeginn kann kostenlos storniert werden.",
+      "notifications": "Benachrichtigungen",
+      "notifDesc": "Automatische Erinnerungen an Kunden senden.",
+      "reminders": "Erinnerungs-SMS/Email (24h)"
+    },
+    "coupons": {
+      "title": "Gutschein-Verwaltung",
+      "newBtn": "Neuer Gutschein",
+      "table": {
+        "code": "Gutscheincode",
+        "discount": "Rabatt",
+        "minOrder": "Mindestumsatz",
+        "validity": "Gültigkeit",
+        "uses": "Nutzungen",
+        "status": "Status"
+      },
+      "noCoupons": "Keine Gutscheine vorhanden.",
+      "expired": "Abgelaufen",
+      "active": "Aktiv",
+      "inactive": "Inaktiv",
+      "edit": "Bearbeiten",
+      "delete": "Löschen",
+      "deleteConfirm": "Gutschein wirklich löschen?",
+      "modal": {
+        "editTitle": "Gutschein bearbeiten",
+        "newTitle": "Neuer Gutschein",
+        "code": "Gutscheincode",
+        "discountType": "Rabatttyp",
+        "percent": "Prozent (%)",
+        "fixed": "Fester Betrag (€)",
+        "discountValue": "Rabattwert",
+        "maxUses": "Max. Nutzungen",
+        "unlimited": "0 = unbegrenzt",
+        "minOrder": "Mindestbestellwert",
+        "noMinOrder": "0 = kein Mindestbetrag",
+        "validFrom": "Gültig ab",
+        "validUntil": "Gültig bis",
+        "activateNow": "Sofort aktivieren",
+        "cancel": "Abbrechen",
+        "save": "Speichern",
+        "create": "Erstellen"
+      }
+    },
+    "notifications": {
+      "clientTitle": "Kunden-Benachrichtigungen",
+      "emailSettings": "E-Mail-Benachrichtigungen",
+      "emailDesc": "Alle E-Mail-Benachrichtigungen an Kunden aktivieren/deaktivieren.",
+      "emailConfirm": "Buchungsbestätigung per E-Mail",
+      "emailConfirmDesc": "Sendet automatisch eine Bestätigung an den Kunden nach erfolgreicher Buchung.",
+      "emailReminder": "Terminerinnerung (24h vorher)",
+      "emailReminderDesc": "Erinnert Kunden 24 Stunden vor Spielbeginn an ihren Termin.",
+      "emailCancel": "Stornierungsbestätigung",
+      "emailCancelDesc": "Benachrichtigt den Kunden, wenn eine Buchung storniert wurde.",
+      "waTitle": "WhatsApp-Integration",
+      "waEnable": "WhatsApp Nachrichten aktivieren",
+      "waDesc": "Ermöglicht das Senden von Buchungsdetails direkt über WhatsApp.",
+      "waKey": "WhatsApp API Key",
+      "waKeyDesc": "Diesen Schlüssel finden Sie in Ihrem Meta Business Dashboard.",
+      "waPhoneId": "Phone Number ID",
+      "waPhoneDesc": "Die Phone Number ID aus Ihrem WhatsApp Business API Setup.",
+      "templates": "Nachrichtenvorlagen",
+      "placeholders": "Platzhalter:",
+      "confirmTpl": "Buchungsbestätigung",
+      "cancelTpl": "Stornierung",
+      "modTpl": "Umbuchung",
+      "couponTpl": "Gutschein-Info",
+      "adminReports": "Admin-Berichte",
+      "dailyRev": "Täglicher Umsatzbericht",
+      "dailyRevDesc": "Zusammenfassung per E-Mail um 23:59 Uhr.",
+      "newBooking": "Benachrichtigung bei neuen Buchungen",
+      "newBookingDesc": "Sofortige Info bei jeder neuen Reservierung.",
+      "sysAlerts": "System-Benachrichtigungen",
+      "secAlerts": "Sicherheitswarnungen",
+      "secAlertsDesc": "Warnung bei verdächtigen Login-Versuchen.",
+      "maintAlerts": "Wartungsmeldungen",
+      "maintAlertsDesc": "Infos über geplante System-Updates."
+    },
+    "security": {
+      "adminSec": "Admin-Sicherheit",
+      "changePw": "Passwort ändern",
+      "currentPw": "Aktuelles Passwort",
+      "newPw": "Neues Passwort",
+      "pwHint": "Mindestens 8 Zeichen, inkl. Sonderzeichen",
+      "confirmPw": "Passwort bestätigen",
+      "updatePw": "Passwort aktualisieren",
+      "twoFactor": "2-Faktor-Authentifizierung (2FA)",
+      "twoFactorDesc": "Zusätzliche Sicherheitsebene für Ihr Konto",
+      "twoFactorSetup": "2FA einrichten",
+      "scanQr": "Scannen Sie den QR-Code mit Google Authenticator oder einer kompatiblen App:",
+      "manualEntry": "Oder manuell eingeben:",
+      "sixDigitCode": "6-stelliger Code",
+      "cancel": "Abbrechen",
+      "activate": "Aktivieren",
+      "sessions": "Sitzungs-Management",
+      "revokeAll": "Alle anderen beenden",
+      "activeSessions": "Aktive Sitzungen",
+      "noSessions": "Keine aktiven Sitzungen",
+      "unknownDevice": "Unbekanntes Gerät",
+      "current": "Aktuell",
+      "revoke": "Sitzung beenden",
+      "justNow": "Gerade eben",
+      "lastActivity": "Letzte Aktivität:",
+      "sessionWarning": "Wenn Sie eine Sitzung nicht erkennen, ändern Sie sofort Ihr Passwort und beenden Sie alle Sitzungen."
+    },
+    "saveBar": {
+      "lastChange": "Letzte Änderung:",
+      "notSaved": "Noch nicht gespeichert",
+      "cancel": "Abbrechen",
+      "save": "Einstellungen Speichern",
+      "successMsg": "Einstellungen erfolgreich gespeichert!",
+      "saveError": "Fehler beim Speichern.",
+      "saving": "Wird gespeichert..."
+    },
+    "placeholder": {
+      "soon": "Diese Sektion wird demnächst implementiert."
+    },
+    "errors": {
+      "pwFillAll": "Bitte alle Felder ausfüllen.",
+      "pwLength": "Neues Passwort muss mindestens 8 Zeichen haben.",
+      "pwMismatch": "Passwörter stimmen nicht überein.",
+      "pwSuccess": "Passwort erfolgreich geändert!",
+      "twoFAError": "2FA konnte nicht eingerichtet werden.",
+      "twoFAInvalid": "Ungültiger Code. Bitte erneut versuchen.",
+      "couponSaveError": "Fehler beim Speichern"
+    }
+  },
+  "adminMaterial": {
+    "title": "Material & Inventar",
+    "allCategories": "Alle",
+    "exportBtn": "Exportieren",
+    "newBtn": "Neues Material",
+    "loadError": "Fehler beim Laden der Materialliste.",
+    "stats": {
+      "total": "Gesamtbestand",
+      "rentable": "Verleihbar",
+      "defect": "Defekt / Wartung",
+      "actionNeeded": "Handlungsbedarf",
+      "allGood": "Alles in Ordnung",
+      "itemsActive": "Artikel aktiv",
+      "items": "Artikel"
+    },
+    "categories": {
+      "title": "Kategorien",
+      "empty": "Keine Kategorien vorhanden",
+      "rentableParams": "Stück • {{rentable}} verleihbar"
+    },
+    "table": {
+      "article": "Artikel",
+      "sizeType": "Größe / Typ",
+      "available": "Verfügbar",
+      "status": "Status",
+      "rentalFee": "Leihgebühr",
+      "actions": "Aktionen",
+      "empty": "Kein Material in dieser Kategorie gefunden.",
+      "pieces": "Stück",
+      "oneSize": "Einheitsgröße",
+      "showing": "Zeige {{count}} von {{total}} Artikeln"
+    },
+    "conditions": {
+      "new": "Neu",
+      "good": "Gut",
+      "damaged": "Beschädigt",
+      "retired": "Ausgemustert"
+    },
+    "actions": {
+      "edit": "Bearbeiten",
+      "delete": "Löschen",
+      "deleteTitle": "Material löschen",
+      "deleteConfirm": "Möchten Sie '{{name}}' wirklich aus dem Verleih nehmen?",
+      "deactivateBtn": "Deaktivieren"
+    },
+    "modal": {
+      "editTitle": "Material bearbeiten",
+      "newTitle": "Neuer Material",
+      "name": "Name *",
+      "category": "Kategorie *",
+      "quantity": "Menge *",
+      "condition": "Zustand *",
+      "rentable": "Für Verleih verfügbar",
+      "rentableDesc": "Das Material kann von Kunden gebucht werden.",
+      "pricePerHour": "Preis pro Stunde (€)",
+      "sizes": "Verfügbare Größen",
+      "sizesHint": "(Kommagetrennt)",
+      "notes": "Notizen",
+      "notesPH": "Optionale Notizen...",
+      "cancel": "Abbrechen",
+      "save": "Speichern"
+    }
+  },
+  "adminStaff": {
+    "title": "Personalverwaltung",
+    "adminPanel": "Admin Panel",
+    "subtitle": "Verwalten Sie Ihr Team, Schichtpläne und Leistungsdaten für die Sportsaison.",
+    "adminInviteSuccess": "Admin-Benutzer erstellt. Zugangsdaten wurden per E-Mail gesendet.",
+    "adminInviteError": "Fehler beim Erstellen des Admin-Benutzers.",
+    "time": {
+      "minsAgo": "Vor {{min}} Min",
+      "hoursAgo": "Vor {{hours}} Std",
+      "daysAgo": "Vor {{days}} Tagen",
+      "yesterday": "Gestern"
+    },
+    "stats": {
+      "total": "Gesamtpersonal",
+      "activeTitle": "Aktiv",
+      "activeDesc": "Mitarbeiter aktiv",
+      "inactive": "Inaktiv"
+    },
+    "search": {
+      "placeholder": "Nach Name oder Position suchen...",
+      "allRoles": "Alle Rollen"
+    },
+    "buttons": {
+      "newStaff": "Neues Personal",
+      "newAdmin": "Neues Admin"
+    },
+    "table": {
+      "staff": "Mitarbeiter",
+      "role": "Rolle",
+      "status": "Status",
+      "contact": "Kontakt",
+      "created": "Erstellt",
+      "actions": "Aktionen",
+      "empty": "Keine Mitarbeiter gefunden.",
+      "activeStr": "Aktiv",
+      "inactiveStr": "Inaktiv",
+      "showing": "Zeige {{count}} von {{total}} Mitarbeitern"
+    },
+    "actions": {
+      "editProfile": "Profil bearbeiten",
+      "deactivate": "Deaktivieren"
+    },
+    "modal": {
+      "editTitle": "Mitarbeiter bearbeiten",
+      "newTitle": "Neues Personal",
+      "name": "Name *",
+      "namePH": "Vor- und Nachname",
+      "role": "Rolle *",
+      "rolePH": "Rolle wählen...",
+      "roles": {
+        "Manager": "Manager",
+        "Trainer": "Trainer",
+        "Platzwart": "Platzwart",
+        "Rezeption": "Rezeption",
+        "Reinigung": "Reinigung",
+        "Security": "Security"
+      },
+      "email": "E-Mail",
+      "emailPH": "email@example.com",
+      "phone": "Telefon",
+      "phonePH": "+43 ...",
+      "notes": "Notizen",
+      "notesPH": "Interne Notizen...",
+      "cancel": "Abbrechen",
+      "updateBtn": "Aktualisieren",
+      "createBtn": "Erstellen"
+    },
+    "adminModal": {
+      "title": "Admin einladen",
+      "desc": "Ein neuer Admin-Benutzer wird erstellt und erhält die Zugangsdaten per E-Mail.",
+      "name": "Name *",
+      "email": "E-Mail *",
+      "emailPH": "admin@soccerarena.at",
+      "inviteBtn": "Admin einladen",
+      "cancel": "Abbrechen"
+    }
+  },
+  "adminPayments": {
+    "title": "Zahlungen",
+    "titleError": "Zahlungen — Fehler",
+    "header": "Zahlungshistorie & Erstattungen",
+    "subtitle": "Alle Zahlungsvorgänge an einem Ort verwalten.",
+    "secureEnv": "Sichere Umgebung",
+    "exportBtn": "Exportieren",
+    "loadError": "Zahlungsdaten konnten nicht geladen werden.",
+    "errorTitle": "Fehler beim Laden",
+    "retry": "Erneut versuchen",
+    "timeFmt": "{{time}} Uhr",
+    "statuses": {
+      "PAID": "Erfolg",
+      "PENDING": "Ausstehend",
+      "REFUNDED": "Erstattet",
+      "FAILED": "Fehlgeschlagen",
+      "ON_SITE": "Vor Ort"
+    },
+    "methods": {
+      "CARD": "Karte",
+      "APPLE_PAY": "Apple Pay",
+      "GOOGLE_PAY": "GPay",
+      "ON_SITE": "Barzahlung"
+    },
+    "filters": {
+      "all": "Alle"
+    },
+    "stats": {
+      "todayRev": "Umsatz heute",
+      "vsYesterday": "Verglichen mit gestern",
+      "pending": "Offene Zahlungen",
+      "attention": "Erfordert Aufmerksamkeit",
+      "pendingSub": "Ausstehende Zahlungen",
+      "refundedM": "Gesamt Erstattet (Monat)",
+      "transactions": "Transaktion",
+      "transactionsPlural": "Transaktionen"
+    },
+    "search": "Suche nach ID oder Name...",
+    "foundText": "Zahlung",
+    "foundTextPlural": "Zahlungen",
+    "foundSuffix": "gefunden",
+    "table": {
+      "id": "Transaktions-ID",
+      "date": "Datum",
+      "customer": "Kunde",
+      "method": "Methode",
+      "amount": "Betrag",
+      "status": "Status",
+      "actions": "Aktionen",
+      "empty": "Keine Zahlungen gefunden",
+      "showing": "Zeige {{start}}-{{end}} von {{total}} Einträgen",
+      "pageOf": "Seite {{current}} von {{total}}"
+    },
+    "refundModal": {
+      "title": "Zahlung Erstatten",
+      "transaction": "Transaktion",
+      "origAmount": "Ursprünglicher Betrag",
+      "type": "Erstattungsart",
+      "partial": "Teilerstattung",
+      "full": "Volle Erstattung",
+      "amountEur": "Betrag (EUR)",
+      "maxRefundable": "Maximal erstattungsfähig: ",
+      "reason": "Begründung (Optional)",
+      "reasonPH": "Grund für die Erstattung...",
+      "cancel": "Abbrechen",
+      "refundBtn": "Erstatten",
+      "refundError": "Erstattung fehlgeschlagen."
+    }
+  },
+  "adminContact": {
+    "title": "Admin Kontaktanfragen",
+    "header": "Kontaktanfragen verwalten",
+    "subtitle": "Übersicht aller Nachrichten aus dem Kontaktformular",
+    "exportBtn": "Exportieren",
+    "statuses": {
+      "NEW": "Neu",
+      "READ": "Gelesen",
+      "REPLIED": "Beantwortet",
+      "ARCHIVED": "Archiviert"
+    },
+    "time": {
+      "today": "Heute",
+      "yesterday": "Gestern"
+    },
+    "stats": {
+      "all": "Alle Nachrichten",
+      "new": "Neue Nachrichten",
+      "unread": "Ungelesen",
+      "replied": "Beantwortet",
+      "total": "Gesamt"
+    },
+    "search": "Suche nach Name, E-Mail oder Betreff...",
+    "filters": {
+      "all": "Alle Status"
+    },
+    "table": {
+      "id": "ID",
+      "date": "Datum",
+      "name": "Name & Nachname",
+      "email": "E-Mail-Adresse",
+      "subject": "Betreff",
+      "status": "Status",
+      "actions": "Aktionen",
+      "empty": "Keine Nachrichten gefunden.",
+      "showing": "Zeige {{count}} von {{total}} Ergebnissen"
+    },
+    "actions": {
+      "view": "Ansehen",
+      "delete": "Löschen"
+    },
+    "drawer": {
+      "title": "Nachricht Details",
+      "tel": "Tel: ",
+      "date": "Datum",
+      "status": "Status",
+      "subject": "Betreff",
+      "noSubject": "Kein Betreff",
+      "message": "Nachricht",
+      "reply": "Direkt antworten",
+      "markDone": "Als erledigt markieren",
+      "delete": "Löschen",
+      "replySubject": "Ihre Anfrage bei SALAMANDA SOCCER ARENA"
+    }
+  },
+  "tournaments": {
+    "hero": {
+      "season": "Saison 2026",
+      "title1": "Kommende",
+      "title2": "Turniere",
+      "desc": "Messen Sie sich mit den besten Teams Österreichs. Melden Sie Ihr Team noch heute an und kämpfen Sie um Ruhm, Ehre und Preisgelder."
+    },
+    "badges": {
+      "open": "Anmeldung Offen",
+      "few": "Wenige Plätze",
+      "full": "Ausgebucht",
+      "new": "Neu"
+    },
+    "details": {
+      "players": "{{count}} gegen {{count}}",
+      "price": "{{price}}€ pro Team"
+    },
+    "actions": {
+      "register": "TEAM ANMELDEN",
+      "waitlist": "WARTELISTE"
+    },
+    "hallOfFame": {
+      "subtitle": "Die Besten der Besten",
+      "title": "Ruhmeshalle",
+      "winner": "{{year}} Sieger"
+    },
+    "list": {
+      "t1": {
+        "title": "Salamanda Cup 2026",
+        "desc": "Der Klassiker im Herzen von Stadl-Paura.",
+        "date": "12. Juni 2026"
+      },
+      "t2": {
+        "title": "Salzburg Sommerliga",
+        "desc": "Das größte Outdoor-Event des Jahres.",
+        "date": "15. Juli 2026"
+      },
+      "t3": {
+        "title": "Graz Hallencup",
+        "desc": "Intensives Hallenturnier im Winter.",
+        "date": "20. Feb 2026"
+      },
+      "t4": {
+        "title": "Innsbruck Alpine Cup",
+        "desc": "Fußball vor atemberaubender Kulisse.",
+        "date": "05. Aug 2026"
+      }
+    }
+  },
+  "barrierefreiheit": {
+    "titlePart1": "Barrierefreiheits",
+    "titlePart2": "erklärung",
+    "desc": "Informationen zur Zugänglichkeit dieser Website. {{company}} ist bemüht, ihre Website im Einklang mit dem Bundes-Behindertengleichstellungsgesetz (BGStG) barrierefrei zugänglich zu machen.",
+    "scope": "Diese Erklärung zur Barrierefreiheit gilt für die Website <1>{{website}}</1>.",
+    "backHome": "Zurück zur Startseite",
+    "sections": {
+      "1": {
+        "title": "Stand der Vereinbarkeit mit den Anforderungen",
+        "desc": "Diese Website ist wegen der folgenden Unvereinbarkeiten und Ausnahmen teilweise mit der Konformitätsstufe AA der \"Richtlinien für barrierefreie Webinhalte Web – WCAG 2.1\" vereinbar."
+      },
+      "2": {
+        "title": "Nicht barrierefreie Inhalte",
+        "desc": "Die nachstehend aufgeführten Inhalte sind aus den folgenden Gründen nicht barrierefrei:",
+        "a": {
+          "title": "a) Unvereinbarkeit mit den Barrierefreiheitsbestimmungen",
+          "i1": "Manche Bilder haben noch keinen Alternativtext, sodass diese Information für Screenreader-Benutzer nicht zugänglich ist. Wir arbeiten daran, diese Texte laufend zu ergänzen.",
+          "i2": "Die Kontraste bei einigen Navigationselementen entsprechen noch nicht vollständig dem erforderlichen Standard. Eine Überarbeitung des Farbschemas ist in Planung."
+        },
+        "b": {
+          "title": "b) Unverhältnismäßige Belastung",
+          "desc": "Unsere Videos sind derzeit noch nicht mit Untertiteln ausgestattet. Wir arbeiten an einer Lösung, dies für neue Videos standardmäßig umzusetzen."
+        }
+      },
+      "3": {
+        "title": "Erstellung der Erklärung",
+        "desc": "Diese Erklärung wurde am <1>15. Oktober 2023</1> erstellt. Die Bewertung der Vereinbarkeit der Website mit dem WZG zur Umsetzung der Anforderungen der Richtlinie (EU) 2016/2102 erfolgte in Form eines Selbsttests nach WCAG 2.1 im Konformitätslevel AA."
+      },
+      "4": {
+        "title": "Feedback und Kontaktangaben",
+        "p1": "Die Angebote und Services auf dieser Website werden laufend verbessert, ausgetauscht und ausgebaut. Dabei ist uns die Bedienbarkeit und Zugänglichkeit ein großes Anliegen.",
+        "p2": "Wenn Ihnen Barrieren auffallen, die Sie an der Benutzung unserer Website behindern – Probleme, die in dieser Erklärung nicht beschrieben sind, Mängel in Bezug auf die Einhaltung der Barrierefreiheitsanforderungen – so bitten wir Sie, uns diese per E-Mail mitzuteilen."
+      },
+      "5": {
+        "title": "Durchsetzungsverfahren",
+        "p1": "Bei nicht zufriedenstellenden Antworten aus oben genannter Kontaktmöglichkeit können Sie sich mittels Beschwerde an die Österreichische Forschungsförderungsgesellschaft (FFG) wenden.",
+        "p2": "Die FFG nimmt über das Kontaktformular Beschwerden auf elektronischem Weg entgegen.",
+        "link": "Kontaktformular der Beschwerdestelle"
+      }
+    }
+  },
+  "ruckerstattung": {
+    "titlePart1": "Rückerstattungs",
+    "titlePart2": "richtlinie",
+    "desc": "Informationen zu Stornierungen, Umbuchungen und Rückerstattungen bei {{company}}. Wir streben nach Fairness und Transparenz für alle unsere Spieler.",
+    "scope": "Diese Richtlinie gilt für alle Buchungen von Plätzen, Events und Dienstleistungen über die Website <1>{{website}}</1> oder direkt vor Ort.",
+    "backHome": "Zurück zur Startseite",
+    "sections": {
+      "1": {
+        "title": "1. Allgemeines",
+        "desc": "Wir verstehen, dass Pläne sich ändern können. Unsere Rückerstattungsrichtlinie wurde entwickelt, um flexibel zu sein, während wir gleichzeitig sicherstellen müssen, dass unsere Plätze für alle Fußballbegeisterten verfügbar bleiben. Mit der Buchung eines Platzes akzeptieren Sie die folgenden Bedingungen."
+      },
+      "2": {
+        "title": "2. Stornierungen durch Kunden",
+        "desc": "Stornierungen müssen schriftlich oder über das Benutzerkonto auf unserer Website erfolgen. Die Rückerstattungshöhe richtet sich nach dem Zeitpunkt der Stornierung:",
+        "mehr": {
+          "title": "Mehr als 48 Stunden vor Spielbeginn",
+          "desc": "Sie erhalten eine vollständige Rückerstattung des Buchungsbetrags. Alternativ kann der Betrag als Guthaben für zukünftige Buchungen gutgeschrieben werden."
+        },
+        "weniger": {
+          "title": "Weniger als 48 Stunden vor Spielbeginn",
+          "desc": "Leider ist keine Rückerstattung möglich, da wir den Platz so kurzfristig oft nicht mehr weitervermieten können."
+        }
+      },
+      "3": {
+        "title": "3. Umbuchungen",
+        "desc": "Möchten Sie Ihren Termin verschieben, anstatt ihn zu stornieren? Umbuchungen sind unter folgenden Bedingungen möglich:",
+        "i1": "Umbuchungen sind bis zu 48 Stunden vor dem ursprünglichen Termin kostenlos möglich.",
+        "i2": "Der neue Termin muss innerhalb von 30 Tagen nach dem ursprünglichen Buchungsdatum liegen.",
+        "i3": "Preisdifferenzen (z.B. Wechsel von Nebenzeit zu Hauptzeit) müssen aufgezahlt werden."
+      },
+      "4": {
+        "title": "4. Rückerstattung bei Ausfall durch den Betreiber",
+        "desc": "Sollte die {{company}} aufgrund technischer Probleme, Wartungsarbeiten oder höherer Gewalt (z.B. Wasserschaden, Stromausfall) nicht in der Lage sein, den gebuchten Platz zur Verfügung zu stellen, erhalten Sie selbstverständlich eine <1>100%ige Rückerstattung</1> des gezahlten Betrags.",
+        "note": "* In solchen Fällen werden Sie umgehend per E-Mail oder Telefon kontaktiert."
+      },
+      "5": {
+        "title": "5. Besondere Angebote & Gutscheine",
+        "desc": "Bitte beachten Sie, dass Buchungen, die im Rahmen von Sonderaktionen getätigt wurden oder mit Aktionsgutscheinen bezahlt wurden, von der regulären Rückerstattung ausgeschlossen sein können. Käuflich erworbene Wertgutscheine können nicht in bar abgelöst werden, behalten aber ihre Gültigkeit bei einer Stornierung (Gutschrift auf Kundenkonto)."
+      },
+      "6": {
+        "title": "6. Bearbeitungszeit",
+        "desc": "Wir bemühen uns, alle Rückerstattungsanfragen so schnell wie möglich zu bearbeiten. Bitte erlauben Sie uns eine Bearbeitungszeit von <1>7-10 Werktagen</1>, bis der Betrag auf Ihrem ursprünglichen Zahlungsmittel gutgeschrieben ist."
+      },
+      "7": {
+        "title": "7. Kontakt für Rückerstattungen",
+        "desc": "Haben Sie Fragen zu Ihrer Rechnung oder einer spezifischen Rückerstattung? Unser Support-Team steht Ihnen gerne zur Verfügung."
+      }
+    }
+  },
+  "agb": {
+    "tag": "Rechtliches",
+    "titlePart1": "Allgemeine",
+    "titlePart2": "Geschäftsbedingungen",
+    "subtitle": "Bitte lesen Sie diese Bedingungen sorgfältig durch, bevor Sie unsere Dienste nutzen. Transparenz und Fairness sind uns wichtig.",
+    "date": "Stand: Mai 2024",
+    "sections": [
+      {
+        "title": "Geltungsbereich",
+        "p1": "Diese Allgemeine Geschäftsbedingungen (nachfolgend \"AGB\" genannt) regeln die Nutzung der Sportanlage {{company}} (nachfolgend \"Betreiber\" genannt) durch Kunden und Besucher (nachfolgend \"Nutzer\" genannt).",
+        "p2": "Mit der Buchung eines Spielfeldes oder dem Betreten der Anlage erkennt der Nutzer diese AGB in ihrer jeweils gültigen Fassung an. Abweichende Bedingungen des Nutzers werden nicht Vertragsbestandteil, es sei denn, der Betreiber stimmt ihrer Geltung ausdrücklich schriftlich zu."
+      },
+      {
+        "title": "Buchung & Vertragsabschluss",
+        "p1": "Die Buchung von Spielfeldern erfolgen vorrangig über das Online-Buchungssystem auf unserer Website.",
+        "i1": "Der Vertrag zwischen dem Nutzer und dem Betreiber kommt zustande, sobald der Nutzer den Buchungsprozess abgeschlossen hat und eine Buchungsbestätigung per E-Mail erhält.",
+        "i2": "Die Buchungsbestätigung enthält alle relevanten Details zur Buchung (Datum, Uhrzeit, Platznummer, Preis).",
+        "i3": "Der Nutzer ist verpflichtet, die Angaben in der Buchungsbestätigung umgehend auf Richtigkeit zu überprüfen und etwaige Fehler unverzüglich mitzuteilen."
+      },
+      {
+        "title": "Zahlungsbedingungen",
+        "p1": "Die Preise für die Nutzung der Spielfelder richten sich nach der aktuellen Preisliste auf der Website. Alle Preise sind in Euro (EUR) angegeben.",
+        "i1": "Zahlungsmethoden: Die Zahlung erfolgt online über die angebotenen Zahlungsmethoden (Kreditkarte, Apple Pay, Google Pay).",
+        "i2": "Fälligkeit: Der volle Rechnungsbetrag ist unmittelbar bei Buchung oder spätestens vor Spielantritt fällig.",
+        "i3": "Eine Nutzung des Platzes ohne vorherige vollständige Bezahlung ist nicht gestattet."
+      },
+      {
+        "title": "Stornierung & Rückerstattung",
+        "p1": "Stornierungen müssen schriftlich (per E-Mail) oder über das Benutzerkonto im Online-Buchungssystem erfolgen.",
+        "b1Title": "Bis 48h vor Spielbeginn",
+        "b1Desc": "Kostenfreie Stornierung möglich. Der bereits gezahlte Betrag wird vollständig zurückerstattet.",
+        "b2Title": "Innerhalb von 48h",
+        "b2Desc": "Keine Rückerstattung. Bei später Stornierung oder Nichterscheinen (\"No-Show\") wird der volle Betrag einbehalten."
+      },
+      {
+        "title": "Nutzung der Anlage & Hausordnung",
+        "p1": "Die Nutzung der Anlage ist nur während der gebuchten Zeiten gestattet.",
+        "i1": "Nutzer müssen die Anlage pünktlich zum Ende ihrer Buchungszeit verlassen, um nachfolgenden Gruppen einen pünktlichen Beginn zu ermöglichen.",
+        "i2": "Es gelten die in der Anlage ausgehängte Hausordnung sowie die Anweisungen des Personals.",
+        "i3": "Das Betreten der Spielfelder ist nur mit geeignetem Sportschuhwerk gestattet (keine Schraubstollen).",
+        "i4": "Rauchen und Alkoholkonsum sind auf den Sportflächen untersagt."
+      },
+      {
+        "title": "Haftung",
+        "p1": "Die Nutzung der {{company}} und ihrer Einrichtungen erfolgt auf eigene Gefahr.",
+        "i1": "Der Betreiber haftet nicht für Schäden oder Verletzungen, die durch die Nutzung der Anlage entstehen, es sei denn, sie beruhen auf grober Fahrlässigkeit oder Vorsatz des Betreibers.",
+        "i2": "Für mitgebrachte Wertgegenstände, Kleidung und Ausrüstung wird keine Haftung übernommen. Wir empfehlen, keine Wertsachen in den Umkleiden zurückzulassen.",
+        "i3": "Für mutwillige Beschädigungen an der Einrichtung haftet der Verursacher bzw. der Buchende vollumfänglich."
+      },
+      {
+        "title": "Rücktritt durch den Betreiber",
+        "p1": "Der Betreiber behält sich das Recht vor, Buchungen aus wichtigem Grund (z.B. technische Probleme, Unbespielbarkeit des Platzes, höhere Gewalt) abzusagen. In diesem Fall wird der bereits gezahlte Betrag vollständig erstattet. Weitergehende Schadensersatzansprüche sind ausgeschlossen."
+      },
+      {
+        "title": "Datenschutz",
+        "p1": "Der Schutz Ihrer persönlichen Daten ist uns wichtig. Informationen zur Erhebung, Verarbeitung und Nutzung Ihrer Daten finden Sie in unserer separaten Datenschutzerklärung."
+      },
+      {
+        "title": "Änderungen der AGB",
+        "p1": "Der Betreiber behält sich vor, diese AGB jederzeit zu ändern. Die Änderungen werden auf der Website bekannt gegeben und gelten für alle Buchungen, die nach der Veröffentlichung getätigt werden."
+      },
+      {
+        "title": "Gerichtsstand & Recht",
+        "p1": "Es gilt österreichisches Recht. Als Gerichtsstand für alle Streitigkeiten aus dem Vertragsverhältnis wird Wels vereinbart, sofern der Kunde Unternehmer ist oder keinen allgemeinen Gerichtsstand in Österreich hat."
+      }
+    ],
+    "footer": {
+      "title": "Haben Sie Fragen zu unseren AGB?",
+      "subtitle": "Unser Support-Team steht Ihnen gerne zur Verfügung.",
+      "button": "Kontakt aufnehmen"
+    },
+    "backHome": "Zurück zur Startseite"
+  },
+  "admin": {
+    "settings": {
+      "save": "EINSTELLUNGEN SPEICHERN",
+      "cancel": "Abbrechen"
+    }
+  }
+}

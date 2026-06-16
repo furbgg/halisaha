@@ -1,0 +1,354 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap");
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #ff4400;
+  --color-background-light: #f6f8f5;
+  --color-background-dark: #0a0f08;
+  --color-glass: rgba(255, 255, 255, 0.05);
+  --color-glass-border: rgba(255, 255, 255, 0.1);
+  --font-display: "Lexend", sans-serif;
+  --font-sans: "Inter", system-ui, -apple-system, sans-serif;
+
+  --color-surface-dark: #121212;
+  --color-surface-border: #262626;
+  --color-primary-dark: #cc3600;
+  --shadow-neon: 0 0 10px rgba(255, 68, 0, 0.5), 0 0 20px rgba(255, 68, 0, 0.3);
+  --shadow-neon-sm: 0 0 5px rgba(255, 68, 0, 0.4);
+
+  --background-image-hero-pattern: linear-gradient(to bottom, rgba(10, 15, 8, 0.7), rgba(10, 15, 8, 0.9)), url('https://images.unsplash.com/photo-1518605348416-7258020a5b89?q=80&w=2969&auto=format&fit=crop');
+  --background-image-neon-glow: radial-gradient(circle at center, rgba(255, 68, 0, 0.15) 0%, rgba(0,0,0,0) 70%);
+}
+
+@layer utilities {
+  .text-glow {
+    text-shadow: 0 0 20px rgba(255, 68, 0, 0.3);
+  }
+  .box-glow {
+    transition: all 0.3s ease;
+  }
+  .box-glow:hover {
+    box-shadow: 0 0 25px rgba(255, 68, 0, 0.2);
+    border-color: rgba(255, 68, 0, 0.5);
+  }
+
+  /* Glass panels & cards */
+  .glass-panel {
+    background: rgba(22, 27, 20, 0.6);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    position: relative;
+  }
+  .glass-card {
+    background: linear-gradient(145deg, rgba(30, 36, 28, 0.7) 0%, rgba(22, 27, 20, 0.4) 100%);
+    backdrop-filter: blur(8px);
+    border: 1px solid rgba(255, 255, 255, 0.05);
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.3), 0 2px 4px -1px rgba(0, 0, 0, 0.15);
+    position: relative;
+    z-index: 10;
+  }
+  .glass-card:hover {
+    z-index: 100 !important;
+  }
+
+  /* ─── Dashboard: Card tooltip (appears below on hover) ─── */
+  .card-tooltip {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    margin-top: 0.5rem;
+    background: rgba(22, 27, 20, 0.98);
+    backdrop-filter: blur(12px);
+    border: 1px solid rgba(255, 68, 0, 0.4);
+    box-shadow: 0 10px 30px -5px rgba(0, 0, 0, 0.5);
+    padding: 1rem;
+    border-radius: 0.75rem;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(-10px);
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    z-index: 9999;
+    pointer-events: none;
+  }
+  .glass-card:hover .card-tooltip {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+    pointer-events: auto;
+  }
+
+  /* ─── Dashboard: Bar chart tooltip ─── */
+  .bar-tooltip {
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    transform: translateX(-50%) translateY(10px);
+    background: rgba(22, 27, 20, 0.95);
+    backdrop-filter: blur(12px);
+    border: 1px solid rgba(255, 68, 0, 0.5);
+    box-shadow: 0 0 15px rgba(255, 68, 0, 0.2);
+    padding: 0.75rem;
+    border-radius: 0.5rem;
+    min-width: 160px;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+    z-index: 999;
+    pointer-events: none;
+  }
+  .bar-group:hover .bar-tooltip {
+    opacity: 1;
+    visibility: visible;
+    transform: translateX(-50%) translateY(-8px);
+  }
+  .bar-group:hover .bg-primary {
+    box-shadow: 0 0 25px rgba(255, 68, 0, 0.6);
+  }
+
+  /* ─── Dashboard: Chart popup overlay (payment donut) ─── */
+  .chart-popup-container {
+    position: absolute;
+    inset: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(15, 17, 14, 0.6);
+    backdrop-filter: blur(4px);
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.3s ease;
+    z-index: 50;
+    border-radius: 0.75rem;
+  }
+  .chart-hover-wrapper:hover .chart-popup-container {
+    opacity: 1;
+    pointer-events: auto;
+  }
+  .popup-content {
+    background: rgba(22, 27, 20, 0.95);
+    border: 1px solid rgba(255, 68, 0, 0.3);
+    box-shadow: 0 0 20px rgba(255, 68, 0, 0.15);
+    transform: translateY(10px);
+    transition: transform 0.3s ease;
+    backdrop-filter: blur(16px);
+  }
+  .chart-hover-wrapper:hover .popup-content {
+    transform: translateY(0);
+  }
+
+  /* ─── Dashboard: Schedule popover (timeline entries) ─── */
+  .schedule-popover {
+    position: absolute;
+    top: calc(100% + 12px);
+    left: 50%;
+    transform: translateX(-50%) translateY(10px);
+    background-color: #0f110e;
+    border: 2px solid #ff4400;
+    box-shadow: 0 0 25px rgba(255, 68, 0, 0.4), 0 10px 40px rgba(0, 0, 0, 0.9);
+    padding: 1rem;
+    border-radius: 0.75rem;
+    min-width: 280px;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+    z-index: 2147483647;
+    pointer-events: none;
+  }
+  .group\/item:hover .schedule-popover {
+    opacity: 1;
+    visibility: visible;
+    transform: translateX(-50%) translateY(0);
+    pointer-events: auto;
+  }
+  .schedule-popover::before {
+    content: '';
+    position: absolute;
+    top: -8px;
+    left: 50%;
+    transform: translateX(-50%);
+    border-width: 0 8px 8px 8px;
+    border-style: solid;
+    border-color: transparent transparent #ff4400 transparent;
+    z-index: 2;
+  }
+  .schedule-popover::after {
+    content: '';
+    position: absolute;
+    top: -5px;
+    left: 50%;
+    transform: translateX(-50%);
+    border-width: 0 6px 6px 6px;
+    border-style: solid;
+    border-color: transparent transparent #0f110e transparent;
+    z-index: 3;
+  }
+
+  /* ─── Dashboard: Hour heatmap tooltip ─── */
+  .hour-tooltip {
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    transform: translateX(-50%) translateY(5px);
+    background: rgba(22, 27, 20, 0.98);
+    backdrop-filter: blur(16px);
+    border: 1px solid rgba(255, 68, 0, 0.5);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.8);
+    padding: 0.75rem;
+    border-radius: 0.5rem;
+    min-width: 180px;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.2s ease;
+    z-index: 999;
+    pointer-events: none;
+  }
+  .hour-block:hover .hour-tooltip {
+    opacity: 1;
+    visibility: visible;
+    transform: translateX(-50%) translateY(-8px);
+  }
+
+  /* ─── Dashboard: Trend line tooltip ─── */
+  .trend-tooltip {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(22, 27, 20, 0.95);
+    backdrop-filter: blur(12px);
+    border: 1px solid rgba(255, 68, 0, 0.4);
+    padding: 0.75rem;
+    border-radius: 0.5rem;
+    min-width: 150px;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.2s;
+    z-index: 9999;
+  }
+  .trend-point:hover .trend-tooltip {
+    opacity: 1;
+    visibility: visible;
+  }
+
+  /* Booking page — grid background pattern */
+  .grid-bg {
+    background-image:
+      linear-gradient(rgba(255, 255, 255, 0.03) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(255, 255, 255, 0.03) 1px, transparent 1px);
+    background-size: 24px 24px;
+  }
+
+  /* Booking page — slot states */
+  .slot-available {
+    background: rgba(255, 255, 255, 0.04);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    transition: all 0.2s ease;
+    cursor: pointer;
+  }
+  .slot-available:hover {
+    background: rgba(255, 68, 0, 0.08);
+    border-color: rgba(255, 68, 0, 0.3);
+  }
+  .slot-occupied {
+    background: rgba(255, 255, 255, 0.02);
+    border: 1px solid rgba(255, 255, 255, 0.04);
+    opacity: 0.4;
+    cursor: not-allowed;
+  }
+  .slot-selected {
+    background: rgba(255, 68, 0, 0.15);
+    border: 1px solid rgba(255, 68, 0, 0.6);
+    box-shadow: 0 0 20px rgba(255, 68, 0, 0.2);
+  }
+  .slot-held {
+    background: rgba(255, 200, 0, 0.08);
+    border: 1px solid rgba(255, 200, 0, 0.3);
+    opacity: 0.5;
+    cursor: not-allowed;
+  }
+  .sr-only-input {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border-width: 0;
+  }
+}
+
+@layer base {
+  body {
+    font-family: var(--font-display);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  body.dark {
+    background-color: var(--color-background-dark);
+    color: #ffffff;
+  }
+
+  body.light {
+    background-color: var(--color-background-light);
+    color: #1a1a1a;
+  }
+
+  ::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+  }
+  ::-webkit-scrollbar-track {
+    background: #050505; 
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #222; 
+    border-radius: 4px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: #333; 
+  }
+}
+
+@keyframes slideInRight {
+  from { transform: translateX(100%); }
+  to { transform: translateX(0); }
+}
+
+@keyframes ping-slow {
+  75%, 100% {
+    transform: scale(2);
+    opacity: 0;
+  }
+}
+
+.animate-ping-slow {
+  animation: ping-slow 2s cubic-bezier(0, 0, 0.2, 1) infinite;
+}
+
+/* ─── Trend chart animations ─── */
+@keyframes drawLine {
+  to { stroke-dashoffset: 0; }
+}
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+@keyframes popIn {
+  0% { opacity: 0; transform: scale(0); }
+  70% { transform: scale(1.3); }
+  100% { opacity: 1; transform: scale(1); }
+}
+@keyframes fadeSlideIn {
+  from { opacity: 0; transform: translateY(4px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+@keyframes fadeSlideUp {
+  from { opacity: 0; transform: translateY(6px); }
+  to { opacity: 1; transform: translateY(0); }
+}

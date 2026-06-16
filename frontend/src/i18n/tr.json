@@ -1,0 +1,1733 @@
+{
+  "nav": {
+    "home": "Ana Sayfa",
+    "reservation": "Rezervasyon",
+    "manage": "Rezervasyon Yönet",
+    "login": "Giriş Yap",
+    "register": "Kayıt Ol",
+    "logout": "Çıkış",
+    "profile": "Hesabım",
+    "admin": {
+      "dashboard": "Dashboard",
+      "reservations": "Rezervasyonlar",
+      "equipment": "Malzeme Listesi",
+      "staff": "Personel Listesi",
+      "settings": "Ayarlar",
+      "payments": "Ödemeler",
+      "communication": "İletişim",
+      "contactRequests": "İletişim Talepleri",
+      "management": "Yönetim",
+      "logout": "Çıkış Yap",
+      "openSidebar": "Yan menüyü aç",
+      "closeSidebar": "Yan menüyü kapat"
+    },
+    "bookNow": "Hemen Rezervasyon Yap",
+    "tournaments": "Turnuvalar",
+    "manageBooking": "Rezervasyonu Yönet",
+    "designedFor": "Tasarlandı"
+  },
+  "common": {
+    "loading": "Yükleniyor...",
+    "error": "Bir hata oluştu",
+    "save": "Kaydet",
+    "cancel": "İptal",
+    "delete": "Sil",
+    "edit": "Düzenle",
+    "back": "Geri",
+    "next": "İleri",
+    "confirm": "Onayla",
+    "close": "Kapat"
+  },
+  "footer": {
+    "privacy": "Gizlilik",
+    "imprint": "Künye",
+    "refundPolicy": "İade Politikası",
+    "accessibility": "Erişilebilirlik",
+    "contact": "İletişim",
+    "terms": "Şartlar ve Koşullar",
+    "faq": "SSS",
+    "allRightsReserved": "Tüm hakları saklıdır."
+  },
+  "theme": {
+    "dark": "Karanlık Mod",
+    "light": "Aydınlık Mod"
+  },
+  "home": {
+    "seo": {
+      "title": "Futbol ve Bubble Soccer Sahası",
+      "description": "Yukarı Avusturya'daki premium futbol veya bubble soccer sahanızı ayırtın. Linz ve Wels çevresindeki doğum günleri ve şirket etkinlikleri için mükemmeldir."
+    },
+    "hero": {
+      "badge": "Şimdi 4651 Stadl-Paura'da hizmetinizde",
+      "title1": "Senin Oyunun.",
+      "title2": "Senin Sahan.",
+      "subtitle": "Salamanda Soccer Arena'da her oyuna o özel dokunuşu katan mükemmel bakımlı iki kapalı saha sizi bekliyor.<br/><br/>Futbolu ödünsüz yaşayın - hava koşullarından bağımsız, dinamik, gerçek rekabet ve topluluk hissiyle.",
+      "bookNow": "ŞİMDİ REZERVASYON YAP",
+      "manageBooking": "REZERVASYONU YÖNET",
+      "stats": {
+        "courts": "Saha",
+        "players": "Oyuncu",
+        "rating": "Değerlendirme"
+      }
+    },
+    "features": {
+      "subtitle": "Tekliflerimiz",
+      "title": "Deneyiminizi Seçin",
+      "bubble": {
+        "badge": "POPÜLER",
+        "title": "Bubble Soccer",
+        "description": "Ekibiniz de devasa balonların içinde aksiyon dolu eğlence. Doğum günleri, ekip oluşturma veya sadece stres atmak için mükemmel.",
+        "feature1": "Ekipman ve eğitim dahil",
+        "feature2": "60 ile 120 dakika arası oyun süresi",
+        "button": "Şimdi Rezervasyon Yap"
+      },
+      "soccer": {
+        "badge": "PROFESYONEL",
+        "title": "Futbol",
+        "description": "Stadl-Paura'da futbol deneyimi.<br/>Bölgenin her yerinden oyuncular için en iyi konum.",
+        "feature1": "LED projektör sistemi",
+        "feature2": "Soyunma odaları ve duşlar dahil",
+        "button": "Saha Rezervasyonu Yap"
+      }
+    }
+  },
+  "booking": {
+    "step1": {
+      "title": "1. Saha ve Tarih",
+      "selection": "Seçim",
+      "sportType": "Spor Türü Seçin",
+      "football": "Futbol",
+      "bubbleSoccer": "Bubble Soccer",
+      "chooseField": "Saha Seçin",
+      "duration": "Oyun Süresi",
+      "minutes": "Dakika",
+      "date": "Tarih",
+      "datePassed": "Seçilen tarih geçmişte kaldı.",
+      "dateTooFar": "Rezervasyonlar en fazla 3 ay öncesinden yapılabilir.",
+      "availableTimes": "{{date}} için uygun saatler",
+      "noTimes": "Boş saat yok",
+      "noTimesDesc": "Maalesef bu gün tüm sahalar dolu veya seçilen süre boşluklara uymuyor.",
+      "chooseOtherDate": "Başka Bir Tarih Seçin",
+      "selectedSlot": "Seçilen Randevu:",
+      "oclock": "Saat",
+      "continueBooking": "Rezervasyona Devam Et",
+      "chooseTimeFirst": "Önce bir saat seçin",
+      "status": {
+        "free": "Boş",
+        "booked": "Dolu"
+      },
+      "happyHourTooltip": "Bu saatler arasında Happy Hour geçerlidir!",
+      "cancellation": {
+        "title": "İptal",
+        "desc": "Maçtan 48 saat öncesine kadar ücretsiz iptal."
+      },
+      "equipment": {
+        "title": "Ekipman",
+        "desc": "Duşlar ve giyinme odaları dahil."
+      },
+      "happyHour": {
+        "title": "Happy Hour",
+        "active": "Happy Hour Aktif!",
+        "discount": "İndirim"
+      },
+      "chooseTime": "ZAMANINI SEÇ",
+      "timezone": "Saat Dilimi",
+      "selected": "Seçili",
+      "unavailable": "Mevcut Değil",
+      "occupied": "Dolu",
+      "yourAppointment": "Senin Randevun",
+      "total": "Toplam",
+      "continue": "Rezervasyona Devam Et"
+    },
+    "step2": {
+      "flow": {
+        "step1": "1. Tarih Seçimi",
+        "step2": "2. Bilgi Girişi",
+        "step3": "3. Onay"
+      },
+      "error": {
+        "fillRequired": "Lütfen tüm zorunlu alanları doldurun.",
+        "unavailable": "Seçilen saat maalesef artık mevcut değil."
+      },
+      "title": "Bilgileriniz",
+      "subtitle": "Rezervasyonu tamamlamak için lütfen bilgilerinizi giriniz.",
+      "form": {
+        "firstName": "Ad",
+        "lastName": "Soyad",
+        "email": "E-Posta Adresi",
+        "phone": "Telefon Numarası"
+      },
+      "equipment": {
+        "title": "Kiralık Ekipman",
+        "subtitle": "İsteğe bağlı — Tesisten Krampon Kiralayın",
+        "chooseSize": "Numara seç",
+        "available": "Mevcut",
+        "outOfStock": "Tükendi",
+        "addSize": "{{size}} numara ekle (+€{{price}})",
+        "addSizeFallback": "Numara ekle",
+        "selectSizeFirst": "Numara seçin...",
+        "selected": "Seçildi",
+        "pair": "Çift"
+      },
+      "buttons": {
+        "back": "Seçime Dön",
+        "loading": "YÜKLENİYOR...",
+        "continue": "ÖDEMEYE GEÇ"
+      },
+      "summary": {
+        "title": "Özet",
+        "soccer": "Futbol",
+        "bubbleSoccer": "Bubble Soccer",
+        "date": "Tarih",
+        "time": "Saat",
+        "location": "Konum",
+        "fieldRental": "Saha Kirası",
+        "krampon": "Krampon",
+        "total": "Toplam Tutar",
+        "vatIncluded": "KDV Dahil",
+        "cancellation": "Maçtan 48 saat öncesine kadar ücretsiz iptal edilebilir."
+      }
+    },
+    "step3": {
+      "processing": {
+        "title": "Güvenli Ödeme İşleniyor...",
+        "subtitle": "Lütfen bekleyin, bankanızın 3D-Secure doğrulama sayfasına yönlendiriliyorsunuz.",
+        "tls": "TLS Şifreli Bağlantı"
+      },
+      "flow": {
+        "step1": "1. Tarih Seçimi",
+        "step2": "2. Bilgi Girişi",
+        "step3": "3. Ödeme Yöntemi Seçimi"
+      },
+      "payment": {
+        "title": "Ödeme Yöntemi Seçimi",
+        "subtitle": "Lütfen rezervasyon için tercih ettiğiniz ödeme yöntemini seçin.",
+        "googlePay": "Google Pay",
+        "fastSecure": "Hızlı ve Güvenli",
+        "applePay": "Apple Pay",
+        "convenient": "Kolay Ödeme",
+        "creditCard": "Kredi Kartı",
+        "cardTypes": "Visa, Mastercard, Amex",
+        "cardNumber": "Kart Numarası",
+        "expiry": "Son Kullanma (AA/YY)",
+        "cvc": "CVC / CVV"
+      },
+      "coupon": {
+        "title": "İndirim Kodu",
+        "placeholder": "Kodu giriniz",
+        "apply": "Uygula",
+        "remove": "Kaldır",
+        "applied": "Uygulandı",
+        "discountTextPercentage": "%{{value}} İndirim — €{{amount}} tasarruf",
+        "discountTextFixed": "€{{value}} İndirim — €{{amount}} tasarruf",
+        "errorInvalid": "Geçersiz indirim kodu",
+        "errorCheck": "Kodu doğrularken hata oluştu"
+      },
+      "buttons": {
+        "back": "Bilgilere Dön",
+        "pay": "Şimdi Öde ve Onayla"
+      },
+      "summary": {
+        "title": "Özet",
+        "soccer": "Futbol",
+        "bubbleSoccer": "Bubble Soccer",
+        "fieldRental": "Saha Kirası",
+        "krampon": "Krampon",
+        "pair": "Çift",
+        "hours": "Saat",
+        "serviceFee": "Hizmet Bedeli",
+        "discount": "İndirim",
+        "couponDiscount": "Kupon İndirimi",
+        "total": "Toplam Tutar",
+        "vatIncluded": "KDV Dahil",
+        "ssl": "Güvenli SSL Şifreleme"
+      },
+      "error": {
+        "transactionFailed": "İşlem sunucumuz tarafından gerçekleştirilemedi."
+      }
+    },
+    "success": {
+      "confirmed": "Rezervasyon Onaylandı",
+      "thankYou": "Teşekkürler,",
+      "gameReady": "Maçınız Hazır!",
+      "description": "Rezervasyonunuz başarıyla onaylandı. Size e-posta ile bir özet gönderdik. Maça hazırlanın!",
+      "manageBtn": "REZERVASYONU YÖNET",
+      "homeBtn": "Ana Sayfa",
+      "needHelp": "Yardıma mı ihtiyacınız var? Buradayız.",
+      "contactSupport": "Destek ekibiyle iletişime geç",
+      "bookingId": "Rezervasyon ID",
+      "date": "Tarih",
+      "time": "Saat",
+      "field": "Saha",
+      "price": "Fiyat",
+      "checkIn": "Giriş Kodu",
+      "qrDesc": "Sahaya girmek için bu QR kodunu resepsiyonda gösterin.",
+      "planRoute": "Yol Tarifi Al",
+      "paidStatus": "Ödendi"
+    },
+    "cancel": {
+      "error": "İptal işlemi sırasında hata oluştu.",
+      "successTitle": "Rezervasyonunuz başarıyla iptal edildi.",
+      "successDesc": "E-posta adresinize bir onay gönderildi. İade işlemi 3-5 iş günü içinde tamamlanacaktır.",
+      "cancelledBooking": "İptal Edilen Rezervasyon",
+      "backHome": "ANA SAYFAYA DÖN",
+      "needHelp": "Yardıma mı ihtiyacınız var?",
+      "contactSupport": "Destek ekibiyle iletişime geçin",
+      "backButton": "Genel Bakışa Dön",
+      "confirmTitle": "Gerçekten iptal etmek istiyor musunuz?",
+      "confirmDesc": "Lütfen rezervasyonunuzun iptalini onaylayın.",
+      "bookingId": "Rezervasyon No.",
+      "policyTitle": "İptal Koşulları",
+      "policyDesc": "İptaller maç başlangıcından 48 saat öncesine kadar ücretsizdir. Daha sonrasında %50 kesinti uygulanır.",
+      "confirmPaidBtn": "ŞİMDİ ÜCRETLİ OLARAK İPTAL ET",
+      "abortBtn": "İPTAL ETMEKTEN VAZGEÇ",
+      "haveQuestions": "Sorularınız mı var?"
+    }
+  },
+  "contact": {
+    "title1": "Bize",
+    "title2": "Ulaşın",
+    "subtitle": "Rezervasyonunuz veya sahamız hakkında sorularınız mı var? Buradayız. Formu doldurmanız yeterli.",
+    "form": {
+      "nameLabel": "İsim",
+      "namePlaceholder": "İsminiz",
+      "emailLabel": "E-Posta Adresi",
+      "emailPlaceholder": "isim@ornek.com",
+      "subjectLabel": "Konu",
+      "subjectPlaceholder": "Konu nedir?",
+      "messageLabel": "Mesajınız",
+      "messagePlaceholder": "Bize mesajınızı yazın...",
+      "successData": "Mesajınız için teşekkürler. En kısa sürede size dönüş yapacağız.",
+      "sendingBtn": "Gönderiliyor...",
+      "sendBtn": "Mesaj Gönder",
+      "errorFallback": "Bir hata oluştu. Lütfen tekrar deneyin."
+    },
+    "info": {
+      "address": "Adres",
+      "phone": "Telefon",
+      "email": "E-Posta",
+      "hoursTitle": "Çalışma Saatleri",
+      "hoursLine1": "Pzt - Per: 16:30 - 00:00",
+      "hoursLine2": "Cum - Paz: 12:00 - 01:30",
+      "planRoute": "Yol Tarifi Al",
+      "mapAustria": "Avusturya"
+    }
+  },
+  "impressum": {
+    "tag": "Yasal",
+    "title": "Künye",
+    "subtitle": "§ 5 E-Ticaret Yasası (ECG) uyarınca bilgiler ve § 25 Medya Yasasına göre açıklama yükümlülüğü.",
+    "companyDetails": "Şirket Bilgileri",
+    "companyName": "Şirket Adı",
+    "legalForm": "Hukuki Şekil",
+    "headquarters": "Merkez",
+    "owners": "Sahipler",
+    "addressTitle": "Adres",
+    "registerEntryTitle": "Sicil Kaydı",
+    "registeredCourt": "Ticaret siciline kayıtlı:",
+    "uid": "KDV Numarası:",
+    "contactTitle": "İletişim",
+    "chamberTitle": "Denetim ve Oda",
+    "chamberMembership": "Oda Üyeliği",
+    "chamberMember": "Avusturya Ticaret Odası Üyesi (WKO)",
+    "tradeRegulations": "Ticaret Düzenlemeleri",
+    "liabilityTitle": "İçerik ve Bağlantılar için Sorumluluk",
+    "liabilityDesc1": "Bu web sitesinin içeriği özenle hazırlanmıştır, ancak içeriklerin doğruluğu, eksiksizliği ve güncelliği için hiçbir garanti veremeyiz. Hizmet sağlayıcı olarak, genel yasalara göre bu sayfalardaki kendi içeriklerimizden sorumluyuz.",
+    "liabilityDesc2": "Teklifimiz, içerikleri üzerinde hiçbir etkimiz olmayan üçüncü taraf web sitelerine bağlantılar içerir. Bu nedenle, bu üçüncü taraf içerikleri için hiçbir sorumluluk kabul edemeyiz. Bağlantılı sayfaların içeriğinden her zaman ilgili sağlayıcı veya operatör sorumludur.",
+    "copyrightTitle": "Telif Hakkı",
+    "copyrightDesc": "Bu sayfalardaki içerikler ve eserler Avusturya telif hakkı yasasına tabidir. Telif hakkı yasasının sınırları dışındaki her türlü kopyalama, değiştirme, dağıtım ve her türlü değerlendirme, ilgili yazarın veya oluşturucunun yazılı onayını gerektirir. Bu sayfanın indirilmesine ve kopyalanmasına yalnızca ticari olmayan kişisel kullanım için izin verilir.",
+    "backHome": "Ana Sayfaya Dön"
+  },
+  "faq": {
+    "titlePart1": "Sıkça sorulan",
+    "titlePart2": "Sorular",
+    "subtitle": "Sahamızla ilgili bilmeniz gereken her şey. Anlaşılmayan bir şey varsa bizimle iletişime geçin!",
+    "contactTitle": "İletişim ve Ulaşım",
+    "contactTel": "Tel:",
+    "contactEmail": "E-Posta:",
+    "planRoute": "Yol Tarifi Al",
+    "items": [
+      {
+        "q": "Rezervasyon olmadan da oynanabilir mi?",
+        "a": "Saha müsaitse spontane oynamak mümkündür. Ancak önceden çevrimiçi veya telefonla rezervasyon yapmanızı kesinlikle öneririz."
+      },
+      {
+        "q": "Ne kadar önceden saha rezervasyonu yapılabilir?",
+        "a": "Online rezervasyon sistemimiz üzerinden 90 güne kadar önceden saha rezervasyonu yapılabilir. Kısa süreli, örneğin birkaç saat önceden oynamak istiyorsanız mevcut durumu kontrol etmek için bizi telefonla aramanızı öneririz."
+      },
+      {
+        "q": "Düzenli abonelik veya uzun vadeli rezervasyon yapabilir miyiz?",
+        "a": "Evet, düzenli olarak oynamak istiyorsanız – örneğin her hafta veya iki haftada bir aynı saatte – bu sorun değil. Bu durumda, size özel bir uzun vadeli rezervasyon ayarlayabilmemiz için lütfen doğrudan iletişim sayfamızdan veya telefonla bize ulaşın."
+      },
+      {
+        "q": "Hangi zeminde oynanır?",
+        "a": "Optimum oyun hissi ve maksimum güvenlik sunan yüksek kaliteli Polytan suni çim üzerinde oynanır."
+      },
+      {
+        "q": "Hangi ayakkabılarla oynanabilir?",
+        "a": "Tüm standart spor ayakkabılarıyla oynanabilir – çivili kramponlara güvenlik nedeniyle izin verilmez."
+      },
+      {
+        "q": "Duş ve soyunma odası var mı?",
+        "a": "Evet, misafirlerimiz için ücretsiz duşlar ve soyunma odaları mevcuttur. Lütfen şu anda değerli eşyalarınız için kilitli dolap bulunmadığını unutmayın."
+      },
+      {
+        "q": "Otopark imkanı var mı?",
+        "a": "Evet, Soccer Arena nın hemen önünde yeterli ücretsiz otopark mevcuttur."
+      }
+    ]
+  },
+  "datenschutz": {
+    "tag": "Yasal ve Gizlilik",
+    "title": "Gizlilik Politikası",
+    "subtitle": "Kişisel verilerinizin korunmasını çok ciddiye alıyoruz. Burada {company} şirketinde bilgilerinizi nasıl işlediğimizi ve koruduğumuzu şeffaf bir şekilde öğrenebilirsiniz.",
+    "sections": [
+      {
+        "title": "1. Sorumlu",
+        "content": "Genel Veri Koruma Yönetmeliği (GDPR) kapsamında bu web sitesindeki veri işlemeden sorumlu olan:",
+        "representedBy": "Temsil eden:",
+        "email": "E-Posta:"
+      },
+      {
+        "title": "2. Verilerin Toplanması ve İşlenmesi",
+        "content": "İş ilişkimiz kapsamında sizden aldığımız kişisel verileri işliyoruz. İşlenen veriler özellikle şunları içerir:",
+        "items": [
+          "Ad, Soyad",
+          "Telefon numarası",
+          "E-Posta adresi",
+          "Rezervasyon detayları",
+          "Ödeme verileri",
+          "Teknik veriler (IP, Çerezler)"
+        ]
+      },
+      {
+        "title": "3. İşleme Amacı",
+        "content": "Kişisel verilerinizi, AB Genel Veri Koruma Yönetmeliği (GDPR) ve Veri Koruma Yasası (DSG) hükümlerine uygun olarak aşağıdaki amaçlar için işliyoruz:",
+        "items": [
+          {
+            "t": "Rezervasyon ve ödeme işlemleri:",
+            "c": "Saha rezervasyonlarınızı ve ilgili işlemleri yönetmek için."
+          },
+          {
+            "t": "Sözleşmenin ifası:",
+            "c": "Kullanım sözleşmesi kapsamındaki hizmetlerimizi sağlamak için."
+          },
+          {
+            "t": "İletişim:",
+            "c": "Rezervasyonunuzla ilgili sorularınız veya değişiklikler için sizinle iletişime geçmek için."
+          },
+          {
+            "t": "Hizmet iyileştirme:",
+            "c": "Teklifimizi ve web sitemizi optimize etmek için analizler."
+          }
+        ]
+      },
+      {
+        "title": "4. Yasal Dayanak",
+        "content": "Verileriniz, GDPR Madde 6 Paragraf 1 uyarınca aşağıdaki yasal dayanaklara göre işlenir:",
+        "items": [
+          {
+            "t": "Bent a",
+            "c": "Açık Rıza (örn. Bülten, Çerezler)"
+          },
+          {
+            "t": "Bent b",
+            "c": "Sözleşmenin İfası (Rezervasyonlar)"
+          },
+          {
+            "t": "Bent c",
+            "c": "Yasal Yükümlülük (Vergi Kanunu)"
+          },
+          {
+            "t": "Bent f",
+            "c": "Meşru Menfaat (Güvenlik, Analiz)"
+          }
+        ]
+      },
+      {
+        "title": "5. Verilerin Aktarımı",
+        "content": "Kişisel verileriniz, aşağıda listelenen amaçlar dışında üçüncü taraflara aktarılmaz. Kişisel verilerinizi yalnızca sözleşmenin ifası için gerekliyse, örneğin ödeme işlemleriyle görevlendirilen kredi kuruluşuna veya ödeme hizmeti sağlayıcılarına aktarırız."
+      },
+      {
+        "title": "6. Çerezler & İzleme",
+        "content": "Web sitemiz çerezleri kullanır. Bunlar, web tarayıcınızın cihazınıza kaydettiği küçük metin dosyalarıdır. Çerezler, teklifimizi daha kullanıcı dostu, etkili ve güvenli hale getirmemize yardımcı olur. Analiz ve pazarlama araçlarını yalnızca açık rızanıza dayanarak kullanırız. Tarayıcınızı, çerezlerin ayarlanması hakkında sizi bilgilendirecek ve çerezlere yalnızca belirli durumlarda izin verecek şekilde yapılandırabilirsiniz."
+      },
+      {
+        "title": "7. Saklama Süresi",
+        "content": "Kişisel verilerinizi yalnızca sözleşme veya yasal yükümlülükleri yerine getirmek için gerekli olduğu sürece saklarız. Veriler artık sözleşme veya yasal yükümlülükleri yerine getirmek için gerekli değilse, düzenli olarak silinir."
+      },
+      {
+        "title": "8. İlgili Kişilerin Hakları",
+        "items": [
+          {
+            "t": "Bilgi alma",
+            "c": "İşlenen verileriniz hakkında bilgi talep edebilirsiniz."
+          },
+          {
+            "t": "Düzeltme",
+            "c": "Yanlış verilerin düzeltilmesini talep edebilirsiniz."
+          },
+          {
+            "t": "Silme",
+            "c": "Verilerinizin silinmesini talep edebilirsiniz."
+          },
+          {
+            "t": "Kısıtlama",
+            "c": "İşlemin kısıtlanmasını talep edebilirsiniz."
+          },
+          {
+            "t": "Taşınabilirlik",
+            "c": "Veri taşınabilirliği hakkınız vardır."
+          },
+          {
+            "t": "İtiraz",
+            "c": "İşlemeye itiraz edebilirsiniz."
+          },
+          {
+            "t": "İptal",
+            "c": "Çoğu veri işleme operasyonu yalnızca açık rızanızla mümkündür. Zaten verilmiş bir onayı istediğiniz zaman iptal edebilirsiniz."
+          }
+        ]
+      },
+      {
+        "title": "9. Güvenlik",
+        "content": "Tarafımızca yönetilen verilerinizi kazara veya kasıtlı manipülasyonlara, kayıplara, imhaya veya yetkisiz kişilerin erişimine karşı korumak için teknik ve organizasyonel güvenlik önlemleri uyguluyoruz. Güvenlik önlemlerimiz teknolojik gelişmelere göre sürekli olarak iyileştirilmektedir."
+      },
+      {
+        "title": "10. Değişiklikler",
+        "content": "Her zaman mevcut yasal gerekliliklere uyması için veya web sitemizde yeni hizmetlerin sunulması gibi hizmetlerimizdeki değişiklikleri Veri Koruma Beyanına uygulamak için zaman zaman bu Veri Koruma Beyanını uyarlama hakkını saklı tutarız. Yeni Veri Koruma Beyanı, bir sonraki ziyaretiniz için geçerli olacaktır."
+      }
+    ],
+    "footer": {
+      "q": "Veri koruma ile ilgili hala sorularınız mı var?",
+      "btn": "Veri Koruma Yetkilisi ile iletişime geçin"
+    },
+    "backHome": "Ana Sayfaya Dön"
+  },
+  "errorPages": {
+    "notFound": {
+      "seoTitle": "404 - Sayfa Bulunamadı",
+      "seoDesc": "Maalesef bu sayfa mevcut değil. {company} ana sayfasına geri dönün.",
+      "titlePart1": "Abooov!",
+      "titlePart2": "Ofsayt.",
+      "desc": "Maalesef bu sayfa mevcut değil veya taşınmış. Belki top taca çıkmıştır?",
+      "backHome": "ANA SAYFAYA DÖN",
+      "bookNow": "ŞİMDİ REZERVASYON YAP",
+      "contact": "İLETİŞİM"
+    },
+    "forbidden": {
+      "seoTitle": "403 - Erişim Reddedildi",
+      "seoDesc": "Erişim engellendi.",
+      "titlePart1": "Dur!",
+      "titlePart2": "Kırmızı Kart.",
+      "desc": "Bu alana girmek için yeterli yetkiniz yok. Lütfen ana sayfaya dönün veya giriş yapın.",
+      "backHome": "ANA SAYFAYA DÖN",
+      "loginInfo": "Veya gerekli yetkilerle giriş yapın:"
+    },
+    "unauthorized": {
+      "seoTitle": "401 - Yetkisiz Giriş",
+      "seoDesc": "Lütfen giriş yapın.",
+      "titlePart1": "Dur!",
+      "titlePart2": "Bilet Kontrolü.",
+      "desc": "Bu alana girmek için lütfen giriş yapın. Bilet gereklidir.",
+      "loginBtn": "GİRİŞ YAP"
+    },
+    "serverError": {
+      "seoTitle": "500 - Sunucu Hatası",
+      "seoDesc": "Beklenmeyen bir hata oluştu.",
+      "titlePart1": "Uyh!",
+      "titlePart2": "Koda Faul.",
+      "desc": "Sunucumuz beklenmedik bir darbe aldı. Teknik ekibimiz çoktan sahada. Lütfen daha sonra tekrar deneyin.",
+      "backHome": "ANA SAYFAYA DÖN"
+    },
+    "maintenance": {
+      "seoTitle": "Sistem Bakımı",
+      "seoDesc": "Saha şu anda hazırlanıyor.",
+      "titlePart1": "Kısa Bir Mola!",
+      "titlePart2": "Saha Bakımı.",
+      "desc": "Şu anda sahayı sizin için en iyi duruma getirmek için gerekli bakım çalışmalarını yürütüyoruz. Kısa süre içinde döneceğiz.",
+      "statusText": "Maçın yeniden başlaması bekleniyor..."
+    }
+  },
+  "login": {
+    "seoTitle": "Giriş Yap | {company}",
+    "seoDesc": "Rezervasyonlarınızı yönetmek için giriş yapın.",
+    "title": "Giriş Yap",
+    "subtitle": "Rezervasyonlarınızı yönetmek için giriş yapın.",
+    "errors": {
+      "authFailed": "Giriş başarısız. Lütfen tekrar deneyin.",
+      "tooManyRequests": "Çok fazla giriş denemesi. Lütfen 15 dakika bekleyin.",
+      "invalidCredentials": "Geçersiz kimlik bilgileri."
+    },
+    "form": {
+      "emailLabel": "E-Posta Adresi",
+      "emailPlaceholder": "ornek@email.com",
+      "passwordLabel": "Şifre",
+      "passwordPlaceholder": "••••••••",
+      "totpDesc": "Lütfen Authenticator uygulamanızdaki 6 haneli kodu girin.",
+      "totpLabel": "2FA Kodu",
+      "totpPlaceholder": "000000",
+      "backToLogin": "Girişe Dön",
+      "submitLogin": "Giriş Yap",
+      "submitVerify": "Doğrula"
+    },
+    "footer": "Spor Tesisleri için Rezervasyon Sistemi"
+  },
+  "bookingManage": {
+    "title": "Rezervasyonunu Yönet",
+    "desc": "Rezervasyonunu görüntülemek veya değiştirmek için rezervasyon numaranı ve e-posta adresini gir.",
+    "form": {
+      "idLabel": "Rezervasyon No",
+      "idPlaceholder": "RH-2026-X982",
+      "emailLabel": "E-Posta Adresi",
+      "emailPlaceholder": "ornek@email.com",
+      "submit": "REZERVASYONU BUL"
+    },
+    "help": {
+      "text": "Rezervasyon numaranı unuttun mu? E-posta kutunu kontrol et veya",
+      "link": "destek ekibimizle iletişime geç"
+    }
+  },
+  "bookingManageDetail": {
+    "back": "Genel Bakışa Dön",
+    "status": {
+      "confirmed": "Onaylandı",
+      "bookedOn": "Rezervasyon Tarihi"
+    },
+    "title": "Rezervasyonun",
+    "desc": "Yaklaşan rezervasyonunun tüm detaylarını burada bulabilirsin. Randevuyu erteleyebilir veya iptal edebilirsin.",
+    "actions": {
+      "print": "Yazdır",
+      "share": "Paylaş",
+      "copied": "Bağlantı ve detaylar panoya kopyalandı!",
+      "copyFailed": "Kopyalama başarısız oldu.",
+      "shareText": "⚽ Hey! {company} şirketinde bir saha ayırttım!\\n🏟️ Saha: {field}\\n📅 Tarih: {date}\\n🔗 Detaylar burada:",
+      "shareTitle": "{company} Rezervasyonu"
+    },
+    "details": {
+      "fieldLabel": "Rezerve Edilen Saha",
+      "fieldTags": "Açık • Aydınlatmalı",
+      "dateTimeLabel": "Tarih & Saat",
+      "amountLabel": "Toplam Tutar",
+      "paid": "Ödendi",
+      "pending": "Bekliyor",
+      "qrCode": "GİRİŞ KODU",
+      "qrCodeSub": "Resepsiyonda gösterin",
+      "route": "Rota oluştur"
+    },
+    "management": {
+      "title": "Yönetim",
+      "reschedule": {
+        "title": "Randevuyu Ertele",
+        "desc": "Rezervasyonunuzun tarihini veya saatini değiştirin. Müsaitlik durumuna bağlıdır."
+      },
+      "refund": {
+        "title": "İade",
+        "badge": "Bilgi",
+        "desc": "Maçtan 48 saat öncesine kadar yapılan iptallerde Stripe üzerinden otomatik olarak tam iade alırsınız."
+      },
+      "cancel": {
+        "title": "Rezervasyonu İptal Et",
+        "badge": "Dikkat",
+        "desc": "Maçtan 48 saat öncesine kadar yapılan iptaller ücretsizdir. Sonrasında ücret uygulanır."
+      },
+      "help": {
+        "title": "Yardıma mı ihtiyacın var?",
+        "link": "Destekle iletişime geç"
+      }
+    }
+  },
+  "bookingReschedule": {
+    "title": "Randevuyu Ertele",
+    "subtitle": "Rezervasyon Yönetimi",
+    "desc": "Oyununuz için yeni bir tarih ve saat seçin. Maçtan 48 saat öncesine kadar değişiklikler ücretsizdir.",
+    "success": {
+      "title": "Başarıyla ertelendi!",
+      "desc": "Yeni randevunuz <1>{date}</1> tarihinde onaylandı. Size yeni bir onay e-postası gönderdik.",
+      "btn": "GENEL BAKIŞA DÖN"
+    },
+    "current": {
+      "title": "Mevcut Randevu",
+      "duration": "Süre",
+      "price": "Fiyat",
+      "tag": "ESKİ"
+    },
+    "calendar": {
+      "title": "Yeni tarih seçin",
+      "days": [
+        "Pt",
+        "Sa",
+        "Ça",
+        "Pe",
+        "Cu",
+        "Ct",
+        "Pz"
+      ]
+    },
+    "slots": {
+      "title": "Uygun Saatler",
+      "available": "Uygun",
+      "selected": "Seçili",
+      "loading": "Randevular yükleniyor...",
+      "empty": "Maalesef bu tarih için uygun (başka) randevu bulunmamaktadır."
+    },
+    "summary": {
+      "title": "Özet",
+      "old": "Eski Randevu",
+      "new": "Yeni Randevu",
+      "fee": "Değişiklik Ücreti",
+      "submit": "Randevuyu şimdi değiştir",
+      "cancel": "İptal Et & Geri Dön",
+      "secure": "Güvenli bağlantı & Veri işleme"
+    },
+    "error": "Randevu ertelenirken hata oluştu."
+  },
+  "bookingFailure": {
+    "title": "Oops! Bir şeyler yanlış gitti.",
+    "desc": "Ödemeniz veya rezervasyonunuz işlenemedi.",
+    "idLabel": "Rezervasyon No",
+    "failedLabel": "Başarısız",
+    "fieldLabel": "Saha",
+    "priceLabel": "Fiyat",
+    "reasonLabel": "Red Nedeni",
+    "retryBtn": "TEKRAR DENE",
+    "helpBtn": "YARDIM AL"
+  },
+  "bookingTicketPrint": {
+    "actions": {
+      "print": "PDF Yazdır / Kaydet",
+      "close": "Kapat"
+    },
+    "header": {
+      "title": "Rezervasyon Onayı",
+      "issuedAt": "Düzenlenme Tarihi:"
+    },
+    "reference": {
+      "title": "Rezervasyon Referansı",
+      "id": "Rezervasyon No:"
+    },
+    "details": {
+      "customer": "Müşteri",
+      "field": "Saha",
+      "date": "Tarih",
+      "time": "Saat",
+      "status": "Durum",
+      "paid": "Ödendi",
+      "total": "Toplam Tutar",
+      "tax": "KDV Dahil",
+      "paymentMethod": "Ödeme Yöntemi",
+      "creditCard": "Kredi Kartı"
+    },
+    "qrCode": {
+      "title": "Giriş Kodu",
+      "desc": "Lütfen resepsiyonda gösterin"
+    },
+    "footer": {
+      "tel": "Tel:",
+      "web": "Web:",
+      "email": "E-Posta:",
+      "thanks": "Rezervasyonunuz için teşekkür ederiz! Ziyaretinizi dört gözle bekliyoruz."
+    }
+  },
+  "adminLogin": {
+    "nav": {
+      "home": "Ana Sayfa",
+      "contact": "İletişim"
+    },
+    "status": "Sistem Durumu: Çevrimiçi",
+    "error": {
+      "title": "Giriş Başarısız",
+      "desc": "Lütfen bilgilerinizi kontrol edip tekrar deneyin.",
+      "invalid": "Geçersiz giriş bilgileri.",
+      "tooMany": "Çok fazla deneme. Lütfen 15 dakika bekleyin."
+    },
+    "welcome": {
+      "title": "Yönetici Paneli",
+      "desc": "Tekrar hoş geldiniz! Spor tesisinizi<br/> yönetmek için giriş yapın."
+    },
+    "form": {
+      "email": "E-Posta Adresi",
+      "emailPlaceholder": "admin@ornek.com",
+      "password": "Şifre",
+      "passwordPlaceholder": "••••••••",
+      "remember": "Beni hatırla",
+      "forgot": "Şifremi unuttum?",
+      "submit": "Giriş Yap"
+    },
+    "footer": "Profesyonel Spor Tesisleri & Rezervasyon Sistemleri<br/> için Yönetim Portalı",
+    "mfa": {
+      "tag": "Güvenlik Kontrolü",
+      "title": "İki Faktörlü Kimlik Doğrulama",
+      "desc": "Lütfen Google Authenticator uygulamanızdaki kodu girin.",
+      "submit": "Doğrula",
+      "issues": "Girişte sorun mu yaşıyorsunuz?",
+      "backup": "Yedek kodu kullan",
+      "check": "Yönetici Paneli için Güvenlik Kontrolü • SSL Şifreli"
+    },
+    "support": "Teknik Destek",
+    "copyright": "© 2026 Randevu Halı Saha"
+  },
+  "adminAuth": {
+    "forgot": {
+      "support": "Destek",
+      "contact": "İletişim",
+      "successTitle": "E-Posta gönderildi!",
+      "successDesc": "<span className=\"text-white font-medium\">{{email}}</span> adresine şifre sıfırlama bağlantısı gönderdik. Lütfen spam klasörünüzü de kontrol edin.",
+      "backToLogin": "GİRİŞE DÖN",
+      "sending": "Gönderiliyor...",
+      "resendNotReceived": "E-Posta ulaşmadı mı? Tekrar gönder",
+      "title": "Şifremi unuttum?",
+      "desc": "E-posta adresinizi girin. Şifrenizi sıfırlamanız için size bir bağlantı göndereceğiz.",
+      "emailLabel": "E-Posta Adresi",
+      "emailPlaceholder": "admin@halisaha.com",
+      "submit": "BAĞLANTIYI GÖNDER",
+      "back": "Girişe Dön",
+      "techSupport": "Teknik Destek",
+      "copyright": "© 2026 Randevu Halı Saha",
+      "resendTitle": "Bağlantı tekrar gönderildi!",
+      "resendDesc": "E-posta adresinize yeni bir şifre sıfırlama bağlantısı gönderdik. Lütfen spam klasörünüzü de kontrol edin.",
+      "resendOk": "ANLADIM",
+      "errorGeneric": "Bir hata oluştu. Lütfen daha sonra tekrar deneyin.",
+      "errorTooMany": "Çok fazla deneme. Lütfen 15 dakika bekleyin."
+    },
+    "reset": {
+      "errInvalidToken": "Geçersiz veya eksik belirteç (token). Lütfen yeni bir bağlantı isteyin.",
+      "errMismatch": "Şifreler eşleşmiyor.",
+      "errWeak": "Şifre güvenlik gereksinimlerini karşılamıyor.",
+      "errFailed": "Şifre sıfırlanamadı. Bağlantının süresi dolmuş olabilir.",
+      "support": "Destek",
+      "contact": "İletişim",
+      "successTitle": "Şifre değiştirildi!",
+      "successDesc": "Yeni şifreniz başarıyla kaydedildi. Kısa süre içinde giriş sayfasına yönlendirileceksiniz...",
+      "title": "Yeni Şifre Belirle",
+      "desc": "Lütfen yeni şifrenizi girin ve onaylayın.",
+      "newLabel": "Yeni Şifre",
+      "placeholder": "••••••••",
+      "confirmLabel": "Şifreyi Onayla",
+      "info": "En az 8 karakter, büyük-küçük harf, sayı ve özel karakter",
+      "submit": "ŞİFREYİ KAYDET",
+      "cancel": "İptal",
+      "techSupport": "Teknik Destek",
+      "copyright": "© 2026 Randevu Halı Saha"
+    }
+  },
+  "adminDashboard": {
+    "status": {
+      "confirmed": "Onaylandı",
+      "cancelled": "İptal Edildi",
+      "modified": "Değiştirildi",
+      "completed": "Tamamlandı",
+      "noShow": "Gelmedi"
+    },
+    "payment": {
+      "applePay": "Apple Pay",
+      "googlePay": "Google Pay",
+      "card": "Kart",
+      "onSite": "Yerinde"
+    },
+    "days": {
+      "mo": "Pt",
+      "di": "Sa",
+      "mi": "Ça",
+      "do": "Pe",
+      "fr": "Cu",
+      "sa": "Ct",
+      "so": "Pz"
+    },
+    "badges": {
+      "strong": "Güçlü",
+      "good": "İyi",
+      "normal": "Normal"
+    },
+    "errors": {
+      "loadError": "Kontrol paneli verileri yüklenemedi."
+    },
+    "vsYesterday": {
+      "noData": "Veri Yok",
+      "vsYesterdayLabel": "Düne göre"
+    },
+    "loadingContent": {
+      "title": "Kontrol Paneli",
+      "errorTitle": "Kontrol Paneli — Hata",
+      "errorMsg": "Yükleme Hatası",
+      "retry": "Tekrar Dene"
+    },
+    "page": {
+      "title": "Gelişmiş Yönetici Kontrol Paneli"
+    },
+    "cards": {
+      "today": {
+        "title": "Bugün",
+        "tooltipCompare": "Karşılaştırma",
+        "yesterdayLabel": "Dün:",
+        "bookings": "Rezervasyon"
+      },
+      "revenueLive": {
+        "title": "Gerçek Zamanlı (Ödenen)",
+        "lastBooking": "Son Rezervasyon:",
+        "emptyLast": "—",
+        "tooltipLive": "Canlı Gelir",
+        "tooltipWeek": "Hafta:"
+      },
+      "monthlyRev": {
+        "title": "Aylık Gelir",
+        "bookings": "Rezervasyon",
+        "tooltipPerf": "Performans"
+      },
+      "utilization": {
+        "title": "Doluluk",
+        "tooltipDetails": "Saha Detayları",
+        "bookings": "Rezervasyon"
+      },
+      "refunded": {
+        "title": "İade Edilen",
+        "cancellations": "İptal",
+        "tooltipReversals": "İade İşlemleri",
+        "totalRefund": "Toplam İade:"
+      },
+      "errorsCard": {
+        "title": "Hatalar",
+        "rejected": "Ödeme Reddedildi",
+        "tooltipSysWarn": "Sistem Uyarıları",
+        "actionNeeded": "İşlem Gerekli",
+        "failedMsg": "başarısız ödeme denemesi"
+      }
+    },
+    "timeline": {
+      "title": "Bugünkü Program",
+      "active": "Aktif",
+      "funZone": "Eğlence Alanı",
+      "noBookingsText": "Rezervasyon Yok",
+      "timeLabel": "Zaman:",
+      "statusLabel": "Durum:",
+      "noBookingsToday": "Bugün için rezervasyon yok"
+    },
+    "weeklyChart": {
+      "title": "Haftalık Gelir",
+      "current": "Güncel:"
+    },
+    "paymentDonut": {
+      "title": "Ödeme Yöntemi",
+      "total": "Toplam",
+      "details": "İşlem Detayları",
+      "transactions": "İşlem"
+    },
+    "aiInsights": {
+      "badge": "Aylık Analiz",
+      "totalBookings": "Toplam Rezervasyon",
+      "bookings": "Rezervasyon",
+      "weakestDays": "En Zayıf Günler",
+      "avgOther": "Ø Diğer:",
+      "weakestSlots": "En Zayıf Saatlik Dilimler",
+      "happyHourAct": "Bu saatler için Happy Hour aktif edilsin mi?",
+      "noData": "Analiz için henüz veri yok."
+    },
+    "topMaterials": {
+      "title": "En Çok Kiralanan Ekipman",
+      "viewAll": "Tümünü Gör",
+      "rentals": "Kiralama",
+      "noData": "Veri Yok"
+    },
+    "trend": {
+      "title": "Aylık Trend",
+      "last6mo": "Son 6 Ay",
+      "revenue": "Gelir"
+    },
+    "hourlyOccupancy": {
+      "title": "Saatlik Doluluk",
+      "avg": "Ortalama",
+      "occupancy": "Doluluk:"
+    }
+  },
+  "adminRes": {
+    "title": "Rezervasyonlar",
+    "errorTitle": "Rezervasyonlar — Hata",
+    "loadError": "Yükleme Hatası",
+    "retry": "Tekrar Dene",
+    "headerTitle": "Tüm Rezervasyonlar",
+    "headerDesc": "Tüm rezervasyonları, iptalleri ve talepleri tek bir yerden yönetin.",
+    "export": "Dışa Aktar",
+    "newBooking": "Yeni Rezervasyon",
+    "filters": {
+      "all": "Tümü",
+      "today": "Bugün",
+      "tomorrow": "Yarın",
+      "week": "Bu Hafta",
+      "cancelled": "İptal Edilen"
+    },
+    "status": {
+      "confirmed": "Onaylandı",
+      "modified": "Değiştirildi",
+      "completed": "Tamamlandı",
+      "cancelled": "İptal Edildi",
+      "noShow": "Gelmedi"
+    },
+    "payment": {
+      "pending": "Bekliyor",
+      "paid": "Ödendi",
+      "failed": "Başarısız",
+      "refunded": "İade Edildi",
+      "onSite": "Yerinde"
+    },
+    "duration": {
+      "m60": "1 Saat",
+      "m90": "1,5 Saat",
+      "m120": "2 Saat",
+      "m150": "2,5 Saat",
+      "m180": "3 Saat",
+      "min": "Dk."
+    },
+    "csvHeader": "Rezervasyon ID;Tarih;Saat;Müşteri;Telefon;Saha;Süre (Dk.);Durum;Fiyat",
+    "stats": {
+      "total": "Toplam Rezervasyon",
+      "vsPrevMonth": "Önceki aya göre",
+      "cancelRate": "İptal Oranı",
+      "popularTime": "En Popüler Saat",
+      "primetime": "Prime Time Doluluk",
+      "revenueProg": "Gelir Tahmini",
+      "target": "Hedef"
+    },
+    "charts": {
+      "bookingTrends": "Rezervasyon Trendleri",
+      "resPeriod": "Geçerli döneme ait rezervasyonlar",
+      "week": "Hafta",
+      "month": "Ay",
+      "occCompare": "Doluluk Karşılaştırması",
+      "bookedHours": "Saat Rezerve",
+      "vsPrevWeek": "Önceki haftaya göre",
+      "noFields": "Saha Yok"
+    },
+    "search": {
+      "placeholder": "ID, İsim veya Telefon ile ara...",
+      "foundText": "bulundu",
+      "booking": "Rezervasyon",
+      "bookings": "Rezervasyonlar"
+    },
+    "table": {
+      "id": "Rezervasyon ID",
+      "date": "Tarih & Saat",
+      "customer": "Müşteri",
+      "field": "Saha",
+      "duration": "Süre",
+      "status": "Durum",
+      "payment": "Ödeme",
+      "price": "Fiyat",
+      "actions": "İşlemler",
+      "noResults": "Rezervasyon bulunamadı",
+      "showing": "Gösteriliyor",
+      "of": "/",
+      "page": "Sayfa"
+    },
+    "modals": {
+      "cancelTitle": "Rezervasyonu İptal Et?",
+      "cancelDesc": "Bu işlem geri alınamaz.",
+      "booking": "Rezervasyon:",
+      "customer": "Müşteri:",
+      "period": "Dönem:",
+      "field": "Saha:",
+      "cancelBtn": "İptal",
+      "cancelAction": "İptal Et",
+      "refundTitle": "Ücreti İade Et?",
+      "refundDesc": "Tutar Stripe üzerinden iade edilecektir.",
+      "paymentLabel": "Ödeme:",
+      "refundAmount": "İade Tutarı:",
+      "refundAction": "İade Et"
+    },
+    "newBookingModal": {
+      "title": "Yeni Rezervasyon Oluştur",
+      "desc": "Manuel Rezervasyon Girişi",
+      "successTitle": "Rezervasyon Oluşturuldu!",
+      "successDesc": "Kaydediliyor...",
+      "customerData": "Müşteri Verileri",
+      "customerName": "Müşteri Adı *",
+      "email": "E-Posta Adresi",
+      "phone": "Telefon Numarası",
+      "fieldDetails": "Saha & Detaylar",
+      "fieldSelect": "Saha Seçimi",
+      "dateSelect": "Tarih Seç",
+      "durationLabel": "Süre",
+      "timeSelect": "Başlangıç Saati Seç",
+      "chooseDateFirst": "Lütfen önce bir tarih seçin",
+      "loadingAvail": "Uygunluk yükleniyor...",
+      "noSlots": "Bu gün için boş saat yok",
+      "paymentTitle": "Ödeme",
+      "onSiteLabel": "Ödeme: Yerinde",
+      "onSiteDesc": "Müşteri nakit veya kartla doğrudan resepsiyonda öder.",
+      "estPrice": "Tahmini Fiyat",
+      "fillRequired": "Lütfen tüm zorunlu alanları doldurun.",
+      "saveBooking": "Rezervasyonu Kaydet",
+      "saveError": "Rezervasyon oluşturulamadı."
+    },
+    "details": {
+      "title": "Rezervasyon Detayları",
+      "emailLabel": "E-Posta",
+      "endLabel": "Bitiş",
+      "priceLabel": "Fiyat",
+      "paymentStatusLabel": "Ödeme Durumu",
+      "paymentMethodLabel": "Ödeme Yöntemi",
+      "card": "Kart",
+      "apple": "Apple Pay",
+      "google": "Google Pay",
+      "rentalsTitle": "Kiralanan Ekipman",
+      "created": "Oluşturulma:"
+    }
+  },
+  "adminSettings": {
+    "title": "Ayarlar",
+    "desc": "Çalışma saatlerini, fiyatları ve rezervasyon kurallarını yönetin.",
+    "online": "Sistem Çevrimiçi",
+    "tabs": {
+      "fields": "Saha Ayarları",
+      "staff": "Personel Ayarları",
+      "company": "Şirket Bilgileri",
+      "security": "Güvenlik",
+      "notifications": "Bildirimler",
+      "coupons": "Kuponlar"
+    },
+    "days": {
+      "monday": "Pazartesi",
+      "tuesday": "Salı",
+      "wednesday": "Çarşamba",
+      "thursday": "Perşembe",
+      "friday": "Cuma",
+      "saturday": "Cumartesi",
+      "sunday": "Pazar"
+    },
+    "fields": {
+      "hoursTitle": "Açılış Saatleri & Uygunluk",
+      "table": {
+        "day": "Gün",
+        "open": "Açılış",
+        "close": "Kapanış",
+        "status": "Durum"
+      },
+      "sports": {
+        "football": "Futbol (saatlik)",
+        "bubbleSoccer": "Bubble Soccer (saatlik)",
+        "tennis": "Tenis (saatlik)",
+        "basketball": "Basketbol (saatlik)",
+        "volleyball": "Voleybol (saatlik)"
+      },
+      "pricingTitle": "Saha Fiyatlandırma",
+      "active": "Aktif",
+      "inactive": "Pasif",
+      "hourlyStandard": "Standart Saatlik Ücret",
+      "happyHourTitle": "Happy Hour Yapılandırması",
+      "happyHourDesc": "Tüm sahalarda otomatik olarak indirim uygulanacak saatleri belirleyin.",
+      "happyHourEnable": "Happy Hour Aktifleştir",
+      "startTime": "Başlangıç Saati",
+      "endTime": "Bitiş Saati",
+      "discount": "İndirim (%)",
+      "rulesTitle": "Rezervasyon Ayarları",
+      "holdDuration": "Bekletme Süresi",
+      "holdDesc": "Bir rezervasyonun ödenmeden önce bekletileceği süre.",
+      "cancelDeadline": "İptal Süresi",
+      "cancelDesc": "Oyun başlamadan en fazla kaç saat önceye kadar ücretsiz iptal edilebilir.",
+      "notifications": "Bildirimler",
+      "notifDesc": "Müşterilere otomatik hatırlatmalar gönderin.",
+      "reminders": "Hatırlatma SMS/E-mail (24s)"
+    },
+    "coupons": {
+      "title": "Kupon Yönetimi",
+      "newBtn": "Yeni Kupon",
+      "table": {
+        "code": "Kupon Kodu",
+        "discount": "İndirim",
+        "minOrder": "Minimum Sipariş",
+        "validity": "Geçerlilik",
+        "uses": "Kullanım",
+        "status": "Durum"
+      },
+      "noCoupons": "Mevcut kupon yok.",
+      "expired": "Süresi Doldu",
+      "active": "Aktif",
+      "inactive": "Pasif",
+      "edit": "Düzenle",
+      "delete": "Sil",
+      "deleteConfirm": "Kuponu silmek istediğinize emin misiniz?",
+      "modal": {
+        "editTitle": "Kuponu Düzenle",
+        "newTitle": "Yeni Kupon",
+        "code": "Kupon Kodu",
+        "discountType": "İndirim Türü",
+        "percent": "Yüzde (%)",
+        "fixed": "Sabit Tutar (€)",
+        "discountValue": "İndirim Değeri",
+        "maxUses": "Maks. Kullanım",
+        "unlimited": "0 = limitsiz",
+        "minOrder": "Minimum Sipariş Tutarı",
+        "noMinOrder": "0 = minimum tutar yok",
+        "validFrom": "Geçerlilik Başlangıç",
+        "validUntil": "Geçerlilik Bitiş",
+        "activateNow": "Hemen Aktifleştir",
+        "cancel": "İptal",
+        "save": "Kaydet",
+        "create": "Oluştur"
+      }
+    },
+    "notifications": {
+      "clientTitle": "Müşteri Bildirimleri",
+      "emailSettings": "E-Posta Bildirimleri",
+      "emailDesc": "Müşterilere tüm e-posta bildirimlerini açıp kapatın.",
+      "emailConfirm": "E-Posta ile Onay",
+      "emailConfirmDesc": "Başarılı rezervasyondan sonra müşteriye otomatik onay gönder.",
+      "emailReminder": "Randevu Hatırlatması (24s önce)",
+      "emailReminderDesc": "Oyun başlamadan 24 saat önce müşteriye hatırlatma yap.",
+      "emailCancel": "İptal Onayı",
+      "emailCancelDesc": "Rezervasyon iptal edildiğinde müşteriye bildir.",
+      "waTitle": "WhatsApp Entegrasyonu",
+      "waEnable": "WhatsApp mesajlarını etkinleştir",
+      "waDesc": "Rezervasyon bilgilerinin doğrudan WhatsApp üzerinden gönderilmesini sağlar.",
+      "waKey": "WhatsApp API Anahtarı",
+      "waKeyDesc": "Bu anahtarı Meta Business kontrol panelinde bulabilirsiniz.",
+      "waPhoneId": "Telefon Numarası ID",
+      "waPhoneDesc": "WhatsApp Business API kurulumunuzdan alınan Telefon Numarası ID.",
+      "templates": "Mesaj Şablonları",
+      "placeholders": "Yer Tutucular:",
+      "confirmTpl": "Rezervasyon Onayı",
+      "cancelTpl": "İptal",
+      "modTpl": "Değişiklik",
+      "couponTpl": "Kupon Bilgisi",
+      "adminReports": "Admin Raporları",
+      "dailyRev": "Günlük Gelir Raporu",
+      "dailyRevDesc": "Her gün 23:59'da e-posta ile özet gönder.",
+      "newBooking": "Yeni Rezervasyon Bildirimi",
+      "newBookingDesc": "Her yeni rezervasyonda anında bildirim.",
+      "sysAlerts": "Sistem Bildirimleri",
+      "secAlerts": "Güvenlik Uyarıları",
+      "secAlertsDesc": "Şüpheli giriş denemelerinde uyarı.",
+      "maintAlerts": "Bakım Bildirimleri",
+      "maintAlertsDesc": "Planlı sistem güncellemeleri hakkında bilgi."
+    },
+    "security": {
+      "adminSec": "Admin Güvenliği",
+      "changePw": "Şifreyi Değiştir",
+      "currentPw": "Mevcut Şifre",
+      "newPw": "Yeni Şifre",
+      "pwHint": "En az 8 karakter, özel karakter dahil",
+      "confirmPw": "Şifreyi Onayla",
+      "updatePw": "Şifreyi Güncelle",
+      "twoFactor": "İki Faktörlü Doğrulama (2FA)",
+      "twoFactorDesc": "Hesabınız için ekstra güvenlik katmanı",
+      "twoFactorSetup": "2FA Kurulumu",
+      "scanQr": "QR kodunu Google Authenticator veya uyumlu bir uygulama ile tarayın:",
+      "manualEntry": "Veya manuel olarak girin:",
+      "sixDigitCode": "6 haneli Kod",
+      "cancel": "İptal",
+      "activate": "Etkinleştir",
+      "sessions": "Oturum Yönetimi",
+      "revokeAll": "Diğerlerini Kapat",
+      "activeSessions": "Aktif Oturumlar",
+      "noSessions": "Aktif oturum yok",
+      "unknownDevice": "Bilinmeyen Cihaz",
+      "current": "Mevcut",
+      "revoke": "Oturumu Kapat",
+      "justNow": "Az önce",
+      "lastActivity": "Son Aktivite:",
+      "sessionWarning": "Eğer bir oturumu tanımıyorsanız, derhal şifrenizi değiştirin ve tüm oturumları kapatın."
+    },
+    "saveBar": {
+      "lastChange": "Son Değişiklik:",
+      "notSaved": "Henüz kaydedilmedi",
+      "cancel": "İptal",
+      "save": "Ayarları Kaydet",
+      "successMsg": "Ayarlar başarıyla kaydedildi!",
+      "saveError": "Kaydetme hatası.",
+      "saving": "Kaydediliyor..."
+    },
+    "placeholder": {
+      "soon": "Bu bölüm yakında eklenecek."
+    },
+    "errors": {
+      "pwFillAll": "Lütfen tüm alanları doldurun.",
+      "pwLength": "Yeni şifre en az 8 karakter olmalıdır.",
+      "pwMismatch": "Şifreler uyuşmuyor.",
+      "pwSuccess": "Şifre başarıyla değiştirildi!",
+      "twoFAError": "2FA kurulamadı.",
+      "twoFAInvalid": "Geçersiz kod. Lütfen tekrar deneyin.",
+      "couponSaveError": "Kaydetme hatası"
+    }
+  },
+  "adminMaterial": {
+    "title": "Malzeme & Envanter",
+    "allCategories": "Tümü",
+    "exportBtn": "Dışa Aktar",
+    "newBtn": "Yeni Malzeme",
+    "loadError": "Malzeme listesi yüklenirken hata oluştu.",
+    "stats": {
+      "total": "Toplam Stok",
+      "rentable": "Kiralanabilir",
+      "defect": "Arızalı / Bakımda",
+      "actionNeeded": "İşlem Gerekiyor",
+      "allGood": "Her şey yolunda",
+      "itemsActive": "ürün aktif",
+      "items": "Ürün"
+    },
+    "categories": {
+      "title": "Kategoriler",
+      "empty": "Kategori bulunmuyor",
+      "rentableParams": "Adet • {{rentable}} kiralanabilir"
+    },
+    "table": {
+      "article": "Ürün",
+      "sizeType": "Beden / Tür",
+      "available": "Mevcut",
+      "status": "Durum",
+      "rentalFee": "Kiralama Ücreti",
+      "actions": "İşlemler",
+      "empty": "Bu kategoride malzeme bulunamadı.",
+      "pieces": "Adet",
+      "oneSize": "Standart Beden",
+      "showing": "{{total}} üründen {{count}} tanesi gösteriliyor"
+    },
+    "conditions": {
+      "new": "Yeni",
+      "good": "İyi",
+      "damaged": "Hasarlı",
+      "retired": "Hizmet Dışı"
+    },
+    "actions": {
+      "edit": "Düzenle",
+      "delete": "Sil",
+      "deleteTitle": "Malzemeyi Sil",
+      "deleteConfirm": "'{{name}}' ürününü kiralamadan kaldırmak istediğinize emin misiniz?",
+      "deactivateBtn": "Devre Dışı Bırak"
+    },
+    "modal": {
+      "editTitle": "Malzemeyi Düzenle",
+      "newTitle": "Yeni Malzeme",
+      "name": "İsim *",
+      "category": "Kategori *",
+      "quantity": "Miktar *",
+      "condition": "Durum *",
+      "rentable": "Kiralamaya Uygun",
+      "rentableDesc": "Malzeme müşteriler tarafından rezerve edilebilir.",
+      "pricePerHour": "Saatlik Fiyat (€)",
+      "sizes": "Mevcut Bedenler",
+      "sizesHint": "(Virgülle ayrılmış)",
+      "notes": "Notlar",
+      "notesPH": "İsteğe bağlı notlar...",
+      "cancel": "İptal",
+      "save": "Kaydet"
+    }
+  },
+  "adminStaff": {
+    "title": "Personel Yönetimi",
+    "adminPanel": "Admin Paneli",
+    "subtitle": "Sezon için ekibinizi, vardiyaları ve performans verilerini yönetin.",
+    "adminInviteSuccess": "Admin kullanıcısı oluşturuldu. Giriş bilgileri e-posta ile gönderildi.",
+    "adminInviteError": "Admin kullanıcısı oluşturulurken hata.",
+    "time": {
+      "minsAgo": "{{min}} Dk Önce",
+      "hoursAgo": "{{hours}} Saat Önce",
+      "daysAgo": "{{days}} Gün Önce",
+      "yesterday": "Dün"
+    },
+    "stats": {
+      "total": "Toplam Personel",
+      "activeTitle": "Aktif",
+      "activeDesc": "Aktif çalışan",
+      "inactive": "Pasif"
+    },
+    "search": {
+      "placeholder": "İsim veya pozisyona göre ara...",
+      "allRoles": "Tüm Roller"
+    },
+    "buttons": {
+      "newStaff": "Yeni Personel",
+      "newAdmin": "Yeni Admin"
+    },
+    "table": {
+      "staff": "Personel",
+      "role": "Rol",
+      "status": "Durum",
+      "contact": "İletişim",
+      "created": "Oluşturuldu",
+      "actions": "İşlemler",
+      "empty": "Personel bulunamadı.",
+      "activeStr": "Aktif",
+      "inactiveStr": "Pasif",
+      "showing": "{{total}} personelden {{count}} tanesi gösteriliyor"
+    },
+    "actions": {
+      "editProfile": "Profili Düzenle",
+      "deactivate": "Devre Dışı Bırak"
+    },
+    "modal": {
+      "editTitle": "Personeli Düzenle",
+      "newTitle": "Yeni Personel",
+      "name": "İsim *",
+      "namePH": "Ad ve Soyad",
+      "role": "Rol *",
+      "rolePH": "Rol seçin...",
+      "roles": {
+        "Manager": "Yönetici",
+        "Trainer": "Antrenör",
+        "Platzwart": "Saha Görevlisi",
+        "Rezeption": "Resepsiyon",
+        "Reinigung": "Temizlik",
+        "Security": "Güvenlik"
+      },
+      "email": "E-Posta",
+      "emailPH": "email@ornek.com",
+      "phone": "Telefon",
+      "phonePH": "+90 ...",
+      "notes": "Notlar",
+      "notesPH": "Dahili Notlar...",
+      "cancel": "İptal",
+      "updateBtn": "Güncelle",
+      "createBtn": "Oluştur"
+    },
+    "adminModal": {
+      "title": "Admin Davet Et",
+      "desc": "Yeni bir admin oluşturulacak ve giriş bilgileri e-posta ile gönderilecektir.",
+      "name": "İsim *",
+      "email": "E-Posta *",
+      "emailPH": "admin@halisaha.com",
+      "inviteBtn": "Davet Et",
+      "cancel": "İptal"
+    }
+  },
+  "adminPayments": {
+    "title": "Ödemeler",
+    "titleError": "Ödemeler — Hata",
+    "header": "Ödeme Geçmişi ve İadeler",
+    "subtitle": "Tüm ödeme işlemlerini tek bir yerden yönetin.",
+    "secureEnv": "Güvenli Ortam",
+    "exportBtn": "Dışa Aktar",
+    "loadError": "Ödeme verileri yüklenemedi.",
+    "errorTitle": "Yükleme Hatası",
+    "retry": "Tekrar Dene",
+    "timeFmt": "{{time}}",
+    "statuses": {
+      "PAID": "Başarılı",
+      "PENDING": "Beklemede",
+      "REFUNDED": "İade Edildi",
+      "FAILED": "Başarısız",
+      "ON_SITE": "Yerinde"
+    },
+    "methods": {
+      "CARD": "Kart",
+      "APPLE_PAY": "Apple Pay",
+      "GOOGLE_PAY": "GPay",
+      "ON_SITE": "Nakit Ödeme"
+    },
+    "filters": {
+      "all": "Tümü"
+    },
+    "stats": {
+      "todayRev": "Bugünkü Ciro",
+      "vsYesterday": "Düne kıyasla",
+      "pending": "Açık Ödemeler",
+      "attention": "Dikkat Gerekiyor",
+      "pendingSub": "Bekleyen Ödemeler",
+      "refundedM": "Toplam İade (Ay)",
+      "transactions": "İşlem",
+      "transactionsPlural": "İşlemler"
+    },
+    "search": "ID veya İsim ile ara...",
+    "foundText": "Ödeme",
+    "foundTextPlural": "Ödeme",
+    "foundSuffix": "bulundu",
+    "table": {
+      "id": "İşlem ID",
+      "date": "Tarih",
+      "customer": "Müşteri",
+      "method": "Yöntem",
+      "amount": "Tutar",
+      "status": "Durum",
+      "actions": "İşlemler",
+      "empty": "Ödeme bulunamadı",
+      "showing": "{{total}} kayıttan {{start}}-{{end}} arası gösteriliyor",
+      "pageOf": "Sayfa {{current}} / {{total}}"
+    },
+    "refundModal": {
+      "title": "Ödeme İade Et",
+      "transaction": "İşlem",
+      "origAmount": "Orijinal Tutar",
+      "type": "İade Türü",
+      "partial": "Kısmi İade",
+      "full": "Tam İade",
+      "amountEur": "Tutar (EUR)",
+      "maxRefundable": "Maksimum iade edilebilir: ",
+      "reason": "Gerekçe (Opsiyonel)",
+      "reasonPH": "İade nedeni...",
+      "cancel": "İptal",
+      "refundBtn": "İade Et",
+      "refundError": "İade işlemi başarısız."
+    }
+  },
+  "adminContact": {
+    "title": "Admin İletişim Talepleri",
+    "header": "İletişim Taleplerini Yönet",
+    "subtitle": "İletişim formundan gelen tüm mesajların özeti",
+    "exportBtn": "Dışa Aktar",
+    "statuses": {
+      "NEW": "Yeni",
+      "READ": "Okundu",
+      "REPLIED": "Cevaplandı",
+      "ARCHIVED": "Arşivlendi"
+    },
+    "time": {
+      "today": "Bugün",
+      "yesterday": "Dün"
+    },
+    "stats": {
+      "all": "Tüm Mesajlar",
+      "new": "Yeni Mesajlar",
+      "unread": "Okunmamış",
+      "replied": "Cevaplandı",
+      "total": "Toplam"
+    },
+    "search": "İsim, e-posta veya konuya göre ara...",
+    "filters": {
+      "all": "Tüm Durumlar"
+    },
+    "table": {
+      "id": "ID",
+      "date": "Tarih",
+      "name": "Ad & Soyad",
+      "email": "E-Posta Adresi",
+      "subject": "Konu",
+      "status": "Durum",
+      "actions": "İşlemler",
+      "empty": "Mesaj bulunamadı.",
+      "showing": "{{total}} sonuçtan {{count}} tanesi gösteriliyor"
+    },
+    "actions": {
+      "view": "Görüntüle",
+      "delete": "Sil"
+    },
+    "drawer": {
+      "title": "Mesaj Detayları",
+      "tel": "Tel: ",
+      "date": "Tarih",
+      "status": "Durum",
+      "subject": "Konu",
+      "noSubject": "Konu Yok",
+      "message": "Mesaj",
+      "reply": "Doğrudan Cevapla",
+      "markDone": "Tamamlandı Olarak İşaretle",
+      "delete": "Sil",
+      "replySubject": "SALAMANDA SOCCER ARENA İletişim Talebi"
+    }
+  },
+  "tournaments": {
+    "hero": {
+      "season": "2026 Sezonu",
+      "title1": "Yaklaşan",
+      "title2": "Turnuvalar",
+      "desc": "Avusturya'nın en iyi takımlarıyla yarışın. Takımınızı bugün kaydedin ve şan, şöhret ve para ödülü için mücadele edin."
+    },
+    "badges": {
+      "open": "KAYITLAR AÇIK",
+      "few": "AZ YER KALDI",
+      "full": "DOLU",
+      "new": "YENİ"
+    },
+    "details": {
+      "players": "{{count}}'e {{count}}",
+      "price": "Takım başı {{price}}€"
+    },
+    "actions": {
+      "register": "TAKIM KAYDET",
+      "waitlist": "BEKLEME LİSTESİ"
+    },
+    "hallOfFame": {
+      "subtitle": "EN İYİLERİN EN İYİSİ",
+      "title": "Şöhretler Müzesi",
+      "winner": "{{year}} Şampiyonu"
+    },
+    "list": {
+      "t1": {
+        "title": "Salamanda Cup 2026",
+        "desc": "Stadl-Paura'nın kalbindeki klasik turnuva.",
+        "date": "12 Haziran 2026"
+      },
+      "t2": {
+        "title": "Salzburg Sommerliga",
+        "desc": "Yılın en büyük açık hava etkinliği.",
+        "date": "15 Temmuz 2026"
+      },
+      "t3": {
+        "title": "Graz Hallencup",
+        "desc": "Kışın yoğun salon turnuvası.",
+        "date": "20 Şubat 2026"
+      },
+      "t4": {
+        "title": "Innsbruck Alpine Cup",
+        "desc": "Nefes kesici manzaranın önünde futbol.",
+        "date": "05 Ağustos 2026"
+      }
+    }
+  },
+  "barrierefreiheit": {
+    "titlePart1": "Erişilebilirlik",
+    "titlePart2": "Beyanı",
+    "desc": "Bu web sitesinin erişilebilirliği hakkında bilgiler. {{company}}, web sitesini Federal Engellilik Eşitliği Yasası (BGStG) uyarınca erişilebilir kılmaya çalışmaktadır.",
+    "scope": "Bu erişilebilirlik beyanı <1>{{website}}</1> web sitesi için geçerlidir.",
+    "backHome": "Ana Sayfaya Dön",
+    "sections": {
+      "1": {
+        "title": "Gereksinimlere Uyum Durumu",
+        "desc": "Bu web sitesi, aşağıdaki uyumsuzluklar ve istisnalar nedeniyle \"Web İçeriği Erişilebilirlik Yönergeleri – WCAG 2.1\" AA uyumluluk düzeyi ile kısmen uyumludur."
+      },
+      "2": {
+        "title": "Erişilebilir Olmayan İçerikler",
+        "desc": "Aşağıda listelenen içerikler, belirtilen nedenlerden dolayı erişilebilir değildir:",
+        "a": {
+          "title": "a) Erişilebilirlik Düzenlemeleri ile Uyumsuzluk",
+          "i1": "Bazı görsellerin henüz alternatif metinleri yoktur, bu nedenle bu bilgilere ekran okuyucu kullanıcıları erişemez. Bu metinleri sürekli olarak eklemek için çalışıyoruz.",
+          "i2": "Bazı gezinme öğelerindeki kontrastlar henüz gerekli standardı tam olarak karşılamamaktadır. Renk şemasının revizyonu planlanmaktadır."
+        },
+        "b": {
+          "title": "b) Orantısız Yük",
+          "desc": "Videolarımız şu anda altyazılı değildir. Bunu yeni videolar için standart olarak uygulamak için bir çözüm üzerinde çalışıyoruz."
+        }
+      },
+      "3": {
+        "title": "Beyanın Hazırlanması",
+        "desc": "Bu beyan <1>15 Ekim 2023</1> tarihinde hazırlanmıştır. Web sitesinin (AB) 2016/2102 Yönergesinin gerekliliklerini uygulamak için WZG ile uyumluluğunun değerlendirilmesi, WCAG 2.1 AA uyumluluk düzeyine göre bir öz değerlendirme formunda gerçekleştirilmiştir."
+      },
+      "4": {
+        "title": "Geri Bildirim ve İletişim Bilgileri",
+        "p1": "Bu web sitesindeki teklifler ve hizmetler sürekli olarak iyileştirilmekte, değiştirilmekte ve genişletilmektedir. Kullanılabilirlik ve erişilebilirlik bizim için büyük bir endişe kaynağıdır.",
+        "p2": "Web sitemizi kullanmanızı engelleyen engeller fark ederseniz - bu beyanda açıklanmayan sorunlar, erişilebilirlik gereksinimlerine uygunlukla ilgili eksiklikler - lütfen bunları e-posta ile bize bildirin."
+      },
+      "5": {
+        "title": "Uygulama Prosedürü",
+        "p1": "Yukarıdaki iletişim seçeneklerinden tatmin edici olmayan yanıtlar alırsanız, Avusturya Araştırma Teşvik Ajansı'na (FFG) şikayette bulunabilirsiniz.",
+        "p2": "FFG, şikayetleri elektronik olarak iletişim formu aracılığıyla kabul eder.",
+        "link": "Şikayet mercii iletişim formu"
+      }
+    }
+  },
+  "ruckerstattung": {
+    "titlePart1": "İade",
+    "titlePart2": "Politikası",
+    "desc": "{{company}}'taki iptaller, son dakika değişiklikleri ve iadeler hakkında bilgiler. Tüm oyuncularımız için adalet ve şeffaflık hedefliyoruz.",
+    "scope": "Bu politika, <1>{{website}}</1> üzerinden veya doğrudan yerinde rezerve edilen tüm sahalar, etkinlikler ve hizmetler için geçerlidir.",
+    "backHome": "Ana Sayfaya Dön",
+    "sections": {
+      "1": {
+        "title": "1. Genel",
+        "desc": "Planların değişebileceğini anlıyoruz. İade politikamız, sahalarımızın tüm futbol tutkunları için kullanılabilir olmasını sağlarken esnek olacak şekilde tasarlanmıştır. Saha rezervasyonu yaparak aşağıdaki koşulları kabul etmiş olursunuz."
+      },
+      "2": {
+        "title": "2. Müşteri İptalleri",
+        "desc": "İptaller yazılı olarak veya web sitemizdeki kullanıcı hesabı üzerinden yapılmalıdır. İade miktarı, iptal zamanına bağlıdır:",
+        "mehr": {
+          "title": "Maç başlangıcından 48 saatten daha önce",
+          "desc": "Rezervasyon tutarının tamamı iade edilecektir. Alternatif olarak tutar, gelecekteki rezervasyonlar için hesaba kredi olarak yüklenebilir."
+        },
+        "weniger": {
+          "title": "Maç başlangıcına 48 saatten daha az kala",
+          "desc": "Maalesef sahayı son dakikada tekrar kiralayamayacağımız için iade yapamıyoruz."
+        }
+      },
+      "3": {
+        "title": "3. Randevu Değişiklikleri",
+        "desc": "Randevunuzu iptal etmek yerine ertelemek mi istiyorsunuz? Yeniden planlamalar aşağıdaki koşullar altında mümkündür:",
+        "i1": "Randevuyu, asıl maç saatinden 48 saat öncesine kadar ücretsiz olarak değiştirebilirsiniz.",
+        "i2": "Yeni tarih, orijinal rezervasyon tarihinden itibaren 30 gün içinde olmalıdır.",
+        "i3": "Fiyat farklılıkları (örneğin indirimli saatten ana saate geçiş) ödenmelidir."
+      },
+      "4": {
+        "title": "4. Operatör Kaynaklı İptal",
+        "desc": "{{company}} teknik sorunlar, bakım çalışmaları veya mücbir sebepler (örn. su hasarı, elektrik kesintisi) nedeniyle ayrılmış sahayı sağlayamazsa, elbette ödenen tutarın <1>%100 iadesi</1> tarafınıza yapılacaktır.",
+        "note": "* Bu gibi durumlarda, size hızlı bir şekilde e-posta veya telefon aracılığıyla ulaşacağız."
+      },
+      "5": {
+        "title": "5. Özel Teklifler & Kuponlar",
+        "desc": "Özel promosyonların bir parçası olarak yapılan veya promosyon çekleriyle ödenen rezervasyonların standart iade prosedürünün dışında bırakılabileceğini lütfen unutmayın."
+      },
+      "6": {
+        "title": "6. İşlem Süresi",
+        "desc": "Tüm iade taleplerini mümkün olan en kısa sürede işleme koymaya çalışıyoruz. Lütfen tutarın orijinal ödeme yönteminize iade edilmesi için <1>7-10 iş günü</1> bekleme süresi tanıyın."
+      },
+      "7": {
+        "title": "7. İadeler İçin İletişim",
+        "desc": "Faturanız veya belirli bir iade işlemi hakkında sorularınız mı var? Destek ekibimiz size yardımcı olmaktan memnuniyet duyacaktır."
+      }
+    }
+  },
+  "agb": {
+    "tag": "Yasal",
+    "titlePart1": "Genel",
+    "titlePart2": "Şartlar ve Koşullar",
+    "subtitle": "Hizmetlerimizi kullanmadan önce lütfen bu koşulları dikkatlice okuyun. Şeffaflık ve adalet bizim için önemlidir.",
+    "date": "Durum: Mayıs 2024",
+    "sections": [
+      {
+        "title": "Kapsam",
+        "p1": "Bu Genel Şartlar ve Koşullar (bundan böyle \"GŞK\" olarak anılacaktır), {{company}} spor tesisinin (bundan böyle \"İşletmeci\" olarak anılacaktır) müşteriler ve ziyaretçiler (bundan böyle \"Kullanıcı\" olarak anılacaktır) tarafından kullanımını düzenler.",
+        "p2": "Bir saha rezervasyonu yaparak veya tesise girerek, kullanıcı bu GŞK'yı geçerli sürümünde kabul eder. Kullanıcının farklı şartları, işletmeci açıkça yazılı olarak kabul etmedikçe sözleşmenin parçası olmaz."
+      },
+      {
+        "title": "Rezervasyon ve Sözleşme",
+        "p1": "Saha rezervasyonları temel olarak web sitemizdeki çevrimiçi rezervasyon sistemi üzerinden yapılır.",
+        "i1": "Kullanıcı ve İşletmeci arasındaki sözleşme, kullanıcı rezervasyon sürecini tamamladığında ve e-posta ile bir rezervasyon onayı aldığında kurulur.",
+        "i2": "Rezervasyon onayı, rezervasyonla ilgili tüm detayları (tarih, saat, saha numarası, fiyat) içerir.",
+        "i3": "Kullanıcı, rezervasyon onayındaki bilgileri doğruluk açısından hemen kontrol etmek ve herhangi bir hatayı derhal bildirmek zorundadır."
+      },
+      {
+        "title": "Ödeme Koşulları",
+        "p1": "Saha kullanım fiyatları web sitesindeki güncel fiyat listesine dayanmaktadır. Tüm fiyatlar Euro (EUR) cinsindendir.",
+        "i1": "Ödeme yöntemleri: Ödeme, sunulan ödeme yöntemleri (Kredi Kartı, Apple Pay, Google Pay) aracılığıyla çevrimiçi olarak yapılır.",
+        "i2": "Vade: Fatura tutarının tamamı rezervasyon anında veya en geç maç başlamadan önce ödenmelidir.",
+        "i3": "Önceden tam ödeme yapılmadan sahanın kullanılmasına izin verilmez."
+      },
+      {
+        "title": "İptal ve İade",
+        "p1": "İptaller yazılı olarak (e-posta yoluyla) veya çevrimiçi rezervasyon sistemindeki kullanıcı hesabı üzerinden yapılmalıdır.",
+        "b1Title": "Maçtan 48 saat öncesine kadar",
+        "b1Desc": "Ücretsiz iptal mümkündür. Zaten ödenmiş olan tutar tamamen iade edilecektir.",
+        "b2Title": "48 saat içinde",
+        "b2Desc": "İade yapılmaz. Geç iptal veya gelinmemesi (No-Show) durumunda tam tutar alıkonur."
+      },
+      {
+        "title": "Tesisin Kullanımı ve Kurallar",
+        "p1": "Tesisin kullanımına yalnızca rezerve edilen sürelerde izin verilir.",
+        "i1": "Kullanıcılar, sonraki grupların zamanında başlayabilmesi için rezervasyon sürelerinin sonunda tesisten hemen ayrılmalıdır.",
+        "i2": "Tesiste asılı olan ev kuralları ve personelin talimatları geçerlidir.",
+        "i3": "Oyun alanlarına yalnızca uygun spor ayakkabılarıyla (çivili kramponlar yasaktır) girilebilir.",
+        "i4": "Spor alanlarında sigara içmek ve alkol tüketmek yasaktır."
+      },
+      {
+        "title": "Sorumluluk",
+        "p1": "{{company}} ve tesislerinin kullanımı kişinin kendi sorumluluğundadır.",
+        "i1": "İşletmeci, kaba ihmal veya kasıttan kaynaklanmadığı sürece tesisin kullanımından kaynaklanan hasarlar veya yaralanmalardan sorumlu değildir.",
+        "i2": "Getirilen değerli eşyalar, giysiler ve ekipmanlar için sorumluluk kabul edilmez. Değerli eşyalarınızı soyunma odalarında bırakmamanızı öneririz.",
+        "i3": "Tesisteki kasıtlı hasarlar için sebep olan kişi veya rezervasyon yapan kişi tamamen sorumludur."
+      },
+      {
+        "title": "İşletmeci Tarafından İptal",
+        "p1": "İşletmeci, önemli bir nedenle (örn. teknik sorunlar, sahanın oynanamaz durumu, mücbir sebepler) rezervasyonları iptal etme hakkını saklı tutar. Bu durumda, zaten ödenmiş olan tutar tamamen iade edilecektir. Daha fazla tazminat talebi kabul edilmez."
+      },
+      {
+        "title": "Veri Koruma",
+        "p1": "Kişisel verilerinizin korunması bizim için önemlidir. Verilerinizin toplanması, işlenmesi ve kullanılması hakkında bilgileri ayrıntılı Gizlilik Politikamızda bulabilirsiniz."
+      },
+      {
+        "title": "Şartların Değiştirilmesi",
+        "p1": "İşletmeci, bu GŞK'yı her zaman değiştirme hakkını saklı tutar. Değişiklikler web sitesinde duyurulacak ve yayınlandıktan sonra yapılan tüm rezervasyonlar için geçerli olacaktır."
+      },
+      {
+        "title": "Yargı Yetkisi ve Yasa",
+        "p1": "Avusturya hukuku geçerlidir. Müşteri bir girişimci olmadığı veya Avusturya'da genel bir yargı yetkisine sahip olmadığı sürece, sözleşme ilişkisinden kaynaklanan tüm anlaşmazlıklar için Wels yargı yeri olarak kabul edilir."
+      }
+    ],
+    "footer": {
+      "title": "GŞK'larımız hakkında sorularınız mı var?",
+      "subtitle": "Destek ekibimiz size yardımcı olmaktan memnuniyet duyacaktır.",
+      "button": "İletişime Geç"
+    },
+    "backHome": "Ana Sayfaya Dön"
+  },
+  "admin": {
+    "settings": {
+      "save": "AYARLARI KAYDET",
+      "cancel": "İptal"
+    }
+  }
+}
