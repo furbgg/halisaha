@@ -277,7 +277,7 @@ export const handlers = [
 
   http.patch('/api/admin/contact/:id/replied', ({ params }) => {
     const idx = contactStore.findIndex(m => m.id === Number(params.id))
-    if (idx !== -1) { contactStore[idx] = { ...contactStore[idx], status: 'REPLIED', repliedAt: new Date().toISOString() } }
+    if (idx !== -1) { contactStore[idx] = { ...contactStore[idx], status: 'REPLIED', repliedAt: new Date().toISOString() } as typeof contactStore[0] }
     return HttpResponse.json(ok(contactStore[idx]))
   }),
 
@@ -433,7 +433,7 @@ export const handlers = [
     if (idx !== -1) {
       settingsStore[idx] = { ...settingsStore[idx], value: body?.value ?? '', updatedAt: new Date().toISOString() }
     } else {
-      settingsStore.push({ key: params.key as string, value: body?.value ?? '', description: null, updatedAt: new Date().toISOString() })
+      settingsStore.push({ key: params.key as string, value: body?.value ?? '', description: '', updatedAt: new Date().toISOString() })
     }
     return HttpResponse.json(ok(settingsStore.find(s => s.key === params.key)))
   }),
