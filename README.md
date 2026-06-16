@@ -5,8 +5,6 @@
 Avusturya'da faaliyet gösteren bir halı saha işletmesi için tam kapsamlı rezervasyon ve yönetim sistemi.
 4 adet normal halı saha + 1 adet balon futbol sahası.
 
-**Canlı müşteriye satılacak gerçek bir ürün.** GitHub portfolyosunda da yer alacak.
-
 ---
 
 ## 🏗️ Tech Stack
