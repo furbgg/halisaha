@@ -1,42 +1,41 @@
 {
     "company":  {
-                    "name":  "SALAMANDA SOCCER ARENA",
-                    "legalName":  "SALAMANDA SOCCER ARENA OG",
-                    "legalForm":  "Offene Gesellschaft (OG)",
-                    "owners":  "Atakan Candan, Murat Aksoy",
+                    "name":  "SportArena Wien",
+                    "legalName":  "SportArena Wien GmbH",
+                    "legalForm":  "Gesellschaft mit beschränkter Haftung (GmbH)",
+                    "owners":  "Max Mustermann",
                     "slogan":  "Die erste Adresse für Fußballbegeisterte"
                 },
     "contact":  {
-                    "email":  "salamanda@soccer-arena.at",
+                    "email":  "info@sportarena-wien.at",
                     "phone":  [
-                                  "+43 678 1289937",
-                                  "+43 660 2253259"
+                                  "+43 1 234 567 89"
                               ],
-                    "website":  "https://www.salamandasoccerarena.com"
+                    "website":  "https://www.sportarena-wien.at"
                 },
     "address":  {
-                    "street":  "Friedhofstraße 15",
-                    "zip":  "4651",
-                    "city":  "Stadl-Paura",
+                    "street":  "Sportgasse 1",
+                    "zip":  "1010",
+                    "city":  "Wien",
                     "country":  "Österreich",
-                    "googleMapsQuery":  "Friedhofstraße+15,+4651+Stadl-Paura,+Österreich",
+                    "googleMapsQuery":  "Sportgasse+1,+1010+Wien,+Österreich",
                     "coordinates":  {
-                                        "lat":  48.0833,
-                                        "lng":  13.8833
+                                        "lat":  48.2082,
+                                        "lng":  16.3738
                                     }
                 },
     "legal":  {
-                  "uidNumber":  "ATU82522879",
-                  "court":  "Landesgericht Wels",
-                  "jurisdiction":  "Wels",
+                  "uidNumber":  "ATU00000000",
+                  "court":  "Handelsgericht Wien",
+                  "jurisdiction":  "Wien",
                   "chamberMembership":  "Wirtschaftskammer Österreich (WKO)"
               },
     "social":  {
-                   "instagram":  "https://www.instagram.com/salamanda.soccerarena"
+                   "instagram":  "https://www.instagram.com"
                },
     "branding":  {
                      "primaryColor":  "#ff4400",
-                     "adminPortalPath":  "/portal-salamanda-soccer-arena-portal",
+                     "adminPortalPath":  "/admin",
                      "logoPath":  "/images/logo.png"
                  }
 }
