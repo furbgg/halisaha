@@ -37,8 +37,8 @@ export const FeaturesSection: React.FC = () => {
             viewport={{ once: true, margin: "-100px" }}
             variants={fadeInVariant}
           >
-            <SpotlightCard className="group relative overflow-hidden rounded-xl border border-white/10 bg-glass p-1 backdrop-blur-md transition-all duration-300 box-glow aspect-square flex flex-col">
-              <div className="relative h-1/2 w-full overflow-hidden rounded-lg">
+            <SpotlightCard className="group relative overflow-hidden rounded-xl border border-white/10 bg-glass p-1 backdrop-blur-md transition-all duration-300 box-glow flex flex-col h-full">
+              <div className="relative h-48 sm:h-56 w-full overflow-hidden rounded-lg">
               <div className="absolute inset-0 bg-linear-to-t from-black/80 via-black/20 to-transparent z-10"></div>
               <div
                 className="absolute inset-0 bg-[url('/bubblesoccer.png')] bg-cover bg-center transition-transform duration-700 group-hover:scale-110"
@@ -84,8 +84,8 @@ export const FeaturesSection: React.FC = () => {
             variants={fadeInVariant}
             transition={{ delay: 0.2 }}
           >
-            <SpotlightCard className="group relative overflow-hidden rounded-xl border border-white/10 bg-glass p-1 backdrop-blur-md transition-all duration-300 box-glow aspect-square flex flex-col">
-              <div className="relative h-1/2 w-full overflow-hidden rounded-lg">
+            <SpotlightCard className="group relative overflow-hidden rounded-xl border border-white/10 bg-glass p-1 backdrop-blur-md transition-all duration-300 box-glow flex flex-col h-full">
+              <div className="relative h-48 sm:h-56 w-full overflow-hidden rounded-lg">
               <div className="absolute inset-0 bg-linear-to-t from-black/80 via-black/20 to-transparent z-10"></div>
               <div
                 className="absolute inset-0 bg-[url('/soccer.png')] bg-cover bg-center transition-transform duration-700 group-hover:scale-110"
